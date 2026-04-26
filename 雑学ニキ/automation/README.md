@@ -7,14 +7,12 @@
 
 動画制作は automation では行わない。手動で作成済みの YAML stock だけを対象にする。
 
-- 04:00: `scripts/zatsugaku_api_automation.sh daily-upload`
-  - 今日の曜日/月末ルールからレベルを決定
-  - 5カテゴリから1本ずつ stock を選択
-  - `status: scheduled` に更新
-  - YouTube Data API で Private upload
-  - `publishAt` に以下の公開時刻を設定
-- 07:35 / 12:05 / 18:05 / 21:05 / 23:35: `scripts/zatsugaku_api_automation.sh comment-due`
-  - 公開5分後以降の動画に対応する `comment_text` を投稿
+- Single Codex automation: `scripts/zatsugaku_api_automation.sh run`
+  - 04時台だけ、今日の曜日/月末ルールからレベルを決定して5カテゴリから1本ずつ stock を選択
+  - 選択した YAML を `status: scheduled` に更新
+  - 毎回、YouTube Data API で未アップロード分を Private upload し、`publishAt` を設定
+  - 毎回、公開5分後以降の動画に対応する `comment_text` を投稿
+  - 余分な起動時刻では due 対象がなければ何もしない
 
 ## Daily slots
 
@@ -45,5 +43,6 @@ OAuth scope:
 
 ```bash
 scripts/zatsugaku_api_automation.sh dry-run
+scripts/zatsugaku_api_automation.sh run
 ruby scripts/zatsugaku_inventory.rb validate
 ```
