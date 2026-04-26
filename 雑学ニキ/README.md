@@ -29,3 +29,53 @@
 - 標準音量はナレーション `1.0`、BGM `0.10`。声が聞き取りづらい場合はBGMを `0.06〜0.08` に下げる。
 - 動画説明欄に `BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）` を入れる。
 - レンダー後、BGMが声を邪魔していないか必ず確認する。
+
+## 現在の投稿運用（他スレッド向け要約）
+
+このワークスペースの現在の方針は **動画制作は手動、YouTube API処理は automation** です。
+他スレッドで作業する場合も、まずこの運用を前提にしてください。
+
+### 役割分担
+
+- 手動 / Codex 5.5 で行うこと
+  - ネタ選定、台本、VOICEVOX、動画レンダー、contact sheet確認
+  - 投稿タイトル、説明文、固定コメント案の作成
+  - 完成動画を automation 在庫に入れるための YAML 作成
+- Codex automation で行うこと
+  - YAML在庫から当日分を選ぶ
+  - YouTube Data APIで Private upload
+  - `publishAt` を設定して予約公開
+  - 公開後に `comment_text` を投稿
+
+### 完成動画を作ったら必ず作るもの
+
+自動投稿に回す動画は、MP4だけではなく次の YAML を必ず作ります。
+
+```text
+metadata/videos/stock/<category_key>/<id>.yaml
+```
+
+YAMLがない動画は automation から見えないため、自動 upload / schedule / comment の対象になりません。
+
+### 今日の投稿を確認するコマンド
+
+```bash
+ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run
+```
+
+### automation本体
+
+Codex app 側の automation は1つだけです。
+
+```text
+雑学ニキ API scheduler
+```
+
+実行するコマンドは次です。
+
+```bash
+scripts/zatsugaku_api_automation.sh run
+```
+
+04時台だけ当日5本を選び、それ以外の起動では due 判定された upload / comment だけ処理します。

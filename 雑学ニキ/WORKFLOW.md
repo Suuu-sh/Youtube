@@ -39,3 +39,70 @@
 - 標準音量はナレーション `1.0`、BGM `0.10`。声が聞き取りづらい場合はBGMを `0.06〜0.08` に下げる。
 - 動画説明欄に `BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）` を入れる。
 - レンダー後、BGMが声を邪魔していないか必ず確認する。
+
+## 現在の自動投稿ワークフロー
+
+### 基本方針
+
+動画制作は automation に任せない。制作品質を保つため、動画作成は手動依頼で行い、automation は YouTube API の定型処理だけを行う。
+
+```text
+手動制作:
+  MP4 / contact sheet / metadata / stock YAML を作る
+
+automation:
+  YAMLを読む → Private upload → publishAt予約 → 固定コメント投稿
+```
+
+### 動画作成後の完了条件
+
+自動投稿に回す動画を作ったら、完了報告前に次を満たす。
+
+1. 最新MP4が `renders/` にある。
+2. contact sheet を作成し、視覚確認済み。
+3. タイトル、説明文、固定コメント案がある。
+4. `metadata/videos/stock/<category_key>/<id>.yaml` を作成済み。
+5. YAMLの `status` は `stock`。
+6. `topic_key` と `fact_summary` があり、過去投稿と重複しない。
+7. `ruby scripts/zatsugaku_inventory.rb validate` が通る。
+
+### category_key
+
+| category_key | カテゴリ |
+| --- | --- |
+| `animal` | 動物 |
+| `food_drink` | 食べ物・飲み物 |
+| `body_health` | 人体・健康 |
+| `science_tech` | 科学・テクノロジー |
+| `scary_danger` | 怖い・危険 |
+
+### 投稿時刻
+
+| カテゴリ | 公開 | コメント |
+| --- | --- | --- |
+| 動物 | 07:30 | 07:35 |
+| 食べ物・飲み物 | 12:00 | 12:05 |
+| 人体・健康 | 18:00 | 18:05 |
+| 科学・テクノロジー | 21:00 | 21:05 |
+| 怖い・危険 | 23:30 | 23:35 |
+
+### レベル運用
+
+- 月・水・金: Lv1
+- 火・木: Lv2
+- 土: Lv3
+- 日: Lv4
+- 毎月末: Lv5（曜日より優先）
+
+### YAML作成時の注意
+
+- `video_path` と `contact_sheet_path` は絶対パスにする。
+- `topic_key` は英数字・snake_caseで、同じ内容なら同じキーになるようにする。
+- `fact_summary` は重複検知用に、動画全体の事実内容を短く書く。
+- `comment_text` は公開後にそのまま投稿されるため、視聴者向けの完成文にする。
+- `publish_at`、`comment_after_at`、`video_id`、`last_error` は stock 登録時点では空でよい。
+
+### 手動アップロードについて
+
+現在の通常運用では、完成動画を手動でYouTube Studioへアップロードしない。
+手動アップロードするのは、ユーザーが明示的に依頼した場合だけ。
