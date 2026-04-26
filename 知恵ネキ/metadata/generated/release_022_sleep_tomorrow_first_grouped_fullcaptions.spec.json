@@ -1,0 +1,94 @@
+{
+  "slug": "release_022_sleep_tomorrow_first_grouped_fullcaptions",
+  "title": "眠れない夜は明日の一手を書く #shorts",
+  "description": "眠れない夜は問題を解決しようとするほど目が覚めます。明日の一手だけ書いて、脳に預けるのがコツです。\n\n#睡眠 #メンタル #生活知恵 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "眠れない夜に\n考え続けるほど\n目は覚めます",
+      "voice": "眠れない夜に、考え続けるほど、目は覚めます。",
+      "highlights": [
+        "考え続ける"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "夜の脳は疲れていて\n問題を大きく\n見せがちです",
+      "voice": "夜の脳は疲れていて、問題を大きく見せがちです。",
+      "highlights": [
+        "夜の脳"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "そこで解決しようとせず\n明日の一手だけを\n紙に書きます",
+      "voice": "そこで解決しようとせず、明日の一手だけを紙に書きます。",
+      "highlights": [
+        "明日の一手"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "たとえば朝九時に連絡する\n資料を一枚だけ直す\nそれで十分です",
+      "voice": "たとえば朝九時に連絡する。資料を一枚だけ直す。それで十分です。",
+      "highlights": [
+        "朝九時",
+        "一枚"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "脳は覚えておく必要が\nなくなると\n少し休みやすくなります",
+      "voice": "脳は覚えておく必要がなくなると、少し休みやすくなります。",
+      "highlights": [
+        "休み"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "夜は解決より\n明日の入口を作る方が\n役に立ちます",
+      "voice": "夜は解決より、明日の入口を作る方が、役に立ちます。",
+      "highlights": [
+        "明日の入口"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n眠れない夜は\n明日の一手を書きます",
+      "voice": "まとめると、眠れない夜は、明日の一手を書きます。",
+      "highlights": [
+        "明日の一手"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese person awake in bed with dim light"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "dark bedroom, worried expression"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "writing one task on paper beside bed"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "bedside notebook with simple next step"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "person putting notebook away, soft lamp"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "calm bedroom, phone away"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_022_sleep_tomorrow_first_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "peaceful sleep scene, notebook closed"
+    }
+  ]
+}

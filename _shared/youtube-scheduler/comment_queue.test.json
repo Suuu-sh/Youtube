@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "slug": "past_uncommented",
+      "videoId": "abc123",
+      "scheduledAt": "2026-04-27T07:00:00+09:00",
+      "commentText": "test comment"
+    },
+    {
+      "slug": "future_uncommented",
+      "videoId": "def456",
+      "scheduledAt": "2026-04-28T07:00:00+09:00",
+      "commentText": "future comment"
+    },
+    {
+      "slug": "already_done",
+      "videoId": "ghi789",
+      "scheduledAt": "2026-04-27T07:00:00+09:00",
+      "commentText": "done comment",
+      "commentedAt": "2026-04-27T07:03:00+09:00"
+    }
+  ]
+}

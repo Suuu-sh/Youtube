@@ -1,0 +1,97 @@
+{
+  "slug": "release_017_focus_phone_away_grouped_fullcaptions",
+  "title": "集中したいならスマホを遠ざける #shorts",
+  "description": "集中力がないのではなく、近くに誘惑が多いだけかもしれません。スマホを遠ざけるだけで作業はかなり始めやすくなります。\n\n#仕事術 #集中 #習慣 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "集中できない人は\n意志が弱いんじゃない",
+      "voice": "集中できない人は、意志が弱いんじゃありません。",
+      "highlights": [
+        "意志"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "一番の原因は\n目に入る場所に\n誘惑が置いてあることです",
+      "voice": "一番の原因は、目に入る場所に、誘惑が置いてあることです。",
+      "highlights": [
+        "誘惑"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "スマホが近いだけで\n脳は少しずつ\nそっちを気にします",
+      "voice": "スマホが近いだけで、脳は少しずつ、そっちを気にします。",
+      "highlights": [
+        "スマホ",
+        "脳"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "だから作業前に\nスマホを別の部屋へ置きます\n通知も切ります",
+      "voice": "だから作業前に、スマホを別の部屋へ置きます。通知も切ります。",
+      "highlights": [
+        "別の部屋",
+        "通知"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "たとえば二十五分だけ\n手の届かない場所に置く\nこれだけで始めやすいです",
+      "voice": "たとえば二十五分だけ、手の届かない場所に置く。これだけで始めやすいです。",
+      "highlights": [
+        "二十五分",
+        "始めやすい"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "集中は根性より\n環境で決まります\n見えない誘惑は減らせます",
+      "voice": "集中は根性より、環境で決まります。見えない誘惑は減らせます。",
+      "highlights": [
+        "環境",
+        "誘惑"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n集中したいなら\nスマホを遠ざけます",
+      "voice": "まとめると、集中したいなら、スマホを遠ざけます。",
+      "highlights": [
+        "スマホ"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "modern Japanese desk, smartphone glowing beside laptop, worker distracted"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "close shot of smartphone notifications on desk, hand hesitating"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "Japanese office worker trying to focus while phone is near"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "placing smartphone into drawer outside workspace"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "timer and clean desk, focused worker begins typing"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "minimal workspace with phone absent, calm focused atmosphere"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_017_focus_phone_away_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "confident worker at clean desk, productive mood"
+    }
+  ]
+}

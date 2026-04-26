@@ -1,0 +1,95 @@
+{
+  "slug": "release_024_fixed_cost_check_grouped_fullcaptions",
+  "title": "固定費は一回見直すだけで効く #shorts",
+  "description": "節約で一番ラクなのは、毎日我慢することより固定費を一度下げること。効果が自動で続きます。\n\n#お金 #固定費 #節約 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "節約が苦手な人ほど\n固定費から見るのが\nおすすめです",
+      "voice": "節約が苦手な人ほど、固定費から見るのがおすすめです。",
+      "highlights": [
+        "固定費"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "毎日の我慢は\n意外と疲れます\n続けるほど消耗します",
+      "voice": "毎日の我慢は、意外と疲れます。続けるほど消耗します。",
+      "highlights": [
+        "我慢"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "でも固定費は\n一回下げると\n効果が毎月続きます",
+      "voice": "でも固定費は、一回下げると、効果が毎月続きます。",
+      "highlights": [
+        "毎月"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "スマホ代、サブスク、保険\nまずこの三つを\n紙に出します",
+      "voice": "スマホ代、サブスク、保険。まずこの三つを紙に出します。",
+      "highlights": [
+        "スマホ代",
+        "サブスク"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "使っていないものは\n解約候補にします\n迷うものは一か月止めます",
+      "voice": "使っていないものは、解約候補にします。迷うものは一か月止めます。",
+      "highlights": [
+        "解約",
+        "一か月"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "小さな我慢より\n自動で減る仕組みを\n先に作ります",
+      "voice": "小さな我慢より、自動で減る仕組みを、先に作ります。",
+      "highlights": [
+        "仕組み"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n節約は固定費から\n一回だけ見直します",
+      "voice": "まとめると、節約は固定費から、一回だけ見直します。",
+      "highlights": [
+        "固定費"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese person reviewing monthly bills at table"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "person tired while checking small expenses"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "monthly calendar and bill reduction"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "notebook listing phone subscription insurance"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "cancel subscription on laptop"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "organized budget sheet with calm smile"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_024_fixed_cost_check_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "person relieved looking at lower monthly expense"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "release_026_room_reset_two_minutes_grouped_fullcaptions",
+  "title": "片付けは二分だけでいい #shorts",
+  "description": "部屋が散らかる人は、完璧に片付けようとして動けなくなります。二分だけ戻す仕組みが効きます。\n\n#片付け #生活知恵 #習慣 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "片付けが苦手な人は\n完璧に戻そうとして\n動けなくなります",
+      "voice": "片付けが苦手な人は、完璧に戻そうとして、動けなくなります。",
+      "highlights": [
+        "完璧"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "全部きれいにするは\n大きすぎる目標です\nだから後回しになります",
+      "voice": "全部きれいにするは、大きすぎる目標です。だから後回しになります。",
+      "highlights": [
+        "大きすぎる"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "まず二分だけ\n目につくものを\n元の場所へ戻します",
+      "voice": "まず二分だけ、目につくものを、元の場所へ戻します。",
+      "highlights": [
+        "二分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "服を一枚かける\nコップを一個下げる\n机を少し空ける",
+      "voice": "服を一枚かける。コップを一個下げる。机を少し空ける。",
+      "highlights": [
+        "一枚",
+        "一個"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "小さく戻すと\n部屋が荒れる前に\n止めやすくなります",
+      "voice": "小さく戻すと、部屋が荒れる前に、止めやすくなります。",
+      "highlights": [
+        "小さく"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "片付けはイベントより\n毎日少し戻す方が\n続きます",
+      "voice": "片付けはイベントより、毎日少し戻す方が続きます。",
+      "highlights": [
+        "毎日少し"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n片付けは完璧より\n二分だけ戻します",
+      "voice": "まとめると、片付けは完璧より、二分だけ戻します。",
+      "highlights": [
+        "二分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese apartment room slightly messy"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "person overwhelmed by messy desk"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "timer and hands tidying small items"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "small tidy actions in room"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "room becoming calmer after small cleanup"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "cozy clean room, evening routine"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_026_room_reset_two_minutes_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "person relaxed in tidy room"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "release_023_meeting_first_sentence_grouped_fullcaptions",
+  "title": "会議は最初の一言で変わる #shorts",
+  "description": "会議で埋もれる人は、話す量より最初の一言で損しています。結論と相談したい点を先に出すだけで伝わります。\n\n#会議 #仕事術 #伝え方 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "会議で伝わらない人は\n話す量より\n最初の一言で損しています",
+      "voice": "会議で伝わらない人は、話す量より、最初の一言で損しています。",
+      "highlights": [
+        "最初の一言"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "いきなり背景から話すと\n聞く側はどこを見ればいいか\n迷います",
+      "voice": "いきなり背景から話すと、聞く側はどこを見ればいいか迷います。",
+      "highlights": [
+        "背景"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "まず結論を言います\n今日はA案で進めたいです\nこれだけで軸ができます",
+      "voice": "まず結論を言います。今日はA案で進めたいです。これだけで軸ができます。",
+      "highlights": [
+        "結論",
+        "軸"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "次に相談したい点を\n一つだけ出します\n予算だけ確認したいです",
+      "voice": "次に相談したい点を一つだけ出します。予算だけ確認したいです。",
+      "highlights": [
+        "一つ",
+        "予算"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "聞く側は\n結論と論点が見えると\nかなり理解しやすいです",
+      "voice": "聞く側は、結論と論点が見えると、かなり理解しやすいです。",
+      "highlights": [
+        "結論",
+        "論点"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "話が長い人ほど\n先に地図を渡すと\n伝わりやすくなります",
+      "voice": "話が長い人ほど、先に地図を渡すと、伝わりやすくなります。",
+      "highlights": [
+        "地図"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n会議は結論と相談点を\n最初に言います",
+      "voice": "まとめると、会議は結論と相談点を、最初に言います。",
+      "highlights": [
+        "結論",
+        "相談点"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese business meeting, person about to speak"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "meeting attendees confused looking at slides"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "presenter pointing to clear option A on screen"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "close view of agenda with one question"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "meeting participants nodding"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "simple roadmap slide in meeting"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_023_meeting_first_sentence_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "confident presenter, organized meeting"
+    }
+  ]
+}

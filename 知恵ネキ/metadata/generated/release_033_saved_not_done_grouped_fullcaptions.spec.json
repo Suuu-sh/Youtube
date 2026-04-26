@@ -1,0 +1,48 @@
+{
+  "slug": "release_033_saved_not_done_grouped_fullcaptions",
+  "title": "保存で満足しない #shorts",
+  "description": "情報を集めて終わらせない、実行へ変える小さなルールです。\n\n#仕事術 #処世術 #暮らしの知恵 #shorts",
+  "pauseSeconds": 0.05,
+  "scenes": [
+    {
+      "caption": "保存が増えているのに\n人生が変わらないなら\n原因は実行です",
+      "voice": "保存が増えているのに人生が変わらないなら、原因は実行です。",
+      "highlights": [
+        "実行"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_033_saved_not_done_grouped_fullcaptions/source_images/generated_scene_01.png"
+    },
+    {
+      "caption": "情報は集めた瞬間\n少し賢くなった気がして\nそこで止まります",
+      "voice": "情報は集めた瞬間、少し賢くなった気がしてそこで止まります。",
+      "highlights": [
+        "止まります"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_033_saved_not_done_grouped_fullcaptions/source_images/generated_scene_02.png"
+    },
+    {
+      "caption": "保存したら一つだけ\n今日やる行動に\n言い換える",
+      "voice": "保存したら一つだけ、今日やる行動に言い換える。",
+      "highlights": [
+        "今日やる行動"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_033_saved_not_done_grouped_fullcaptions/source_images/generated_scene_03.png"
+    },
+    {
+      "caption": "料理動画なら\n材料を一つ買う\n仕事術なら明日試す",
+      "voice": "料理動画なら材料を一つ買う。仕事術なら明日試す。",
+      "highlights": [
+        "一つ"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_033_saved_not_done_grouped_fullcaptions/source_images/generated_scene_04.png"
+    },
+    {
+      "caption": "知識は保存より\n一回使った時に\n自分のものになります",
+      "voice": "知識は保存より、一回使った時に自分のものになります。",
+      "highlights": [
+        "一回"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_033_saved_not_done_grouped_fullcaptions/source_images/generated_scene_05.png"
+    }
+  ]
+}

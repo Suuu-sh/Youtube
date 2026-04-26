@@ -1,0 +1,97 @@
+{
+  "slug": "release_020_anxiety_write_down_grouped_fullcaptions",
+  "title": "不安は紙に出す #shorts",
+  "description": "不安は頭の中だけで考えるほど大きくなります。紙に出して、事実と想像に分けるだけで扱いやすくなります。\n\n#メンタル #不安 #考えすぎ #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "不安が消えない時は\n頭の中だけで\n考えない方がいいです",
+      "voice": "不安が消えない時は、頭の中だけで考えない方がいいです。",
+      "highlights": [
+        "頭の中"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "頭の中の不安は\n形がないので\nどんどん大きくなります",
+      "voice": "頭の中の不安は、形がないので、どんどん大きくなります。",
+      "highlights": [
+        "不安"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "まず紙に書き出します\n心配していることを\n全部出します",
+      "voice": "まず紙に書き出します。心配していることを、全部出します。",
+      "highlights": [
+        "紙",
+        "全部"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "次に分けます\n事実なのか\n想像なのかです",
+      "voice": "次に分けます。事実なのか、想像なのかです。",
+      "highlights": [
+        "事実",
+        "想像"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "たとえば嫌われたかもは想像\n返信が来ていないは事実\nここを分けます",
+      "voice": "たとえば嫌われたかもは想像。返信が来ていないは事実。ここを分けます。",
+      "highlights": [
+        "想像",
+        "事実"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "事実だけ見ると\n次にやることが\n少し見えます",
+      "voice": "事実だけ見ると、次にやることが、少し見えます。",
+      "highlights": [
+        "次にやること"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n不安は紙に出して\n事実と想像を分けます",
+      "voice": "まとめると、不安は紙に出して、事実と想像を分けます。",
+      "highlights": [
+        "紙",
+        "事実"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese person anxious at desk at night"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "dark room, person holding head, abstract shadows"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "hand writing worries in notebook"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "notebook divided into fact and imagination columns"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "smartphone no reply, notebook calm analysis"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "person calmly planning next step"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_020_anxiety_write_down_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "relieved person with organized notebook"
+    }
+  ]
+}

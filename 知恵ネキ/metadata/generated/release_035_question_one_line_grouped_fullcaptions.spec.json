@@ -1,0 +1,48 @@
+{
+  "slug": "release_035_question_one_line_grouped_fullcaptions",
+  "title": "質問は一行で通りやすくなる #shorts",
+  "description": "相手に答えてもらいやすい質問の作り方です。\n\n#仕事術 #処世術 #暮らしの知恵 #shorts",
+  "pauseSeconds": 0.05,
+  "scenes": [
+    {
+      "caption": "質問が返ってこない時は\n長さで損している\nことがあります",
+      "voice": "質問が返ってこない時は、長さで損していることがあります。",
+      "highlights": [
+        "長さ"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_035_question_one_line_grouped_fullcaptions/source_images/generated_scene_01.png"
+    },
+    {
+      "caption": "背景を全部送ると\n相手は何に答えるか\n迷います",
+      "voice": "背景を全部送ると、相手は何に答えるか迷います。",
+      "highlights": [
+        "迷います"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_035_question_one_line_grouped_fullcaptions/source_images/generated_scene_02.png"
+    },
+    {
+      "caption": "最初の一行に\n聞きたいことを\nそのまま書く",
+      "voice": "最初の一行に、聞きたいことをそのまま書く。",
+      "highlights": [
+        "最初の一行"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_035_question_one_line_grouped_fullcaptions/source_images/generated_scene_03.png"
+    },
+    {
+      "caption": "資料Aで進めていいですか\n確認点は金額だけです\nこれで通じる",
+      "voice": "資料Aで進めていいですか。確認点は金額だけです。これで通じる。",
+      "highlights": [
+        "確認点"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_035_question_one_line_grouped_fullcaptions/source_images/generated_scene_04.png"
+    },
+    {
+      "caption": "答えやすい質問は\n相手の時間を\n先に守っています",
+      "voice": "答えやすい質問は、相手の時間を先に守っています。",
+      "highlights": [
+        "相手の時間"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_035_question_one_line_grouped_fullcaptions/source_images/generated_scene_05.png"
+    }
+  ]
+}

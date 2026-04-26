@@ -1,0 +1,48 @@
+{
+  "slug": "release_034_energy_budget_grouped_fullcaptions",
+  "title": "体力にも予算がある #shorts",
+  "description": "予定を詰めすぎて疲れないための、体力予算の考え方です。\n\n#仕事術 #処世術 #暮らしの知恵 #shorts",
+  "pauseSeconds": 0.05,
+  "scenes": [
+    {
+      "caption": "予定で潰れる人は\n時間だけ見て\n体力を見ていません",
+      "voice": "予定で潰れる人は、時間だけ見て体力を見ていません。",
+      "highlights": [
+        "体力"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_034_energy_budget_grouped_fullcaptions/source_images/generated_scene_01.png"
+    },
+    {
+      "caption": "一時間空いていても\n気力が空いているとは\n限りません",
+      "voice": "一時間空いていても、気力が空いているとは限りません。",
+      "highlights": [
+        "気力"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_034_energy_budget_grouped_fullcaptions/source_images/generated_scene_02.png"
+    },
+    {
+      "caption": "重い用事の後には\n軽い作業か休憩を\n先に置く",
+      "voice": "重い用事の後には、軽い作業か休憩を先に置く。",
+      "highlights": [
+        "休憩"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_034_energy_budget_grouped_fullcaptions/source_images/generated_scene_03.png"
+    },
+    {
+      "caption": "会議の後に集中作業を\n詰め込むより\n整理時間を十五分",
+      "voice": "会議の後に集中作業を詰め込むより、整理時間を十五分。",
+      "highlights": [
+        "十五分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_034_energy_budget_grouped_fullcaptions/source_images/generated_scene_04.png"
+    },
+    {
+      "caption": "うまく回る人は\n時間割ではなく\n体力割を作ります",
+      "voice": "うまく回る人は、時間割ではなく体力割を作ります。",
+      "highlights": [
+        "体力割"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_034_energy_budget_grouped_fullcaptions/source_images/generated_scene_05.png"
+    }
+  ]
+}

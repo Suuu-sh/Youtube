@@ -1,0 +1,94 @@
+{
+  "slug": "release_025_morning_one_task_grouped_fullcaptions",
+  "title": "朝は一番大事な一個だけやる #shorts",
+  "description": "朝の時間をうまく使うコツは、予定を詰め込まないこと。一番大事な一個だけ先に進めると一日が変わります。\n\n#朝活 #仕事術 #習慣 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "朝をうまく使いたいなら\nやることを\n増やしすぎない方がいいです",
+      "voice": "朝をうまく使いたいなら、やることを増やしすぎない方がいいです。",
+      "highlights": [
+        "増やしすぎない"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "朝から十個やろうとすると\n始める前に\n疲れてしまいます",
+      "voice": "朝から十個やろうとすると、始める前に疲れてしまいます。",
+      "highlights": [
+        "十個"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "まず一番大事なことを\n一個だけ選びます\n今日進めたい核心です",
+      "voice": "まず一番大事なことを、一個だけ選びます。今日進めたい核心です。",
+      "highlights": [
+        "一個",
+        "核心"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "メールを見る前に\n十五分だけ進めます\n完了しなくても大丈夫です",
+      "voice": "メールを見る前に、十五分だけ進めます。完了しなくても大丈夫です。",
+      "highlights": [
+        "十五分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "朝に少しでも進むと\nその日はもう\n前に進んだ感覚があります",
+      "voice": "朝に少しでも進むと、その日はもう、前に進んだ感覚があります。",
+      "highlights": [
+        "前に進んだ"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "大事なのは量より\n一日の最初に\n主導権を取ることです",
+      "voice": "大事なのは量より、一日の最初に、主導権を取ることです。",
+      "highlights": [
+        "主導権"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n朝は一番大事な一個を\n先に進めます",
+      "voice": "まとめると、朝は一番大事な一個を先に進めます。",
+      "highlights": [
+        "一個"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "morning desk with coffee and notebook"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "overloaded morning checklist"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "person circling one task in notebook"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "focused work before email, morning light"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "person satisfied after small progress"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "sunrise city view, confident worker"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_025_morning_one_task_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "clean morning workspace, calm productive mood"
+    }
+  ]
+}

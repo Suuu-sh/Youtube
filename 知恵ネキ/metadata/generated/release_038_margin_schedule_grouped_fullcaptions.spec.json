@@ -1,0 +1,48 @@
+{
+  "slug": "release_038_margin_schedule_grouped_fullcaptions",
+  "title": "予定には余白を入れる #shorts",
+  "description": "毎日が押してしまう人のための、予定の余白づくりです。\n\n#仕事術 #処世術 #暮らしの知恵 #shorts",
+  "pauseSeconds": 0.05,
+  "scenes": [
+    {
+      "caption": "いつも時間が押す人は\n能力より\n余白が足りません",
+      "voice": "いつも時間が押す人は、能力より余白が足りません。",
+      "highlights": [
+        "余白"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_038_margin_schedule_grouped_fullcaptions/source_images/generated_scene_01.png"
+    },
+    {
+      "caption": "予定は移動、準備、切り替えで\n思ったより\nこぼれます",
+      "voice": "予定は移動、準備、切り替えで、思ったよりこぼれます。",
+      "highlights": [
+        "こぼれます"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_038_margin_schedule_grouped_fullcaptions/source_images/generated_scene_02.png"
+    },
+    {
+      "caption": "一時間の予定なら\n後ろに十五分\n何もしない枠を置く",
+      "voice": "一時間の予定なら、後ろに十五分、何もしない枠を置く。",
+      "highlights": [
+        "十五分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_038_margin_schedule_grouped_fullcaptions/source_images/generated_scene_03.png"
+    },
+    {
+      "caption": "余白はサボりではなく\n遅れを吸収する\nクッションです",
+      "voice": "余白はサボりではなく、遅れを吸収するクッションです。",
+      "highlights": [
+        "クッション"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_038_margin_schedule_grouped_fullcaptions/source_images/generated_scene_04.png"
+    },
+    {
+      "caption": "余裕がある人は\n予定を詰めるより\n守れる形にしています",
+      "voice": "余裕がある人は、予定を詰めるより守れる形にしています。",
+      "highlights": [
+        "守れる形"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_038_margin_schedule_grouped_fullcaptions/source_images/generated_scene_05.png"
+    }
+  ]
+}

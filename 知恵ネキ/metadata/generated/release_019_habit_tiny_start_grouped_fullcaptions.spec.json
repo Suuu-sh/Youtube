@@ -1,0 +1,94 @@
+{
+  "slug": "release_019_habit_tiny_start_grouped_fullcaptions",
+  "title": "習慣は小さく始める #shorts",
+  "description": "習慣が続かない原因は、やる気ではなく最初のサイズが大きすぎること。小さく始めると戻りやすくなります。\n\n#習慣 #継続 #やる気 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "習慣が続かない人は\nやる気がないんじゃない",
+      "voice": "習慣が続かない人は、やる気がないんじゃありません。",
+      "highlights": [
+        "やる気"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "最初から大きく\n始めすぎていることが\n多いです",
+      "voice": "最初から大きく、始めすぎていることが多いです。",
+      "highlights": [
+        "大きく"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "毎日一時間やるより\nまず一分だけやる方が\n続きやすいです",
+      "voice": "毎日一時間やるより、まず一分だけやる方が、続きやすいです。",
+      "highlights": [
+        "一分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "腕立てなら一回\n読書なら一ページ\n片付けなら一か所です",
+      "voice": "腕立てなら一回。読書なら一ページ。片付けなら一か所です。",
+      "highlights": [
+        "一回",
+        "一ページ"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "小さすぎるくらいで\n脳は始める抵抗を\n感じにくくなります",
+      "voice": "小さすぎるくらいで、脳は始める抵抗を、感じにくくなります。",
+      "highlights": [
+        "抵抗"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "続ける人は\n気合いより先に\n戻れる形を作ります",
+      "voice": "続ける人は、気合いより先に、戻れる形を作ります。",
+      "highlights": [
+        "戻れる形"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n習慣は小さく始めて\nあとから増やします",
+      "voice": "まとめると、習慣は小さく始めて、あとから増やします。",
+      "highlights": [
+        "小さく"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese person staring at ambitious habit checklist"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "overwhelming long to do list on desk"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "person opening book for one minute"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "small habit actions in cozy room"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "calm person starting small exercise at home"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "calendar with tiny check marks, warm light"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_019_habit_tiny_start_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "person satisfied with small completed habit"
+    }
+  ]
+}

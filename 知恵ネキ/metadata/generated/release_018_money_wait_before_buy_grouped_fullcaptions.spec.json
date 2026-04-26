@@ -1,0 +1,94 @@
+{
+  "slug": "release_018_money_wait_before_buy_grouped_fullcaptions",
+  "title": "買う前に一晩置く #shorts",
+  "description": "衝動買いを減らすコツは我慢ではなく、判断を明日にずらすこと。欲しい気持ちのピークを越えると、本当に必要か見えます。\n\n#お金 #節約 #買い物 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "無駄遣いを減らすなら\n買う前に一晩置きます",
+      "voice": "無駄遣いを減らすなら、買う前に一晩置きます。",
+      "highlights": [
+        "一晩"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "欲しいと思った瞬間は\n判断力がかなり\n前のめりになります",
+      "voice": "欲しいと思った瞬間は、判断力がかなり、前のめりになります。",
+      "highlights": [
+        "判断力"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "その場で決めると\n必要かどうかより\n気分で買いやすいです",
+      "voice": "その場で決めると、必要かどうかより、気分で買いやすいです。",
+      "highlights": [
+        "気分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "だからカートに入れて\n今日は買わずに寝ます\n明日の自分に聞きます",
+      "voice": "だからカートに入れて、今日は買わずに寝ます。明日の自分に聞きます。",
+      "highlights": [
+        "明日"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "翌朝まだ必要なら\nそれは本当に欲しいものです\n忘れていたら不要です",
+      "voice": "翌朝まだ必要なら、それは本当に欲しいものです。忘れていたら不要です。",
+      "highlights": [
+        "翌朝",
+        "不要"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "節約は我慢より\n時間を置く仕組みの方が\n続きます",
+      "voice": "節約は我慢より、時間を置く仕組みの方が、続きます。",
+      "highlights": [
+        "仕組み"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\n高い買い物ほど\n一晩置いてから決めます",
+      "voice": "まとめると、高い買い物ほど、一晩置いてから決めます。",
+      "highlights": [
+        "一晩"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese person looking at online shopping cart at night"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "close up of finger hovering over purchase button"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "warm living room, person excited by shopping app"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "phone placed on bedside table, person closing laptop"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "morning coffee, calm person reviewing shopping cart"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "simple budgeting notebook and smartphone, morning light"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_018_money_wait_before_buy_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "person smiling after deciding not to buy"
+    }
+  ]
+}

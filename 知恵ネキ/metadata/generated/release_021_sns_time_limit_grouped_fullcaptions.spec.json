@@ -1,0 +1,95 @@
+{
+  "slug": "release_021_sns_time_limit_grouped_fullcaptions",
+  "title": "SNSは見る前に時間を決める #shorts",
+  "description": "SNSは見る前に時間を決めないと、気づいたら時間を持っていかれます。先に出口を作るのがコツです。\n\n#SNS #時間管理 #情報 #処世術 #shorts",
+  "scenes": [
+    {
+      "caption": "SNSで時間が消える人は\n見る前に出口を\n決めていません",
+      "voice": "SNSで時間が消える人は、見る前に出口を決めていません。",
+      "highlights": [
+        "出口"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_01.png"
+    },
+    {
+      "caption": "SNSは面白いから\n終わりを決めないと\nずっと続きます",
+      "voice": "SNSは面白いから、終わりを決めないと、ずっと続きます。",
+      "highlights": [
+        "終わり"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_02.png"
+    },
+    {
+      "caption": "だから開く前に\n五分だけ見ると\n先に決めます",
+      "voice": "だから開く前に、五分だけ見ると、先に決めます。",
+      "highlights": [
+        "五分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_03.png"
+    },
+    {
+      "caption": "タイマーが鳴ったら\n保存して閉じます\n判断をその場でしません",
+      "voice": "タイマーが鳴ったら、保存して閉じます。判断をその場でしません。",
+      "highlights": [
+        "保存",
+        "閉じます"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_04.png"
+    },
+    {
+      "caption": "目的がない時は\n見ない選択も\nかなり大事です",
+      "voice": "目的がない時は、見ない選択も、かなり大事です。",
+      "highlights": [
+        "見ない"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_05.png"
+    },
+    {
+      "caption": "情報を集めるほど\n行動が増えるとは\n限りません",
+      "voice": "情報を集めるほど、行動が増えるとは限りません。",
+      "highlights": [
+        "行動"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_06.png"
+    },
+    {
+      "caption": "まとめると\nSNSは開く前に\n時間と出口を決めます",
+      "voice": "まとめると、SNSは開く前に、時間と出口を決めます。",
+      "highlights": [
+        "時間",
+        "出口"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_07.png"
+    }
+  ],
+  "imagePrompts": [
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_01.png",
+      "prompt": "Japanese person scrolling phone late at night"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_02.png",
+      "prompt": "endless social feed reflected in eyes"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_03.png",
+      "prompt": "setting timer before opening phone"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_04.png",
+      "prompt": "phone timer ringing, thumb closing app"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_05.png",
+      "prompt": "person placing phone face down"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_06.png",
+      "prompt": "person with too many browser tabs and notes"
+    },
+    {
+      "file": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_021_sns_time_limit_grouped_fullcaptions/real_images/frame_07.png",
+      "prompt": "calm person returning to real work"
+    }
+  ]
+}

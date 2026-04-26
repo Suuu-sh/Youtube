@@ -1,0 +1,48 @@
+{
+  "slug": "release_030_time_price_tag_grouped_fullcaptions",
+  "title": "時間にも値札をつける #shorts",
+  "description": "迷う買い物を減らす、時間単価で考える小さな習慣です。\n\n#仕事術 #処世術 #暮らしの知恵 #shorts",
+  "pauseSeconds": 0.05,
+  "scenes": [
+    {
+      "caption": "安さで迷う人は\n時間の値札を\n忘れています",
+      "voice": "安さで迷う人は、時間の値札を忘れています。",
+      "highlights": [
+        "時間"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_030_time_price_tag_grouped_fullcaptions/source_images/generated_scene_01.png"
+    },
+    {
+      "caption": "百円安い店を探して\n三十分使うなら\n得か考える",
+      "voice": "百円安い店を探して、三十分使うなら得か考える。",
+      "highlights": [
+        "三十分"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_030_time_price_tag_grouped_fullcaptions/source_images/generated_scene_02.png"
+    },
+    {
+      "caption": "迷ったら時給で見る\nその時間で休めるか\n進めるか",
+      "voice": "迷ったら時給で見る。その時間で休めるか、進めるか。",
+      "highlights": [
+        "時給"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_030_time_price_tag_grouped_fullcaptions/source_images/generated_scene_03.png"
+    },
+    {
+      "caption": "買い物は金額だけでなく\n探す時間、移動、疲れも\n合計です",
+      "voice": "買い物は金額だけでなく、探す時間、移動、疲れも合計です。",
+      "highlights": [
+        "合計"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_030_time_price_tag_grouped_fullcaptions/source_images/generated_scene_04.png"
+    },
+    {
+      "caption": "節約上手は\nお金だけでなく\n時間も守ります",
+      "voice": "節約上手は、お金だけでなく時間も守ります。",
+      "highlights": [
+        "時間"
+      ],
+      "image": "/Users/yota/Projects/Automation/Youtube/知恵ネキ/assets/generated/release_030_time_price_tag_grouped_fullcaptions/source_images/generated_scene_05.png"
+    }
+  ]
+}

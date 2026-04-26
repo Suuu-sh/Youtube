@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+*.secret
+*secret*
+*credential*
+*token*
+
+# Generated video/audio/image outputs
+**/renders/
+**/tmp/
+*.mp4
+*.mov
+*.m4v
+*.wav
+*.mp3
+*.m4a
+
+# Local automation runtime artifacts
+**/automation/*.log
+**/automation/*.pid
+**/automation/*.profile
+**/automation/*profile*.txt
+**/automation/*.png
+**/automation/comment_queue.json
+
+# Tooling caches
+node_modules/
+.npm/
+.cache/
+
+# Regenerable production assets (large)
+**/assets/generated/
