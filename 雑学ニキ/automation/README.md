@@ -34,6 +34,14 @@ YOUTUBE_CLIENT_SECRET=...
 YOUTUBE_REFRESH_TOKEN=...
 ```
 
+ローカルの Codex automation では、次の git 管理外ファイルが存在すれば `scripts/zatsugaku_api_automation.sh` が自動で読み込む。
+
+```text
+/Users/yota/.codex/secrets/youtube_zatsugaku_api.env
+```
+
+このファイルに実値を保存し、リポジトリには絶対にコミットしない。
+
 OAuth scope:
 
 - `https://www.googleapis.com/auth/youtube.upload`
