@@ -1,0 +1,38 @@
+# Example only. Copy this file, replace every value, then remove `example: true`.
+id: animal_example_001
+example: true
+category: 動物
+category_key: animal
+level: Lv1
+topic_key: animal_example_topic
+fact_summary: ここに重複判定用の短い事実要約を書く
+status: stock
+
+video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/example.mp4
+contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_example/contact.png
+
+title: 知って損しない動物の雑学 Lv1 #雑学 #shorts
+description: |
+  動物にまつわる雑学を短く紹介。
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+comment_text: |
+  【補足】
+  1. ここに詳しい解説を書く。
+
+  いくつわかりましたか？
+
+source_urls:
+  - https://example.com/source
+irasutoya_urls: []
+
+created_at: 2026-04-27T00:00:00+09:00
+scheduled_at:
+publish_at:
+comment_after_at:
+uploaded_at:
+commented_at:
+video_id:
+last_error:
