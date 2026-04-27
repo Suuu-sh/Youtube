@@ -40,7 +40,15 @@ title: タイトル #雑学 #shorts
 description: |
   説明文
 comment_text: |
-  固定コメント本文
+  動画の補足👇
+
+  1. 見出し
+  補足本文。
+
+  2. 見出し
+  補足本文。
+
+  いくつわかりましたか？
 source_urls:
   - https://example.com/source
 created_at: 2026-04-27T00:00:00+09:00
