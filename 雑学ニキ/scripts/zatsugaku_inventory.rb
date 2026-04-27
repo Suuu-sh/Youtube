@@ -19,7 +19,7 @@ CATEGORY_SCHEDULE = [
   { key: 'food_drink', name: '食べ物・飲み物', publish: '12:00', comment: '12:05' },
   { key: 'body_health', name: '人体・健康', publish: '18:00', comment: '18:05' },
   { key: 'science_tech', name: '科学・テクノロジー', publish: '21:00', comment: '21:05' },
-  { key: 'scary_danger', name: '怖い・危険', publish: '23:30', comment: '23:35' }
+  { key: 'scary_danger', name: '怖い・危険', publish: '25:00', comment: '25:05' }
 ].freeze
 
 REQUIRED = %w[id category category_key level topic_key fact_summary status video_path title description comment_text].freeze
@@ -69,7 +69,10 @@ module Inventory
   end
 
   def timestamp(date, hhmm)
-    Time.new(date.year, date.month, date.day, hhmm[0, 2].to_i, hhmm[3, 2].to_i, 0, JST).iso8601
+    hour = hhmm[0, 2].to_i
+    minute = hhmm[3, 2].to_i
+    slot_date = date + (hour / 24)
+    Time.new(slot_date.year, slot_date.month, slot_date.day, hour % 24, minute, 0, JST).iso8601
   end
 
   def load_items
@@ -267,7 +270,7 @@ module Inventory
 
   def comments_due_for_slot(items, slot:, at: now)
     due_comments(items, at: at).select do |item|
-      Time.parse(item['comment_after_at'].to_s).strftime('%H:%M') == slot.to_s
+      item['comment_slot'].to_s == slot.to_s || Time.parse(item['comment_after_at'].to_s).strftime('%H:%M') == slot.to_s
     end
   end
 

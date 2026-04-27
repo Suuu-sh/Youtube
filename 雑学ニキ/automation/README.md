@@ -30,8 +30,8 @@
 5. `scripts/zatsugaku_api_automation.sh comment-2105`
    - 21:05 に `comment_after_at` が来た動画へ YouTube API でコメント追加
 
-6. `scripts/zatsugaku_api_automation.sh comment-2335`
-   - 23:35 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+6. `scripts/zatsugaku_api_automation.sh comment-2505`
+   - 25:05（翌日01:05）に `comment_after_at` が来た動画へ YouTube API でコメント追加
 
 `scripts/zatsugaku_api_automation.sh run` は後方互換用のまとめ実行として残す。
 
@@ -43,7 +43,7 @@
 | food_drink | 食べ物・飲み物 | 12:00 | 12:05 |
 | body_health | 人体・健康 | 18:00 | 18:05 |
 | science_tech | 科学・テクノロジー | 21:00 | 21:05 |
-| scary_danger | 怖い・危険 | 23:30 | 23:35 |
+| scary_danger | 怖い・危険 | 25:00（翌日01:00） | 25:05（翌日01:05） |
 
 ## Stock render layout
 
@@ -103,6 +103,7 @@ scripts/zatsugaku_api_automation.sh dry-run
 scripts/zatsugaku_api_automation.sh run
 scripts/zatsugaku_api_automation.sh plan-0400
 scripts/zatsugaku_api_automation.sh comment-0735
+scripts/zatsugaku_api_automation.sh comment-2505
 ruby scripts/zatsugaku_inventory.rb validate
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
 ```
