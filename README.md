@@ -27,14 +27,13 @@ YouTube チャンネルごとの素材・企画・投稿メタデータ・自動
 
 - 共通スクリプト: `_shared/youtube-scheduler/comment_due.mjs`
 - 雑学ニキのキュー例: `雑学ニキ/automation/comment_queue.sample.json`
-- GitHub Actions例: `.github/workflows/youtube-comment-due.yml`
 
 基本運用:
 
 1. 各チャンネル配下で動画を作成する。
 2. YouTube Studioで予約公開する。
 3. 動画ID、予約公開日時、コメント本文を `automation/comment_queue.json` に入れる。
-4. cron または GitHub Actions で `_shared/youtube-scheduler/comment_due.mjs` を定期実行する。
+4. ローカル cron で `_shared/youtube-scheduler/comment_due.mjs` を定期実行する。
 5. スクリプトが公開済み動画だけにコメントし、成功したらキューへ `commentedAt` を記録する。
 
 雑学ニキのdry-run例:

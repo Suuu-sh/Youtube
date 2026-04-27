@@ -6,7 +6,7 @@
 
 1. 動画を事前に YouTube Studio へアップロードし、予約公開を設定する。
 2. `automation/comment_queue.json` に `videoId`, `scheduledAt`, `commentText` を入れる。
-3. cron / GitHub Actions が1日5回または数分おきに `comment_due.mjs` を実行する。
+3. ローカル cron が1日5回または数分おきに `comment_due.mjs` を実行する。
 4. スクリプトは公開予定時刻を過ぎた未コメント動画を探す。
 5. YouTube Data APIで動画が `public` になっていることを確認する。
 6. `commentThreads.insert` でコメントする。
@@ -55,13 +55,3 @@ JSTの 7:02 / 11:02 / 15:02 / 19:02 / 23:02 に実行する例。
 ```
 
 公開予約時刻ぴったりではなく2分後にすると、YouTube側の公開反映待ちに強くなる。
-
-## GitHub Actionsで使う場合
-
-- `YOUTUBE_CLIENT_ID`
-- `YOUTUBE_CLIENT_SECRET`
-- `YOUTUBE_REFRESH_TOKEN`
-
-を repository secrets に入れる。
-
-キューJSONをGitHub上で更新するなら、実行後に `commentedAt` をコミットする処理を追加する。コミットしない運用なら、Google Sheetsや小さなDBに状態を置く方がよい。
