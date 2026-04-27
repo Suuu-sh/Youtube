@@ -14,7 +14,7 @@
 標準音量:
 
 - ナレーション: `1.0`
-- BGM: `0.10`
+- BGM: `0.50`
 
 BGM入り動画を作る例:
 
@@ -24,7 +24,7 @@ swift _shared/youtube-scheduler/add_bgm_to_video.swift \
   雑学ニキ/renders/input.mp4 \
   _shared/bgm/dova-syndrome/escort_moppy_sound.mp3 \
   雑学ニキ/renders/output_bgm.mp4 \
-  1.0 0.10
+  1.0 0.50
 ```
 
 ## クレジット表記

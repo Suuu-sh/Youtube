@@ -1,0 +1,88 @@
+[
+  {
+    "url": "https://www.loc.gov/everyday-mysteries/item/why-and-how-do-cats-purr/",
+    "error": "<HTTPError 404: 'Standard 40x'>"
+  },
+  {
+    "url": "https://ocean.si.edu/ocean-life/invertebrates/cephalopods",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "url": "https://www.fisheries.noaa.gov/species/pink-shrimp",
+    "title": "Pink Shrimp | NOAA Fisheries",
+    "chars": 20275,
+    "sample": "Pink Shrimp | NOAA Fisheries Skip to main content Unsupported Browser Detected Internet Explorer lacks support for the features of this website. For the best experience, please use a modern browser such as Chrome, Firefox, or Edge. An official website of the United States government Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock Locked padlock icon ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Search NOAA Fisheries Search Menu Find A Species Find a Species Dolphins & Porpoises Fish & Sharks Highly Migratory Species Invertebrates Sea Turtles Seals & Sea Lions Whales Protected Species All Threatened & Endangered Species Marine Mammals Species By Region Alaska New England/Mid-Atlanti"
+  },
+  {
+    "url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/?st=gallery",
+    "error": "<HTTPError 404: 'Standard 40x'>"
+  },
+  {
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "url": "https://www.nih.gov/news-events/nih-research-matters/what-goosebumps-are",
+    "title": "What goosebumps are for | National Institutes of Health (NIH)",
+    "chars": 8805,
+    "sample": "What goosebumps are for | National Institutes of Health (NIH) Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Menu Health Information Health Information MedlinePlus Health Info Science Education Resources NIH Clinical Research Trials and You Your Healthiest Self: Wellness Toolkits NIH News in Health Talking With Your Doctor or Health Care Provider Grants & Funding Grants & Funding Grants Home Page Find Funding Due Dates How to Apply New to NIH Policy & Compliance Grants News/Blog Contracts Loan Repayment News & Events News & Eve"
+  },
+  {
+    "url": "https://www.nidcd.nih.gov/health/statistics/what-numbers-mean-epidemiological-perspective-taste-smell",
+    "title": "What the Numbers Mean: An Epidemiological Perspective on Taste and Smell | NIDCD",
+    "chars": 13683,
+    "sample": "What the Numbers Mean: An Epidemiological Perspective on Taste and Smell | NIDCD Skip to main content An official website of the United States government Here's how you know Here's how you know U.S. Department of Health & Human Services | National Institutes of Health Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Menu NIDCD Employee Intranet | A–Z Index | En español Home Health Info Health Info Hearing, Ear Infections, and Deafness Balance Taste and Smell Voice, Speech, and Language Información en español Statistics Health Resources Clinical Studies Adult Hearing Health Care Research Research Extramural Research Intramural Research Scien"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/mesh/68005753",
+    "title": "Gastric Mucosa - MeSH - NCBI",
+    "chars": 3398,
+    "sample": "Gastric Mucosa - MeSH - NCBI Warning: The NCBI web site requires JavaScript to function. more... An official website of the United States government Here's how you know The .gov means it's official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site. The site is secure. The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely. Log in Show account info Close Account Logged in as: username Dashboard Publications Account settings Log out Access keys NCBI Homepage MyNCBI Homepage Main Content Main Navigation MeSH NLM Controlled Vocabulary Search database All Databases Assembly Biocollections BioProject BioSample Books ClinVar Conserved Domains dbGaP dbVar Gene Genome GEO DataSets GEO Profiles GTR Identical Protein Group"
+  },
+  {
+    "url": "https://science.nasa.gov/mercury/facts",
+    "title": "Mercury: Facts",
+    "chars": 13417,
+    "sample": "Mercury: Facts Explore Search News & Events News & Events Recently Published Video Series on NASA+ Podcasts & Audio Blogs Newsletters Social Media Media Resources Multimedia Multimedia Images Videos on NASA+ Interactives NASA Apps Podcasts e-Books STEM Multimedia NASA+ Search Suggested Searches Climate Change Artemis Expedition 64 Mars perseverance SpaceX Crew-2 International Space Station View All Topics A-Z Home Missions Humans in Space Earth The Solar System The Universe Science Aeronautics Technology Learning Resources About NASA Español News & Events Multimedia NASA+ Highlights 5 min read NASA’s Curiosity Finds Organic Molecules Never Seen Before on Mars article 5 days ago 1 min read New NASA Views of Earth, From (S)PACE article 5 days ago 5 min read Artemis II Mission Milestones: An Image and Video Recap article 5 days ago Back Missions Search All NASA Missions A to Z List of Missi"
+  },
+  {
+    "url": "https://science.nasa.gov/resource/blue-and-bizarre/",
+    "title": "Blue and bizarre - NASA Science",
+    "chars": 8198,
+    "sample": "Blue and bizarre - NASA Science Explore Search News & Events News & Events Recently Published Video Series on NASA+ Podcasts & Audio Blogs Newsletters Social Media Media Resources Multimedia Multimedia Images Videos on NASA+ Interactives NASA Apps Podcasts e-Books STEM Multimedia NASA+ Search Suggested Searches Climate Change Artemis Expedition 64 Mars perseverance SpaceX Crew-2 International Space Station View All Topics A-Z Home Missions Humans in Space Earth The Solar System The Universe Science Aeronautics Technology Learning Resources About NASA Español News & Events Multimedia NASA+ Highlights 5 min read NASA’s Curiosity Finds Organic Molecules Never Seen Before on Mars article 5 days ago 1 min read New NASA Views of Earth, From (S)PACE article 5 days ago 5 min read Artemis II Mission Milestones: An Image and Video Recap article 5 days ago Back Missions Search All NASA Missions A t"
+  },
+  {
+    "url": "https://www.nasa.gov/podcasts/gravity-assist/gravity-assist-its-raining-diamonds-on-these-planets/",
+    "title": "Gravity Assist: It’s Raining Diamonds on These Planets - NASA",
+    "chars": 27131,
+    "sample": "Gravity Assist: It’s Raining Diamonds on These Planets - NASA Explore Search News & Events News & Events News Releases Recently Published Video Series on NASA+ Podcasts & Audio Blogs Newsletters Social Media Media Resources Events Upcoming Launches & Landings Virtual Guest Program Multimedia Multimedia NASA+ Images NASA Live NASA Apps Podcasts Image of the Day e-Books Interactives STEM Multimedia NASA Brand & Usage Guidelines NASA+ Search Suggested Searches Climate Change Artemis Expedition 64 Mars perseverance SpaceX Crew-2 International Space Station View All Topics A-Z Home Missions Humans in Space Earth The Solar System The Universe Science Aeronautics Technology Learning Resources About NASA Español News & Events Multimedia NASA+ Featured 5 min read NASA’s Curiosity Finds Organic Molecules Never Seen Before on Mars article 5 days ago 1 min read New NASA Views of Earth, From (S)PACE "
+  },
+  {
+    "url": "https://oceanservice.noaa.gov/hazards/beach-dangers/",
+    "title": "Dangers at the Beach",
+    "chars": 7795,
+    "sample": "Dangers at the Beach --> An official website of the United States government. Here's how you know we're official. dot gov icon Official websites use .gov A .gov website belongs to an official government organization in the United States. https icon Secure websites use HTTPS A small lock or https:// means you’ve safely connected to a .gov website. Share sensitive information only on official, secure websites. NOAA Planet Stewards is now accepting proposals for 2023/2024 project funding! × --> Toggle navigation Toggle search National Ocean Service National Oceanic and Atmospheric Administration Search Search National Ocean Service Home Ocean Facts Topics Explore All Topics Arctic Careers Deep Seabed Mineral Resources Economy Ecosystems Geodesy Hazards International Navigation Observations Ocean Recreation Sea Level Rise Story Maps Tools Education Education NOS Education About Just for Kids"
+  },
+  {
+    "url": "https://oceanservice.noaa.gov/education/tutorial_currents/03coastal3.html",
+    "title": "Rip Currents - Currents: NOAA's National Ocean Service Education",
+    "chars": 4960,
+    "sample": "Rip Currents - Currents: NOAA's National Ocean Service Education An official website of the United States government. Here's how you know we're official. dot gov icon Official websites use .gov A .gov website belongs to an official government organization in the United States. https icon Secure websites use HTTPS A small lock or https:// means you’ve safely connected to a .gov website. Share sensitive information only on official, secure websites. National Ocean Service National Oceanic and Atmospheric Administration Search Search National Ocean Service Home Ocean Facts TOPICS Explore All Topics Careers Deep Seabed Mining Economy Ecosystems Geodesy Hazards Navigation Observations Ocean Recreation Sea Level Rise Story Maps Tools Education Education NOS Education About Students Teacher --> Education NOS Education About Just for Kids Students Nautical Charts Sea Floor Mapping Corals Current"
+  },
+  {
+    "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+    "title": "Carbon Monoxide Poisoning Basics | Carbon Monoxide Poisoning | CDC",
+    "chars": 7104,
+    "sample": "Carbon Monoxide Poisoning Basics | Carbon Monoxide Poisoning | CDC Skip directly to site content Skip directly to search An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. Carbon Monoxide Poisoning Explore This Topic Search Search Clear Search For Everyone Basics Fact Sheets and Other Resources View all Health Care Providers Clinical Guidance View all Home search clear search Carbon Monoxide Poisoning Menu clear search For Everyone Basics Fact Sheets and Other Resources View All Health Care Providers Clinical Guidance View All Carbon Monoxide Poisoning   Basics Fact Sheets and Other Resources "
+  },
+  {
+    "url": "https://www.weather.gov/safety/lightning-temperature",
+    "title": "How Hot Is Lightning?",
+    "chars": 1838,
+    "sample": "How Hot Is Lightning? HOME FORECAST Local Graphical Aviation Marine Rivers and Lakes Hurricanes Severe Weather Fire Weather Sunrise/Sunset Long Range Forecasts Climate Prediction Space Weather PAST WEATHER Past Weather Astronomical Data Certified Weather Data SAFETY INFORMATION Wireless Emergency Alerts Brochures Weather-Ready Nation Cooperative Observers Daily Briefing Damage/Fatality/Injury Statistics Forecast Models GIS Data Portal NOAA Weather Radio Publications SKYWARN Storm Spotters StormReady TsunamiReady Service Change Notices EDUCATION NEWS SEARCH Search For NWS All NOAA ABOUT About NWS Organization For NWS Employees National Centers Careers Contact Us Glossary Social Media NWS Transformation Safety National Program How Hot Is Lightning? Weather.gov > Safety > How Hot Is Lightning? Technically, lightning is the movement of electrical charges and doesn't have a temperature; howev"
+  }
+]
