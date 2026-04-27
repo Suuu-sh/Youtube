@@ -15,37 +15,48 @@ fi
 
 mode="${1:-}"
 case "$mode" in
-  run)
+  run|plan-0400|next-day-upload-0400)
     ruby scripts/zatsugaku_inventory.rb validate
-    # Keep a single automation idempotent: only the 04:00 hour selects today's stock,
-    # while every run retries upload/comment work that is already due.
+    # 04:00 hour selects tomorrow's stock, then private-uploads it with publishAt.
     if [[ "$(TZ=Asia/Tokyo date +%H)" == "04" ]]; then
-      ruby scripts/zatsugaku_inventory.rb plan --date today
+      ruby scripts/zatsugaku_inventory.rb plan --date tomorrow
     fi
     ruby scripts/zatsugaku_inventory.rb upload-due
     ruby scripts/zatsugaku_inventory.rb comment-due
     ;;
-  daily-upload)
+  comment-0735)
     ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb plan --date today
-    ruby scripts/zatsugaku_inventory.rb upload-due
+    ruby scripts/zatsugaku_inventory.rb comment-due --slot 07:35
     ;;
-  upload-retry)
+  comment-1205)
     ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb upload-due
+    ruby scripts/zatsugaku_inventory.rb comment-due --slot 12:05
+    ;;
+  comment-1805)
+    ruby scripts/zatsugaku_inventory.rb validate
+    ruby scripts/zatsugaku_inventory.rb comment-due --slot 18:05
+    ;;
+  comment-night)
+    ruby scripts/zatsugaku_inventory.rb validate
+    ruby scripts/zatsugaku_inventory.rb comment-due --slot 21:05
+    ruby scripts/zatsugaku_inventory.rb comment-due --slot 23:35
     ;;
   comment-due)
     ruby scripts/zatsugaku_inventory.rb validate
     ruby scripts/zatsugaku_inventory.rb comment-due
     ;;
+  upload-retry)
+    ruby scripts/zatsugaku_inventory.rb validate
+    ruby scripts/zatsugaku_inventory.rb upload-due
+    ;;
   dry-run)
     ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run || true
+    ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run || true
     ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
     ruby scripts/zatsugaku_inventory.rb comment-due --dry-run
     ;;
   *)
-    echo "Usage: $0 {run|daily-upload|upload-retry|comment-due|dry-run}" >&2
+    echo "Usage: $0 {run|plan-0400|next-day-upload-0400|comment-0735|comment-1205|comment-1805|comment-night|comment-due|upload-retry|dry-run}" >&2
     exit 2
     ;;
 esac

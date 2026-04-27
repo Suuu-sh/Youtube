@@ -42,9 +42,10 @@
   - 投稿タイトル、説明文、固定コメント案の作成
   - 完成動画を automation 在庫に入れるための YAML 作成
 - Codex automation で行うこと
-  - YAML在庫から当日分を選ぶ
+  - YAML在庫から翌日分を選ぶ
   - YouTube Data APIで Private upload
   - `publishAt` を設定して予約公開
+  - upload成功時に返る `id` を `video_id` としてYAMLに保存
   - 公開後に `comment_text` を投稿
 
 ### 完成動画を作ったら必ず作るもの
@@ -78,4 +79,4 @@ Codex app 側の automation は1つだけです。
 scripts/zatsugaku_api_automation.sh run
 ```
 
-04時台だけ当日5本を選び、それ以外の起動では due 判定された upload / comment だけ処理します。
+04時台だけ翌日5本を選んで Private upload + 予約公開し、それ以外の起動では due 判定された comment だけ処理します。

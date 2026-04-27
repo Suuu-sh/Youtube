@@ -5,7 +5,7 @@
 ## YAML stock workflow
 
 動画作成は手動で行い、完成した動画は `metadata/videos/stock/<category_key>/<id>.yaml` に1本1ファイルで登録する。
-API automation はYAML在庫から、その日のレベルとカテゴリに合う5本を選んで Private upload + `publishAt` 予約公開し、公開後に固定コメント用テキストを投稿する。
+API automation はYAML在庫から、翌日のレベルとカテゴリに合う5本を選んで Private upload + `publishAt` 予約公開し、upload成功時に返る `id` を `video_id` として保存する。公開後は、時刻別コメントジョブが `video_id` と `comment_text` を使って固定コメント用テキストを投稿する。
 
 ### category_key と公開時刻
 
@@ -75,9 +75,12 @@ video_id:
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
 ruby scripts/zatsugaku_inventory.rb plan --date 2026-04-28 --dry-run
-ruby scripts/zatsugaku_inventory.rb plan --date today
+ruby scripts/zatsugaku_inventory.rb plan --date tomorrow
 ruby scripts/zatsugaku_inventory.rb upload-due
 ruby scripts/zatsugaku_inventory.rb comment-due
+ruby scripts/zatsugaku_inventory.rb comment-due --slot 07:35
+ruby scripts/zatsugaku_api_automation.sh plan-0400
+ruby scripts/zatsugaku_api_automation.sh comment-0735
 ```
 
 YouTube API を使うコマンドは以下の環境変数が必要。

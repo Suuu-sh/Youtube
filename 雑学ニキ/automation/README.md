@@ -5,14 +5,29 @@
 
 ## API automation policy
 
-動画制作は automation では行わない。手動で作成済みの YAML stock だけを対象にする。
+04:00 ジョブは翌日分の YAML stock を選び、YouTube Data API で Private upload して `publishAt` を設定する。
+アップロード成功レスポンスの `id` は `video_id` として YAML に保存し、コメントジョブはこの `video_id` を使う。
 
-- Single Codex automation: `scripts/zatsugaku_api_automation.sh run`
-  - 04時台だけ、今日の曜日/月末ルールからレベルを決定して5カテゴリから1本ずつ stock を選択
-  - 選択した YAML を `status: scheduled` に更新
-  - 毎回、YouTube Data API で未アップロード分を Private upload し、`publishAt` を設定
-  - 毎回、公開5分後以降の動画に対応する `comment_text` を投稿
-  - 余分な起動時刻では due 対象がなければ何もしない
+## 5 automation jobs
+
+1. `scripts/zatsugaku_api_automation.sh plan-0400`
+   - 04時台だけ、翌日の曜日/月末ルールからレベルを決定して5カテゴリから1本ずつ stock を選択
+   - 選択した YAML を `status: scheduled` に更新
+   - Private upload + `publishAt` 設定を行い、返ってきた `video_id` を YAML に保存
+
+2. `scripts/zatsugaku_api_automation.sh comment-0735`
+   - 07:35 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+
+3. `scripts/zatsugaku_api_automation.sh comment-1205`
+   - 12:05 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+
+4. `scripts/zatsugaku_api_automation.sh comment-1805`
+   - 18:05 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+
+5. `scripts/zatsugaku_api_automation.sh comment-night`
+   - 21:05 / 23:35 の夜枠に `comment_after_at` が来た動画へ YouTube API でコメント追加
+
+`scripts/zatsugaku_api_automation.sh run` は後方互換用のまとめ実行として残す。
 
 ## Daily slots
 
@@ -52,5 +67,7 @@ OAuth scope:
 ```bash
 scripts/zatsugaku_api_automation.sh dry-run
 scripts/zatsugaku_api_automation.sh run
+scripts/zatsugaku_api_automation.sh plan-0400
+scripts/zatsugaku_api_automation.sh comment-0735
 ruby scripts/zatsugaku_inventory.rb validate
 ```

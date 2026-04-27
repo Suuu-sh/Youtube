@@ -41,6 +41,7 @@ module Inventory
 
   def parse_date(value)
     return today if value.nil? || value == 'today'
+    return today.next_day if value == 'tomorrow'
 
     Date.parse(value)
   end
@@ -221,6 +222,12 @@ module Inventory
         Time.parse(item['comment_after_at']) <= at
     end
   end
+
+  def comments_due_for_slot(items, slot:, at: now)
+    due_comments(items, at: at).select do |item|
+      Time.parse(item['comment_after_at'].to_s).strftime('%H:%M') == slot.to_s
+    end
+  end
 end
 
 class YouTubeClient
@@ -229,6 +236,9 @@ class YouTubeClient
   COMMENT_URI = URI('https://www.googleapis.com/youtube/v3/commentThreads?part=snippet')
 
   def initialize
+    missing = %w[YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET YOUTUBE_REFRESH_TOKEN].select { |key| ENV[key].to_s.empty? }
+    raise Error, "Missing YouTube API credentials: #{missing.join(', ')}" unless missing.empty?
+
     @client_id = ENV.fetch('YOUTUBE_CLIENT_ID')
     @client_secret = ENV.fetch('YOUTUBE_CLIENT_SECRET')
     @refresh_token = ENV.fetch('YOUTUBE_REFRESH_TOKEN')
@@ -286,7 +296,11 @@ class YouTubeClient
     put_res = Net::HTTP.start(upload_uri.hostname, upload_uri.port, use_ssl: true) { |http| http.request(put) }
     raise Error, "Upload body failed: HTTP #{put_res.code} #{put_res.body}" unless put_res.is_a?(Net::HTTPSuccess)
 
-    JSON.parse(put_res.body).fetch('id')
+    body = JSON.parse(put_res.body)
+    video_id = body['id'].to_s
+    raise Error, "Upload succeeded but response did not include video id: #{put_res.body}" if video_id.empty?
+
+    video_id
   end
 
   def post_comment(item)
@@ -320,15 +334,17 @@ def usage
       ruby scripts/zatsugaku_inventory.rb plan [--date YYYY-MM-DD|today] [--dry-run]
       ruby scripts/zatsugaku_inventory.rb upload-due [--dry-run]
       ruby scripts/zatsugaku_inventory.rb comment-due [--dry-run]
+      ruby scripts/zatsugaku_inventory.rb comment-due --slot HH:MM [--dry-run]
   USAGE
   exit 2
 end
 
 command = ARGV.shift || usage
-options = { date: 'today', dry_run: false }
+options = { date: 'today', dry_run: false, slot: nil }
 OptionParser.new do |opts|
   opts.on('--date DATE') { |v| options[:date] = v }
   opts.on('--dry-run') { options[:dry_run] = true }
+  opts.on('--slot HH:MM') { |v| options[:slot] = v }
 end.parse!(ARGV)
 
 begin
@@ -361,6 +377,7 @@ begin
         item['uploaded_at'] = Inventory.now.iso8601
         item['status'] = 'uploaded'
         item['last_error'] = nil
+        puts "uploaded #{item['id']} -> #{item['video_id']}"
       rescue StandardError => e
         item['last_error'] = "#{e.class}: #{e.message}"
         warn "upload failed #{item['id']}: #{item['last_error']}"
@@ -374,7 +391,11 @@ begin
     errors = Inventory.validate_items(items)
     raise Error, "Validation failed:\n- #{errors.join("\n- ")}" unless errors.empty?
 
-    due = Inventory.due_comments(items)
+    due = if options[:slot]
+            Inventory.comments_due_for_slot(items, slot: options[:slot])
+          else
+            Inventory.due_comments(items)
+          end
     client = options[:dry_run] ? nil : YouTubeClient.new
     due.each do |item|
       if options[:dry_run]
