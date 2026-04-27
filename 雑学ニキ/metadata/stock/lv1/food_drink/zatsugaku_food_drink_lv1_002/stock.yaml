@@ -1,0 +1,60 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: "zatsugaku_food_drink_lv1_002"
+category: "食べ物・飲み物"
+category_key: "food_drink"
+level: "Lv1"
+topic_key: "food_banana_chili_soda_chocolate_honey_storage_lv1_002"
+fact_summary: "バナナの低温変色、唐辛子の辛味、炭酸の泡、チョコの白化など食べ物の保存と成分雑学"
+status: "stock"
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv1/food_drink/zatsugaku_food_drink_lv1_002/zatsugaku_food_drink_lv1_002_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv1/food_drink/zatsugaku_food_drink_lv1_002/contact.png"
+title: "知って損しない食べ物の雑学 Lv1"
+description: |
+  食べ物にまつわる知って損しない雑学を短く紹介。
+  
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+  
+  #雑学 #食べ物・飲み物 #shorts
+comment_text: |
+  動画の補足👇
+  
+  1. バナナは低温で皮が変色しやすい
+  熟した後なら冷蔵で中身は保ちやすいが、皮は低温の影響で黒くなりやすい。
+  
+  2. 辛味はカプサイシン由来
+  カプサイシンが口の中の熱さを感じる仕組みを刺激し、辛い感覚につながる。
+  
+  3. 炭酸の正体は溶けた二酸化炭素
+  圧力をかけて溶かした二酸化炭素が、開栓後に泡として出てくる。
+  
+  4. チョコのブルーム現象
+  温度変化などで油脂や糖が表面に出ると白く見える。見た目と食感は落ちやすい。
+  
+  5. はちみつは保存に強い食品
+  低い水分量や酸性などが重なり、微生物が増えにくい環境になる。
+  
+  いくつわかりましたか？
+  
+source_urls:
+- "https://www.britannica.com/science/capsaicin"
+- "https://www.fda.gov/food/buy-store-serve-safe-food/food-facts-consumers"
+- "https://www.pubs.ext.vt.edu/348/348-960/348-960"
+- "https://www.si.edu/stories/why-honey-doesnt-spoil"
+- "https://www.acs.org/education/chemmatters/past-issues/archive-2018-2019/chocolate.html"
+irasutoya_urls:
+- "https://www.irasutoya.com/2015/06/blog-post_575.html"
+- "https://www.irasutoya.com/2019/07/5.html"
+- "https://www.irasutoya.com/2015/03/blog-post_673.html"
+- "https://www.irasutoya.com/2012/02/blog-post_05.html"
+- "https://www.irasutoya.com/2021/01/blog-post_81.html"
+created_at: "2026-04-27 23:02:57 +0900"
+scheduled_at: 
+publish_at: 
+comment_after_at: 
+uploaded_at: 
+commented_at: 
+video_id: 
+last_error: 
