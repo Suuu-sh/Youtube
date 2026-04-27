@@ -42,6 +42,7 @@
   - 投稿タイトル、説明文、固定コメント案の作成
   - 完成動画を automation 在庫に入れるための YAML 作成
 - Codex automation で行うこと
+  - 4時ジョブの冒頭で、動画作成前リサーチ用に公開RSS/Atomをスクレイピングして `research/daily/` に保存
   - YAML在庫から翌日分を選ぶ
   - YouTube Data APIで Private upload
   - `publishAt` を設定して予約公開

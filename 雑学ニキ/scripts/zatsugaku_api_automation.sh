@@ -16,6 +16,7 @@ fi
 mode="${1:-}"
 case "$mode" in
   run|plan-0400|next-day-upload-0400)
+    ruby scripts/zatsugaku_daily_scrape.rb --date tomorrow
     ruby scripts/zatsugaku_inventory.rb validate
     # 04:00 hour selects tomorrow's stock, then private-uploads it with publishAt.
     if [[ "$(TZ=Asia/Tokyo date +%H)" == "04" ]]; then
@@ -53,6 +54,7 @@ case "$mode" in
     ruby scripts/zatsugaku_inventory.rb upload-due
     ;;
   dry-run)
+    ruby scripts/zatsugaku_daily_scrape.rb --date tomorrow --dry-run
     ruby scripts/zatsugaku_inventory.rb validate
     ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run || true
     ruby scripts/zatsugaku_inventory.rb upload-due --dry-run

@@ -11,6 +11,7 @@
 ## 6 automation jobs
 
 1. `scripts/zatsugaku_api_automation.sh plan-0400`
+   - 動画作成前の情報収集として、公開RSS/Atomをスクレイピングして `research/daily/<翌日>.md` と `.json` を作成
    - 04時台だけ、翌日の曜日/月末ルールからレベルを決定して5カテゴリから1本ずつ stock を選択
    - 選択した YAML を `status: scheduled` に更新
    - Private upload + `publishAt` 設定を行い、返ってきた `video_id` を YAML に保存
