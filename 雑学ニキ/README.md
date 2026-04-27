@@ -81,6 +81,16 @@ renders/stock/lv1/animal/zatsugaku_animal_lv1_001/
 
 YAML の `video_path` と `contact_sheet_path` は、このフォルダ内の絶対パスを指すようにします。
 
+### stock素材の保存場所
+
+動画生成時の素材も、同じく level / category / id でまとめます。
+
+```text
+assets/generated/stock/<level>/<category_key>/<id>/
+```
+
+古い実験動画・未使用MP4・参照切れの `metadata/generated/*.md`・一時ファイル・手動アップロードログは残さない方針です。
+
 ### 今日の投稿を確認するコマンド
 
 ```bash
