@@ -6,7 +6,7 @@ category_key: animal
 level: Lv2
 topic_key: animal_penguin_flamingo_koala_bat_camel_lv2
 fact_summary: ペンギン、フラミンゴ、コアラ、コウモリ、ラクダで動物の幅を広げたLv2雑学
-status: stock
+status: scheduled
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/zatsugaku_animal_lv2_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/contact.png"
 title: 知ってたらちょっとすごい動物の雑学 Lv2
@@ -34,10 +34,13 @@ irasutoya_urls:
 - https://www.irasutoya.com/2019/12/blog-post_18.html
 - https://www.irasutoya.com/2015/06/mers_3.html
 created_at: 2026-04-27 10:20:17.000000000 +09:00
-scheduled_at: 
-publish_at: 
-comment_after_at: 
+scheduled_at: '2026-04-28T04:01:47+09:00'
+publish_at: '2026-04-28T07:30:00+09:00'
+comment_after_at: '2026-04-28T07:35:00+09:00'
 uploaded_at: 
 commented_at: 
 video_id: 
-last_error: 
+last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
+  (getaddrinfo: nodename nor servname provided, or not known)'
+publish_slot: '07:30'
+comment_slot: '07:35'

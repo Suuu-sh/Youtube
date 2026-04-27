@@ -1,0 +1,38 @@
+# Managed by scripts/zatsugaku_inventory.rb
+{
+  "id": "zatsugaku_animal_lv2_002",
+  "category": "動物",
+  "category_key": "animal",
+  "level": "Lv2",
+  "topic_key": "animal_mantis_shrimp_polar_bear_cricket_cat_meow_color_lv2_002",
+  "fact_summary": "シャコのパンチ、色センサー、シロクマの透明な毛、コオロギ温度計、猫のニャーを扱うLv2動物雑学",
+  "status": "stock",
+  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_002/zatsugaku_animal_lv2_002_bgm050.mp4",
+  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_002/contact.png",
+  "title": "知ってたらちょっとすごい動物の雑学 Lv2",
+  "description": "動物にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #動物 #shorts",
+  "comment_text": "動画の補足👇\n\n1. シャコのパンチは 泡の衝撃波まで 武器になる\n弾丸級の速さで前脚を出し、水中にできた泡が潰れる衝撃も獲物に当たる。\n\n2. シャコの目は 色センサーが 人間より多い\n人間の色センサーは主に3種類。シャコはかなり多い受容体を持つことで知られる。\n\n3. シロクマの毛は 白ではなく 透明に近い\n長い毛は透明に近く、中の構造と光の散乱で白く見える。\n\n4. コオロギは 鳴き方で 気温の目安になる\n気温が高いほど鳴く回数が増え、昔から天然の温度計として紹介される。\n\n5. 猫のニャーは 人間向けの 声が多い\n成猫同士は匂いや体の動きが中心で、ニャーは人間との会話でよく使われる。\n\nいくつわかりましたか？\n",
+  "source_urls": [
+    "https://www.si.edu/newsdesk/snapshot/behold-mantis-shrimp",
+    "https://www.loc.gov/everyday-mysteries/browse-all-questions/?st=brief",
+    "https://www.loc.gov/everyday-mysteries/browse-all-questions/?st=slideshow",
+    "https://www.loc.gov/everyday-mysteries/zoology/item/how-do-cats-communicate-with-each-other/"
+  ],
+  "irasutoya_urls": [
+    "https://www.irasutoya.com/2018/06/blog-post_123.html",
+    "https://www.irasutoya.com/2018/06/blog-post_123.html",
+    "https://www.irasutoya.com/2013/06/blog-post_8099.html",
+    "https://www.irasutoya.com/2017/06/blog-post_86.html",
+    "https://www.irasutoya.com/2013/02/blog-post_5596.html"
+  ],
+  "created_at": "2026-04-28T04:04:30+09:00",
+  "scheduled_at": null,
+  "publish_at": null,
+  "comment_after_at": null,
+  "uploaded_at": null,
+  "commented_at": null,
+  "video_id": null,
+  "last_error": null,
+  "publish_slot": null,
+  "comment_slot": null
+}
