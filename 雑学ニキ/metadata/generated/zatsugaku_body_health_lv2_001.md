@@ -32,8 +32,8 @@ BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
 
 ## 出力
 
-- Video: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_body_health_lv2_001_bgm050.mp4
-- Contact sheet: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_body_health_lv2_001/contact.png
+- Video: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_001/zatsugaku_body_health_lv2_001_bgm050.mp4
+- Contact sheet: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_001/contact.png
 
 ## Source URLs
 - https://www.ncbi.nlm.nih.gov/books/NBK542216/

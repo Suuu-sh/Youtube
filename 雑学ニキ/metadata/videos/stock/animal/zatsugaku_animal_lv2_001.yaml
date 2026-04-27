@@ -1,3 +1,5 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
 id: zatsugaku_animal_lv2_001
 category: 動物
 category_key: animal
@@ -5,49 +7,33 @@ level: Lv2
 topic_key: animal_penguin_flamingo_koala_bat_camel_lv2
 fact_summary: ペンギン、フラミンゴ、コアラ、コウモリ、ラクダで動物の幅を広げたLv2雑学
 status: stock
-video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_animal_lv2_001_bgm050.mp4
-contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_animal_lv2_001/contact.png
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/zatsugaku_animal_lv2_001_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/contact.png"
 title: 知ってたらちょっとすごい動物の雑学 Lv2
 description: |
   動物にまつわる知ってたらちょっとすごい雑学を短く紹介。
-  
+
   音声: VOICEVOX: 青山龍星
   BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
   イラスト: いらすとや
-  
+
   #雑学 #動物 #shorts
-comment_text: |
-  動画の補足👇
-
-  1. ペンギンは羽と油で水をはじく
-  羽のすき間に空気を含み、油分で水をはじくことで冷たい海でも体温を守りやすい。
-
-  2. カモノハシは哺乳類なのに卵を産む
-  単孔類と呼ばれるグループで、哺乳類の中でもかなり変わった特徴を持つ。
-
-  3. コアラの指紋は人間に似ている
-  コアラの指先には細かい模様があり、人間の指紋に似たパターンを持つことで知られる。
-
-  4. コウモリは音で周囲を探る
-  エコーロケーションで音の反射を聞き、物体までの距離や位置をつかむ。
-
-  5. ラクダのコブはエネルギーの貯蔵庫
-  コブには脂肪をため、食べ物が少ない時にエネルギーとして使う。
-
-  いくつわかりましたか？
+comment_text: "動画の補足\U0001F447\n\n1. ペンギンは羽と油で水をはじく\n羽のすき間に空気を含み、油分で水をはじくことで冷たい海でも体温を守りやすい。\n\n2.
+  カモノハシは哺乳類なのに卵を産む\n単孔類と呼ばれるグループで、哺乳類の中でもかなり変わった特徴を持つ。\n\n3. コアラの指紋は人間に似ている\nコアラの指先には細かい模様があり、人間の指紋に似たパターンを持つことで知られる。\n\n4.
+  コウモリは音で周囲を探る\nエコーロケーションで音の反射を聞き、物体までの距離や位置をつかむ。\n\n5. ラクダのコブはエネルギーの貯蔵庫\nコブには脂肪をため、食べ物が少ない時にエネルギーとして使う。\n\nいくつわかりましたか？\n"
 source_urls:
-  - https://ocean.si.edu/ocean-life/seabirds/penguins
-  - https://australian.museum/learn/animals/mammals/platypus/
-  - https://www.adelaidezoo.com.au/animals/koala/
-  - https://www.nps.gov/subjects/bats/echolocation.htm
-  - https://animals.sandiegozoo.org/animals/camel
+- https://ocean.si.edu/ocean-life/seabirds/penguins
+- https://australian.museum/learn/animals/mammals/platypus/
+- https://www.adelaidezoo.com.au/animals/koala/
+- https://www.nps.gov/subjects/bats/echolocation.htm
+- https://animals.sandiegozoo.org/animals/camel
 irasutoya_urls:
-  - https://www.irasutoya.com/2019/12/blog-post_411.html
-  - https://www.irasutoya.com/2015/10/blog-post_646.html
-  - https://www.irasutoya.com/2013/03/blog-post_4575.html
-  - https://www.irasutoya.com/2019/12/blog-post_18.html
-  - https://www.irasutoya.com/2015/06/mers_3.html
-created_at: 2026-04-27T10:20:17+09:00
+- https://www.irasutoya.com/2019/12/blog-post_411.html
+- https://www.irasutoya.com/2015/10/blog-post_646.html
+- https://www.irasutoya.com/2013/03/blog-post_4575.html
+- https://www.irasutoya.com/2019/12/blog-post_18.html
+- https://www.irasutoya.com/2015/06/mers_3.html
+created_at: 2026-04-27 10:20:17.000000000 +09:00
 scheduled_at: 
 publish_at: 
 comment_after_at: 

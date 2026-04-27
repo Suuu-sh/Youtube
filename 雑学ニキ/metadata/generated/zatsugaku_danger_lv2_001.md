@@ -32,8 +32,8 @@ BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
 
 ## 出力
 
-- Video: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_danger_lv2_001_bgm050.mp4
-- Contact sheet: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_danger_lv2_001/contact.png
+- Video: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/scary_danger/zatsugaku_danger_lv2_001/zatsugaku_danger_lv2_001_bgm050.mp4
+- Contact sheet: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/scary_danger/zatsugaku_danger_lv2_001/contact.png
 
 ## Source URLs
 - https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/

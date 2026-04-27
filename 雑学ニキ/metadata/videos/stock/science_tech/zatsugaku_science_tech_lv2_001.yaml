@@ -1,3 +1,5 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
 id: zatsugaku_science_tech_lv2_001
 category: 科学・テクノロジー
 category_key: science_tech
@@ -5,49 +7,33 @@ level: Lv2
 topic_key: science_magnet_battery_wifi_microwave_cloud_lv2
 fact_summary: 磁石、電池、Wi-Fi、電子レンジ、雲で科学技術の幅を広げたLv2雑学
 status: stock
-video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_science_tech_lv2_001_bgm050.mp4
-contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_science_tech_lv2_001/contact.png
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/science_tech/zatsugaku_science_tech_lv2_001/zatsugaku_science_tech_lv2_001_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/science_tech/zatsugaku_science_tech_lv2_001/contact.png"
 title: 知ってたらちょっとすごい科学技術の雑学 Lv2
 description: |
   科学・テクノロジーにまつわる知ってたらちょっとすごい雑学を短く紹介。
-  
+
   音声: VOICEVOX: 青山龍星
   BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
   イラスト: いらすとや
-  
+
   #雑学 #科学 #shorts
-comment_text: |
-  動画の補足👇
-
-  1. 磁石は見えない磁場を作る
-  磁場が周囲に広がり、鉄などに力を及ぼす。
-
-  2. 電池は化学反応で電気を取り出す
-  内部の化学反応で電子の流れを作り、機器を動かす。
-
-  3. 無線通信は電磁波で情報を送る
-  スマホやWi-Fiなどは電磁波を使って情報を送受信する。
-
-  4. 電子レンジは水分子などを動かして温める
-  マイクロ波が食品中の水分子などを動かし、その動きで熱が生まれる。
-
-  5. 雲は水蒸気が冷えてできる
-  空気中の水蒸気が冷え、小さな水滴や氷の粒になって雲になる。
-
-  いくつわかりましたか？
+comment_text: "動画の補足\U0001F447\n\n1. 磁石は見えない磁場を作る\n磁場が周囲に広がり、鉄などに力を及ぼす。\n\n2. 電池は化学反応で電気を取り出す\n内部の化学反応で電子の流れを作り、機器を動かす。\n\n3.
+  無線通信は電磁波で情報を送る\nスマホやWi-Fiなどは電磁波を使って情報を送受信する。\n\n4. 電子レンジは水分子などを動かして温める\nマイクロ波が食品中の水分子などを動かし、その動きで熱が生まれる。\n\n5.
+  雲は水蒸気が冷えてできる\n空気中の水蒸気が冷え、小さな水滴や氷の粒になって雲になる。\n\nいくつわかりましたか？\n"
 source_urls:
-  - https://www.energy.gov/science/doe-explainsmagnets
-  - https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work
-  - https://www.fcc.gov/consumers/guides/wireless-devices-and-health-concerns
-  - https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-oven-radiation
-  - https://scijinks.gov/clouds/
+- https://www.energy.gov/science/doe-explainsmagnets
+- https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work
+- https://www.fcc.gov/consumers/guides/wireless-devices-and-health-concerns
+- https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-oven-radiation
+- https://scijinks.gov/clouds/
 irasutoya_urls:
-  - https://www.irasutoya.com/2019/03/blog-post_589.html
-  - https://www.irasutoya.com/2013/12/blog-post_1506.html
-  - https://www.irasutoya.com/2017/11/wi-fi_15.html
-  - https://www.irasutoya.com/2013/01/blog-post_14.html
-  - https://www.irasutoya.com/2016/02/blog-post_906.html
-created_at: 2026-04-27T10:05:57+09:00
+- https://www.irasutoya.com/2019/03/blog-post_589.html
+- https://www.irasutoya.com/2013/12/blog-post_1506.html
+- https://www.irasutoya.com/2017/11/wi-fi_15.html
+- https://www.irasutoya.com/2013/01/blog-post_14.html
+- https://www.irasutoya.com/2016/02/blog-post_906.html
+created_at: 2026-04-27 10:05:57.000000000 +09:00
 scheduled_at: 
 publish_at: 
 comment_after_at: 

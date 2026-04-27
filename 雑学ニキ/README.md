@@ -59,6 +59,28 @@ metadata/videos/stock/<category_key>/<id>.yaml
 
 YAMLがない動画は automation から見えないため、自動 upload / schedule / comment の対象になりません。
 
+### stock動画の保存場所
+
+automation stock 用の動画と確認素材は、見返しやすいように次のフォルダへまとめます。
+
+```text
+renders/stock/<level>/<category_key>/<id>/
+```
+
+例:
+
+```text
+renders/stock/lv1/animal/zatsugaku_animal_lv1_001/
+  zatsugaku_animal_lv1_001_bgm050.mp4
+  zatsugaku_animal_lv1_001_raw.mp4
+  contact.png
+  frame_01_before.png
+  frame_01_after.png
+  times.txt
+```
+
+YAML の `video_path` と `contact_sheet_path` は、このフォルダ内の絶対パスを指すようにします。
+
 ### 今日の投稿を確認するコマンド
 
 ```bash

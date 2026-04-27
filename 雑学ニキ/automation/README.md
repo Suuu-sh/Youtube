@@ -45,6 +45,17 @@
 | science_tech | 科学・テクノロジー | 21:00 | 21:05 |
 | scary_danger | 怖い・危険 | 23:30 | 23:35 |
 
+## Stock render layout
+
+stock 用のレンダー済み動画と確認素材は、次の単位でまとめる。
+
+```text
+renders/stock/<level>/<category_key>/<id>/
+```
+
+この中に `*_bgm050.mp4`、`*_raw.mp4`、`contact.png`、確認用フレーム、`times.txt` を置く。
+`metadata/videos/stock/**/*.yaml` の `video_path` / `contact_sheet_path` は、このフォルダ内の絶対パスにする。
+
 ## 04:00 stock replenishment rule
 
 4時ジョブは「明日分を固定で作る」のではなく、今日以降の投稿日を順番に見て、次に不足する5本セットを追加する。
