@@ -99,8 +99,8 @@ API automation:
 - `video_path` と `contact_sheet_path` は絶対パスにする。
 - `topic_key` は英数字・snake_caseで、同じ内容なら同じキーになるようにする。
 - `fact_summary` は重複検知用に、動画全体の事実内容を短く書く。
-- 新規stockを考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ動物種・同じ食品・同じ人体部位・同じ危険/技術テーマを避ける。特に動物カテゴリでは、同じ生き物（例: 猫、犬、ナマケモノなど）を短期間で再利用しない。
-- 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認し、共有topic tokenが出る場合は原則テーマを差し替える。
+- 新規stockを考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位・同じ危険/技術テーマの被りすぎを避ける。完全な再利用禁止ではないが、動物カテゴリでは既存1本あたり同じ動物種の被りを最大1体までにする。2体以上（例: 猫・犬・ナマケモノのうち2つ以上）が被る案は、ほぼ同じ投稿に見えやすいので差し替える。
+- 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認し、共有topic tokenが2個以上出る場合は原則テーマを差し替える。動物カテゴリで共有topic tokenが1個だけなら許容できる。
 - `comment_text` は公開後にそのまま投稿されるため、視聴者向けの完成文にする。
 - `publish_at`、`comment_after_at`、`video_id`、`last_error` は stock 登録時点では空でよい。
 
