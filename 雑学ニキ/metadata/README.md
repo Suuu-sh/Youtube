@@ -68,6 +68,15 @@ video_id:
 ### 重複防止
 
 `topic_key` の完全一致はブロックする。さらに `fact_summary` の文字類似度が高いものも警告・除外する。
+
+新規stockを作る時は、必ず同カテゴリの既存 `topic_key` / `fact_summary` を先に読み、題材そのものの重複を避ける。完全一致しなくても、同じ動物種・同じ食品・同じ人体部位・同じ危険/技術テーマの再利用は避ける。確認用に次を使う。
+
+```bash
+ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
+ruby scripts/zatsugaku_inventory.rb overlap-report --category food_drink
+```
+
+`overlap-report` は `topic_key` 内の具体語を比較し、同カテゴリ内で共有語が多いstock候補を出す。特に動物カテゴリは、猫・犬・ナマケモノのような動物種名が被った時点でテーマ差し替えを検討する。
 過去投稿済みだけでなく、予約済み・アップロード済みも重複対象に含める。
 
 ## CLI

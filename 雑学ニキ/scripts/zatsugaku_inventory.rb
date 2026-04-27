@@ -25,6 +25,12 @@ CATEGORY_SCHEDULE = [
 REQUIRED = %w[id category category_key level topic_key fact_summary status video_path title description comment_text].freeze
 ACTIVE_STATUSES = %w[stock scheduled uploaded commented].freeze
 USED_STATUSES = %w[scheduled uploaded commented].freeze
+TOPIC_OVERLAP_STOP_WORDS = %w[
+  animal animals food drink body health science tech scary danger
+  lv1 lv2 lv3 lv4 lv5 level stock facts fact trivia basic basics
+  storage safety principles functions category categories videos video
+].freeze
+DEFAULT_TOPIC_OVERLAP_MIN = 2
 
 class Error < StandardError; end
 
@@ -149,6 +155,42 @@ module Inventory
     union = (grams_a | grams_b).size.to_f
     intersection / union >= 0.72
   end
+  def topic_tokens(item)
+    item['topic_key'].to_s.downcase.split(/[^a-z0-9]+/).reject do |token|
+      token.empty? || TOPIC_OVERLAP_STOP_WORDS.include?(token) || token.match?(/\A\d+\z/)
+    end.uniq
+  end
+
+  def topic_overlap_reports(items, category_key: nil, level: nil, min_overlap: DEFAULT_TOPIC_OVERLAP_MIN)
+    active = items.select do |item|
+      item['example'] != true &&
+        ACTIVE_STATUSES.include?(item['status']) &&
+        item['_parse_error'].nil? &&
+        (category_key.nil? || item['category_key'] == category_key) &&
+        (level.nil? || item['level'] == level)
+    end
+
+    reports = []
+    active.combination(2) do |a, b|
+      next unless a['category_key'] == b['category_key']
+
+      shared = topic_tokens(a) & topic_tokens(b)
+      summary_similar = similar?(a['fact_summary'], b['fact_summary'])
+      next unless shared.size >= min_overlap || summary_similar
+
+      reports << {
+        category_key: a['category_key'],
+        level_pair: [a['level'], b['level']],
+        ids: [a['id'], b['id']],
+        shared_topic_tokens: shared,
+        summary_similar: summary_similar,
+        paths: [a['_path'], b['_path']],
+        fact_summaries: [a['fact_summary'], b['fact_summary']]
+      }
+    end
+    reports
+  end
+
 
   def duplicate_with_used?(candidate, items)
     items.any? do |item|
@@ -400,17 +442,22 @@ def usage
       ruby scripts/zatsugaku_inventory.rb comment-due [--dry-run]
       ruby scripts/zatsugaku_inventory.rb comment-due --slot HH:MM [--dry-run]
       ruby scripts/zatsugaku_inventory.rb next-missing-set [--date YYYY-MM-DD|today] [--horizon-days N]
+      ruby scripts/zatsugaku_inventory.rb overlap-report [--category KEY] [--level LvN] [--min-overlap N] [--strict]
   USAGE
   exit 2
 end
 
 command = ARGV.shift || usage
-options = { date: 'today', dry_run: false, slot: nil, horizon_days: 31 }
+options = { date: 'today', dry_run: false, slot: nil, horizon_days: 31, category: nil, level: nil, min_overlap: DEFAULT_TOPIC_OVERLAP_MIN, strict: false }
 OptionParser.new do |opts|
   opts.on('--date DATE') { |v| options[:date] = v }
   opts.on('--dry-run') { options[:dry_run] = true }
   opts.on('--slot HH:MM') { |v| options[:slot] = v }
   opts.on('--horizon-days N', Integer) { |v| options[:horizon_days] = v }
+  opts.on('--category KEY') { |v| options[:category] = v }
+  opts.on('--level LEVEL') { |v| options[:level] = v }
+  opts.on('--min-overlap N', Integer) { |v| options[:min_overlap] = v }
+  opts.on('--strict') { options[:strict] = true }
 end.parse!(ARGV)
 
 begin
@@ -429,6 +476,19 @@ begin
   when 'next-missing-set'
     target = Inventory.next_missing_set(from: Inventory.parse_date(options[:date]), horizon_days: options[:horizon_days])
     puts JSON.pretty_generate(target)
+  when 'overlap-report'
+    items = Inventory.load_items
+    errors = Inventory.validate_items(items)
+    raise Error, "Validation failed:\n- #{errors.join("\n- ")}" unless errors.empty?
+
+    reports = Inventory.topic_overlap_reports(
+      items,
+      category_key: options[:category],
+      level: options[:level],
+      min_overlap: options[:min_overlap]
+    )
+    puts JSON.pretty_generate(overlap_count: reports.size, min_overlap: options[:min_overlap], reports: reports)
+    exit 1 if options[:strict] && reports.any?
   when 'upload-due'
     items = Inventory.load_items
     errors = Inventory.validate_items(items)

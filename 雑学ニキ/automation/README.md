@@ -68,6 +68,8 @@ renders/stock/<level>/<category_key>/<id>/
 3. その日が既に5カテゴリすべて予約済みなら、その日は充足扱い。
 4. 未予約なら、同じレベルの stock が5カテゴリ分あるかをシミュレーション上で消費して確認する。
 5. どこかのカテゴリが足りない最初の日付が、4時ジョブで新規制作する対象。
+6. 新規制作前に既存 `metadata/stock/**/stock.yaml` を確認し、同カテゴリの `topic_key` / `fact_summary` と題材が被らないテーマを選ぶ。
+7. 作成後は `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` を確認し、共有topic tokenが出るテーマは原則作り直す。動物カテゴリは同じ動物種の再利用を特に避ける。
 
 例: 月曜時点で火曜用の `Lv2` stock が5カテゴリ分ある場合、火曜は充足扱いになる。次の不足日が水曜なら、水曜のレベルである `Lv1` を5カテゴリ分追加制作する。
 
@@ -102,4 +104,5 @@ scripts/zatsugaku_api_automation.sh run
 scripts/zatsugaku_api_automation.sh plan-0400
 scripts/zatsugaku_api_automation.sh comment-0735
 ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
 ```
