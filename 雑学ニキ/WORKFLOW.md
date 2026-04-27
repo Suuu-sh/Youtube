@@ -8,9 +8,9 @@
 
 - 企画: `ideas/`
 - リサーチメモ・出典メモ: `ideas/` または `metadata/`
-- 画像・音声・manifest: `assets/generated/<slug>/`
-- メタデータ: `metadata/generated/<slug>.md`
-- 動画: `renders/<slug>.mp4`
+- 画像・音声・manifest: `assets/generated/stock/<level>/<category_key>/<id>/`
+- メタデータ: `metadata/stock/<level>/<category_key>/<id>/metadata.md`
+- 動画: `renders/stock/<level>/<category_key>/<id>/`
 - 投稿・予約・検証ログ: `automation/`
 - ブランド素材: `branding/`
 
@@ -44,13 +44,13 @@
 
 ### 基本方針
 
-動画制作は automation に任せない。制作品質を保つため、動画作成は手動依頼で行い、automation は YouTube API の定型処理だけを行う。
+4時 automation は在庫補充用の動画制作まで行う。手動制作は単発依頼時だけ行い、通常投稿は automation が stock YAML を読んで YouTube API の定型処理まで行う。
 
 ```text
-手動制作:
-  MP4 / contact sheet / metadata / stock YAML を作る
+4時 automation:
+  リサーチ → 不足レベル判定 → MP4 / contact sheet / metadata / stock YAML を作る
 
-automation:
+API automation:
   YAMLを読む → Private upload → publishAt予約 → 固定コメント投稿
 ```
 
@@ -58,10 +58,10 @@ automation:
 
 自動投稿に回す動画を作ったら、完了報告前に次を満たす。
 
-1. 最新MP4が `renders/` にある。
+1. 最新MP4が `renders/stock/<level>/<category_key>/<id>/` にある。
 2. contact sheet を作成し、視覚確認済み。
 3. タイトル、説明文、固定コメント案がある。
-4. `metadata/videos/stock/<category_key>/<id>.yaml` を作成済み。
+4. `metadata/stock/<level>/<category_key>/<id>/stock.yaml` を作成済み。
 5. YAMLの `status` は `stock`。
 6. `topic_key` と `fact_summary` があり、過去投稿と重複しない。
 7. `ruby scripts/zatsugaku_inventory.rb validate` が通る。

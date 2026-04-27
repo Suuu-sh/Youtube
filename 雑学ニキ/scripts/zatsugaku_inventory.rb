@@ -11,7 +11,7 @@ require 'uri'
 require 'yaml'
 
 ROOT = File.expand_path('..', __dir__)
-VIDEOS_GLOB = File.join(ROOT, 'metadata/videos/**/*.yaml')
+VIDEOS_GLOB = File.join(ROOT, 'metadata/stock/**/stock.yaml')
 JST = '+09:00'
 
 CATEGORY_SCHEDULE = [

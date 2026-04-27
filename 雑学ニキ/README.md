@@ -7,7 +7,7 @@
 
 - `ideas/` — 企画、テーマ候補、構成メモ
 - `prompts/` — 台本・リサーチ・メタデータ生成用プロンプト
-- `metadata/generated/` — 投稿用メタデータ、動画仕様 JSON
+- `metadata/stock/` — stock用メタデータとYAML
 - `assets/generated/` — 生成画像、音声、manifest などの動画素材
 - `renders/` — 書き出し済み mp4 と確認用画像
 - `automation/` — アップロード、予約投稿、検証ログ
@@ -54,10 +54,21 @@
 自動投稿に回す動画は、MP4だけではなく次の YAML を必ず作ります。
 
 ```text
-metadata/videos/stock/<category_key>/<id>.yaml
+metadata/stock/<level>/<category_key>/<id>/stock.yaml
 ```
 
 YAMLがない動画は automation から見えないため、自動 upload / schedule / comment の対象になりません。
+
+### stockメタデータの保存場所
+
+動画ごとの投稿用メタデータと automation YAML は、動画・素材と同じ level / category / id でまとめます。
+
+```text
+metadata/stock/<level>/<category_key>/<id>/
+  metadata.md
+  stock.yaml
+```
+
 
 ### stock動画の保存場所
 
@@ -89,7 +100,7 @@ YAML の `video_path` と `contact_sheet_path` は、このフォルダ内の絶
 assets/generated/stock/<level>/<category_key>/<id>/
 ```
 
-古い実験動画・未使用MP4・参照切れの `metadata/generated/*.md`・一時ファイル・手動アップロードログは残さない方針です。
+古い実験動画・未使用MP4・参照切れのメタデータ・一時ファイル・手動アップロードログは残さない方針です。
 
 ### 今日の投稿を確認するコマンド
 
