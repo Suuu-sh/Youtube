@@ -16,13 +16,16 @@ fi
 mode="${1:-}"
 case "$mode" in
   run|plan-0400|next-day-upload-0400)
-    ruby scripts/zatsugaku_daily_scrape.rb --date tomorrow
+    ruby scripts/zatsugaku_daily_scrape.rb --date today
     ruby scripts/zatsugaku_inventory.rb validate
-    # 04:00 hour selects tomorrow's stock, then private-uploads it with publishAt.
+    # 04:00 hour schedules today's five posts from existing stock.
     if [[ "$(TZ=Asia/Tokyo date +%H)" == "04" ]]; then
-      ruby scripts/zatsugaku_inventory.rb plan --date tomorrow
+      ruby scripts/zatsugaku_inventory.rb plan --date today
     fi
     ruby scripts/zatsugaku_inventory.rb upload-due
+    # Then report the next missing five-video set for stock replenishment.
+    # Video creation happens in the Codex automation prompt after this target is known.
+    ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
     ruby scripts/zatsugaku_inventory.rb comment-due
     ;;
   comment-0735)
@@ -54,9 +57,9 @@ case "$mode" in
     ruby scripts/zatsugaku_inventory.rb upload-due
     ;;
   dry-run)
-    ruby scripts/zatsugaku_daily_scrape.rb --date tomorrow --dry-run
+    ruby scripts/zatsugaku_daily_scrape.rb --date today --dry-run
     ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run || true
+    ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
     ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
     ruby scripts/zatsugaku_inventory.rb comment-due --dry-run
     ;;

@@ -228,6 +228,70 @@ module Inventory
       Time.parse(item['comment_after_at'].to_s).strftime('%H:%M') == slot.to_s
     end
   end
+
+  def planned_for_date?(items, date)
+    CATEGORY_SCHEDULE.all? do |category|
+      items.any? do |item|
+        item['example'] != true &&
+          USED_STATUSES.include?(item['status']) &&
+          item['category_key'] == category[:key] &&
+          item['publish_at'].to_s.start_with?(date.to_s)
+      end
+    end
+  end
+
+  def stock_pool(items)
+    pool = Hash.new { |hash, key| hash[key] = [] }
+    items.each do |item|
+      next if item['example'] == true
+      next unless item['status'] == 'stock'
+      next unless File.exist?(item['video_path'].to_s)
+
+      pool[[item['level'], item['category_key']]] << item
+    end
+    pool.each_value { |values| values.sort_by! { |item| [item['created_at'].to_s, item['id'].to_s] } }
+    pool
+  end
+
+  def next_missing_set(from:, horizon_days:)
+    items = load_items
+    errors = validate_items(items)
+    raise Error, "Validation failed:\n- #{errors.join("\n- ")}" unless errors.empty?
+
+    pool = stock_pool(items)
+    simulated = []
+    (0...horizon_days).each do |offset|
+      date = from + offset
+      level = level_for(date)
+      if planned_for_date?(items, date)
+        simulated << { date: date.to_s, level: level, covered_by: 'planned' }
+        next
+      end
+
+      missing = CATEGORY_SCHEDULE.select do |category|
+        pool[[level, category[:key]]].empty?
+      end
+      unless missing.empty?
+        return {
+          date: date.to_s,
+          level: level,
+          missing_categories: missing.map { |category| { key: category[:key], name: category[:name] } },
+          simulated_covered_dates: simulated
+        }
+      end
+
+      CATEGORY_SCHEDULE.each { |category| pool[[level, category[:key]]].shift }
+      simulated << { date: date.to_s, level: level, covered_by: 'stock' }
+    end
+
+    {
+      date: nil,
+      level: nil,
+      missing_categories: [],
+      simulated_covered_dates: simulated,
+      message: "No missing set within #{horizon_days} days"
+    }
+  end
 end
 
 class YouTubeClient
@@ -335,16 +399,18 @@ def usage
       ruby scripts/zatsugaku_inventory.rb upload-due [--dry-run]
       ruby scripts/zatsugaku_inventory.rb comment-due [--dry-run]
       ruby scripts/zatsugaku_inventory.rb comment-due --slot HH:MM [--dry-run]
+      ruby scripts/zatsugaku_inventory.rb next-missing-set [--date YYYY-MM-DD|today] [--horizon-days N]
   USAGE
   exit 2
 end
 
 command = ARGV.shift || usage
-options = { date: 'today', dry_run: false, slot: nil }
+options = { date: 'today', dry_run: false, slot: nil, horizon_days: 31 }
 OptionParser.new do |opts|
   opts.on('--date DATE') { |v| options[:date] = v }
   opts.on('--dry-run') { options[:dry_run] = true }
   opts.on('--slot HH:MM') { |v| options[:slot] = v }
+  opts.on('--horizon-days N', Integer) { |v| options[:horizon_days] = v }
 end.parse!(ARGV)
 
 begin
@@ -360,6 +426,9 @@ begin
     end
   when 'plan'
     Inventory.plan(date: Inventory.parse_date(options[:date]), dry_run: options[:dry_run])
+  when 'next-missing-set'
+    target = Inventory.next_missing_set(from: Inventory.parse_date(options[:date]), horizon_days: options[:horizon_days])
+    puts JSON.pretty_generate(target)
   when 'upload-due'
     items = Inventory.load_items
     errors = Inventory.validate_items(items)

@@ -32,18 +32,18 @@
 
 ## 現在の投稿運用（他スレッド向け要約）
 
-このワークスペースの現在の方針は **動画制作は手動、YouTube API処理は automation** です。
+このワークスペースの現在の方針は **4時 automation が在庫補充用の動画制作まで行い、YouTube API処理も automation が行う** です。
 他スレッドで作業する場合も、まずこの運用を前提にしてください。
 
 ### 役割分担
 
 - 手動 / Codex 5.5 で行うこと
-  - ネタ選定、台本、VOICEVOX、動画レンダー、contact sheet確認
-  - 投稿タイトル、説明文、固定コメント案の作成
-  - 完成動画を automation 在庫に入れるための YAML 作成
+  - 明示依頼がある単発動画の制作・確認
 - Codex automation で行うこと
   - 4時ジョブの冒頭で、動画作成前リサーチ用に公開RSS/Atomをスクレイピングして `research/daily/` に保存
-  - YAML在庫から翌日分を選ぶ
+  - その日の5投稿を既存在庫から予約・アップロード
+  - 次に在庫が不足する投稿日を先読みし、そのレベルの動画を5カテゴリ分追加制作
+  - MP4 / contact sheet / metadata / stock YAML を作成
   - YouTube Data APIで Private upload
   - `publishAt` を設定して予約公開
   - upload成功時に返る `id` を `video_id` としてYAMLに保存
@@ -80,4 +80,4 @@ Codex app 側の automation は1つだけです。
 scripts/zatsugaku_api_automation.sh run
 ```
 
-04時台だけ翌日5本を選んで Private upload + 予約公開し、それ以外の起動では due 判定された comment だけ処理します。
+04時台は「今日の5投稿を予約・アップロード」し、その後に `next-missing-set` で次に不足する投稿日レベルを判定して5本の在庫動画を追加制作します。コメント時刻の automation は due 判定された comment だけ処理します。

@@ -4,8 +4,8 @@
 
 ## YAML stock workflow
 
-動画作成は手動で行い、完成した動画は `metadata/videos/stock/<category_key>/<id>.yaml` に1本1ファイルで登録する。
-API automation はYAML在庫から、翌日のレベルとカテゴリに合う5本を選んで Private upload + `publishAt` 予約公開し、upload成功時に返る `id` を `video_id` として保存する。公開後は、時刻別コメントジョブが `video_id` と `comment_text` を使って固定コメント用テキストを投稿する。
+4時 automation が在庫補充として動画を作成し、完成した動画は `metadata/videos/stock/<category_key>/<id>.yaml` に1本1ファイルで登録する。手動制作した動画も同じ形式で登録する。
+API automation はYAML在庫から、その日のレベルとカテゴリに合う5本を選んで Private upload + `publishAt` 予約公開し、upload成功時に返る `id` を `video_id` として保存する。4時ジョブはさらに、今日以降の投稿日をシミュレーションして次に不足する日付・レベルを判定し、そのレベルの5カテゴリ分を stock として追加制作する。公開後は、時刻別コメントジョブが `video_id` と `comment_text` を使って固定コメント用テキストを投稿する。
 
 ### category_key と公開時刻
 
@@ -75,7 +75,8 @@ video_id:
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
 ruby scripts/zatsugaku_inventory.rb plan --date 2026-04-28 --dry-run
-ruby scripts/zatsugaku_inventory.rb plan --date tomorrow
+ruby scripts/zatsugaku_inventory.rb plan --date today
+ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb upload-due
 ruby scripts/zatsugaku_inventory.rb comment-due
 ruby scripts/zatsugaku_inventory.rb comment-due --slot 07:35
