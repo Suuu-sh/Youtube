@@ -2,8 +2,8 @@ id: zatsugaku_food_drink_lv2_001
 category: 食べ物・飲み物
 category_key: food_drink
 level: Lv2
-topic_key: food_chilled_onion_freezer_burn_sweet_potato_fridge_full_lv2
-fact_summary: 玉ねぎの涙、冷凍焼け、サツマイモの保存、冷蔵庫の冷気など少し深い食べ物雑学
+topic_key: food_chocolate_honey_banana_chili_soda_lv2
+fact_summary: チョコ、はちみつ、バナナ、唐辛子、炭酸で食べ物飲み物の幅を広げたLv2雑学
 status: stock
 video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_food_drink_lv2_001_bgm050.mp4
 contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_food_drink_lv2_001/contact.png
@@ -19,26 +19,26 @@ description: |
 comment_text: |
   動画の補足👇
   
-  1. 冷やすと刺激成分が広がりにくくなり、目への刺激を抑えやすい。
-  2. 冷凍中に食品表面の水分が抜け、乾いた変化が起きる。
-  3. 低温すぎる場所では傷みやすく、風味も落ちやすい。
-  4. 食品を詰め込みすぎると空気循環が悪くなり、冷えムラにつながる。
-  5. 凍った食品同士が保冷剤のように働き、停電時にも温度が上がりにくい。
+  1. ココアバターを使うが、茶色いカカオ固形分は基本入らない。
+  2. 低水分と酸性寄りの性質で、微生物が増えにくい。
+  3. 熟成ででんぷんが糖に変わり、甘さを感じやすくなる。
+  4. カプサイシンが熱や痛みに関わる受容体を刺激する。
+  5. 圧力が下がると溶けていた二酸化炭素が気体の泡として出る。
   
   いくつわかりましたか？
 source_urls:
-  - https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/
-  - https://ask.usda.gov/s/article/What-is-freezer-burn
-  - https://www.ncsweetpotatoes.com/sweet-potato-industry/storage-curing/
-  - https://www.fda.gov/food/people-risk-foodborne-illness/are-you-storing-food-safely
-  - https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage
+  - https://www.fda.gov/food/information-consumers-using-dietary-supplements/white-chocolate
+  - https://www.si.edu/spotlight/buginfo/honey
+  - https://www.hsph.harvard.edu/nutritionsource/food-features/bananas/
+  - https://www.ncbi.nlm.nih.gov/books/NBK525991/
+  - https://www.loc.gov/everyday-mysteries/item/why-does-a-shaken-soda-fizz-more-than-an-unshaken-one/
 irasutoya_urls:
-  - https://www.irasutoya.com/2012/12/blog-post_7617.html
-  - https://www.irasutoya.com/2014/11/blog-post_579.html
-  - https://www.irasutoya.com/2012/12/blog-post_4388.html
-  - https://www.irasutoya.com/2021/01/blog-post_83.html
-  - https://www.irasutoya.com/2017/11/blog-post_53.html
-created_at: 2026-04-27T09:27:25+09:00
+  - https://www.irasutoya.com/2012/02/blog-post_05.html
+  - https://www.irasutoya.com/2021/01/blog-post_81.html
+  - https://www.irasutoya.com/2015/06/blog-post_575.html
+  - https://www.irasutoya.com/2019/07/5.html
+  - https://www.irasutoya.com/2015/03/blog-post_673.html
+created_at: 2026-04-27T10:05:57+09:00
 scheduled_at: 
 publish_at: 
 comment_after_at: 

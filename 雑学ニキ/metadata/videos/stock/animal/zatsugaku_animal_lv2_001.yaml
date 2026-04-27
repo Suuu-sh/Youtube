@@ -2,8 +2,8 @@ id: zatsugaku_animal_lv2_001
 category: 動物
 category_key: animal
 level: Lv2
-topic_key: animal_sleep_blue_blood_whiskers_nose_print_algae_lv2
-fact_summary: キリンの睡眠、タコの青い血、猫のヒゲ、犬の鼻紋、ナマケモノの藻など少し深い動物雑学
+topic_key: animal_penguin_flamingo_koala_bat_camel_lv2
+fact_summary: ペンギン、フラミンゴ、コアラ、コウモリ、ラクダで動物の幅を広げたLv2雑学
 status: stock
 video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_animal_lv2_001_bgm050.mp4
 contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_animal_lv2_001/contact.png
@@ -19,26 +19,26 @@ description: |
 comment_text: |
   動画の補足👇
   
-  1. 野生では短い睡眠をこま切れに取り、立ったまま休むこともある。
-  2. 酸素を運ぶ成分がヘモグロビンではなくヘモシアニンなので青く見える。
-  3. ヒゲは空気の動きや幅を感じる高感度の触覚器官。
-  4. 鼻表面のしわや模様は犬ごとに違うと言われる。
-  5. 毛に藻が生え、体を緑っぽく見せるカモフラージュにもなる。
+  1. 羽と油で水をはじき、冷たい海でも体温を守りやすい。
+  2. 哺乳類なのに卵を産む単孔類で、かなり変わった進化を持つ。
+  3. コアラの指紋は人間に似たパターンを持つことで知られる。
+  4. エコーロケーションで物体までの距離や位置をつかむ。
+  5. コブには脂肪をため、必要に応じてエネルギーとして使う。
   
   いくつわかりましたか？
 source_urls:
-  - https://zoo.sandiegozoo.org/animals/giraffe
-  - https://www.smithsonianmag.com/science-nature/ten-wild-facts-about-octopuses-they-have-three-hearts-big-brains-and-blue-blood-7625828/
-  - https://vcahospitals.com/know-your-pet/why-do-cats-have-whiskers
-  - https://www.akc.org/expert-advice/lifestyle/dog-nose-prints/
-  - https://zoo.sandiegozoo.org/animals/two-toed-sloth
+  - https://ocean.si.edu/ocean-life/seabirds/penguins
+  - https://australian.museum/learn/animals/mammals/platypus/
+  - https://www.adelaidezoo.com.au/animals/koala/
+  - https://www.nps.gov/subjects/bats/echolocation.htm
+  - https://animals.sandiegozoo.org/animals/camel
 irasutoya_urls:
-  - https://www.irasutoya.com/2018/12/blog-post_505.html
-  - https://www.irasutoya.com/2018/09/blog-post_17.html
-  - https://www.irasutoya.com/2013/01/blog-post_31.html
-  - https://www.irasutoya.com/2013/03/blog-post_7121.html
-  - https://www.irasutoya.com/2014/02/blog-post_3983.html
-created_at: 2026-04-27T09:27:25+09:00
+  - https://www.irasutoya.com/2019/12/blog-post_411.html
+  - https://www.irasutoya.com/2015/10/blog-post_646.html
+  - https://www.irasutoya.com/2013/03/blog-post_4575.html
+  - https://www.irasutoya.com/2019/12/blog-post_18.html
+  - https://www.irasutoya.com/2015/06/mers_3.html
+created_at: 2026-04-27T10:20:17+09:00
 scheduled_at: 
 publish_at: 
 comment_after_at: 

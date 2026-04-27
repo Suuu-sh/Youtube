@@ -2,8 +2,8 @@ id: zatsugaku_science_tech_lv2_001
 category: 科学・テクノロジー
 category_key: science_tech
 level: Lv2
-topic_key: science_venus_day_gps_relativity_accelerometer_diamond_rocket_lv2
-fact_summary: 金星の1日、GPSと相対性理論、スマホセンサー、ダイヤ、ロケットなど科学技術の少し深い雑学
+topic_key: science_magnet_battery_wifi_microwave_cloud_lv2
+fact_summary: 磁石、電池、Wi-Fi、電子レンジ、雲で科学技術の幅を広げたLv2雑学
 status: stock
 video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_science_tech_lv2_001_bgm050.mp4
 contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_science_tech_lv2_001/contact.png
@@ -19,26 +19,26 @@ description: |
 comment_text: |
   動画の補足👇
   
-  1. 金星は自転がとても遅く、太陽を一周する時間より長い。
-  2. 衛星と地上で時間の進み方が違うため、時計補正が必要。
-  3. 加速度計やジャイロなどが傾きや動きを検出する。
-  4. 炭素原子が規則正しく強く結びついた結晶構造。
-  5. 後ろへガスを噴き出す反作用で進むため、真空でも動ける。
+  1. 磁場が周囲に広がり、鉄などに力を及ぼす。
+  2. 内部の化学反応で電子の流れを作り、機器を動かす。
+  3. 無線通信は電磁波を使って情報を送受信する。
+  4. マイクロ波が食品中の水分子などを動かし、熱を生む。
+  5. 空気中の水蒸気が冷えて、小さな水滴や氷の粒になる。
   
   いくつわかりましたか？
 source_urls:
-  - https://solarsystem.nasa.gov/planets/venus/in-depth/
-  - https://www.gps.gov/systems/gps/performance/accuracy/
-  - https://www.nasa.gov/stem-content/newtons-third-law-of-motion/
-  - https://www.gia.edu/diamond-description
-  - https://www.nasa.gov/stem-content/newtons-third-law-of-motion/
+  - https://www.energy.gov/science/doe-explainsmagnets
+  - https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work
+  - https://www.fcc.gov/consumers/guides/wireless-devices-and-health-concerns
+  - https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-oven-radiation
+  - https://scijinks.gov/clouds/
 irasutoya_urls:
-  - https://www.irasutoya.com/2021/09/blog-post_16.html
-  - https://www.irasutoya.com/2018/11/blog-post_216.html
-  - https://www.irasutoya.com/2018/03/blog-post_66.html
-  - https://www.irasutoya.com/2020/11/blog-post_41.html
-  - https://www.irasutoya.com/2019/09/blog-post.html
-created_at: 2026-04-27T09:27:25+09:00
+  - https://www.irasutoya.com/2019/03/blog-post_589.html
+  - https://www.irasutoya.com/2013/12/blog-post_1506.html
+  - https://www.irasutoya.com/2017/11/wi-fi_15.html
+  - https://www.irasutoya.com/2013/01/blog-post_14.html
+  - https://www.irasutoya.com/2016/02/blog-post_906.html
+created_at: 2026-04-27T10:05:57+09:00
 scheduled_at: 
 publish_at: 
 comment_after_at: 

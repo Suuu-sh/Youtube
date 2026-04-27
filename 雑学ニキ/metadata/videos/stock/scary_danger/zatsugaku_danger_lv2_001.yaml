@@ -2,8 +2,8 @@ id: zatsugaku_danger_lv2_001
 category: 怖い・危険
 category_key: scary_danger
 level: Lv2
-topic_key: danger_co_symptoms_rip_parallel_lightning_30_heat_humidity_drowning_lv2
-fact_summary: 一酸化炭素、離岸流、雷、暑さ、溺水など危険回避に役立つ少し深い雑学
+topic_key: danger_smoke_earthquake_bee_mushroom_escalator_lv2
+fact_summary: 煙、地震、ハチ、毒キノコ、エスカレーターで危険カテゴリの幅を広げたLv2雑学
 status: stock
 video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/zatsugaku_danger_lv2_001_bgm050.mp4
 contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/check_zatsugaku_danger_lv2_001/contact.png
@@ -19,26 +19,26 @@ description: |
 comment_text: |
   動画の補足👇
   
-  1. 頭痛、めまい、吐き気、眠気などで気づきにくい。
-  2. 流れに逆らわず、岸と平行に泳いで抜けるのが基本。
-  3. 光から音まで30秒以内なら安全な場所へ移動する目安。
-  4. 湿度が高いと汗が蒸発しにくく、体の熱が逃げにくい。
-  5. 子どもは少ない水でも溺れる危険がある。
+  1. 煙には有毒ガスや熱が含まれ、吸い込むと短時間で危険。
+  2. Drop, Cover, and Hold On が基本行動として案内される。
+  3. 刺された後の呼吸困難や全身症状はアレルギー反応の危険サイン。
+  4. 食用と毒キノコは似ることがあり、自己判断は危険。
+  5. 靴や衣服がすき間に巻き込まれる事故を避けるため、黄色線内に立つ。
   
   いくつわかりましたか？
 source_urls:
-  - https://www.cdc.gov/carbon-monoxide/signs-symptoms/index.html
-  - https://www.weather.gov/safety/ripcurrent
-  - https://www.weather.gov/safety/lightning
-  - https://www.cdc.gov/heat-health/about/index.html
-  - https://www.cdc.gov/drowning/prevention/index.html
+  - https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/
+  - https://www.ready.gov/earthquakes
+  - https://www.cdc.gov/niosh/topics/insects/beeswasphornets.html
+  - https://www.cdc.gov/niosh/topics/plants/poisonousplants.html
+  - https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Escalators
 irasutoya_urls:
-  - https://www.irasutoya.com/2013/05/blog-post_8845.html
-  - https://www.irasutoya.com/2020/11/blog-post_98.html
-  - https://www.irasutoya.com/2017/03/blog-post_532.html
-  - https://www.irasutoya.com/2015/08/blog-post_36.html
-  - https://www.irasutoya.com/2020/07/blog-post_6.html
-created_at: 2026-04-27T09:27:25+09:00
+  - https://www.irasutoya.com/2017/10/blog-post_86.html
+  - https://www.irasutoya.com/2018/09/blog-post_632.html
+  - https://www.irasutoya.com/2017/11/blog-post_895.html
+  - https://www.irasutoya.com/2015/02/blog-post_148.html
+  - https://www.irasutoya.com/2017/07/blog-post_46.html
+created_at: 2026-04-27T10:05:57+09:00
 scheduled_at: 
 publish_at: 
 comment_after_at: 
