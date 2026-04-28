@@ -52,18 +52,13 @@ module Inventory
     Date.parse(value)
   end
 
-  def last_day_of_month?(date)
-    date.next_day.month != date.month
-  end
-
   def level_for(date)
-    return 'Lv5' if last_day_of_month?(date)
-
     case date.wday
-    when 1, 3, 5 then 'Lv1'
+    when 1, 3 then 'Lv1'
     when 2, 4 then 'Lv2'
-    when 6 then 'Lv3'
-    when 0 then 'Lv4'
+    when 5 then 'Lv3'
+    when 6 then 'Lv4'
+    when 0 then 'Lv5'
     else raise Error, "Unsupported weekday: #{date.wday}"
     end
   end
