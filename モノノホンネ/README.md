@@ -19,3 +19,17 @@ swift scripts/mux_audio.swift
 ```
 
 この試作はSora等の動画生成AIではなく、Codex側で作れる簡易アニメーションの確認用です。実運用では、Soraで作った短尺MP4を素材として差し替え、字幕・音声・BGM合成をこのワークスペースで自動化します。
+
+## リアル寄り画像ベースのサンプル
+
+- `assets/milk_carton_character.png`
+  - GPT Imageで生成したリアル寄り牛乳パックキャラ画像
+- `output/mononohonne_realistic_10s_with_voice.mp4`
+  - 上記画像をCodex側で疑似的に動かした10秒動画
+  - ズーム、軽い揺れ、簡易まばたき、字幕、macOS TTS音声入り
+
+```bash
+swift scripts/animate_generated_image.swift
+say -v Kyoko -r 290 -o output/realistic_narration.aiff '俺を捨てるな。牛乳パックは、まだ働ける。肉や魚を切るとき、広げて下に敷け。使い終わったら、そのまま処分できる。だから次から、即ゴミ箱はやめろ。'
+swift scripts/mux_audio_args.swift output/mononohonne_realistic_10s_no_voice.mp4 output/realistic_narration.aiff output/mononohonne_realistic_10s_with_voice.mp4 10
+```
