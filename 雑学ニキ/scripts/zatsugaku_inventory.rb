@@ -8,8 +8,17 @@ require 'yaml'
 
 ROOT = File.expand_path('..', __dir__)
 VIDEOS_GLOB = File.join(ROOT, 'metadata/stock/**/stock.yaml')
+JST = '+09:00'
 
-CATEGORY_KEYS = %w[animal food_drink body_health science_tech scary_danger].freeze
+CATEGORY_SCHEDULE = [
+  { key: 'animal', name: '動物' },
+  { key: 'food_drink', name: '食べ物・飲み物' },
+  { key: 'body_health', name: '人体・健康' },
+  { key: 'science_tech', name: '科学・テクノロジー' },
+  { key: 'scary_danger', name: '怖い・危険' }
+].freeze
+
+CATEGORY_KEYS = CATEGORY_SCHEDULE.map { |category| category[:key] }.freeze
 REQUIRED = %w[id category category_key level topic_key fact_summary status video_path title description].freeze
 ACTIVE_STATUSES = %w[stock uploaded].freeze
 ALLOWED_STATUSES = (ACTIVE_STATUSES + %w[rejected]).freeze
@@ -26,6 +35,32 @@ class Error < StandardError; end
 
 module Inventory
   module_function
+
+  def now
+    Time.now.getlocal(JST)
+  end
+
+  def today
+    Date.parse(now.strftime('%Y-%m-%d'))
+  end
+
+  def parse_date(value)
+    return today if value.nil? || value == 'today'
+    return today.next_day if value == 'tomorrow'
+
+    Date.parse(value)
+  end
+
+  def level_for(date)
+    case date.wday
+    when 1, 3 then 'Lv1'
+    when 2, 4 then 'Lv2'
+    when 5 then 'Lv3'
+    when 6 then 'Lv4'
+    when 0 then 'Lv5'
+    else raise Error, "Unsupported weekday: #{date.wday}"
+    end
+  end
 
   def load_items
     Dir.glob(VIDEOS_GLOB).sort.map do |path|
@@ -122,6 +157,55 @@ module Inventory
     end.uniq
   end
 
+
+  def stock_pool(items)
+    pool = Hash.new { |hash, key| hash[key] = [] }
+    items.each do |item|
+      next if item['example'] == true
+      next unless item['status'] == 'stock'
+      next unless File.exist?(item['video_path'].to_s)
+
+      pool[[item['level'], item['category_key']]] << item
+    end
+    pool.each_value { |values| values.sort_by! { |item| [item['created_at'].to_s, item['id'].to_s] } }
+    pool
+  end
+
+  def next_missing_set(from:, horizon_days:)
+    items = load_items
+    errors = validate_items(items)
+    raise Error, "Validation failed:\n- #{errors.join("\n- ")}" unless errors.empty?
+
+    pool = stock_pool(items)
+    simulated = []
+    (0...horizon_days).each do |offset|
+      date = from + offset
+      level = level_for(date)
+      missing = CATEGORY_SCHEDULE.select do |category|
+        pool[[level, category[:key]]].empty?
+      end
+      unless missing.empty?
+        return {
+          date: date.to_s,
+          level: level,
+          missing_categories: missing.map { |category| { key: category[:key], name: category[:name] } },
+          simulated_covered_dates: simulated
+        }
+      end
+
+      CATEGORY_SCHEDULE.each { |category| pool[[level, category[:key]]].shift }
+      simulated << { date: date.to_s, level: level, covered_by: 'stock' }
+    end
+
+    {
+      date: nil,
+      level: nil,
+      missing_categories: [],
+      simulated_covered_dates: simulated,
+      message: "No missing set within #{horizon_days} days"
+    }
+  end
+
   def topic_overlap_reports(items, category_key: nil, level: nil, min_overlap: DEFAULT_TOPIC_OVERLAP_MIN)
     active = items.select do |item|
       item['example'] != true &&
@@ -157,14 +241,17 @@ def usage
   warn <<~USAGE
     Usage:
       ruby scripts/zatsugaku_inventory.rb validate
+      ruby scripts/zatsugaku_inventory.rb next-missing-set [--date YYYY-MM-DD|today] [--horizon-days N]
       ruby scripts/zatsugaku_inventory.rb overlap-report [--category KEY] [--level LvN] [--min-overlap N] [--strict]
   USAGE
   exit 2
 end
 
 command = ARGV.shift || usage
-options = { category: nil, level: nil, min_overlap: DEFAULT_TOPIC_OVERLAP_MIN, strict: false }
+options = { date: 'today', horizon_days: 31, category: nil, level: nil, min_overlap: DEFAULT_TOPIC_OVERLAP_MIN, strict: false }
 OptionParser.new do |opts|
+  opts.on('--date DATE') { |v| options[:date] = v }
+  opts.on('--horizon-days N', Integer) { |v| options[:horizon_days] = v }
   opts.on('--category KEY') { |v| options[:category] = v }
   opts.on('--level LEVEL') { |v| options[:level] = v }
   opts.on('--min-overlap N', Integer) { |v| options[:min_overlap] = v }
@@ -182,6 +269,9 @@ begin
       warn errors.map { |e| "- #{e}" }.join("\n")
       exit 1
     end
+  when 'next-missing-set'
+    target = Inventory.next_missing_set(from: Inventory.parse_date(options[:date]), horizon_days: options[:horizon_days])
+    puts JSON.pretty_generate(target)
   when 'overlap-report'
     items = Inventory.load_items
     errors = Inventory.validate_items(items)

@@ -15,7 +15,7 @@
 
 ## 現在の基本方針
 
-- recurring automation は使わない。
+- Codex app の `雑学ニキ stock maker` は、在庫補充用の動画制作だけを行う。
 - YouTube API による自動アップロード、予約公開、コメント投稿は使わない。
 - 投稿やアップロードは、ユーザーが明示的に依頼した場合だけ手動で行う。
 - 詳細・補足は `description` に集約する。
@@ -31,7 +31,8 @@
 6. contact sheet を作成し、字幕・レイアウト・出典・権利・AI生成開示の必要性を確認する。
 7. `metadata.md` と `stock.yaml` を更新する。
 8. `ruby scripts/zatsugaku_inventory.rb validate` を通す。
-9. ユーザーが明示的に依頼した場合だけ Private upload する。
+9. stock maker が実行されている場合も、アップロードは行わず在庫として保存する。
+10. ユーザーが明示的に依頼した場合だけ Private upload する。
 
 ## BGMルール
 
@@ -75,6 +76,7 @@
 - `topic_key` は英数字・snake_caseで、同じ内容なら同じキーになるようにする。
 - `fact_summary` は重複検知用に、動画全体の事実内容を短く書く。
 - 新規動画を考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位・同じ危険/技術テーマの被りすぎを避ける。
+- stock maker は `ruby scripts/zatsugaku_inventory.rb next-missing-set --date today` の結果を見て、不足している level / category の在庫を作る。
 - 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認する。
 - `description` は公開時にそのまま使われるため、`【詳細・補足】` の下に各雑学の仕組み・例外・注意点を2〜3文程度で書く。
 - コメント投稿APIは使わない。補足・出典・誘導は `description` に集約する。

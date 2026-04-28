@@ -30,9 +30,9 @@
 
 ## 現在の投稿運用
 
-- Codex app 側の雑学ニキ recurring automation は使わない。
+- Codex app の `雑学ニキ stock maker` は、在庫補充用の動画制作だけを行う。
 - YouTube API による自動アップロード、予約公開、コメント投稿は使わない。
-- 制作・確認・投稿は、ユーザーの明示依頼がある単発作業として行う。
+- 投稿やアップロードは、ユーザーの明示依頼がある単発作業として行う。
 - 詳細・補足は YouTube の `description` に集約する。
 - 固定コメント用テキストやコメントキューは作らない。
 
@@ -58,5 +58,6 @@ YAML の `video_path` と `contact_sheet_path` は絶対パスにします。
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
 ```

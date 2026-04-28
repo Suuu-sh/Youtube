@@ -5,7 +5,7 @@
 ## YAML workflow
 
 完成した動画は `metadata/stock/<level>/<category_key>/<id>/stock.yaml` に1本1ファイルで登録する。
-recurring automation、YouTube API 自動アップロード、予約公開、コメント投稿は使わない。
+Codex app の `雑学ニキ stock maker` は在庫補充用の動画制作だけを行う。YouTube API 自動アップロード、予約公開、コメント投稿は使わない。
 詳細・補足は `description` に集約する。
 
 ### category_key
@@ -65,6 +65,7 @@ video_id:
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
 ruby scripts/zatsugaku_inventory.rb overlap-report --category food_drink
 ```
