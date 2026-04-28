@@ -1,0 +1,53 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_animal_lv3_001
+category: 動物
+category_key: animal
+level: Lv3
+topic_key: animal_octopus_sloth_penguin_bee_horseshoecrab_lv3
+fact_summary: タコの腕の神経、ナマケモノの遅い消化、ペンギンの足の熱交換、ミツバチのダンス、カブトガニの青い血を扱うLv3雑学
+status: uploaded
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/animal/zatsugaku_animal_lv3_001/zatsugaku_animal_lv3_001_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/animal/zatsugaku_animal_lv3_001/contact.png"
+title: 理由まで知ると面白い動物の雑学 Lv3
+description: |
+  動物の仕組みを少し深く知るLv3雑学を短く紹介。
+
+  【詳細・補足】
+  1. タコの腕には神経が多い
+  腕にも神経が多く、脳からの命令だけに頼らず触った物へ反応しやすい。複雑な動きを同時にこなしやすい理由の一つ。
+
+  2. ナマケモノは消化が遅い
+  葉を発酵させるように分解するため、食べ物の通過がかなり遅い。動きがゆっくりな生活ともつながる。
+
+  3. ペンギンは足の熱交換で体温を守る
+  冷たい地面や海で熱を失いすぎないよう、血管の並びが熱交換に役立つ。足が冷えても体の中心は守りやすい。
+
+  4. ミツバチはダンスで餌場を伝える
+  巣の中で動く向きや時間を使い、仲間に方向や距離の手がかりを渡す。小さな体でも情報共有がかなり高度。
+
+  5. カブトガニの血は青く見える
+  酸素を運ぶ成分に銅を含むため、赤ではなく青っぽく見える。医療検査にも関わるほど特殊な血。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #動物 #shorts
+source_urls:
+- https://ocean.si.edu/ocean-life/invertebrates/octopus
+- https://animals.sandiegozoo.org/animals/sloth
+- https://www.bas.ac.uk/about/antarctica/wildlife/penguins/penguin-adaptations/
+- https://askabiologist.asu.edu/honey-bee-communication
+- https://www.mbl.edu/news/horseshoe-crab-blood
+irasutoya_urls: []
+created_at: '2026-04-29T01:56:28+09:00'
+schedule_date: '2026-05-01'
+scheduled_at: '2026-04-29T02:05:53+09:00'
+publish_at: '2026-05-01T07:30:00+09:00'
+publish_slot: '07:30'
+last_error: 
+video_id: eHHY2EDUXas
+uploaded_at: '2026-04-29T02:05:58+09:00'
