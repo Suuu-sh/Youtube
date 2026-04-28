@@ -30,8 +30,8 @@
 
 ## 現在の投稿運用
 
-- Codex app の `Lv雑学定期投稿` が、毎日20:00に翌日分の在庫選定、Private upload、YouTube `publishAt` による予約公開を行う。
-- Codex app の `Lv雑学定期作成` は、在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
+- Codex app の `Lv雑学定期投稿` が、毎日21:00に翌日分の在庫選定、Private upload、YouTube `publishAt` による予約公開を行う。
+- Codex app の `Lv雑学定期作成` は、毎日20:00に在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
 - YouTube コメントAPIは使わない。固定コメント用テキストやコメントキューも作らない。
 - 詳細・補足は YouTube の `description` に集約する。
 - 公開時刻はこれまで通り、1日5本を次の枠で予約公開する。
