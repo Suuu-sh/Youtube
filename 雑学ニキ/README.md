@@ -30,8 +30,8 @@
 
 ## 現在の投稿運用
 
-- Codex app の `Lv雑学定期投稿` が、毎日21:00に翌日分の在庫選定、Private upload、YouTube `publishAt` による予約公開を行う。
-- Codex app の `Lv雑学定期作成` は、毎日20:00に在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
+- Codex app の `Lv雑学作成予約` が、毎日20:00に不足分の動画作成、在庫検証、対象日への Private upload、YouTube `publishAt` による予約公開までを1本の automation で行う。
+- 旧 `Lv雑学定期投稿` の21:00別実行は停止し、作成完了時点で対象日へスケジュールする。
 - YouTube コメントAPIは使わない。固定コメント用テキストやコメントキューも作らない。
 - 詳細・補足は YouTube の `description` に集約する。
 - 今後は1日3本を次の枠で予約公開する。科学・テクノロジーと怖い・危険は今後扱わない。
@@ -71,12 +71,12 @@ YAML の `video_path` と `contact_sheet_path` は絶対パスにします。
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
-ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run
+ruby scripts/zatsugaku_inventory.rb plan --date <target-date> --dry-run
 ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
 ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
 scripts/zatsugaku_api_automation.sh dry-run
 ```
 
-実アップロードと予約公開は `scripts/zatsugaku_api_automation.sh upload-schedule` が行う。
-この入口は YouTube API 認証情報をローカルの secret env から読み込み、コメント投稿は行わない。
+実アップロードと予約公開は、動画作成後に `ruby scripts/zatsugaku_inventory.rb plan --date <next-missing-set の date>` と `ruby scripts/zatsugaku_inventory.rb upload-due` で行う。
+YouTube API 認証情報はローカルの secret env から読み込み、コメント投稿は行わない。

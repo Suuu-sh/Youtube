@@ -13,8 +13,8 @@ if [[ -f "$secret_env" ]]; then
   set +a
 fi
 
-# The upload scheduler runs at 21:00 JST after stock creation and prepares the next publication day.
-# Override locally with ZATSUGAKU_PLAN_DATE=YYYY-MM-DD when needed.
+# Upload can be run after video creation. Override with ZATSUGAKU_PLAN_DATE=YYYY-MM-DD;
+# the combined automation should pass the date returned by next-missing-set.
 plan_date="${ZATSUGAKU_PLAN_DATE:-tomorrow}"
 
 mode="${1:-}"

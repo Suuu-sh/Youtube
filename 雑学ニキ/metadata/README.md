@@ -5,8 +5,8 @@
 ## YAML workflow
 
 完成した動画は `metadata/stock/<level>/<category_key>/<id>/stock.yaml` に1本1ファイルで登録する。
-Codex app の `Lv雑学定期作成` は毎日20:00に在庫補充用の動画制作だけを行う。
-Codex app の `Lv雑学定期投稿` は、21:00に翌日公開分を `scheduled` にし、YouTube API で Private upload して `publishAt` を設定する。
+Codex app の `Lv雑学作成予約` は毎日20:00に不足分の動画制作、在庫検証、対象日への Private upload、YouTube `publishAt` 設定までを1回で行う。
+旧 `Lv雑学定期投稿` の21:00別実行は停止し、作成完了時点で `next-missing-set` が示した日程へ予約する。
 YouTube コメントAPIは使わない。詳細・補足は `description` に集約する。
 
 ### category_key
@@ -57,7 +57,7 @@ last_error:
 ### status
 
 - `stock`: 未投稿・保管中
-- `scheduled`: `Lv雑学定期投稿` が予約対象にした未アップロード動画
+- `scheduled`: `Lv雑学作成予約` が予約対象にした未アップロード動画
 - `uploaded`: Private upload 済み。`publishAt` で予約公開される、または公開済み
 - `rejected`: 使用しない
 
@@ -83,7 +83,7 @@ last_error:
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
-ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run
+ruby scripts/zatsugaku_inventory.rb plan --date <target-date> --dry-run
 ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
 ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal

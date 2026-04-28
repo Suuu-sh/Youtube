@@ -15,8 +15,8 @@
 
 ## 現在の基本方針
 
-- Codex app の `Lv雑学定期投稿` は、21:00に在庫から翌日公開分を選び、YouTube API で Private upload して `publishAt` を設定する。
-- Codex app の `Lv雑学定期作成` は、毎日20:00に在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
+- Codex app の `Lv雑学作成予約` は、毎日20:00に不足分の動画作成、在庫検証、対象日への Private upload、YouTube `publishAt` 設定までを1回で行う。
+- 旧 `Lv雑学定期投稿` の21:00別実行は停止し、動画作成が完了した段階で `next-missing-set` が示した日程へ予約公開する。
 - YouTube コメントAPIは使わない。コメント投稿用の文面やキューは作らない。
 - 詳細・補足は `description` に集約する。
 
@@ -34,8 +34,8 @@
 
 - 3カテゴリに減った分、短時間に詰め込まず、朝・昼・夕方の3枠に分散する。
 - 21:00と25:00の旧枠は使わない。夜枠を増やして本数を補うより、各動画の品質と説明欄の補足を優先する。
-- `Lv雑学定期作成` は不足している3カテゴリだけを補充し、カテゴリ外の在庫は作らない。
-- `Lv雑学定期投稿` は翌日分3本だけを Private upload し、YouTube `publishAt` で予約する。
+- `Lv雑学作成予約` は不足している3カテゴリだけを作成し、カテゴリ外の在庫は作らない。
+- 作成後の validate と contact sheet QA が通った場合だけ、対象日分3本を Private upload し、YouTube `publishAt` で予約する。
 
 ## 動画作成の基本手順
 
@@ -48,7 +48,7 @@
 7. `metadata.md` と `stock.yaml` を更新する。
 8. `ruby scripts/zatsugaku_inventory.rb validate` を通す。
 9. 未投稿動画は `status: stock` として保存する。
-10. `Lv雑学定期投稿` が翌日公開分のレベル・カテゴリの在庫を `status: scheduled` にし、Private upload 後に `status: uploaded` と `video_id` を記録する。
+10. `Lv雑学作成予約` が `next-missing-set` の対象日・レベル・カテゴリの在庫を `status: scheduled` にし、Private upload 後に `status: uploaded` と `video_id` を記録する。
 
 ## BGMルール
 
@@ -84,16 +84,16 @@
 - Lv4: 数字・歴史・仕組みなどの専門性が強い雑学
 - Lv5: 博士級として扱う深めの雑学
 
-## Lv雑学定期投稿 確認コマンド
+## Lv雑学作成予約 確認コマンド
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
-ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run
+ruby scripts/zatsugaku_inventory.rb plan --date <target-date> --dry-run
 ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
 scripts/zatsugaku_api_automation.sh dry-run
 ```
 
-実行入口は `scripts/zatsugaku_api_automation.sh upload-schedule`。
+作成後は `ruby scripts/zatsugaku_inventory.rb plan --date <next-missing-set の date>` と `ruby scripts/zatsugaku_inventory.rb upload-due` を実行する。
 ローカルの YouTube API secret env を使い、コメント投稿は行わない。
 
 ## YAML作成時の注意
@@ -102,8 +102,8 @@ scripts/zatsugaku_api_automation.sh dry-run
 - `topic_key` は英数字・snake_caseで、同じ内容なら同じキーになるようにする。
 - `fact_summary` は重複検知用に、動画全体の事実内容を短く書く。
 - 新規動画を考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位の被りすぎを避ける。
-- `Lv雑学定期作成` は `ruby scripts/zatsugaku_inventory.rb next-missing-set --date today` の結果を見て、不足している level / category の在庫を作る。
-- `Lv雑学定期投稿` は `ruby scripts/zatsugaku_inventory.rb plan --date tomorrow` で翌日公開分を予約対象にし、`ruby scripts/zatsugaku_inventory.rb upload-due` で YouTube API に Private upload する。
+- `Lv雑学作成予約` は `ruby scripts/zatsugaku_inventory.rb next-missing-set --date today` の結果を見て、不足している level / category の在庫を作る。
+- 作成後、同じ automation 内で `ruby scripts/zatsugaku_inventory.rb plan --date <next-missing-set の date>` を実行して対象日分を予約対象にし、`ruby scripts/zatsugaku_inventory.rb upload-due` で YouTube API に Private upload する。
 - 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認する。
 - `description` は公開時にそのまま使われるため、`【詳細・補足】` の下に各雑学の仕組み・例外・注意点を2〜3文程度で書く。
 - コメント投稿APIは使わない。補足・出典・誘導は `description` に集約する。
