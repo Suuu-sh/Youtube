@@ -6,7 +6,7 @@ category_key: animal
 level: Lv2
 topic_key: animal_penguin_flamingo_koala_bat_camel_lv2
 fact_summary: ペンギン、フラミンゴ、コアラ、コウモリ、ラクダで動物の幅を広げたLv2雑学
-status: uploaded
+status: commented
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/zatsugaku_animal_lv2_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/contact.png"
 title: 知ってたらちょっとすごい動物の雑学 Lv2
@@ -34,8 +34,9 @@ scheduled_at: '2026-04-28T04:01:47+09:00'
 publish_at: '2026-04-28T07:30:00+09:00'
 comment_after_at: '2026-04-28T07:35:00+09:00'
 uploaded_at: '2026-04-28T09:10:40+09:00'
-commented_at: 
+commented_at: '2026-04-28T09:34:52+09:00'
 video_id: NjEUB7hJr4Y
 last_error: 
 publish_slot: '07:30'
 comment_slot: '07:35'
+comment_id: UgwhliwAXbaWKieQRdV4AaABAg
