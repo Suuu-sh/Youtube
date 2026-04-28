@@ -10,14 +10,33 @@ status: commented
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_001/zatsugaku_body_health_lv2_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_001/contact.png"
 title: 知ってたらちょっとすごい人体・健康の雑学 Lv2
-description: "人体・健康にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort /
-  もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #健康 #shorts\n\n【詳細・補足】\n動画の補足\U0001F447\n\n1.
-  目には見えない場所がある\n視神経が出る場所には光を感じる細胞がなく、そこが盲点になる。\n\n2. 平衡感覚は耳の奥で感じる\n内耳の前庭器官が頭の動きや重力を感じ、体のバランスを保つ。\n\n3.
-  皮膚は体を守る大きな臓器\n皮膚は体を覆い、外部刺激や乾燥から守る役割を持つ。\n\n4. 血が赤い理由には鉄が関わる\n赤血球のヘモグロビンに含まれる鉄が、酸素運搬と血の色に関わる。\n\n5.
-  味覚は舌で完全分担されていない\n甘味や苦味などは舌の広い範囲で感じられ、地図のような完全分担ではない。\n\nいくつわかりましたか？\n"
-comment_text: "動画の補足\U0001F447\n\n1. 目には見えない場所がある\n視神経が出る場所には光を感じる細胞がなく、そこが盲点になる。\n\n2.
-  平衡感覚は耳の奥で感じる\n内耳の前庭器官が頭の動きや重力を感じ、体のバランスを保つ。\n\n3. 皮膚は体を守る大きな臓器\n皮膚は体を覆い、外部刺激や乾燥から守る役割を持つ。\n\n4.
-  血が赤い理由には鉄が関わる\n赤血球のヘモグロビンに含まれる鉄が、酸素運搬と血の色に関わる。\n\n5. 味覚は舌で完全分担されていない\n甘味や苦味などは舌の広い範囲で感じられ、地図のような完全分担ではない。\n\nいくつわかりましたか？\n"
+description: |-
+  人体・健康にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. 目には見えない場所がある
+  視神経が出る場所には光を感じる細胞がなく、そこが盲点になる。
+
+  2. 平衡感覚は耳の奥で感じる
+  内耳の前庭器官が頭の動きや重力を感じ、体のバランスを保つ。
+
+  3. 皮膚は体を守る大きな臓器
+  皮膚は体を覆い、外部刺激や乾燥から守る役割を持つ。
+
+  4. 血が赤い理由には鉄が関わる
+  赤血球のヘモグロビンに含まれる鉄が、酸素運搬と血の色に関わる。
+
+  5. 味覚は舌で完全分担されていない
+  甘味や苦味などは舌の広い範囲で感じられ、地図のような完全分担ではない。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #健康 #shorts
+comment_text: ''
 source_urls:
 - https://www.ncbi.nlm.nih.gov/books/NBK542216/
 - https://www.nidcd.nih.gov/health/balance-disorders
@@ -33,11 +52,13 @@ irasutoya_urls:
 created_at: 2026-04-27 10:05:57.000000000 +09:00
 scheduled_at: '2026-04-28T04:01:47+09:00'
 publish_at: '2026-04-28T18:00:00+09:00'
-comment_after_at: '2026-04-28T18:05:00+09:00'
+comment_after_at: 
 uploaded_at: '2026-04-28T09:20:20+09:00'
 commented_at: '2026-04-28T19:13:19+09:00'
 video_id: NbG32lEcwa4
 last_error: 
 publish_slot: '18:00'
-comment_slot: '18:05'
+comment_slot: 
 comment_id: UgwWBrAHsmsQ_hrkE_t4AaABAg
+post_comment: false
+metadata_synced_at: '2026-04-28T20:38:52+09:00'

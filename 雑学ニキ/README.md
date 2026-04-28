@@ -47,7 +47,8 @@
   - YouTube Data APIで Private upload
   - `publishAt` を設定して予約公開
   - upload成功時に返る `id` を `video_id` としてYAMLに保存
-  - 公開後に `comment_text` を投稿
+  - 詳細・補足は YouTube の `description` に入れる
+  - 固定コメント投稿は原則しない（必要な場合だけ `post_comment: true`）
 
 ### 完成動画を作ったら必ず作るもの
 
@@ -123,4 +124,4 @@ Codex app 側の automation は1つだけです。
 scripts/zatsugaku_api_automation.sh run
 ```
 
-04時台は「今日の5投稿を予約・アップロード」し、その後に `next-missing-set` で次に不足する投稿日レベルを判定して5本の在庫動画を追加制作します。コメント時刻の automation は due 判定された comment だけ処理します。
+04時台は「今日の5投稿を予約・アップロード」し、その後に `next-missing-set` で次に不足する投稿日レベルを判定して5本の在庫動画を追加制作します。通常は説明欄に詳細を集約し、コメント時刻の automation は `post_comment: true` の例外だけ処理します。

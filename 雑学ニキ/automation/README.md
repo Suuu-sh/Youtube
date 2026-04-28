@@ -6,7 +6,7 @@
 ## API automation policy
 
 04:00 ジョブは、まず当日分の YAML stock を YouTube Data API で Private upload して `publishAt` を設定する。その後、次に在庫が不足する投稿日を先読みして、該当レベルの5カテゴリ分を追加制作する。
-アップロード成功レスポンスの `id` は `video_id` として YAML に保存し、コメントジョブはこの `video_id` を使う。
+アップロード成功レスポンスの `id` は `video_id` として YAML に保存する。詳細・補足は説明欄へ集約し、コメントジョブは `post_comment: true` の例外だけこの `video_id` を使う。
 
 ## 6 automation jobs
 
@@ -19,31 +19,31 @@
    - 判定されたレベルで5カテゴリ分の新規動画 / metadata / stock YAML を追加制作
 
 2. `scripts/zatsugaku_api_automation.sh comment-0735`
-   - 07:35 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+   - 通常は何もしない。`post_comment: true` かつ 07:35 に `comment_after_at` が来た例外動画だけ YouTube API でコメント追加
 
 3. `scripts/zatsugaku_api_automation.sh comment-1205`
-   - 12:05 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+   - 通常は何もしない。`post_comment: true` かつ 12:05 に `comment_after_at` が来た例外動画だけ YouTube API でコメント追加
 
 4. `scripts/zatsugaku_api_automation.sh comment-1805`
-   - 18:05 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+   - 通常は何もしない。`post_comment: true` かつ 18:05 に `comment_after_at` が来た例外動画だけ YouTube API でコメント追加
 
 5. `scripts/zatsugaku_api_automation.sh comment-2105`
-   - 21:05 に `comment_after_at` が来た動画へ YouTube API でコメント追加
+   - 通常は何もしない。`post_comment: true` かつ 21:05 に `comment_after_at` が来た例外動画だけ YouTube API でコメント追加
 
 6. `scripts/zatsugaku_api_automation.sh comment-2505`
-   - 25:05（翌日01:05）に `comment_after_at` が来た動画へ YouTube API でコメント追加
+   - 通常は何もしない。`post_comment: true` かつ 25:05（翌日01:05）に `comment_after_at` が来た例外動画だけ YouTube API でコメント追加
 
 `scripts/zatsugaku_api_automation.sh run` は後方互換用のまとめ実行として残す。
 
 ## Daily slots
 
-| category_key | category | publishAt | comment after |
+| category_key | category | publishAt | comment after（例外のみ） |
 | --- | --- | --- | --- |
-| animal | 動物 | 07:30 | 07:35 |
-| food_drink | 食べ物・飲み物 | 12:00 | 12:05 |
-| body_health | 人体・健康 | 18:00 | 18:05 |
-| science_tech | 科学・テクノロジー | 21:00 | 21:05 |
-| scary_danger | 怖い・危険 | 25:00（翌日01:00） | 25:05（翌日01:05） |
+| animal | 動物 | 07:30 | `post_comment: true` 時だけ 07:35 |
+| food_drink | 食べ物・飲み物 | 12:00 | `post_comment: true` 時だけ 12:05 |
+| body_health | 人体・健康 | 18:00 | `post_comment: true` 時だけ 18:05 |
+| science_tech | 科学・テクノロジー | 21:00 | `post_comment: true` 時だけ 21:05 |
+| scary_danger | 怖い・危険 | 25:00（翌日01:00） | `post_comment: true` 時だけ 25:05（翌日01:05） |
 
 ## Stock render layout
 
@@ -105,5 +105,6 @@ scripts/zatsugaku_api_automation.sh plan-0400
 scripts/zatsugaku_api_automation.sh comment-0735
 scripts/zatsugaku_api_automation.sh comment-2505
 ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb sync-metadata --dry-run
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
 ```

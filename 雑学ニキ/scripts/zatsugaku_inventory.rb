@@ -22,9 +22,11 @@ CATEGORY_SCHEDULE = [
   { key: 'scary_danger', name: '怖い・危険', publish: '25:00', comment: '25:05' }
 ].freeze
 
-REQUIRED = %w[id category category_key level topic_key fact_summary status video_path title description comment_text].freeze
+REQUIRED = %w[id category category_key level topic_key fact_summary status video_path title description].freeze
 ACTIVE_STATUSES = %w[stock scheduled uploaded commented].freeze
 USED_STATUSES = %w[scheduled uploaded commented].freeze
+DESCRIPTION_DETAIL_HEADING = '【詳細・補足】'
+DETAIL_NUMBER_RE = /^\s*\d+\./
 TOPIC_OVERLAP_STOP_WORDS = %w[
   animal animals food drink body health science tech scary danger
   lv1 lv2 lv3 lv4 lv5 level stock facts fact trivia basic basics
@@ -114,6 +116,12 @@ module Inventory
         value = item[key]
         errors << "#{path}: missing #{key}" if value.nil? || (value.respond_to?(:empty?) && value.empty?)
       end
+      if ACTIVE_STATUSES.include?(item['status']) && !description_has_details?(item['description'])
+        errors << "#{path}: description must include #{DESCRIPTION_DETAIL_HEADING} and numbered detail notes"
+      end
+      if post_comment_enabled?(item) && item['comment_text'].to_s.strip.empty?
+        errors << "#{path}: post_comment true requires comment_text"
+      end
       unless CATEGORY_SCHEDULE.map { |c| c[:key] }.include?(item['category_key'])
         errors << "#{path}: unknown category_key #{item['category_key'].inspect}"
       end
@@ -133,6 +141,15 @@ module Inventory
       end
     end
     errors
+  end
+
+  def description_has_details?(description)
+    text = description.to_s
+    text.include?(DESCRIPTION_DETAIL_HEADING) && text.each_line.count { |line| line.match?(DETAIL_NUMBER_RE) } >= 3
+  end
+
+  def post_comment_enabled?(item)
+    item['post_comment'] == true || item['post_comment'].to_s.downcase == 'true'
   end
 
   def normalize_text(value)
@@ -235,9 +252,14 @@ module Inventory
       candidate['status'] = 'scheduled'
       candidate['scheduled_at'] = now.iso8601
       candidate['publish_at'] = timestamp(date, category[:publish])
-      candidate['comment_after_at'] = timestamp(date, category[:comment])
       candidate['publish_slot'] = category[:publish]
-      candidate['comment_slot'] = category[:comment]
+      if post_comment_enabled?(candidate)
+        candidate['comment_after_at'] = timestamp(date, category[:comment])
+        candidate['comment_slot'] = category[:comment]
+      else
+        candidate['comment_after_at'] = nil
+        candidate['comment_slot'] = nil
+      end
       candidate['last_error'] = nil
       selected << candidate
     end
@@ -252,11 +274,21 @@ module Inventory
     end.sort_by { |item| item['publish_at'].to_s }
   end
 
+  def uploaded_items(items)
+    items.select do |item|
+      item['example'] != true &&
+        %w[uploaded commented].include?(item['status']) &&
+        item['video_id'].to_s != ''
+    end.sort_by { |item| [item['publish_at'].to_s, item['id'].to_s] }
+  end
+
   def due_comments(items, at: now)
     items.select do |item|
       item['example'] != true &&
+        post_comment_enabled?(item) &&
         item['status'] == 'uploaded' &&
         item['video_id'].to_s != '' &&
+        item['comment_text'].to_s.strip != '' &&
         item['commented_at'].to_s == '' &&
         item['comment_after_at'] &&
         Time.parse(item['comment_after_at']) <= at
@@ -337,6 +369,7 @@ end
 class YouTubeClient
   TOKEN_URI = URI('https://oauth2.googleapis.com/token')
   UPLOAD_URI = 'https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status'
+  UPDATE_SNIPPET_URI = URI('https://www.googleapis.com/youtube/v3/videos?part=snippet')
   COMMENT_URI = URI('https://www.googleapis.com/youtube/v3/commentThreads?part=snippet')
   RETRYABLE_ERRORS = [
     SocketError,
@@ -437,6 +470,27 @@ class YouTubeClient
     video_id
   end
 
+  def update_video_snippet(item)
+    with_retries("Update snippet #{item.fetch('id')}") do
+      token = access_token
+      req = Net::HTTP::Put.new(UPDATE_SNIPPET_URI)
+      req['Authorization'] = "Bearer #{token}"
+      req['Content-Type'] = 'application/json; charset=UTF-8'
+      req.body = {
+        id: item.fetch('video_id'),
+        snippet: {
+          title: item.fetch('title'),
+          description: item.fetch('description'),
+          categoryId: '22'
+        }
+      }.to_json
+      res = Net::HTTP.start(UPDATE_SNIPPET_URI.hostname, UPDATE_SNIPPET_URI.port, use_ssl: true) { |http| http.request(req) }
+      raise Error, "Update snippet failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
+
+      JSON.parse(res.body).fetch('id')
+    end
+  end
+
   def post_comment(item)
     with_retries("Comment #{item.fetch('id')}") do
       token = access_token
@@ -469,6 +523,7 @@ def usage
       ruby scripts/zatsugaku_inventory.rb validate
       ruby scripts/zatsugaku_inventory.rb plan [--date YYYY-MM-DD|today] [--dry-run]
       ruby scripts/zatsugaku_inventory.rb upload-due [--dry-run]
+      ruby scripts/zatsugaku_inventory.rb sync-metadata [--dry-run]
       ruby scripts/zatsugaku_inventory.rb comment-due [--dry-run]
       ruby scripts/zatsugaku_inventory.rb comment-due --slot HH:MM [--dry-run]
       ruby scripts/zatsugaku_inventory.rb next-missing-set [--date YYYY-MM-DD|today] [--horizon-days N]
@@ -545,6 +600,31 @@ begin
       end
     end
     puts JSON.pretty_generate(upload_due_count: due.size, dry_run: options[:dry_run])
+  when 'sync-metadata'
+    items = Inventory.load_items
+    errors = Inventory.validate_items(items)
+    raise Error, "Validation failed:\n- #{errors.join("\n- ")}" unless errors.empty?
+
+    targets = Inventory.uploaded_items(items)
+    client = options[:dry_run] ? nil : YouTubeClient.new
+    targets.each do |item|
+      if options[:dry_run]
+        puts "DRY sync #{item['id']} -> #{item['video_id']}"
+        next
+      end
+      begin
+        client.update_video_snippet(item)
+        item['metadata_synced_at'] = Inventory.now.iso8601
+        item['last_error'] = nil
+        puts "synced #{item['id']} -> #{item['video_id']}"
+      rescue StandardError => e
+        item['last_error'] = "#{e.class}: #{e.message}"
+        warn "sync failed #{item['id']}: #{item['last_error']}"
+      ensure
+        Inventory.write_item(item)
+      end
+    end
+    puts JSON.pretty_generate(sync_metadata_count: targets.size, dry_run: options[:dry_run])
   when 'comment-due'
     items = Inventory.load_items
     errors = Inventory.validate_items(items)

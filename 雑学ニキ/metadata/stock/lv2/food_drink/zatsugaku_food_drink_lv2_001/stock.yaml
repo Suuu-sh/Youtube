@@ -10,14 +10,33 @@ status: commented
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_001/zatsugaku_food_drink_lv2_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_001/contact.png"
 title: 知ってたらちょっとすごい食べ物・飲み物の雑学 Lv2
-description: "食べ物・飲み物にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort
-  / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #食べ物 #shorts\n\n【詳細・補足】\n動画の補足\U0001F447\n\n1.
-  ホワイトチョコは茶色いカカオ固形分が少ない\nココアバターを使うが、茶色いカカオ固形分は基本的に入らない。\n\n2. はちみつは腐りにくい\n水分が少なく酸性寄りの性質があり、微生物が増えにくい。\n\n3.
-  バナナは熟すと甘くなる\n熟成ででんぷんが糖に変わり、甘さを感じやすくなる。\n\n4. 唐辛子の辛さは痛みの刺激\nカプサイシンが熱や痛みに関わる受容体を刺激して、辛く感じる。\n\n5.
-  炭酸の泡は圧力が下がると出る\nフタを開けると圧力が下がり、溶けていた二酸化炭素が気体の泡として出る。\n\nいくつわかりましたか？\n"
-comment_text: "動画の補足\U0001F447\n\n1. ホワイトチョコは茶色いカカオ固形分が少ない\nココアバターを使うが、茶色いカカオ固形分は基本的に入らない。\n\n2.
-  はちみつは腐りにくい\n水分が少なく酸性寄りの性質があり、微生物が増えにくい。\n\n3. バナナは熟すと甘くなる\n熟成ででんぷんが糖に変わり、甘さを感じやすくなる。\n\n4.
-  唐辛子の辛さは痛みの刺激\nカプサイシンが熱や痛みに関わる受容体を刺激して、辛く感じる。\n\n5. 炭酸の泡は圧力が下がると出る\nフタを開けると圧力が下がり、溶けていた二酸化炭素が気体の泡として出る。\n\nいくつわかりましたか？\n"
+description: |-
+  食べ物・飲み物にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. ホワイトチョコは茶色いカカオ固形分が少ない
+  ココアバターを使うが、茶色いカカオ固形分は基本的に入らない。
+
+  2. はちみつは腐りにくい
+  水分が少なく酸性寄りの性質があり、微生物が増えにくい。
+
+  3. バナナは熟すと甘くなる
+  熟成ででんぷんが糖に変わり、甘さを感じやすくなる。
+
+  4. 唐辛子の辛さは痛みの刺激
+  カプサイシンが熱や痛みに関わる受容体を刺激して、辛く感じる。
+
+  5. 炭酸の泡は圧力が下がると出る
+  フタを開けると圧力が下がり、溶けていた二酸化炭素が気体の泡として出る。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #食べ物 #shorts
+comment_text: ''
 source_urls:
 - https://www.fda.gov/food/information-consumers-using-dietary-supplements/white-chocolate
 - https://www.si.edu/spotlight/buginfo/honey
@@ -33,11 +52,13 @@ irasutoya_urls:
 created_at: 2026-04-27 10:05:57.000000000 +09:00
 scheduled_at: '2026-04-28T04:01:47+09:00'
 publish_at: '2026-04-28T12:00:00+09:00'
-comment_after_at: '2026-04-28T12:05:00+09:00'
+comment_after_at: 
 uploaded_at: '2026-04-28T09:20:17+09:00'
 commented_at: '2026-04-28T19:07:53+09:00'
 video_id: _IM-knnVrec
 last_error: 
 publish_slot: '12:00'
-comment_slot: '12:05'
+comment_slot: 
 comment_id: Ugyf53u_WUzAkd98rXd4AaABAg
+post_comment: false
+metadata_synced_at: '2026-04-28T20:38:51+09:00'

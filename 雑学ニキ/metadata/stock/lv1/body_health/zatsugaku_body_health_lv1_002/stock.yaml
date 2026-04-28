@@ -1,56 +1,55 @@
 # Managed by scripts/zatsugaku_inventory.rb
 ---
-id: "zatsugaku_body_health_lv1_002"
-category: "人体・健康"
-category_key: "body_health"
-level: "Lv1"
-topic_key: "body_eye_ear_skin_blood_tongue_basic_functions_lv1_002"
-fact_summary: "まばたき、耳あか、皮膚の更新、血液循環、舌の味蕾など人体の基本機能雑学"
-status: "stock"
+id: zatsugaku_body_health_lv1_002
+category: 人体・健康
+category_key: body_health
+level: Lv1
+topic_key: body_eye_ear_skin_blood_tongue_basic_functions_lv1_002
+fact_summary: まばたき、耳あか、皮膚の更新、血液循環、舌の味蕾など人体の基本機能雑学
+status: stock
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv1/body_health/zatsugaku_body_health_lv1_002/zatsugaku_body_health_lv1_002_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv1/body_health/zatsugaku_body_health_lv1_002/contact.png"
-title: "知って損しない人体の雑学 Lv1"
-description: |
+title: 知って損しない人体の雑学 Lv1
+description: |-
   人体にまつわる知って損しない雑学を短く紹介。
-  
+
+  【詳細・補足】
+  1. まばたきは涙を広げる
+  まばたきで涙の膜が広がり、目の表面を乾燥やほこりから守りやすくなる。
+
+  2. 耳あかは汚れだけではない
+  耳の中を保湿し、ほこりや小さな異物を捕まえる働きがある。
+
+  3. 皮膚は新陳代謝する
+  外側の古い細胞がはがれ、下から新しい細胞が上がってくることで表面が保たれる。
+
+  4. 血液は体内の運搬役
+  赤血球が酸素を運び、血しょうは栄養や老廃物などの移動にも関わる。
+
+  5. 味蕾は乳頭の中にある
+  舌の表面の小さな突起の中に味蕾があり、甘味や酸味などを感じ取る。
+
+  いくつわかりましたか？
+
   音声: VOICEVOX: 青山龍星
   BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
   イラスト: いらすとや
-  
+
   #雑学 #人体・健康 #shorts
-comment_text: |
-  動画の補足👇
-  
-  1. まばたきは涙を広げる
-  まばたきで涙の膜が広がり、目の表面を乾燥やほこりから守りやすくなる。
-  
-  2. 耳あかは汚れだけではない
-  耳の中を保湿し、ほこりや小さな異物を捕まえる働きがある。
-  
-  3. 皮膚は新陳代謝する
-  外側の古い細胞がはがれ、下から新しい細胞が上がってくることで表面が保たれる。
-  
-  4. 血液は体内の運搬役
-  赤血球が酸素を運び、血しょうは栄養や老廃物などの移動にも関わる。
-  
-  5. 味蕾は乳頭の中にある
-  舌の表面の小さな突起の中に味蕾があり、甘味や酸味などを感じ取る。
-  
-  いくつわかりましたか？
-  
+comment_text: ''
 source_urls:
-- "https://medlineplus.gov/ency/anatomyvideos/000018.htm"
-- "https://my.clevelandclinic.org/health/body/24668-earwax"
-- "https://www.aad.org/public/kids/skin/skin"
-- "https://www.nhlbi.nih.gov/health/blood"
-- "https://www.ncbi.nlm.nih.gov/books/NBK279408/"
+- https://medlineplus.gov/ency/anatomyvideos/000018.htm
+- https://my.clevelandclinic.org/health/body/24668-earwax
+- https://www.aad.org/public/kids/skin/skin
+- https://www.nhlbi.nih.gov/health/blood
+- https://www.ncbi.nlm.nih.gov/books/NBK279408/
 irasutoya_urls:
-- "https://www.irasutoya.com/2015/07/blog-post_500.html"
-- "https://www.irasutoya.com/2020/10/blog-post_853.html"
-- "https://www.irasutoya.com/2019/02/blog-post_41.html"
-- "https://www.irasutoya.com/2013/09/aboab.html"
-- "https://www.irasutoya.com/2019/05/blog-post_185.html"
-created_at: "2026-04-27 23:02:57 +0900"
+- https://www.irasutoya.com/2015/07/blog-post_500.html
+- https://www.irasutoya.com/2020/10/blog-post_853.html
+- https://www.irasutoya.com/2019/02/blog-post_41.html
+- https://www.irasutoya.com/2013/09/aboab.html
+- https://www.irasutoya.com/2019/05/blog-post_185.html
+created_at: '2026-04-27 23:02:57 +0900'
 scheduled_at: 
 publish_at: 
 comment_after_at: 
@@ -58,3 +57,4 @@ uploaded_at:
 commented_at: 
 video_id: 
 last_error: 
+post_comment: false

@@ -1,37 +1,60 @@
 # Managed by scripts/zatsugaku_inventory.rb
-{
-  "id": "zatsugaku_body_health_lv5_001",
-  "category": "人体・健康",
-  "category_key": "body_health",
-  "level": "Lv5",
-  "topic_key": "health_tick_bites_backyard_poultry_eis_coal_miner_measles_lv5",
-  "fact_summary": "マダニ刺傷、裏庭家禽サルモネラ、EIS、炭鉱労働者検診、麻疹対応で公衆衛生Lv5雑学",
-  "status": "stock",
-  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/body_health/zatsugaku_body_health_lv5_001/zatsugaku_body_health_lv5_001_bgm050.mp4",
-  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/body_health/zatsugaku_body_health_lv5_001/contact.png",
-  "title": "知ってたら博士級人体・健康の雑学 Lv5",
-  "description": "人体・健康にまつわる博士級の雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #人体・健康 #shorts",
-  "comment_text": "動画の補足👇\n\n1. マダニ刺されのER受診は 週単位で 増えやすい時期がある\nCDCはマダニの季節に、刺傷の救急受診が通常より高い週があると知らせた。\n\n2. 裏庭のニワトリは サルモネラ感染源に なることがある\nCDCは複数州のサルモネラ事例で、裏庭家禽との接触に注意を呼びかけた。\n\n3. 感染症探偵の訓練は アウトブレイク対応の 土台になる\nEISは流行調査を担う人材育成プログラムで、現場対応の知識が共有される。\n\n4. 炭鉱労働者の検診は 肺の異変を 早く見つける狙い\nNIOSHの移動検診は、炭鉱労働者の呼吸器の健康確認を続ける取り組み。\n\n5. 麻疹対策は 州との連携が 防波堤になる\n麻疹は感染力が高く、接触者調査やワクチン情報の共有が広がりを抑える鍵になる。\n\nいくつわかりましたか？\n",
-  "source_urls": [
-    "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765182",
-    "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765181",
-    "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765027",
-    "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764138",
-    "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764137"
-  ],
-  "irasutoya_urls": [
-    "https://www.irasutoya.com/2019/02/blog-post_41.html",
-    "https://www.irasutoya.com/2018/05/blog-post_683.html",
-    "https://www.irasutoya.com/2013/09/aboab.html",
-    "https://www.irasutoya.com/2021/03/blog-post_30.html",
-    "https://www.irasutoya.com/2021/05/blog-post_21.html"
-  ],
-  "created_at": "2026-04-28 19:17:32 +0900",
-  "scheduled_at": null,
-  "publish_at": null,
-  "comment_after_at": null,
-  "uploaded_at": null,
-  "commented_at": null,
-  "video_id": null,
-  "last_error": null
-}
+---
+id: zatsugaku_body_health_lv5_001
+category: 人体・健康
+category_key: body_health
+level: Lv5
+topic_key: health_tick_bites_backyard_poultry_eis_coal_miner_measles_lv5
+fact_summary: マダニ刺傷、裏庭家禽サルモネラ、EIS、炭鉱労働者検診、麻疹対応で公衆衛生Lv5雑学
+status: stock
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/body_health/zatsugaku_body_health_lv5_001/zatsugaku_body_health_lv5_001_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/body_health/zatsugaku_body_health_lv5_001/contact.png"
+title: 知ってたら博士級人体・健康の雑学 Lv5
+description: |-
+  人体・健康にまつわる博士級の雑学を短く紹介。
+
+  【詳細・補足】
+  1. マダニ刺されのER受診は 週単位で 増えやすい時期がある
+  CDCはマダニの季節に、刺傷の救急受診が通常より高い週があると知らせた。
+
+  2. 裏庭のニワトリは サルモネラ感染源に なることがある
+  CDCは複数州のサルモネラ事例で、裏庭家禽との接触に注意を呼びかけた。
+
+  3. 感染症探偵の訓練は アウトブレイク対応の 土台になる
+  EISは流行調査を担う人材育成プログラムで、現場対応の知識が共有される。
+
+  4. 炭鉱労働者の検診は 肺の異変を 早く見つける狙い
+  NIOSHの移動検診は、炭鉱労働者の呼吸器の健康確認を続ける取り組み。
+
+  5. 麻疹対策は 州との連携が 防波堤になる
+  麻疹は感染力が高く、接触者調査やワクチン情報の共有が広がりを抑える鍵になる。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #人体・健康 #shorts
+comment_text: ''
+source_urls:
+- https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765182
+- https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765181
+- https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765027
+- https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764138
+- https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764137
+irasutoya_urls:
+- https://www.irasutoya.com/2019/02/blog-post_41.html
+- https://www.irasutoya.com/2018/05/blog-post_683.html
+- https://www.irasutoya.com/2013/09/aboab.html
+- https://www.irasutoya.com/2021/03/blog-post_30.html
+- https://www.irasutoya.com/2021/05/blog-post_21.html
+created_at: '2026-04-28 19:17:32 +0900'
+scheduled_at: 
+publish_at: 
+comment_after_at: 
+uploaded_at: 
+commented_at: 
+video_id: 
+last_error: 
+post_comment: false

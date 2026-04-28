@@ -10,13 +10,33 @@ status: commented
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/zatsugaku_animal_lv2_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_001/contact.png"
 title: 知ってたらちょっとすごい動物の雑学 Lv2
-description: "動物にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト:
-  いらすとや\n\n#雑学 #動物 #shorts\n\n【詳細・補足】\n動画の補足\U0001F447\n\n1. ペンギンは羽と油で水をはじく\n羽のすき間に空気を含み、油分で水をはじくことで冷たい海でも体温を守りやすい。\n\n2.
-  カモノハシは哺乳類なのに卵を産む\n単孔類と呼ばれるグループで、哺乳類の中でもかなり変わった特徴を持つ。\n\n3. コアラの指紋は人間に似ている\nコアラの指先には細かい模様があり、人間の指紋に似たパターンを持つことで知られる。\n\n4.
-  コウモリは音で周囲を探る\nエコーロケーションで音の反射を聞き、物体までの距離や位置をつかむ。\n\n5. ラクダのコブはエネルギーの貯蔵庫\nコブには脂肪をため、食べ物が少ない時にエネルギーとして使う。\n\nいくつわかりましたか？\n"
-comment_text: "動画の補足\U0001F447\n\n1. ペンギンは羽と油で水をはじく\n羽のすき間に空気を含み、油分で水をはじくことで冷たい海でも体温を守りやすい。\n\n2.
-  カモノハシは哺乳類なのに卵を産む\n単孔類と呼ばれるグループで、哺乳類の中でもかなり変わった特徴を持つ。\n\n3. コアラの指紋は人間に似ている\nコアラの指先には細かい模様があり、人間の指紋に似たパターンを持つことで知られる。\n\n4.
-  コウモリは音で周囲を探る\nエコーロケーションで音の反射を聞き、物体までの距離や位置をつかむ。\n\n5. ラクダのコブはエネルギーの貯蔵庫\nコブには脂肪をため、食べ物が少ない時にエネルギーとして使う。\n\nいくつわかりましたか？\n"
+description: |-
+  動物にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. ペンギンは羽と油で水をはじく
+  羽のすき間に空気を含み、油分で水をはじくことで冷たい海でも体温を守りやすい。
+
+  2. カモノハシは哺乳類なのに卵を産む
+  単孔類と呼ばれるグループで、哺乳類の中でもかなり変わった特徴を持つ。
+
+  3. コアラの指紋は人間に似ている
+  コアラの指先には細かい模様があり、人間の指紋に似たパターンを持つことで知られる。
+
+  4. コウモリは音で周囲を探る
+  エコーロケーションで音の反射を聞き、物体までの距離や位置をつかむ。
+
+  5. ラクダのコブはエネルギーの貯蔵庫
+  コブには脂肪をため、食べ物が少ない時にエネルギーとして使う。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #動物 #shorts
+comment_text: ''
 source_urls:
 - https://ocean.si.edu/ocean-life/seabirds/penguins
 - https://australian.museum/learn/animals/mammals/platypus/
@@ -32,11 +52,13 @@ irasutoya_urls:
 created_at: 2026-04-27 10:20:17.000000000 +09:00
 scheduled_at: '2026-04-28T04:01:47+09:00'
 publish_at: '2026-04-28T07:30:00+09:00'
-comment_after_at: '2026-04-28T07:35:00+09:00'
+comment_after_at: 
 uploaded_at: '2026-04-28T09:10:40+09:00'
 commented_at: '2026-04-28T09:34:52+09:00'
 video_id: NjEUB7hJr4Y
 last_error: 
 publish_slot: '07:30'
-comment_slot: '07:35'
+comment_slot: 
 comment_id: UgwhliwAXbaWKieQRdV4AaABAg
+post_comment: false
+metadata_synced_at: '2026-04-28T20:38:49+09:00'

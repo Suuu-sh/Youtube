@@ -56,15 +56,20 @@ case "$mode" in
     ruby scripts/zatsugaku_inventory.rb validate
     ruby scripts/zatsugaku_inventory.rb upload-due
     ;;
+  sync-metadata)
+    ruby scripts/zatsugaku_inventory.rb validate
+    ruby scripts/zatsugaku_inventory.rb sync-metadata
+    ;;
   dry-run)
     ruby scripts/zatsugaku_daily_scrape.rb --date today --dry-run
     ruby scripts/zatsugaku_inventory.rb validate
     ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
     ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
+    ruby scripts/zatsugaku_inventory.rb sync-metadata --dry-run
     ruby scripts/zatsugaku_inventory.rb comment-due --dry-run
     ;;
   *)
-    echo "Usage: $0 {run|plan-0400|next-day-upload-0400|comment-0735|comment-1205|comment-1805|comment-2105|comment-2505|comment-due|upload-retry|dry-run}" >&2
+    echo "Usage: $0 {run|plan-0400|next-day-upload-0400|comment-0735|comment-1205|comment-1805|comment-2105|comment-2505|comment-due|upload-retry|sync-metadata|dry-run}" >&2
     exit 2
     ;;
 esac

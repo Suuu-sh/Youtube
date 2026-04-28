@@ -1,36 +1,59 @@
 # Managed by scripts/zatsugaku_inventory.rb
-{
-  "id": "zatsugaku_animal_lv2_003",
-  "category": "動物",
-  "category_key": "animal",
-  "level": "Lv2",
-  "topic_key": "animal_bee_dog_bat_platypus_giraffe_lv2_003",
-  "fact_summary": "ミツバチ、犬の鼻紋、コウモリ、カモノハシ、キリンで身近な動物のLv2雑学",
-  "status": "stock",
-  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_003/zatsugaku_animal_lv2_003_bgm050.mp4",
-  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_003/contact.png",
-  "title": "知ってたらちょっとすごい動物の雑学 Lv2",
-  "description": "動物にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #動物 #shorts",
-  "comment_text": "動画の補足👇\n\n1. ミツバチは ダンスで 餌の場所を伝える\n巣の中で体を振る動きの向きや長さが、花までの方向や距離の手がかりになる。\n\n2. 犬の鼻には 個体ごとの 模様がある\n鼻先のしわや凹凸は犬ごとに違い、鼻紋として識別に使われることがある。\n\n3. コウモリは 逆さまで 休みやすい\n足の腱が体重でロックされるため、力を入れ続けなくてもぶら下がりやすい。\n\n4. カモノハシは 電気の刺激を 感じ取る\nくちばしの感覚器で獲物の筋肉が出す弱い電気信号を探る。\n\n5. キリンの首の骨は 人間と同じ 7個\n首はとても長いが、頸椎の数は多くの哺乳類と同じ7個で、1個ずつが長い。\n\nいくつわかりましたか？\n",
-  "source_urls": [
-    "https://www.loc.gov/everyday-mysteries/zoology/",
-    "https://www.si.edu/newsdesk/snapshot/behold-mantis-shrimp"
-  ],
-  "irasutoya_urls": [
-    "reused_local_irasutoya_asset:bee",
-    "reused_local_irasutoya_asset:dog",
-    "reused_local_irasutoya_asset:bat",
-    "reused_local_irasutoya_asset:platypus",
-    "reused_local_irasutoya_asset:giraffe"
-  ],
-  "created_at": "2026-04-28T20:13:21+09:00",
-  "scheduled_at": null,
-  "publish_at": null,
-  "comment_after_at": null,
-  "uploaded_at": null,
-  "commented_at": null,
-  "video_id": null,
-  "last_error": null,
-  "publish_slot": null,
-  "comment_slot": null
-}
+---
+id: zatsugaku_animal_lv2_003
+category: 動物
+category_key: animal
+level: Lv2
+topic_key: animal_bee_dog_bat_platypus_giraffe_lv2_003
+fact_summary: ミツバチ、犬の鼻紋、コウモリ、カモノハシ、キリンで身近な動物のLv2雑学
+status: stock
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_003/zatsugaku_animal_lv2_003_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_003/contact.png"
+title: 知ってたらちょっとすごい動物の雑学 Lv2
+description: |-
+  動物にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. ミツバチは ダンスで 餌の場所を伝える
+  尻振りダンスは、花や餌場の方向と距離を仲間へ知らせる合図。太陽の方向を基準に角度を示し、振る時間が長いほど遠い場所の目安になる。暗い巣の中でも、触覚や振動で情報が伝わる。
+
+  2. 犬の鼻には 個体ごとの 模様がある
+  犬の鼻先には、しわや小さな凹凸が集まった鼻紋がある。模様は個体ごとに違うため、写真や登録情報と合わせて識別に使われることがある。鼻が湿っているのは、におい分子を拾いやすくする助けにもなる。
+
+  3. コウモリは 逆さまで 休みやすい
+  コウモリの足は、ぶら下がると体重で腱が引かれて爪が閉じやすい構造。強く握り続けなくても枝や天井に引っかかりやすい。逆さの姿勢は、落下を利用してすぐ飛び立てる利点にもつながる。
+
+  4. カモノハシは 電気の刺激を 感じ取る
+  カモノハシのくちばしには、水中の弱い電気信号や水流を感じる感覚器がある。目や耳を閉じて潜っても、獲物の筋肉が出す小さな信号を手がかりに探れる。哺乳類の中でもかなり独特な狩り方。
+
+  5. キリンの首の骨は 人間と同じ 7個
+  キリンの首は長いが、頸椎の数は人間を含む多くの哺乳類と同じ7個。違うのは1個ずつの骨が大きく伸びている点。長い首を支えるため、血圧や血管の仕組みも特殊に調整されている。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #動物 #shorts
+comment_text: ''
+source_urls:
+- https://www.loc.gov/everyday-mysteries/zoology/
+- https://www.si.edu/newsdesk/snapshot/behold-mantis-shrimp
+irasutoya_urls:
+- reused_local_irasutoya_asset:bee
+- reused_local_irasutoya_asset:dog
+- reused_local_irasutoya_asset:bat
+- reused_local_irasutoya_asset:platypus
+- reused_local_irasutoya_asset:giraffe
+created_at: '2026-04-28T20:13:21+09:00'
+scheduled_at: 
+publish_at: 
+comment_after_at: 
+uploaded_at: 
+commented_at: 
+video_id: 
+last_error: 
+publish_slot: 
+comment_slot: 
+post_comment: false

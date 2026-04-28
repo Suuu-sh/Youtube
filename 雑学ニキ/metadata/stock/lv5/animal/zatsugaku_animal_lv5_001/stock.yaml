@@ -1,37 +1,60 @@
 # Managed by scripts/zatsugaku_inventory.rb
-{
-  "id": "zatsugaku_animal_lv5_001",
-  "category": "動物",
-  "category_key": "animal",
-  "level": "Lv5",
-  "topic_key": "animal_cimolodon_mezcal_worm_trex_vessel_pike_wall_lizard_lv5",
-  "fact_summary": "Cimolodon、メスカルワーム、T. rex血管、アラスカのパイク、緑の壁トカゲで最新研究系の動物Lv5雑学",
-  "status": "stock",
-  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_001/zatsugaku_animal_lv5_001_bgm050.mp4",
-  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_001/contact.png",
-  "title": "知ってたら博士級動物の雑学 Lv5",
-  "description": "動物にまつわる博士級の雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #動物 #shorts",
-  "comment_text": "動画の補足👇\n\n1. 恐竜時代の小型哺乳類は 絶滅後の世界を 読む鍵になる\n白亜紀のCimolodon desosaiは、恐竜絶滅前後の哺乳類進化を考える手がかりになる。\n\n2. メスカルのワームは DNAで正体が かなり絞られた\n瓶の中の幼虫を調べると、サンプルはアガベにつく赤いワームガの幼虫と報告された。\n\n3. T. rexの化石は 血管らしき構造が 研究対象になる\nDNAそのものではなく、骨の内部に残る微細な構造が化石研究を進める材料になる。\n\n4. 温まるアラスカの川は 外来パイクの食欲を 上げる恐れ\n水温上昇で北方系の外来パイクがより多く魚を食べる可能性が示された。\n\n5. 緑の壁トカゲは 古い色タイプを 押しのける\n強い緑タイプの拡大で、長く共存した色の多様性が失われる恐れがある。\n\nいくつわかりましたか？\n",
-  "source_urls": [
-    "https://www.sciencedaily.com/releases/2026/04/260427050554.htm",
-    "https://www.sciencedaily.com/releases/2026/04/260426012250.htm",
-    "https://www.sciencedaily.com/releases/2026/04/260426012259.htm",
-    "https://www.sciencedaily.com/releases/2026/04/260424233219.htm",
-    "https://www.sciencedaily.com/releases/2026/04/260424233212.htm"
-  ],
-  "irasutoya_urls": [
-    "https://www.irasutoya.com/2015/10/blog-post_646.html",
-    "https://www.irasutoya.com/2013/01/blog-post_31.html",
-    "https://www.irasutoya.com/2013/09/aboab.html",
-    "https://www.irasutoya.com/2020/11/blog-post_98.html",
-    "https://www.irasutoya.com/2014/02/blog-post_3983.html"
-  ],
-  "created_at": "2026-04-28 19:17:32 +0900",
-  "scheduled_at": null,
-  "publish_at": null,
-  "comment_after_at": null,
-  "uploaded_at": null,
-  "commented_at": null,
-  "video_id": null,
-  "last_error": null
-}
+---
+id: zatsugaku_animal_lv5_001
+category: 動物
+category_key: animal
+level: Lv5
+topic_key: animal_cimolodon_mezcal_worm_trex_vessel_pike_wall_lizard_lv5
+fact_summary: Cimolodon、メスカルワーム、T. rex血管、アラスカのパイク、緑の壁トカゲで最新研究系の動物Lv5雑学
+status: stock
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_001/zatsugaku_animal_lv5_001_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_001/contact.png"
+title: 知ってたら博士級動物の雑学 Lv5
+description: |-
+  動物にまつわる博士級の雑学を短く紹介。
+
+  【詳細・補足】
+  1. 恐竜時代の小型哺乳類は 絶滅後の世界を 読む鍵になる
+  白亜紀のCimolodon desosaiは、恐竜絶滅前後の哺乳類進化を考える手がかりになる。
+
+  2. メスカルのワームは DNAで正体が かなり絞られた
+  瓶の中の幼虫を調べると、サンプルはアガベにつく赤いワームガの幼虫と報告された。
+
+  3. T. rexの化石は 血管らしき構造が 研究対象になる
+  DNAそのものではなく、骨の内部に残る微細な構造が化石研究を進める材料になる。
+
+  4. 温まるアラスカの川は 外来パイクの食欲を 上げる恐れ
+  水温上昇で北方系の外来パイクがより多く魚を食べる可能性が示された。
+
+  5. 緑の壁トカゲは 古い色タイプを 押しのける
+  強い緑タイプの拡大で、長く共存した色の多様性が失われる恐れがある。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #動物 #shorts
+comment_text: ''
+source_urls:
+- https://www.sciencedaily.com/releases/2026/04/260427050554.htm
+- https://www.sciencedaily.com/releases/2026/04/260426012250.htm
+- https://www.sciencedaily.com/releases/2026/04/260426012259.htm
+- https://www.sciencedaily.com/releases/2026/04/260424233219.htm
+- https://www.sciencedaily.com/releases/2026/04/260424233212.htm
+irasutoya_urls:
+- https://www.irasutoya.com/2015/10/blog-post_646.html
+- https://www.irasutoya.com/2013/01/blog-post_31.html
+- https://www.irasutoya.com/2013/09/aboab.html
+- https://www.irasutoya.com/2020/11/blog-post_98.html
+- https://www.irasutoya.com/2014/02/blog-post_3983.html
+created_at: '2026-04-28 19:17:32 +0900'
+scheduled_at: 
+publish_at: 
+comment_after_at: 
+uploaded_at: 
+commented_at: 
+video_id: 
+last_error: 
+post_comment: false

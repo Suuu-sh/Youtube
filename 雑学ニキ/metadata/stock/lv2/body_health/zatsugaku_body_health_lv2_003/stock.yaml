@@ -1,36 +1,59 @@
 # Managed by scripts/zatsugaku_inventory.rb
-{
-  "id": "zatsugaku_body_health_lv2_003",
-  "category": "人体・健康",
-  "category_key": "body_health",
-  "level": "Lv2",
-  "topic_key": "body_stomach_goosebumps_nose_hair_body_clock_lv2_003",
-  "fact_summary": "胃、鳥肌、鼻、髪、体内時計で人体の反応を扱うLv2雑学",
-  "status": "stock",
-  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_003/zatsugaku_body_health_lv2_003_bgm050.mp4",
-  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_003/contact.png",
-  "title": "知ってたらちょっとすごい人体・健康の雑学 Lv2",
-  "description": "人体・健康にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #人体・健康 #shorts",
-  "comment_text": "動画の補足👇\n\n1. 胃の粘膜は 強い酸から 自分を守る\n胃酸は強いが、粘液の層が胃の壁を守るクッションになる。\n\n2. 鳥肌は 毛を立てる 古い反応\n寒さや恐怖で毛を立て、体を大きく見せたり空気をためたりする名残とされる。\n\n3. 鼻は 空気を温めて 体に入れる\n鼻の中の粘膜が空気を加湿し、冷たい空気の刺激をやわらげる。\n\n4. 髪の毛は 頭を守る クッションにもなる\n日差しや小さな衝撃から頭皮を守り、体温調節にも関わる。\n\n5. 体内時計は 光でリズムを 整えやすい\n朝の光は脳に昼夜の手がかりを与え、眠気や覚醒のリズムに影響する。\n\nいくつわかりましたか？\n",
-  "source_urls": [
-    "https://medlineplus.gov/",
-    "https://www.cdc.gov/sleep/"
-  ],
-  "irasutoya_urls": [
-    "reused_local_irasutoya_asset:stomach",
-    "reused_local_irasutoya_asset:goosebumps",
-    "reused_local_irasutoya_asset:nose",
-    "reused_local_irasutoya_asset:hair",
-    "reused_local_irasutoya_asset:clock"
-  ],
-  "created_at": "2026-04-28T20:23:34+09:00",
-  "scheduled_at": null,
-  "publish_at": null,
-  "comment_after_at": null,
-  "uploaded_at": null,
-  "commented_at": null,
-  "video_id": null,
-  "last_error": null,
-  "publish_slot": null,
-  "comment_slot": null
-}
+---
+id: zatsugaku_body_health_lv2_003
+category: 人体・健康
+category_key: body_health
+level: Lv2
+topic_key: body_stomach_goosebumps_nose_hair_body_clock_lv2_003
+fact_summary: 胃、鳥肌、鼻、髪、体内時計で人体の反応を扱うLv2雑学
+status: stock
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_003/zatsugaku_body_health_lv2_003_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_003/contact.png"
+title: 知ってたらちょっとすごい人体・健康の雑学 Lv2
+description: |-
+  人体・健康にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. 胃の粘膜は 強い酸から 自分を守る
+  胃酸は食べ物を分解し、細菌を減らすほど強い酸性。胃の壁は粘液と重炭酸を含む層で守られ、酸が直接触れにくい。粘膜の細胞は入れ替わりも早く、傷つきやすい環境に対応している。
+
+  2. 鳥肌は 毛を立てる 古い反応
+  寒さや恐怖を感じると、毛の根元の小さな筋肉が縮んで毛が立つ。毛の多い動物なら空気をためて保温したり、体を大きく見せたりする効果がある。人間では毛が少ないため、名残として目立つ反応になっている。
+
+  3. 鼻は 空気を温めて 体に入れる
+  鼻の中は粘膜と血流が豊富で、吸い込んだ空気を温めながら湿らせる。細かい毛や粘液は、ほこりや異物を捕まえる助けにもなる。口呼吸より鼻呼吸が楽に感じる場面があるのは、この前処理が働くため。
+
+  4. 髪の毛は 頭を守る クッションにもなる
+  髪は日差しを直接受けにくくし、頭皮を紫外線や小さな刺激から守る。空気の層を作るため、暑さ寒さの影響をやわらげる役割もある。見た目だけでなく、頭部の保護と温度調整にも関わる。
+
+  5. 体内時計は 光でリズムを 整えやすい
+  目に入った光は、脳の体内時計に昼夜の手がかりを送る。特に朝の光は、眠気と覚醒のリズムを前へ進める合図になりやすい。夜の強い光は逆にリズムを遅らせ、寝つきに影響することがある。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #人体・健康 #shorts
+comment_text: ''
+source_urls:
+- https://medlineplus.gov/
+- https://www.cdc.gov/sleep/
+irasutoya_urls:
+- reused_local_irasutoya_asset:stomach
+- reused_local_irasutoya_asset:goosebumps
+- reused_local_irasutoya_asset:nose
+- reused_local_irasutoya_asset:hair
+- reused_local_irasutoya_asset:clock
+created_at: '2026-04-28T20:23:34+09:00'
+scheduled_at: 
+publish_at: 
+comment_after_at: 
+uploaded_at: 
+commented_at: 
+video_id: 
+last_error: 
+publish_slot: 
+comment_slot: 
+post_comment: false
