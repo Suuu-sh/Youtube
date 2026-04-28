@@ -6,18 +6,15 @@ category_key: science_tech
 level: Lv2
 topic_key: science_magnet_battery_wifi_microwave_cloud_lv2
 fact_summary: 磁石、電池、Wi-Fi、電子レンジ、雲で科学技術の幅を広げたLv2雑学
-status: scheduled
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/science_tech/zatsugaku_science_tech_lv2_001/zatsugaku_science_tech_lv2_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/science_tech/zatsugaku_science_tech_lv2_001/contact.png"
 title: 知ってたらちょっとすごい科学技術の雑学 Lv2
-description: |
-  科学・テクノロジーにまつわる知ってたらちょっとすごい雑学を短く紹介。
-
-  音声: VOICEVOX: 青山龍星
-  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
-  イラスト: いらすとや
-
-  #雑学 #科学 #shorts
+description: "科学・テクノロジーにまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort
+  / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #科学 #shorts\n\n【詳細・補足】\n動画の補足\U0001F447\n\n1.
+  磁石は見えない磁場を作る\n磁場が周囲に広がり、鉄などに力を及ぼす。\n\n2. 電池は化学反応で電気を取り出す\n内部の化学反応で電子の流れを作り、機器を動かす。\n\n3.
+  無線通信は電磁波で情報を送る\nスマホやWi-Fiなどは電磁波を使って情報を送受信する。\n\n4. 電子レンジは水分子などを動かして温める\nマイクロ波が食品中の水分子などを動かし、その動きで熱が生まれる。\n\n5.
+  雲は水蒸気が冷えてできる\n空気中の水蒸気が冷え、小さな水滴や氷の粒になって雲になる。\n\nいくつわかりましたか？\n"
 comment_text: "動画の補足\U0001F447\n\n1. 磁石は見えない磁場を作る\n磁場が周囲に広がり、鉄などに力を及ぼす。\n\n2. 電池は化学反応で電気を取り出す\n内部の化学反応で電子の流れを作り、機器を動かす。\n\n3.
   無線通信は電磁波で情報を送る\nスマホやWi-Fiなどは電磁波を使って情報を送受信する。\n\n4. 電子レンジは水分子などを動かして温める\nマイクロ波が食品中の水分子などを動かし、その動きで熱が生まれる。\n\n5.
   雲は水蒸気が冷えてできる\n空気中の水蒸気が冷え、小さな水滴や氷の粒になって雲になる。\n\nいくつわかりましたか？\n"
@@ -37,10 +34,9 @@ created_at: 2026-04-27 10:05:57.000000000 +09:00
 scheduled_at: '2026-04-28T04:01:47+09:00'
 publish_at: '2026-04-28T21:00:00+09:00'
 comment_after_at: '2026-04-28T21:05:00+09:00'
-uploaded_at: 
+uploaded_at: '2026-04-28T09:20:24+09:00'
 commented_at: 
-video_id: 
-last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
-  (getaddrinfo: nodename nor servname provided, or not known)'
+video_id: HbRJ9CeSx_8
+last_error: 
 publish_slot: '21:00'
 comment_slot: '21:05'

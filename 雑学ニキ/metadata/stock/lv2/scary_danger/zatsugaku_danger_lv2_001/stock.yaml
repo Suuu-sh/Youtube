@@ -6,18 +6,15 @@ category_key: scary_danger
 level: Lv2
 topic_key: danger_smoke_earthquake_bee_mushroom_escalator_lv2
 fact_summary: 煙、地震、ハチ、毒キノコ、エスカレーターで危険カテゴリの幅を広げたLv2雑学
-status: scheduled
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/scary_danger/zatsugaku_danger_lv2_001/zatsugaku_danger_lv2_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/scary_danger/zatsugaku_danger_lv2_001/contact.png"
 title: 知ってたらちょっとすごい怖い・危険の雑学 Lv2
-description: |
-  怖い・危険にまつわる知ってたらちょっとすごい雑学を短く紹介。
-
-  音声: VOICEVOX: 青山龍星
-  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
-  イラスト: いらすとや
-
-  #雑学 #危険 #shorts
+description: "怖い・危険にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort /
+  もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #危険 #shorts\n\n【詳細・補足】\n動画の補足\U0001F447\n\n1.
+  火事では煙がかなり危険\n煙には有毒ガスや熱が含まれ、吸い込むと短時間で危険な状態になる。\n\n2. 地震ではまず身を守る\nDrop, Cover, and
+  Hold On が基本行動として案内され、落下物から頭や体を守る。\n\n3. ハチ刺され後の全身症状は危険サイン\n呼吸困難や全身のじんましんなどはアレルギー反応の可能性があり、すぐ対応が必要。\n\n4.
+  毒キノコは見た目で判断しにくい\n食用と毒キノコは似ていることがあり、自己判断で食べるのは危険。\n\n5. ホームでは黄色線の内側に立つ\n靴や衣服がすき間に巻き込まれる事故を避けるため、電車から距離を取る。\n\nいくつわかりましたか？\n"
 comment_text: "動画の補足\U0001F447\n\n1. 火事では煙がかなり危険\n煙には有毒ガスや熱が含まれ、吸い込むと短時間で危険な状態になる。\n\n2.
   地震ではまず身を守る\nDrop, Cover, and Hold On が基本行動として案内され、落下物から頭や体を守る。\n\n3. ハチ刺され後の全身症状は危険サイン\n呼吸困難や全身のじんましんなどはアレルギー反応の可能性があり、すぐ対応が必要。\n\n4.
   毒キノコは見た目で判断しにくい\n食用と毒キノコは似ていることがあり、自己判断で食べるのは危険。\n\n5. ホームでは黄色線の内側に立つ\n靴や衣服がすき間に巻き込まれる事故を避けるため、電車から距離を取る。\n\nいくつわかりましたか？\n"
@@ -37,10 +34,9 @@ created_at: 2026-04-27 10:05:57.000000000 +09:00
 scheduled_at: '2026-04-28T04:01:47+09:00'
 publish_at: '2026-04-29T01:00:00+09:00'
 comment_after_at: '2026-04-29T01:05:00+09:00'
-uploaded_at: 
+uploaded_at: '2026-04-28T09:20:28+09:00'
 commented_at: 
-video_id: 
-last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
-  (getaddrinfo: nodename nor servname provided, or not known)'
+video_id: rNFlRaaLoV8
+last_error: 
 publish_slot: '25:00'
 comment_slot: '25:05'
