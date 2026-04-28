@@ -343,6 +343,18 @@ class YouTubeClient
   TOKEN_URI = URI('https://oauth2.googleapis.com/token')
   UPLOAD_URI = 'https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status'
   COMMENT_URI = URI('https://www.googleapis.com/youtube/v3/commentThreads?part=snippet')
+  RETRYABLE_ERRORS = [
+    SocketError,
+    EOFError,
+    Errno::ECONNRESET,
+    Errno::ECONNREFUSED,
+    Errno::EHOSTUNREACH,
+    Errno::ENETUNREACH,
+    Net::OpenTimeout,
+    Net::ReadTimeout
+  ].freeze
+  DEFAULT_RETRY_ATTEMPTS = 3
+  DEFAULT_RETRY_BASE_DELAY = 1.0
 
   def initialize
     missing = %w[YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET YOUTUBE_REFRESH_TOKEN].select { |key| ENV[key].to_s.empty? }
@@ -353,18 +365,36 @@ class YouTubeClient
     @refresh_token = ENV.fetch('YOUTUBE_REFRESH_TOKEN')
   end
 
-  def access_token
-    req = Net::HTTP::Post.new(TOKEN_URI)
-    req.set_form_data(
-      client_id: @client_id,
-      client_secret: @client_secret,
-      refresh_token: @refresh_token,
-      grant_type: 'refresh_token'
-    )
-    res = Net::HTTP.start(TOKEN_URI.hostname, TOKEN_URI.port, use_ssl: true) { |http| http.request(req) }
-    raise Error, "OAuth refresh failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
+  def with_retries(action, attempts: DEFAULT_RETRY_ATTEMPTS, base_delay: DEFAULT_RETRY_BASE_DELAY)
+    tries = 0
 
-    JSON.parse(res.body).fetch('access_token')
+    begin
+      tries += 1
+      yield
+    rescue *RETRYABLE_ERRORS => e
+      raise if tries >= attempts
+
+      delay = base_delay * (2**(tries - 1))
+      warn "#{action} retry #{tries}/#{attempts - 1} after #{e.class}: #{e.message} (sleep #{delay}s)"
+      sleep(delay)
+      retry
+    end
+  end
+
+  def access_token
+    with_retries('OAuth refresh') do
+      req = Net::HTTP::Post.new(TOKEN_URI)
+      req.set_form_data(
+        client_id: @client_id,
+        client_secret: @client_secret,
+        refresh_token: @refresh_token,
+        grant_type: 'refresh_token'
+      )
+      res = Net::HTTP.start(TOKEN_URI.hostname, TOKEN_URI.port, use_ssl: true) { |http| http.request(req) }
+      raise Error, "OAuth refresh failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
+
+      JSON.parse(res.body).fetch('access_token')
+    end
   end
 
   def upload_video(item)
@@ -413,20 +443,22 @@ class YouTubeClient
   end
 
   def post_comment(item)
-    token = access_token
-    req = Net::HTTP::Post.new(COMMENT_URI)
-    req['Authorization'] = "Bearer #{token}"
-    req['Content-Type'] = 'application/json; charset=UTF-8'
-    req.body = {
-      snippet: {
-        videoId: item.fetch('video_id'),
-        topLevelComment: { snippet: { textOriginal: item.fetch('comment_text') } }
-      }
-    }.to_json
-    res = Net::HTTP.start(COMMENT_URI.hostname, COMMENT_URI.port, use_ssl: true) { |http| http.request(req) }
-    raise Error, "Comment failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
+    with_retries("Comment #{item.fetch('id')}") do
+      token = access_token
+      req = Net::HTTP::Post.new(COMMENT_URI)
+      req['Authorization'] = "Bearer #{token}"
+      req['Content-Type'] = 'application/json; charset=UTF-8'
+      req.body = {
+        snippet: {
+          videoId: item.fetch('video_id'),
+          topLevelComment: { snippet: { textOriginal: item.fetch('comment_text') } }
+        }
+      }.to_json
+      res = Net::HTTP.start(COMMENT_URI.hostname, COMMENT_URI.port, use_ssl: true) { |http| http.request(req) }
+      raise Error, "Comment failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
 
-    JSON.parse(res.body).fetch('id')
+      JSON.parse(res.body).fetch('id')
+    end
   end
 end
 

@@ -1,0 +1,44 @@
+# 知ってたら博士級動物の雑学 Lv5
+
+- id: `zatsugaku_animal_lv5_001`
+- category_key: `animal`
+- level: `Lv5`
+- status: `stock`
+- video: `/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_001/zatsugaku_animal_lv5_001_bgm050.mp4`
+- contact_sheet: `/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_001/contact.png`
+- voice: VOICEVOX: 青山龍星
+- BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+
+## Facts
+
+1. 恐竜時代の小型哺乳類は 絶滅後の世界を 読む鍵になる
+   - 白亜紀のCimolodon desosaiは、恐竜絶滅前後の哺乳類進化を考える手がかりになる。
+2. メスカルのワームは DNAで正体が かなり絞られた
+   - 瓶の中の幼虫を調べると、サンプルはアガベにつく赤いワームガの幼虫と報告された。
+3. T. rexの化石は 血管らしき構造が 研究対象になる
+   - DNAそのものではなく、骨の内部に残る微細な構造が化石研究を進める材料になる。
+4. 温まるアラスカの川は 外来パイクの食欲を 上げる恐れ
+   - 水温上昇で北方系の外来パイクがより多く魚を食べる可能性が示された。
+5. 緑の壁トカゲは 古い色タイプを 押しのける
+   - 強い緑タイプの拡大で、長く共存した色の多様性が失われる恐れがある。
+
+## Comment text
+
+動画の補足👇
+
+1. 恐竜時代の小型哺乳類は 絶滅後の世界を 読む鍵になる
+白亜紀のCimolodon desosaiは、恐竜絶滅前後の哺乳類進化を考える手がかりになる。
+
+2. メスカルのワームは DNAで正体が かなり絞られた
+瓶の中の幼虫を調べると、サンプルはアガベにつく赤いワームガの幼虫と報告された。
+
+3. T. rexの化石は 血管らしき構造が 研究対象になる
+DNAそのものではなく、骨の内部に残る微細な構造が化石研究を進める材料になる。
+
+4. 温まるアラスカの川は 外来パイクの食欲を 上げる恐れ
+水温上昇で北方系の外来パイクがより多く魚を食べる可能性が示された。
+
+5. 緑の壁トカゲは 古い色タイプを 押しのける
+強い緑タイプの拡大で、長く共存した色の多様性が失われる恐れがある。
+
+いくつわかりましたか？

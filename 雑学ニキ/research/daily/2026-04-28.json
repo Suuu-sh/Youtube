@@ -1,16 +1,44 @@
 {
   "target_date": "2026-04-28",
-  "collected_at": "2026-04-28T04:01:47+09:00",
+  "collected_at": "2026-04-28T19:13:18+09:00",
   "feeds": [
     {
       "category_key": "animal",
       "category": "動物",
       "name": "ScienceDaily Animals News",
       "url": "https://www.sciencedaily.com/rss/plants_animals/animals.xml",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to www.sciencedaily.com:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "This tiny mammal survived the dinosaur apocalypse and changed life on Earth",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260427050554.htm",
+          "published_at": "Mon, 27 Apr 2026 10:58:35 EDT",
+          "summary": "A newly discovered prehistoric mammal may hold clues to how life survived the dinosaur-killing extinction. The tiny species, Cimolodon desosai, lived 75 million years ago and had traits—like a small body and varied diet—that likely boosted survival odds. Found in Baja California, the fossil includes rare skeletal remains that reveal how it moved and lived. Researchers believe its lineage helped mammals endure one of Earth’s deadliest events."
+        },
+        {
+          "title": "Mezcal worm in a bottle DNA test reveals a surprise",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260426012250.htm",
+          "published_at": "Sun, 26 Apr 2026 09:34:14 EDT",
+          "summary": "The famous mezcal “worm” has long puzzled scientists, but DNA testing has finally cracked the case. Researchers found that all sampled larvae were actually agave redworm moth caterpillars—not a mix of species as once believed. While the discovery clears up a long-standing mystery, it also raises concerns about sustainability. Growing demand for mezcal and edible larvae could put pressure on wild populations and the agave plants they depend on."
+        },
+        {
+          "title": "Blood vessels found in T. rex bones are rewriting dinosaur science",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260426012259.htm",
+          "published_at": "Sun, 26 Apr 2026 07:44:57 EDT",
+          "summary": "Dinosaur DNA may still be out of reach, but scientists are uncovering something almost as exciting—ancient blood vessels hidden inside fossilized bones. In a massive Tyrannosaurus rex nicknamed Scotty, researchers discovered a network of preserved vessels within a rib that once fractured and began healing 66 million years ago. Using powerful synchrotron X-rays from particle accelerators, they were able to peer inside the dense fossil without damaging it, revealing intricate, iron-rich structures left behind by the healing process."
+        },
+        {
+          "title": "Warming waters are supercharging an invasive salmon predator in Alaska",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233219.htm",
+          "published_at": "Sat, 25 Apr 2026 23:24:06 EDT",
+          "summary": "As Alaska’s rivers warm, invasive northern pike are becoming noticeably more voracious. Scientists discovered that pike of all ages are eating more fish, with young pike increasing consumption by over 60%. Warmer water speeds up their metabolism, pushing them to hunt more. This growing appetite could spell trouble for struggling salmon populations."
+        },
+        {
+          "title": "Aggressive “hulk” lizards are wiping out millions of years of evolution",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233212.htm",
+          "published_at": "Sat, 25 Apr 2026 23:14:14 EDT",
+          "summary": "For ages, wall lizards coexisted in three distinct color types, each with its own strategy for survival. Now, a powerful green variant is taking over. These dominant “Hulk” lizards are outcompeting the others, causing yellow and orange morphs to vanish. It’s a dramatic reminder that evolution can flip the script much faster than expected."
+        }
       ]
     },
     {
@@ -18,10 +46,38 @@
       "category": "食べ物・飲み物",
       "name": "ScienceDaily Food News",
       "url": "https://www.sciencedaily.com/rss/plants_animals/food.xml",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to www.sciencedaily.com:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "Scientists just found what keeps plant cells from growing out of control",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233201.htm",
+          "published_at": "Sat, 25 Apr 2026 00:13:45 EDT",
+          "summary": "Before seedlings can photosynthesize, they depend on fatty acids—and on peroxisomes to process them. Researchers discovered that the protein PEX11 not only helps these structures divide but also controls their size during early growth. When key genes were altered, peroxisomes grew abnormally large, suggesting internal vesicles normally keep them in balance. Remarkably, a yeast version of the protein fixed the problem, pointing to a deeply conserved mechanism across species."
+        },
+        {
+          "title": "What caffeine does to ants could change pest control",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260418042817.htm",
+          "published_at": "Sat, 18 Apr 2026 07:54:08 EDT",
+          "summary": "Caffeine doesn’t just perk up humans—it can sharpen ants’ minds too. Invasive Argentine ants given caffeinated sugar learned to find food much more efficiently, taking straighter paths and reducing travel time by up to 38%. They weren’t faster, just more focused, indicating improved learning. This unexpected effect could make pest control baits far more effective."
+        },
+        {
+          "title": "Mammal ancestors laid eggs, and this 250-million-year-old fossil finally proves it",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260414075642.htm",
+          "published_at": "Tue, 14 Apr 2026 10:20:28 EDT",
+          "summary": "In the aftermath of Earth’s most catastrophic extinction event, one unlikely survivor rose to dominate a shattered world: Lystrosaurus. Now, a stunning fossil discovery—an ancient egg containing a curled-up embryo—has finally answered a decades-old mystery about whether mammal ancestors laid eggs. Using advanced imaging technology, scientists confirmed that these resilient creatures did reproduce this way, likely producing large, soft-shelled eggs packed with nutrients."
+        },
+        {
+          "title": "Ancient farmers accidentally created aggressive “warrior” wheat",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193923.htm",
+          "published_at": "Wed, 08 Apr 2026 09:51:27 EDT",
+          "summary": "Early wheat didn’t just grow—it fought. When humans began cultivating fields, plants that could outcompete their neighbors for sunlight and space quickly took over, evolving upright leaves and aggressive growth. These ancient “warrior” traits helped wheat thrive for millennia. Ironically, modern farming now favors less competitive plants, prioritizing yield over survival battles."
+        },
+        {
+          "title": "Scientists open 40-year-old salmon and find a surprising sign of ocean recovery",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401022027.htm",
+          "published_at": "Wed, 01 Apr 2026 04:20:39 EDT",
+          "summary": "Old canned salmon turned out to be a time capsule of ocean health. Researchers found that rising levels of tiny parasitic worms in some salmon species suggest stronger, more complete marine food webs. Because these parasites depend on multiple hosts—including marine mammals—their increase may reflect ecosystem recovery over decades. What looks unappetizing may actually be a sign of a healthier ocean."
+        }
       ]
     },
     {
@@ -29,10 +85,38 @@
       "category": "人体・健康",
       "name": "CDC Newsroom",
       "url": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to tools.cdc.gov:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "CDC Data Show Weekly ER Visits for Tick Bites Higher than Usual",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765182",
+          "published_at": "Thu, 23 Apr 2026 18:00:00 GMT",
+          "summary": "Public health resources can help protect individuals and their families this tick season"
+        },
+        {
+          "title": "CDC announces Salmonella outbreak in 13 states linked to backyard poultry.",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765181",
+          "published_at": "Thu, 23 Apr 2026 17:00:00 GMT",
+          "summary": "34 people across 13 states have gotten sick with the same strain of Salmonella"
+        },
+        {
+          "title": "CDC Disease Detectives Present at Annual CDC EIS Conference",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765027",
+          "published_at": "Mon, 20 Apr 2026 08:00:00 GMT",
+          "summary": "CDC's Epidemic Intelligence Service officers are gathering this week for the 2026 EIS Conference"
+        },
+        {
+          "title": "CDC's NIOSH Continues Annual Free Health Screenings for Coal Miners, Announces 2026 Dates",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764138",
+          "published_at": "Wed, 11 Mar 2026 08:00:00 GMT",
+          "summary": "NIOSH will kick off the agency's annual mobile health screenings for coal miners this month"
+        },
+        {
+          "title": "CDC Reinforces National Measles Response Through State Collaboration",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764137",
+          "published_at": "Mon, 09 Mar 2026 08:00:00 GMT",
+          "summary": "CDC reaffirmed its commitment to protecting communities across the United States"
+        }
       ]
     },
     {
@@ -40,10 +124,38 @@
       "category": "科学・テクノロジー",
       "name": "NIST News",
       "url": "https://www.nist.gov/news-events/news/rss.xml",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to www.nist.gov:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "NIST Weighs In on the Mystery of the Gravitational Constant",
+          "url": "https://www.nist.gov/news-events/news/2026/04/nist-weighs-mystery-gravitational-constant",
+          "published_at": "Thu, 16 Apr 2026 12:00:00 +0000",
+          "summary": "A NIST researcher has unveiled the results of a 10-year quest to measure the constant."
+        },
+        {
+          "title": "Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light",
+          "url": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+          "published_at": "Wed, 15 Apr 2026 12:00:00 +0000",
+          "summary": "NIST scientists and collaborators have pioneered a way to make integrated circuits for light by depositing complex patterns of specialized materials onto silicon wafers."
+        },
+        {
+          "title": "NIST Researchers Develop Photonic Chip Packaging That Can Withstand Extreme Environments",
+          "url": "https://www.nist.gov/news-events/news/2026/03/nist-researchers-develop-photonic-chip-packaging-can-withstand-extreme",
+          "published_at": "Mon, 30 Mar 2026 12:00:00 +0000",
+          "summary": "The advance could allow these technologies to operate in deep-space probes, inside nuclear reactors, in ultrahigh vacuum systems, and at temperatures both near absolute zero and in scorchingly hot industrial settings."
+        },
+        {
+          "title": "NIST Helps Fingerprint Examiners With New Data and Software Release",
+          "url": "https://www.nist.gov/news-events/news/2026/03/nist-helps-fingerprint-examiners-new-data-and-software-release",
+          "published_at": "Mon, 23 Mar 2026 12:00:00 +0000",
+          "summary": "The new tools are an annotated collection of 10,000 fingerprints and a software program that can sort fingerprints according to their quality."
+        },
+        {
+          "title": "NIST Submits Annual Report to Congress Summarizing FY 2025 Progress on National Construction Safety Team Investigations",
+          "url": "https://www.nist.gov/news-events/news/2026/03/nist-submits-annual-report-congress-summarizing-fy-2025-progress-national",
+          "published_at": "Thu, 19 Mar 2026 12:00:00 +0000",
+          "summary": "The report includes an overview of work completed on the Champlain Towers South investigation."
+        }
       ]
     },
     {
@@ -51,10 +163,38 @@
       "category": "怖い・危険",
       "name": "ScienceDaily Natural Disasters News",
       "url": "https://www.sciencedaily.com/rss/earth_climate/natural_disasters.xml",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to www.sciencedaily.com:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "Scientists just discovered Africa is closer to breaking apart than we thought",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233204.htm",
+          "published_at": "Sat, 25 Apr 2026 12:26:15 EDT",
+          "summary": "Beneath East Africa’s Turkana Rift, scientists have found the crust is thinning to a critical point, suggesting the continent is gradually breaking apart. This “necking” process marks an advanced stage of rifting that could eventually lead to a new ocean forming millions of years from now. Surprisingly, the same geological forces that are splitting the land may also explain why the region holds such a rich fossil record. Instead of being the birthplace of humanity, Turkana may just be where the story was best preserved."
+        },
+        {
+          "title": "Scientists discover hidden forces are warping Earth deep beneath the surface",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260422044632.htm",
+          "published_at": "Thu, 23 Apr 2026 01:29:21 EDT",
+          "summary": "Scientists have mapped how Earth’s deepest mantle is being deformed—and the results point to long-lost tectonic plates buried thousands of kilometers underground. Using a massive global dataset of seismic waves, they found that most deformation happens in regions where these ancient slabs are thought to reside. The findings confirm long-standing theories but, for the first time, show the pattern on a global scale. It’s a major step toward understanding how the planet’s interior slowly churns over time."
+        },
+        {
+          "title": "Scientists warn of 3,100 “surging glaciers” that can trigger floods and avalanches",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416071958.htm",
+          "published_at": "Fri, 17 Apr 2026 08:28:25 EDT",
+          "summary": "A hidden threat is emerging in the world’s glaciers: while most are shrinking, a rare group known as “surging glaciers” can suddenly accelerate, unleashing powerful and sometimes destructive events. Scientists have identified over 3,100 of these glaciers worldwide, with many clustered in high-risk regions like the Arctic and the Karakoram Mountains, where communities lie directly in their path."
+        },
+        {
+          "title": "Earth’s magnetic field went wild 600 million years ago and scientists finally know why",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401071927.htm",
+          "published_at": "Thu, 02 Apr 2026 08:54:48 EDT",
+          "summary": "Hundreds of millions of years ago, Earth’s magnetic field behaved in a way that has long baffled scientists, showing wild and seemingly chaotic shifts unlike anything seen before or since. A new study suggests this chaos may actually hide a deeper pattern: instead of random fluctuations, the magnetic field may have followed a global, organized structure."
+        },
+        {
+          "title": "One of Earth’s most explosive supervolcanoes is recharging",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260329222930.htm",
+          "published_at": "Sun, 29 Mar 2026 22:39:28 EDT",
+          "summary": "Far beneath the ocean near Japan, scientists have discovered that the magma system linked to the most powerful eruption of the Holocene is slowly rebuilding. By using seismic imaging, researchers mapped a large magma reservoir under the Kikai caldera and confirmed it is the same system that fueled the massive eruption 7,300 years ago. However, the magma now present is newly injected, not leftover, as shown by changes in the chemistry of recent volcanic material and the growth of a lava dome over thousands of years."
+        }
       ]
     }
   ]

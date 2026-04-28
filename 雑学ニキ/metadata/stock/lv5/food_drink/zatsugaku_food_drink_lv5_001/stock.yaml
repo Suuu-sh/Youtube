@@ -1,0 +1,37 @@
+# Managed by scripts/zatsugaku_inventory.rb
+{
+  "id": "zatsugaku_food_drink_lv5_001",
+  "category": "食べ物・飲み物",
+  "category_key": "food_drink",
+  "level": "Lv5",
+  "topic_key": "food_pex11_caffeine_ant_lystrosaurus_warrior_wheat_canned_salmon_lv5",
+  "fact_summary": "PEX11、カフェインとアリ、リストロサウルス化石、古代小麦、古い缶詰サケで食と生命科学をつなぐLv5雑学",
+  "status": "stock",
+  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/food_drink/zatsugaku_food_drink_lv5_001/zatsugaku_food_drink_lv5_001_bgm050.mp4",
+  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/food_drink/zatsugaku_food_drink_lv5_001/contact.png",
+  "title": "知ってたら博士級食べ物・飲み物の雑学 Lv5",
+  "description": "食べ物・飲み物にまつわる博士級の雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #食べ物・飲み物 #shorts",
+  "comment_text": "動画の補足👇\n\n1. 芽生えの細胞は 脂肪酸処理の暴走を 止める仕組みを持つ\nPEX11というタンパク質が、種子の発芽初期に働くペルオキシソームの制御に関わる。\n\n2. カフェイン入りの糖は アリの探索を まっすぐにする\nアルゼンチンアリの実験で、カフェインが餌場までの学習を助ける可能性が示された。\n\n3. 哺乳類の祖先には 卵を抱えた化石が 見つかった\nリストロサウルスの化石は、哺乳類につながる系統の繁殖を考える手がかりになる。\n\n4. 古代の小麦は 畑で勝つ形へ 変わっていった\n栽培で密集した畑では、光と場所を奪いやすい姿の株が有利になったと考えられる。\n\n5. 古い缶詰サケは 海の回復サインを 残していた\n寄生虫の増加が、単なる悪化ではなく複雑な食物網の回復を示す場合がある。\n\nいくつわかりましたか？\n",
+  "source_urls": [
+    "https://www.sciencedaily.com/releases/2026/04/260424233201.htm",
+    "https://www.sciencedaily.com/releases/2026/04/260418042817.htm",
+    "https://www.sciencedaily.com/releases/2026/04/260414075642.htm",
+    "https://www.sciencedaily.com/releases/2026/04/260407193923.htm",
+    "https://www.sciencedaily.com/releases/2026/04/260401022027.htm"
+  ],
+  "irasutoya_urls": [
+    "https://www.irasutoya.com/2012/12/blog-post_4388.html",
+    "https://www.irasutoya.com/2021/01/blog-post_81.html",
+    "https://www.irasutoya.com/2015/10/blog-post_646.html",
+    "https://www.irasutoya.com/2012/12/blog-post_7617.html",
+    "https://www.irasutoya.com/2014/11/blog-post_579.html"
+  ],
+  "created_at": "2026-04-28 19:17:32 +0900",
+  "scheduled_at": null,
+  "publish_at": null,
+  "comment_after_at": null,
+  "uploaded_at": null,
+  "commented_at": null,
+  "video_id": null,
+  "last_error": null
+}
