@@ -5,8 +5,8 @@
 ## YAML workflow
 
 完成した動画は `metadata/stock/<level>/<category_key>/<id>/stock.yaml` に1本1ファイルで登録する。
-Codex app の `雑学ニキ stock maker` は在庫補充用の動画制作だけを行う。
-Codex app の `雑学ニキ upload scheduler` は、当日分を `scheduled` にし、YouTube API で Private upload して `publishAt` を設定する。
+Codex app の `Lv雑学定期作成` は在庫補充用の動画制作だけを行う。
+Codex app の `Lv雑学定期投稿` は、当日分を `scheduled` にし、YouTube API で Private upload して `publishAt` を設定する。
 YouTube コメントAPIは使わない。詳細・補足は `description` に集約する。
 
 ### category_key
@@ -59,7 +59,7 @@ last_error:
 ### status
 
 - `stock`: 未投稿・保管中
-- `scheduled`: upload scheduler が予約対象にした未アップロード動画
+- `scheduled`: `Lv雑学定期投稿` が予約対象にした未アップロード動画
 - `uploaded`: Private upload 済み。`publishAt` で予約公開される、または公開済み
 - `rejected`: 使用しない
 

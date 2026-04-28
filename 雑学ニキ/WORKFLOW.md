@@ -15,8 +15,8 @@
 
 ## 現在の基本方針
 
-- Codex app の `雑学ニキ upload scheduler` は、在庫から当日分を選び、YouTube API で Private upload して `publishAt` を設定する。
-- Codex app の `雑学ニキ stock maker` は、在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
+- Codex app の `Lv雑学定期投稿` は、在庫から当日分を選び、YouTube API で Private upload して `publishAt` を設定する。
+- Codex app の `Lv雑学定期作成` は、在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
 - YouTube コメントAPIは使わない。コメント投稿用の文面やキューは作らない。
 - 詳細・補足は `description` に集約する。
 
@@ -43,7 +43,7 @@
 7. `metadata.md` と `stock.yaml` を更新する。
 8. `ruby scripts/zatsugaku_inventory.rb validate` を通す。
 9. 未投稿動画は `status: stock` として保存する。
-10. upload scheduler が当日レベル・カテゴリの在庫を `status: scheduled` にし、Private upload 後に `status: uploaded` と `video_id` を記録する。
+10. `Lv雑学定期投稿` が当日レベル・カテゴリの在庫を `status: scheduled` にし、Private upload 後に `status: uploaded` と `video_id` を記録する。
 
 ## BGMルール
 
@@ -81,7 +81,7 @@
 - Lv4: 数字・科学・歴史などの専門性が強い雑学
 - Lv5: 博士級として扱う深めの雑学
 
-## upload scheduler 確認コマンド
+## Lv雑学定期投稿 確認コマンド
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
@@ -99,8 +99,8 @@ scripts/zatsugaku_api_automation.sh dry-run
 - `topic_key` は英数字・snake_caseで、同じ内容なら同じキーになるようにする。
 - `fact_summary` は重複検知用に、動画全体の事実内容を短く書く。
 - 新規動画を考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位・同じ危険/技術テーマの被りすぎを避ける。
-- stock maker は `ruby scripts/zatsugaku_inventory.rb next-missing-set --date today` の結果を見て、不足している level / category の在庫を作る。
-- upload scheduler は `ruby scripts/zatsugaku_inventory.rb plan --date today` で当日分を予約対象にし、`ruby scripts/zatsugaku_inventory.rb upload-due` で YouTube API に Private upload する。
+- `Lv雑学定期作成` は `ruby scripts/zatsugaku_inventory.rb next-missing-set --date today` の結果を見て、不足している level / category の在庫を作る。
+- `Lv雑学定期投稿` は `ruby scripts/zatsugaku_inventory.rb plan --date today` で当日分を予約対象にし、`ruby scripts/zatsugaku_inventory.rb upload-due` で YouTube API に Private upload する。
 - 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認する。
 - `description` は公開時にそのまま使われるため、`【詳細・補足】` の下に各雑学の仕組み・例外・注意点を2〜3文程度で書く。
 - コメント投稿APIは使わない。補足・出典・誘導は `description` に集約する。
