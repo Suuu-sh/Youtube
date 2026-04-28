@@ -35,6 +35,26 @@ DEFAULT_TOPIC_OVERLAP_MIN = 2
 
 class Error < StandardError; end
 
+def load_local_youtube_env
+  required = %w[YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET YOUTUBE_REFRESH_TOKEN]
+  return if required.all? { |key| ENV[key].to_s != '' }
+
+  path = ENV.fetch('ZATSUGAKU_YOUTUBE_ENV', '/Users/yota/.codex/secrets/youtube_zatsugaku_api.env')
+  return unless File.file?(path)
+
+  File.foreach(path) do |line|
+    stripped = line.strip
+    next if stripped.empty? || stripped.start_with?('#')
+
+    key, value = stripped.split('=', 2)
+    next if key.to_s.empty? || value.nil?
+    next unless required.include?(key)
+    next if ENV[key].to_s != ''
+
+    ENV[key] = value.strip.sub(/\A(['"])(.*)\1\z/, '\\2')
+  end
+end
+
 module Inventory
   module_function
 
@@ -485,6 +505,8 @@ OptionParser.new do |opts|
 end.parse!(ARGV)
 
 begin
+  load_local_youtube_env
+
   case command
   when 'validate'
     items = Inventory.load_items
