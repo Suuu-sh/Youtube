@@ -65,7 +65,7 @@ module DailyScrape
   def fetch(url, timeout:)
     uri = URI(url)
     req = Net::HTTP::Get.new(uri)
-    req['User-Agent'] = 'zatsugaku-niki-research-bot/1.0 (+local automation)'
+    req['User-Agent'] = 'zatsugaku-niki-research-bot/1.0 (+local research)'
     req['Accept'] = 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*'
     res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == 'https', open_timeout: timeout, read_timeout: timeout) do |http|
       http.request(req)
@@ -153,7 +153,7 @@ module DailyScrape
 
     markdown = +"# 雑学ニキ daily research #{date}\n\n"
     markdown << "- collected_at: #{payload[:collected_at]}\n"
-    markdown << "- purpose: 04:00 automation の動画作成前リサーチ素材\n\n"
+    markdown << "- purpose: 動画作成前リサーチ素材\n\n"
     results.each do |feed|
       markdown << "## #{feed[:category]} / #{feed[:name]}\n\n"
       if feed[:status] != 'ok'
