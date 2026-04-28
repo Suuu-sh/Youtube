@@ -26,9 +26,16 @@
 
 | category_key | カテゴリ | 公開時刻 | 備考 |
 | --- | --- | --- | --- |
-| `animal` | 動物 | 07:30 | 当日朝 |
-| `food_drink` | 食べ物・飲み物 | 12:00 | 当日昼 |
-| `body_health` | 人体・健康 | 18:00 | 当日夕方 |
+| `animal` | 動物 | 07:30 | 朝の軽い視聴枠 |
+| `food_drink` | 食べ物・飲み物 | 12:00 | 昼食・休憩枠 |
+| `body_health` | 人体・健康 | 18:00 | 夕方の帰宅・休憩枠 |
+
+### 3カテゴリ化後の運用方針
+
+- 3カテゴリに減った分、短時間に詰め込まず、朝・昼・夕方の3枠に分散する。
+- 21:00と25:00の旧枠は使わない。夜枠を増やして本数を補うより、各動画の品質と説明欄の補足を優先する。
+- `Lv雑学定期作成` は不足している3カテゴリだけを補充し、カテゴリ外の在庫は作らない。
+- `Lv雑学定期投稿` は翌日分3本だけを Private upload し、YouTube `publishAt` で予約する。
 
 ## 動画作成の基本手順
 
@@ -74,7 +81,7 @@
 - Lv1: 広く伝わる、わかりやすい雑学
 - Lv2: 少し意外性があるが、まだ身近な雑学
 - Lv3: 仕組みや背景が少し濃い雑学
-- Lv4: 数字・科学・歴史などの専門性が強い雑学
+- Lv4: 数字・歴史・仕組みなどの専門性が強い雑学
 - Lv5: 博士級として扱う深めの雑学
 
 ## Lv雑学定期投稿 確認コマンド
@@ -94,7 +101,7 @@ scripts/zatsugaku_api_automation.sh dry-run
 - `video_path` と `contact_sheet_path` は絶対パスにする。
 - `topic_key` は英数字・snake_caseで、同じ内容なら同じキーになるようにする。
 - `fact_summary` は重複検知用に、動画全体の事実内容を短く書く。
-- 新規動画を考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位・同じ危険/技術テーマの被りすぎを避ける。
+- 新規動画を考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位の被りすぎを避ける。
 - `Lv雑学定期作成` は `ruby scripts/zatsugaku_inventory.rb next-missing-set --date today` の結果を見て、不足している level / category の在庫を作る。
 - `Lv雑学定期投稿` は `ruby scripts/zatsugaku_inventory.rb plan --date tomorrow` で翌日公開分を予約対象にし、`ruby scripts/zatsugaku_inventory.rb upload-due` で YouTube API に Private upload する。
 - 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認する。

@@ -13,7 +13,7 @@ if [[ -f "$secret_env" ]]; then
   set +a
 fi
 
-# The recurring job runs at 20:00 JST, so it prepares the next publication day.
+# The upload scheduler runs at 21:00 JST after stock creation and prepares the next publication day.
 # Override locally with ZATSUGAKU_PLAN_DATE=YYYY-MM-DD when needed.
 plan_date="${ZATSUGAKU_PLAN_DATE:-tomorrow}"
 
