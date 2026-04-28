@@ -36,7 +36,6 @@ description: |-
   イラスト: いらすとや
 
   #雑学 #科学・テクノロジー #shorts
-comment_text: ''
 source_urls:
 - https://www.energy.gov/science/doe-explainsmagnets
 - https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work
@@ -52,9 +51,6 @@ irasutoya_urls:
 created_at: '2026-04-27 23:02:57 +0900'
 scheduled_at: 
 publish_at: 
-comment_after_at: 
 uploaded_at: 
-commented_at: 
 video_id: 
 last_error: 
-post_comment: false

@@ -78,13 +78,13 @@ API automation:
 
 ### 投稿時刻
 
-| カテゴリ | 公開 | コメント（例外のみ） |
-| --- | --- | --- |
-| 動物 | 07:30 | `post_comment: true` 時だけ 07:35 |
-| 食べ物・飲み物 | 12:00 | `post_comment: true` 時だけ 12:05 |
-| 人体・健康 | 18:00 | `post_comment: true` 時だけ 18:05 |
-| 科学・テクノロジー | 21:00 | `post_comment: true` 時だけ 21:05 |
-| 怖い・危険 | 25:00（翌日01:00） | `post_comment: true` 時だけ 25:05（翌日01:05） |
+| カテゴリ | 公開 |
+| --- | --- |
+| 動物 | 07:30 |
+| 食べ物・飲み物 | 12:00 |
+| 人体・健康 | 18:00 |
+| 科学・テクノロジー | 21:00 |
+| 怖い・危険 | 25:00（翌日01:00） |
 
 ### レベル運用
 
@@ -104,8 +104,8 @@ API automation:
 - 新規stockを考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位・同じ危険/技術テーマの被りすぎを避ける。完全な再利用禁止ではないが、動物カテゴリでは既存1本あたり同じ動物種の被りを最大1体までにする。2体以上（例: 猫・犬・ナマケモノのうち2つ以上）が被る案は、ほぼ同じ投稿に見えやすいので差し替える。
 - 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認し、共有topic tokenが2個以上出る場合は原則テーマを差し替える。動物カテゴリで共有topic tokenが1個だけなら許容できる。
 - `description` は公開時にそのまま使われるため、`【詳細・補足】` の下に各雑学の仕組み・例外・注意点を2〜3文程度で書く。
-- `comment_text` は通常空でよい。固定コメントが必要な例外だけ `post_comment: true` とし、視聴者向けの完成文を入れる。
-- `publish_at`、`comment_after_at`、`video_id`、`last_error` は stock 登録時点では空でよい。
+- コメント投稿APIは使わない。補足・出典・誘導は `description` に集約する。
+- `publish_at`、`video_id`、`last_error` は stock 登録時点では空でよい。
 
 ### 手動アップロードについて
 

@@ -36,7 +36,6 @@ description: |-
   イラスト: いらすとや
 
   #雑学 #人体・健康 #shorts
-comment_text: ''
 source_urls:
 - https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765182
 - https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765181
@@ -52,9 +51,6 @@ irasutoya_urls:
 created_at: '2026-04-28 19:17:32 +0900'
 scheduled_at: 
 publish_at: 
-comment_after_at: 
 uploaded_at: 
-commented_at: 
 video_id: 
 last_error: 
-post_comment: false

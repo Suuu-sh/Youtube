@@ -36,7 +36,6 @@ description: |-
   イラスト: いらすとや
 
   #雑学 #科学・テクノロジー #shorts
-comment_text: ''
 source_urls:
 - https://www.nist.gov/
 - https://www.noaa.gov/
@@ -49,11 +48,7 @@ irasutoya_urls:
 created_at: '2026-04-28T20:23:34+09:00'
 scheduled_at: 
 publish_at: 
-comment_after_at: 
 uploaded_at: 
-commented_at: 
 video_id: 
 last_error: 
 publish_slot: 
-comment_slot: 
-post_comment: false

@@ -36,7 +36,6 @@ description: |-
   イラスト: いらすとや
 
   #雑学 #科学テクノロジー #shorts
-comment_text: ''
 source_urls:
 - https://www.nist.gov/node/1858091
 - https://ntrs.nasa.gov/api/citations/20210014505/downloads/STRIVES%20GNSS%20GPS%20Background%20Documentation.docx.pdf
@@ -51,11 +50,7 @@ irasutoya_urls:
 created_at: '2026-04-28T04:04:30+09:00'
 scheduled_at: 
 publish_at: 
-comment_after_at: 
 uploaded_at: 
-commented_at: 
 video_id: 
 last_error: 
 publish_slot: 
-comment_slot: 
-post_comment: false

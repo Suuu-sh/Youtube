@@ -36,7 +36,6 @@ description: |-
   イラスト: いらすとや
 
   #雑学 #怖い・危険 #shorts
-comment_text: ''
 source_urls:
 - https://www.sciencedaily.com/releases/2026/04/260424233204.htm
 - https://www.sciencedaily.com/releases/2026/04/260422044632.htm
@@ -52,9 +51,6 @@ irasutoya_urls:
 created_at: '2026-04-28 19:17:32 +0900'
 scheduled_at: 
 publish_at: 
-comment_after_at: 
 uploaded_at: 
-commented_at: 
 video_id: 
 last_error: 
-post_comment: false

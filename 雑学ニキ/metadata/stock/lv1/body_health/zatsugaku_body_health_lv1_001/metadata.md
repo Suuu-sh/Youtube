@@ -30,10 +30,6 @@
 BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
 イラスト: いらすとや
 
-## 固定コメント
-
-なし。詳細は説明欄に集約。
-
 ## 出力
 
 - Video: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv1/body_health/zatsugaku_body_health_lv1_001/zatsugaku_body_health_lv1_001_bgm050.mp4

@@ -36,10 +36,6 @@ BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
 
 #雑学 #動物 #shorts
 
-## 固定コメント
-
-なし。詳細は説明欄に集約。
-
 ## 出力
 
 - Video: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_002/zatsugaku_animal_lv2_002_bgm050.mp4

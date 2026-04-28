@@ -36,7 +36,6 @@ description: |-
   イラスト: いらすとや
 
   #雑学 #科学・テクノロジー #shorts
-comment_text: ''
 source_urls:
 - https://www.nist.gov/news-events/news/2026/04/nist-weighs-mystery-gravitational-constant
 - https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits
@@ -52,9 +51,6 @@ irasutoya_urls:
 created_at: '2026-04-28 19:17:32 +0900'
 scheduled_at: 
 publish_at: 
-comment_after_at: 
 uploaded_at: 
-commented_at: 
 video_id: 
 last_error: 
-post_comment: false

@@ -48,7 +48,6 @@
   - `publishAt` を設定して予約公開
   - upload成功時に返る `id` を `video_id` としてYAMLに保存
   - 詳細・補足は YouTube の `description` に入れる
-  - 固定コメント投稿は原則しない（必要な場合だけ `post_comment: true`）
 
 ### 完成動画を作ったら必ず作るもの
 
@@ -58,7 +57,7 @@
 metadata/stock/<level>/<category_key>/<id>/stock.yaml
 ```
 
-YAMLがない動画は automation から見えないため、自動 upload / schedule / comment の対象になりません。
+YAMLがない動画は automation から見えないため、自動 upload / schedule の対象になりません。
 
 ### stockメタデータの保存場所
 
@@ -124,4 +123,4 @@ Codex app 側の automation は1つだけです。
 scripts/zatsugaku_api_automation.sh run
 ```
 
-04時台は「今日の5投稿を予約・アップロード」し、その後に `next-missing-set` で次に不足する投稿日レベルを判定して5本の在庫動画を追加制作します。通常は説明欄に詳細を集約し、コメント時刻の automation は `post_comment: true` の例外だけ処理します。
+04時台は「今日の5投稿を予約・アップロード」し、その後に `next-missing-set` で次に不足する投稿日レベルを判定して5本の在庫動画を追加制作します。詳細は説明欄に集約し、コメント投稿APIは使いません。

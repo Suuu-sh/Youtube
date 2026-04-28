@@ -36,10 +36,6 @@ BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
 
 #雑学 #科学・テクノロジー #shorts
 
-## 固定コメント
-
-なし。詳細は説明欄に集約。
-
 ## 出力
 
 - Video: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/science_tech/zatsugaku_science_tech_lv2_003/zatsugaku_science_tech_lv2_003_bgm050.mp4

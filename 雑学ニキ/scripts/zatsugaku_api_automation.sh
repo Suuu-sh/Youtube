@@ -26,31 +26,11 @@ case "$mode" in
     # Then report the next missing five-video set for stock replenishment.
     # Video creation happens in the Codex automation prompt after this target is known.
     ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
-    ruby scripts/zatsugaku_inventory.rb comment-due
     ;;
-  comment-0735)
-    ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb comment-due --slot 07:35
-    ;;
-  comment-1205)
-    ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb comment-due --slot 12:05
-    ;;
-  comment-1805)
-    ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb comment-due --slot 18:05
-    ;;
-  comment-2105)
-    ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb comment-due --slot 21:05
-    ;;
-  comment-2505)
-    ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb comment-due --slot 25:05
-    ;;
-  comment-due)
-    ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb comment-due
+  comment-0735|comment-1205|comment-1805|comment-2105|comment-2505|comment-due)
+    # Comments are now intentionally disabled. Keep these modes as no-ops so
+    # any remaining scheduled automation jobs do not fail before they are removed.
+    echo "Comment API disabled; no-op."
     ;;
   upload-retry)
     ruby scripts/zatsugaku_inventory.rb validate
@@ -66,7 +46,6 @@ case "$mode" in
     ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
     ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
     ruby scripts/zatsugaku_inventory.rb sync-metadata --dry-run
-    ruby scripts/zatsugaku_inventory.rb comment-due --dry-run
     ;;
   *)
     echo "Usage: $0 {run|plan-0400|next-day-upload-0400|comment-0735|comment-1205|comment-1805|comment-2105|comment-2505|comment-due|upload-retry|sync-metadata|dry-run}" >&2

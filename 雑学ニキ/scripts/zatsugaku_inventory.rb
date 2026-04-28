@@ -15,16 +15,16 @@ VIDEOS_GLOB = File.join(ROOT, 'metadata/stock/**/stock.yaml')
 JST = '+09:00'
 
 CATEGORY_SCHEDULE = [
-  { key: 'animal', name: '動物', publish: '07:30', comment: '07:35' },
-  { key: 'food_drink', name: '食べ物・飲み物', publish: '12:00', comment: '12:05' },
-  { key: 'body_health', name: '人体・健康', publish: '18:00', comment: '18:05' },
-  { key: 'science_tech', name: '科学・テクノロジー', publish: '21:00', comment: '21:05' },
-  { key: 'scary_danger', name: '怖い・危険', publish: '25:00', comment: '25:05' }
+  { key: 'animal', name: '動物', publish: '07:30' },
+  { key: 'food_drink', name: '食べ物・飲み物', publish: '12:00' },
+  { key: 'body_health', name: '人体・健康', publish: '18:00' },
+  { key: 'science_tech', name: '科学・テクノロジー', publish: '21:00' },
+  { key: 'scary_danger', name: '怖い・危険', publish: '25:00' }
 ].freeze
 
 REQUIRED = %w[id category category_key level topic_key fact_summary status video_path title description].freeze
-ACTIVE_STATUSES = %w[stock scheduled uploaded commented].freeze
-USED_STATUSES = %w[scheduled uploaded commented].freeze
+ACTIVE_STATUSES = %w[stock scheduled uploaded].freeze
+USED_STATUSES = %w[scheduled uploaded].freeze
 DESCRIPTION_DETAIL_HEADING = '【詳細・補足】'
 DETAIL_NUMBER_RE = /^\s*\d+\./
 TOPIC_OVERLAP_STOP_WORDS = %w[
@@ -119,9 +119,6 @@ module Inventory
       if ACTIVE_STATUSES.include?(item['status']) && !description_has_details?(item['description'])
         errors << "#{path}: description must include #{DESCRIPTION_DETAIL_HEADING} and numbered detail notes"
       end
-      if post_comment_enabled?(item) && item['comment_text'].to_s.strip.empty?
-        errors << "#{path}: post_comment true requires comment_text"
-      end
       unless CATEGORY_SCHEDULE.map { |c| c[:key] }.include?(item['category_key'])
         errors << "#{path}: unknown category_key #{item['category_key'].inspect}"
       end
@@ -146,10 +143,6 @@ module Inventory
   def description_has_details?(description)
     text = description.to_s
     text.include?(DESCRIPTION_DETAIL_HEADING) && text.each_line.count { |line| line.match?(DETAIL_NUMBER_RE) } >= 3
-  end
-
-  def post_comment_enabled?(item)
-    item['post_comment'] == true || item['post_comment'].to_s.downcase == 'true'
   end
 
   def normalize_text(value)
@@ -253,19 +246,12 @@ module Inventory
       candidate['scheduled_at'] = now.iso8601
       candidate['publish_at'] = timestamp(date, category[:publish])
       candidate['publish_slot'] = category[:publish]
-      if post_comment_enabled?(candidate)
-        candidate['comment_after_at'] = timestamp(date, category[:comment])
-        candidate['comment_slot'] = category[:comment]
-      else
-        candidate['comment_after_at'] = nil
-        candidate['comment_slot'] = nil
-      end
       candidate['last_error'] = nil
       selected << candidate
     end
 
     selected.reject { |item| item['_already_planned'] }.each { |item| write_item(item) } unless dry_run
-    puts JSON.pretty_generate(date: date.to_s, level: level, dry_run: dry_run, selected: selected.map { |i| i.slice('id', 'category', 'level', 'publish_at', 'comment_after_at', '_path') })
+    puts JSON.pretty_generate(date: date.to_s, level: level, dry_run: dry_run, selected: selected.map { |i| i.slice('id', 'category', 'level', 'publish_at', '_path') })
   end
 
   def due_uploads(items)
@@ -277,28 +263,9 @@ module Inventory
   def uploaded_items(items)
     items.select do |item|
       item['example'] != true &&
-        %w[uploaded commented].include?(item['status']) &&
+        item['status'] == 'uploaded' &&
         item['video_id'].to_s != ''
     end.sort_by { |item| [item['publish_at'].to_s, item['id'].to_s] }
-  end
-
-  def due_comments(items, at: now)
-    items.select do |item|
-      item['example'] != true &&
-        post_comment_enabled?(item) &&
-        item['status'] == 'uploaded' &&
-        item['video_id'].to_s != '' &&
-        item['comment_text'].to_s.strip != '' &&
-        item['commented_at'].to_s == '' &&
-        item['comment_after_at'] &&
-        Time.parse(item['comment_after_at']) <= at
-    end
-  end
-
-  def comments_due_for_slot(items, slot:, at: now)
-    due_comments(items, at: at).select do |item|
-      item['comment_slot'].to_s == slot.to_s || Time.parse(item['comment_after_at'].to_s).strftime('%H:%M') == slot.to_s
-    end
   end
 
   def planned_for_date?(items, date)
@@ -370,7 +337,6 @@ class YouTubeClient
   TOKEN_URI = URI('https://oauth2.googleapis.com/token')
   UPLOAD_URI = 'https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status'
   UPDATE_SNIPPET_URI = URI('https://www.googleapis.com/youtube/v3/videos?part=snippet')
-  COMMENT_URI = URI('https://www.googleapis.com/youtube/v3/commentThreads?part=snippet')
   RETRYABLE_ERRORS = [
     SocketError,
     EOFError,
@@ -491,24 +457,6 @@ class YouTubeClient
     end
   end
 
-  def post_comment(item)
-    with_retries("Comment #{item.fetch('id')}") do
-      token = access_token
-      req = Net::HTTP::Post.new(COMMENT_URI)
-      req['Authorization'] = "Bearer #{token}"
-      req['Content-Type'] = 'application/json; charset=UTF-8'
-      req.body = {
-        snippet: {
-          videoId: item.fetch('video_id'),
-          topLevelComment: { snippet: { textOriginal: item.fetch('comment_text') } }
-        }
-      }.to_json
-      res = Net::HTTP.start(COMMENT_URI.hostname, COMMENT_URI.port, use_ssl: true) { |http| http.request(req) }
-      raise Error, "Comment failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
-
-      JSON.parse(res.body).fetch('id')
-    end
-  end
 end
 
 class Hash
@@ -524,8 +472,6 @@ def usage
       ruby scripts/zatsugaku_inventory.rb plan [--date YYYY-MM-DD|today] [--dry-run]
       ruby scripts/zatsugaku_inventory.rb upload-due [--dry-run]
       ruby scripts/zatsugaku_inventory.rb sync-metadata [--dry-run]
-      ruby scripts/zatsugaku_inventory.rb comment-due [--dry-run]
-      ruby scripts/zatsugaku_inventory.rb comment-due --slot HH:MM [--dry-run]
       ruby scripts/zatsugaku_inventory.rb next-missing-set [--date YYYY-MM-DD|today] [--horizon-days N]
       ruby scripts/zatsugaku_inventory.rb overlap-report [--category KEY] [--level LvN] [--min-overlap N] [--strict]
   USAGE
@@ -533,11 +479,10 @@ def usage
 end
 
 command = ARGV.shift || usage
-options = { date: 'today', dry_run: false, slot: nil, horizon_days: 31, category: nil, level: nil, min_overlap: DEFAULT_TOPIC_OVERLAP_MIN, strict: false }
+options = { date: 'today', dry_run: false, horizon_days: 31, category: nil, level: nil, min_overlap: DEFAULT_TOPIC_OVERLAP_MIN, strict: false }
 OptionParser.new do |opts|
   opts.on('--date DATE') { |v| options[:date] = v }
   opts.on('--dry-run') { options[:dry_run] = true }
-  opts.on('--slot HH:MM') { |v| options[:slot] = v }
   opts.on('--horizon-days N', Integer) { |v| options[:horizon_days] = v }
   opts.on('--category KEY') { |v| options[:category] = v }
   opts.on('--level LEVEL') { |v| options[:level] = v }
@@ -625,35 +570,6 @@ begin
       end
     end
     puts JSON.pretty_generate(sync_metadata_count: targets.size, dry_run: options[:dry_run])
-  when 'comment-due'
-    items = Inventory.load_items
-    errors = Inventory.validate_items(items)
-    raise Error, "Validation failed:\n- #{errors.join("\n- ")}" unless errors.empty?
-
-    due = if options[:slot]
-            Inventory.comments_due_for_slot(items, slot: options[:slot])
-          else
-            Inventory.due_comments(items)
-          end
-    client = options[:dry_run] ? nil : YouTubeClient.new
-    due.each do |item|
-      if options[:dry_run]
-        puts "DRY comment #{item['id']} -> #{item['video_id']}"
-        next
-      end
-      begin
-        item['comment_id'] = client.post_comment(item)
-        item['commented_at'] = Inventory.now.iso8601
-        item['status'] = 'commented'
-        item['last_error'] = nil
-      rescue StandardError => e
-        item['last_error'] = "#{e.class}: #{e.message}"
-        warn "comment failed #{item['id']}: #{item['last_error']}"
-      ensure
-        Inventory.write_item(item)
-      end
-    end
-    puts JSON.pretty_generate(comment_due_count: due.size, dry_run: options[:dry_run])
   else
     usage
   end

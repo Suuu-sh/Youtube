@@ -36,7 +36,6 @@ description: |-
   イラスト: いらすとや
 
   #雑学 #食べ物飲み物 #shorts
-comment_text: ''
 source_urls:
 - https://www.loc.gov/everyday-mysteries/food-and-nutrition/?st=gallery
 - https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shell-eggs-farm-table
@@ -50,11 +49,7 @@ irasutoya_urls:
 created_at: '2026-04-28T04:04:30+09:00'
 scheduled_at: 
 publish_at: 
-comment_after_at: 
 uploaded_at: 
-commented_at: 
 video_id: 
 last_error: 
 publish_slot: 
-comment_slot: 
-post_comment: false

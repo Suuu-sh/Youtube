@@ -5,17 +5,17 @@
 ## YAML stock workflow
 
 4時 automation が在庫補充として動画を作成し、完成した動画は `metadata/stock/<level>/<category_key>/<id>/stock.yaml` に1本1ファイルで登録する。手動制作した動画も同じ形式で登録する。
-API automation はYAML在庫から、その日のレベルとカテゴリに合う5本を選んで Private upload + `publishAt` 予約公開し、upload成功時に返る `id` を `video_id` として保存する。4時ジョブはさらに、今日以降の投稿日をシミュレーションして次に不足する日付・レベルを判定し、そのレベルの5カテゴリ分を stock として追加制作する。詳細・補足は `description` に集約し、固定コメントは原則投稿しない。時刻別コメントジョブは `post_comment: true` の例外だけ `video_id` と `comment_text` を使って投稿する。
+API automation はYAML在庫から、その日のレベルとカテゴリに合う5本を選んで Private upload + `publishAt` 予約公開し、upload成功時に返る `id` を `video_id` として保存する。4時ジョブはさらに、今日以降の投稿日をシミュレーションして次に不足する日付・レベルを判定し、そのレベルの5カテゴリ分を stock として追加制作する。詳細・補足は `description` に集約し、コメント投稿APIは使わない。
 
 ### category_key と公開時刻
 
-| category_key | カテゴリ | 公開時刻 | コメント時刻（例外のみ） |
-| --- | --- | --- | --- |
-| `animal` | 動物 | 07:30 | `post_comment: true` 時だけ 07:35 |
-| `food_drink` | 食べ物・飲み物 | 12:00 | `post_comment: true` 時だけ 12:05 |
-| `body_health` | 人体・健康 | 18:00 | `post_comment: true` 時だけ 18:05 |
-| `science_tech` | 科学・テクノロジー | 21:00 | `post_comment: true` 時だけ 21:05 |
-| `scary_danger` | 怖い・危険 | 25:00（翌日01:00） | `post_comment: true` 時だけ 25:05（翌日01:05） |
+| category_key | カテゴリ | 公開時刻 |
+| --- | --- | --- |
+| `animal` | 動物 | 07:30 |
+| `food_drink` | 食べ物・飲み物 | 12:00 |
+| `body_health` | 人体・健康 | 18:00 |
+| `science_tech` | 科学・テクノロジー | 21:00 |
+| `scary_danger` | 怖い・危険 | 25:00（翌日01:00） |
 
 ### 曜日レベル
 
@@ -51,13 +51,10 @@ description: |
   画面に出し切れない背景まで説明する。
 
   いくつわかりましたか？
-comment_text: ""
-post_comment: false
 source_urls:
   - https://example.com/source
 created_at: 2026-04-27T00:00:00+09:00
 publish_at:
-comment_after_at:
 video_id:
 ```
 
@@ -66,7 +63,6 @@ video_id:
 - `stock`: 未使用在庫
 - `scheduled`: 当日の枠に選択済み、YouTube upload 待ち
 - `uploaded`: Private upload + 予約公開済み。通常運用ではこれが投稿処理完了状態
-- `commented`: 例外的に固定コメントを投稿済み
 - `rejected`: 使用しない
 
 ### 重複防止
@@ -92,10 +88,7 @@ ruby scripts/zatsugaku_inventory.rb plan --date today
 ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb upload-due
 ruby scripts/zatsugaku_inventory.rb sync-metadata --dry-run
-ruby scripts/zatsugaku_inventory.rb comment-due
-ruby scripts/zatsugaku_inventory.rb comment-due --slot 07:35
 ruby scripts/zatsugaku_api_automation.sh plan-0400
-ruby scripts/zatsugaku_api_automation.sh comment-0735
 ```
 
 YouTube API を使うコマンドは以下の環境変数が必要。
