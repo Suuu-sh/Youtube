@@ -1,0 +1,36 @@
+# Managed by scripts/zatsugaku_inventory.rb
+{
+  "id": "zatsugaku_danger_lv2_003",
+  "category": "怖い・危険",
+  "category_key": "scary_danger",
+  "level": "Lv2",
+  "topic_key": "danger_thunder_ocean_heat_hole_co_lv2_003",
+  "fact_summary": "雷、海、熱中症、穴、一酸化炭素で身近な危険サインを扱うLv2雑学",
+  "status": "stock",
+  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/scary_danger/zatsugaku_danger_lv2_003/zatsugaku_danger_lv2_003_bgm050.mp4",
+  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/scary_danger/zatsugaku_danger_lv2_003/contact.png",
+  "title": "知ってたらちょっとすごい怖い・危険の雑学 Lv2",
+  "description": "怖い・危険にまつわる知ってたらちょっとすごい雑学を短く紹介。\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #怖い・危険 #shorts",
+  "comment_text": "動画の補足👇\n\n1. 雷の音が近いほど 落雷地点も 近い\n光はほぼ一瞬で届き、音は遅れて届くため、間隔が短いほど近い目安になる。\n\n2. 離岸流は 岸から沖へ 強く流れる\n流れに逆らうと体力を奪われやすく、横へ逃げる行動が基本とされる。\n\n3. 熱中症は 室内でも 起こる\n高温多湿や水分不足が重なると、外に出ていなくても体温調節が追いつかなくなる。\n\n4. 深い穴は 酸素不足が 隠れやすい\n低い場所では空気が入れ替わりにくく、有害ガスや酸欠の危険がある。\n\n5. 一酸化炭素は においで 気づきにくい\n無色無臭のため、暖房器具や火気の換気不足で気づかないまま中毒につながる。\n\nいくつわかりましたか？\n",
+  "source_urls": [
+    "https://www.weather.gov/safety/",
+    "https://www.cdc.gov/disasters/"
+  ],
+  "irasutoya_urls": [
+    "reused_local_irasutoya_asset:thunder",
+    "reused_local_irasutoya_asset:ocean",
+    "reused_local_irasutoya_asset:heat",
+    "reused_local_irasutoya_asset:hole",
+    "reused_local_irasutoya_asset:co"
+  ],
+  "created_at": "2026-04-28T20:23:34+09:00",
+  "scheduled_at": null,
+  "publish_at": null,
+  "comment_after_at": null,
+  "uploaded_at": null,
+  "commented_at": null,
+  "video_id": null,
+  "last_error": null,
+  "publish_slot": null,
+  "comment_slot": null
+}
