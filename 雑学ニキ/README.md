@@ -30,11 +30,19 @@
 
 ## 現在の投稿運用
 
-- Codex app の `雑学ニキ stock maker` は、在庫補充用の動画制作だけを行う。
-- YouTube API による自動アップロード、予約公開、コメント投稿は使わない。
-- 投稿やアップロードは、ユーザーの明示依頼がある単発作業として行う。
+- Codex app の `雑学ニキ upload scheduler` が、毎朝の在庫選定、Private upload、YouTube `publishAt` による予約公開を行う。
+- Codex app の `雑学ニキ stock maker` は、在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
+- YouTube コメントAPIは使わない。固定コメント用テキストやコメントキューも作らない。
 - 詳細・補足は YouTube の `description` に集約する。
-- 固定コメント用テキストやコメントキューは作らない。
+- 公開時刻はこれまで通り、1日5本を次の枠で予約公開する。
+
+| category_key | カテゴリ | 公開時刻 |
+| --- | --- | --- |
+| `animal` | 動物 | 07:30 |
+| `food_drink` | 食べ物・飲み物 | 12:00 |
+| `body_health` | 人体・健康 | 18:00 |
+| `science_tech` | 科学・テクノロジー | 21:00 |
+| `scary_danger` | 怖い・危険 | 25:00（翌日 01:00） |
 
 ## 完成動画を作ったら残すもの
 
@@ -58,6 +66,12 @@ YAML の `video_path` と `contact_sheet_path` は絶対パスにします。
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run
+ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
 ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
+scripts/zatsugaku_api_automation.sh dry-run
 ```
+
+実アップロードと予約公開は `scripts/zatsugaku_api_automation.sh upload-schedule` が行う。
+この入口は YouTube API 認証情報をローカルの secret env から読み込み、コメント投稿は行わない。

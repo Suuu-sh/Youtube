@@ -5,8 +5,9 @@
 ## YAML workflow
 
 完成した動画は `metadata/stock/<level>/<category_key>/<id>/stock.yaml` に1本1ファイルで登録する。
-Codex app の `雑学ニキ stock maker` は在庫補充用の動画制作だけを行う。YouTube API 自動アップロード、予約公開、コメント投稿は使わない。
-詳細・補足は `description` に集約する。
+Codex app の `雑学ニキ stock maker` は在庫補充用の動画制作だけを行う。
+Codex app の `雑学ニキ upload scheduler` は、当日分を `scheduled` にし、YouTube API で Private upload して `publishAt` を設定する。
+YouTube コメントAPIは使わない。詳細・補足は `description` に集約する。
 
 ### category_key
 
@@ -46,14 +47,31 @@ description: |
 source_urls:
   - https://example.com/source
 created_at: 2026-04-27T00:00:00+09:00
+schedule_date:
+publish_at:
+publish_slot:
+scheduled_at:
 video_id:
+uploaded_at:
+last_error:
 ```
 
 ### status
 
 - `stock`: 未投稿・保管中
-- `uploaded`: 投稿済み
+- `scheduled`: upload scheduler が予約対象にした未アップロード動画
+- `uploaded`: Private upload 済み。`publishAt` で予約公開される、または公開済み
 - `rejected`: 使用しない
+
+### 予約公開スケジュール
+
+| category_key | カテゴリ | publish_slot | publish_at |
+| --- | --- | --- | --- |
+| `animal` | 動物 | `07:30` | 当日 07:30 |
+| `food_drink` | 食べ物・飲み物 | `12:00` | 当日 12:00 |
+| `body_health` | 人体・健康 | `18:00` | 当日 18:00 |
+| `science_tech` | 科学・テクノロジー | `21:00` | 当日 21:00 |
+| `scary_danger` | 怖い・危険 | `25:00` | 翌日 01:00 |
 
 ### 重複防止
 
@@ -65,7 +83,10 @@ video_id:
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run
+ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
 ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal
 ruby scripts/zatsugaku_inventory.rb overlap-report --category food_drink
+scripts/zatsugaku_api_automation.sh dry-run
 ```

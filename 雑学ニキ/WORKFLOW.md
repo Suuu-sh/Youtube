@@ -15,11 +15,22 @@
 
 ## 現在の基本方針
 
-- Codex app の `雑学ニキ stock maker` は、在庫補充用の動画制作だけを行う。
-- YouTube API による自動アップロード、予約公開、コメント投稿は使わない。
-- 投稿やアップロードは、ユーザーが明示的に依頼した場合だけ手動で行う。
+- Codex app の `雑学ニキ upload scheduler` は、在庫から当日分を選び、YouTube API で Private upload して `publishAt` を設定する。
+- Codex app の `雑学ニキ stock maker` は、在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
+- YouTube コメントAPIは使わない。コメント投稿用の文面やキューは作らない。
 - 詳細・補足は `description` に集約する。
-- コメント投稿用の文面やキューは作らない。
+
+## 予約公開スケジュール
+
+1日5本を、これまで通り次の時刻で予約公開する。
+
+| category_key | カテゴリ | 公開時刻 | 備考 |
+| --- | --- | --- | --- |
+| `animal` | 動物 | 07:30 | 当日朝 |
+| `food_drink` | 食べ物・飲み物 | 12:00 | 当日昼 |
+| `body_health` | 人体・健康 | 18:00 | 当日夕方 |
+| `science_tech` | 科学・テクノロジー | 21:00 | 当日夜 |
+| `scary_danger` | 怖い・危険 | 25:00 | 翌日 01:00 として設定 |
 
 ## 動画作成の基本手順
 
@@ -31,8 +42,8 @@
 6. contact sheet を作成し、字幕・レイアウト・出典・権利・AI生成開示の必要性を確認する。
 7. `metadata.md` と `stock.yaml` を更新する。
 8. `ruby scripts/zatsugaku_inventory.rb validate` を通す。
-9. stock maker が実行されている場合も、アップロードは行わず在庫として保存する。
-10. ユーザーが明示的に依頼した場合だけ Private upload する。
+9. 未投稿動画は `status: stock` として保存する。
+10. upload scheduler が当日レベル・カテゴリの在庫を `status: scheduled` にし、Private upload 後に `status: uploaded` と `video_id` を記録する。
 
 ## BGMルール
 
@@ -48,7 +59,7 @@
 2. contact sheet を作成し、視覚確認済み。
 3. タイトル、説明文がある。説明文には `【詳細・補足】` を作り、各雑学を番号付きで細かく補足する。
 4. `metadata/stock/<level>/<category_key>/<id>/stock.yaml` を作成済み。
-5. YAMLの `status` は未投稿なら `stock`、投稿済みなら `uploaded`。
+5. YAMLの `status` は未投稿なら `stock`、予約対象なら `scheduled`、アップロード済みなら `uploaded`。
 6. `topic_key` と `fact_summary` があり、過去投稿と重複しない。
 7. `ruby scripts/zatsugaku_inventory.rb validate` が通る。
 
@@ -70,6 +81,18 @@
 - Lv4: 数字・科学・歴史などの専門性が強い雑学
 - Lv5: 博士級として扱う深めの雑学
 
+## upload scheduler 確認コマンド
+
+```bash
+ruby scripts/zatsugaku_inventory.rb validate
+ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run
+ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
+scripts/zatsugaku_api_automation.sh dry-run
+```
+
+実行入口は `scripts/zatsugaku_api_automation.sh upload-schedule`。
+ローカルの YouTube API secret env を使い、コメント投稿は行わない。
+
 ## YAML作成時の注意
 
 - `video_path` と `contact_sheet_path` は絶対パスにする。
@@ -77,6 +100,7 @@
 - `fact_summary` は重複検知用に、動画全体の事実内容を短く書く。
 - 新規動画を考える前に `metadata/stock/**/stock.yaml` の同カテゴリ `topic_key` / `fact_summary` を確認し、同じ題材・同じ食品・同じ人体部位・同じ危険/技術テーマの被りすぎを避ける。
 - stock maker は `ruby scripts/zatsugaku_inventory.rb next-missing-set --date today` の結果を見て、不足している level / category の在庫を作る。
+- upload scheduler は `ruby scripts/zatsugaku_inventory.rb plan --date today` で当日分を予約対象にし、`ruby scripts/zatsugaku_inventory.rb upload-due` で YouTube API に Private upload する。
 - 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認する。
 - `description` は公開時にそのまま使われるため、`【詳細・補足】` の下に各雑学の仕組み・例外・注意点を2〜3文程度で書く。
 - コメント投稿APIは使わない。補足・出典・誘導は `description` に集約する。
