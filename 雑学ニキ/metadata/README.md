@@ -6,7 +6,7 @@
 
 完成した動画は `metadata/stock/<level>/<category_key>/<id>/stock.yaml` に1本1ファイルで登録する。
 Codex app の `Lv雑学定期作成` は在庫補充用の動画制作だけを行う。
-Codex app の `Lv雑学定期投稿` は、当日分を `scheduled` にし、YouTube API で Private upload して `publishAt` を設定する。
+Codex app の `Lv雑学定期投稿` は、20:00に翌日公開分を `scheduled` にし、YouTube API で Private upload して `publishAt` を設定する。
 YouTube コメントAPIは使わない。詳細・補足は `description` に集約する。
 
 ### category_key
@@ -83,7 +83,7 @@ last_error:
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
-ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run
+ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run
 ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
 ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal

@@ -30,7 +30,7 @@
 
 ## 現在の投稿運用
 
-- Codex app の `Lv雑学定期投稿` が、毎朝の在庫選定、Private upload、YouTube `publishAt` による予約公開を行う。
+- Codex app の `Lv雑学定期投稿` が、毎日20:00に翌日分の在庫選定、Private upload、YouTube `publishAt` による予約公開を行う。
 - Codex app の `Lv雑学定期作成` は、在庫補充用の動画制作だけを行う。アップロードや予約公開はしない。
 - YouTube コメントAPIは使わない。固定コメント用テキストやコメントキューも作らない。
 - 詳細・補足は YouTube の `description` に集約する。
@@ -66,7 +66,7 @@ YAML の `video_path` と `contact_sheet_path` は絶対パスにします。
 
 ```bash
 ruby scripts/zatsugaku_inventory.rb validate
-ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run
+ruby scripts/zatsugaku_inventory.rb plan --date tomorrow --dry-run
 ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
 ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
 ruby scripts/zatsugaku_inventory.rb overlap-report --category animal

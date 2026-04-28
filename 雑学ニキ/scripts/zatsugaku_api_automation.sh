@@ -13,11 +13,15 @@ if [[ -f "$secret_env" ]]; then
   set +a
 fi
 
+# The recurring job runs at 20:00 JST, so it prepares the next publication day.
+# Override locally with ZATSUGAKU_PLAN_DATE=YYYY-MM-DD when needed.
+plan_date="${ZATSUGAKU_PLAN_DATE:-tomorrow}"
+
 mode="${1:-}"
 case "$mode" in
-  upload-schedule|run|plan-0400)
+  upload-schedule|run|plan-2000)
     ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb plan --date today
+    ruby scripts/zatsugaku_inventory.rb plan --date "$plan_date"
     ruby scripts/zatsugaku_inventory.rb upload-due
     ;;
   upload-retry)
@@ -26,12 +30,12 @@ case "$mode" in
     ;;
   dry-run)
     ruby scripts/zatsugaku_inventory.rb validate
-    ruby scripts/zatsugaku_inventory.rb plan --date today --dry-run
+    ruby scripts/zatsugaku_inventory.rb plan --date "$plan_date" --dry-run
     ruby scripts/zatsugaku_inventory.rb upload-due --dry-run
     ruby scripts/zatsugaku_inventory.rb next-missing-set --date today
     ;;
   *)
-    echo "Usage: $0 {upload-schedule|run|plan-0400|upload-retry|dry-run}" >&2
+    echo "Usage: $0 {upload-schedule|run|plan-2000|upload-retry|dry-run}" >&2
     exit 2
     ;;
 esac
