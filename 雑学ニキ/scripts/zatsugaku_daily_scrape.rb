@@ -32,18 +32,6 @@ FEEDS = [
     name: 'CDC Newsroom',
     url: 'https://tools.cdc.gov/api/v2/resources/media/132608.rss'
   },
-  {
-    category_key: 'science_tech',
-    category: '科学・テクノロジー',
-    name: 'NIST News',
-    url: 'https://www.nist.gov/news-events/news/rss.xml'
-  },
-  {
-    category_key: 'scary_danger',
-    category: '怖い・危険',
-    name: 'ScienceDaily Natural Disasters News',
-    url: 'https://www.sciencedaily.com/rss/earth_climate/natural_disasters.xml'
-  }
 ].freeze
 
 class ScrapeError < StandardError; end

@@ -16,8 +16,6 @@ YouTube コメントAPIは使わない。詳細・補足は `description` に集
 | `animal` | 動物 |
 | `food_drink` | 食べ物・飲み物 |
 | `body_health` | 人体・健康 |
-| `science_tech` | 科学・テクノロジー（既存互換のみ。新規作成・通常予約しない） |
-| `scary_danger` | 怖い・危険（既存互換のみ。新規作成・通常予約しない） |
 
 ### 必須フィールド
 
@@ -65,7 +63,7 @@ last_error:
 
 ### 予約公開スケジュール
 
-今後の通常予約対象は3カテゴリのみ。`science_tech` と `scary_danger` は作成・通常予約しない。
+今後の通常予約対象は3カテゴリのみ。科学・テクノロジーと怖い・危険は作成・通常予約しない。
 
 | category_key | カテゴリ | publish_slot | publish_at |
 | --- | --- | --- | --- |
