@@ -13,15 +13,16 @@ ROOT = File.expand_path('..', __dir__)
 VIDEOS_GLOB = File.join(ROOT, 'metadata/stock/**/stock.yaml')
 JST = '+09:00'
 
-CATEGORY_SCHEDULE = [
-  { key: 'animal', name: '動物', publish: '07:30' },
-  { key: 'food_drink', name: '食べ物・飲み物', publish: '12:00' },
-  { key: 'body_health', name: '人体・健康', publish: '18:00' },
-  { key: 'science_tech', name: '科学・テクノロジー', publish: '21:00' },
-  { key: 'scary_danger', name: '怖い・危険', publish: '25:00' }
+ALL_CATEGORY_SCHEDULE = [
+  { key: 'animal', name: '動物', publish: '07:30', active: true },
+  { key: 'food_drink', name: '食べ物・飲み物', publish: '12:00', active: true },
+  { key: 'body_health', name: '人体・健康', publish: '18:00', active: true },
+  { key: 'science_tech', name: '科学・テクノロジー', publish: '21:00', active: false },
+  { key: 'scary_danger', name: '怖い・危険', publish: '25:00', active: false }
 ].freeze
 
-CATEGORY_KEYS = CATEGORY_SCHEDULE.map { |category| category[:key] }.freeze
+CATEGORY_SCHEDULE = ALL_CATEGORY_SCHEDULE.select { |category| category[:active] }.freeze
+CATEGORY_KEYS = ALL_CATEGORY_SCHEDULE.map { |category| category[:key] }.freeze
 REQUIRED = %w[id category category_key level topic_key fact_summary status video_path title description].freeze
 ACTIVE_STATUSES = %w[stock scheduled uploaded].freeze
 USED_STATUSES = %w[scheduled uploaded].freeze

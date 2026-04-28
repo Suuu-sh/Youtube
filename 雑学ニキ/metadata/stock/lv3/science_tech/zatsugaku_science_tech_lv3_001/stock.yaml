@@ -6,7 +6,7 @@ category_key: science_tech
 level: Lv3
 topic_key: science_qr_eink_lidar_superconductor_optical_fiber_lv3
 fact_summary: QRコード、電子ペーパー、LiDAR、超電導、光ファイバーで仕組みを深掘りするLv3科学技術雑学
-status: stock
+status: rejected
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/science_tech/zatsugaku_science_tech_lv3_001/zatsugaku_science_tech_lv3_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/science_tech/zatsugaku_science_tech_lv3_001/contact.png"
 title: 知ってたらかなり強い科学・テクノロジーの雑学 Lv3
@@ -44,3 +44,4 @@ source_urls:
 - https://www.fcc.gov/consumers/guides/fiber-optics-what-it
 irasutoya_urls: []
 created_at: "2026-04-28T21:31:08+09:00"
+reject_reason: "Rejected because visuals used emoji/generated icons instead of Irasutoya assets; rebuild required under youtube-zatsugaku-shorts skill."

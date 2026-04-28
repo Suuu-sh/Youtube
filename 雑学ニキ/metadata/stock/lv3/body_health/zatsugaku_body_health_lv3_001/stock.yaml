@@ -6,7 +6,7 @@ category_key: body_health
 level: Lv3
 topic_key: body_hiccup_vestibular_sweat_bone_pupil_lv3
 fact_summary: しゃっくり、平衡感覚、汗の冷却、骨の作り替え、瞳孔反射を扱うLv3人体健康雑学
-status: stock
+status: rejected
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/body_health/zatsugaku_body_health_lv3_001/zatsugaku_body_health_lv3_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/body_health/zatsugaku_body_health_lv3_001/contact.png"
 title: 知ってたらかなり強い人体・健康の雑学 Lv3
@@ -44,3 +44,4 @@ source_urls:
 - https://www.ncbi.nlm.nih.gov/books/NBK538262/
 irasutoya_urls: []
 created_at: "2026-04-28T21:31:08+09:00"
+reject_reason: "Rejected because visuals used emoji/generated icons instead of Irasutoya assets; rebuild required under youtube-zatsugaku-shorts skill."

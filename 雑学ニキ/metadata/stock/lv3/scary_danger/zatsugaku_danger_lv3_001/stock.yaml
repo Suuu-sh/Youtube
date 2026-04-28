@@ -6,7 +6,7 @@ category_key: scary_danger
 level: Lv3
 topic_key: danger_button_battery_radon_dust_explosion_black_ice_grease_fire_lv3
 fact_summary: ボタン電池、ラドン、粉じん爆発、ブラックアイス、油火災で身近な危険のLv3雑学
-status: stock
+status: rejected
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/scary_danger/zatsugaku_danger_lv3_001/zatsugaku_danger_lv3_001_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv3/scary_danger/zatsugaku_danger_lv3_001/contact.png"
 title: 知ってたらかなり強い怖い・危険の雑学 Lv3
@@ -44,3 +44,4 @@ source_urls:
 - https://www.nfpa.org/education-and-research/home-fire-safety/cooking
 irasutoya_urls: []
 created_at: "2026-04-28T21:31:08+09:00"
+reject_reason: "Rejected because visuals used emoji/generated icons instead of Irasutoya assets; rebuild required under youtube-zatsugaku-shorts skill."
