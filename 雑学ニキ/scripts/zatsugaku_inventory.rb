@@ -32,6 +32,13 @@ TOPIC_OVERLAP_STOP_WORDS = %w[
   storage safety principles functions category categories videos video
 ].freeze
 DEFAULT_TOPIC_OVERLAP_MIN = 2
+VISUAL_AUDIT_REQUIRED_AFTER = Time.new(2026, 4, 29, 12, 30, 0, JST)
+VISUAL_AUDIT_REQUIRED_FLAGS = %w[
+  contact_sheet_checked
+  image_subject_match_checked
+  no_unrelated_placeholder_images
+  no_excessive_reuse
+].freeze
 
 class Error < StandardError; end
 
@@ -141,6 +148,9 @@ module Inventory
       if ACTIVE_STATUSES.include?(item['status']) && !description_has_details?(item['description'])
         errors << "#{path}: description must include #{DESCRIPTION_DETAIL_HEADING} and numbered detail notes"
       end
+      if ACTIVE_STATUSES.include?(item['status']) && visual_audit_required?(item) && !visual_audit_complete?(item)
+        errors << "#{path}: visual_audit must confirm contact_sheet_checked, image_subject_match_checked, no_unrelated_placeholder_images, and no_excessive_reuse"
+      end
       if item['status'] == 'scheduled'
         %w[schedule_date publish_at publish_slot].each do |key|
           errors << "#{path}: scheduled item missing #{key}" if item[key].to_s.empty?
@@ -173,6 +183,24 @@ module Inventory
   def description_has_details?(description)
     text = description.to_s
     text.include?(DESCRIPTION_DETAIL_HEADING) && text.each_line.count { |line| line.match?(DETAIL_NUMBER_RE) } >= 3
+  end
+
+  def visual_audit_required?(item)
+    raw = item['created_at'].to_s
+    return true if raw.empty?
+
+    Time.parse(raw) >= VISUAL_AUDIT_REQUIRED_AFTER
+  rescue ArgumentError
+    true
+  end
+
+  def visual_audit_complete?(item)
+    audit = item['visual_audit']
+    return false unless audit.is_a?(Hash)
+
+    VISUAL_AUDIT_REQUIRED_FLAGS.all? { |key| audit[key] == true } &&
+      audit['checked_at'].to_s != '' &&
+      audit['notes'].to_s != ''
   end
 
   def normalize_text(value)
@@ -245,6 +273,7 @@ module Inventory
         item['status'] == 'stock' &&
         item['category_key'] == category_key &&
         item['level'] == level &&
+        visual_audit_complete?(item) &&
         File.exist?(item['video_path'].to_s)
     end.sort_by { |item| [item['created_at'].to_s, item['id'].to_s] }
   end
@@ -307,6 +336,7 @@ module Inventory
         item['status'] == 'scheduled' &&
         item['video_id'].to_s.empty? &&
         item['publish_at'] &&
+        visual_audit_complete?(item) &&
         File.exist?(item['video_path'].to_s)
     end.sort_by { |item| item['publish_at'].to_s }
   end
@@ -322,6 +352,7 @@ module Inventory
     items.each do |item|
       next if item['example'] == true
       next unless item['status'] == 'stock'
+      next unless visual_audit_complete?(item)
       next unless File.exist?(item['video_path'].to_s)
 
       pool[[item['level'], item['category_key']]] << item

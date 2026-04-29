@@ -45,8 +45,11 @@
 4. 雑学ニキ用のトーン、画作り、音声で素材を作る。
 5. 雑学ニキ用のレンダースクリプトで動画を書き出す。
 6. contact sheet を作成し、字幕・レイアウト・出典・権利・AI生成開示の必要性を確認する。
+   - 各カードの画像が題材に直接合っているか確認する。
+   - シャコにタコ、ミツバチに巣だけ、胃に食事中の人物だけのような「近そうなだけの代用」は不可。
+   - 同じ動画内、または直近動画との画像使い回しが多すぎないか確認する。
 7. `metadata.md` と `stock.yaml` を更新する。
-8. `ruby scripts/zatsugaku_inventory.rb validate` を通す。
+8. `stock.yaml` に `visual_audit` を記録し、`ruby scripts/zatsugaku_inventory.rb validate` を通す。
 9. 未投稿動画は `status: stock` として保存する。
 10. `Lv雑学作成予約` が `next-missing-set` の対象日・レベル・カテゴリの在庫を `status: scheduled` にし、Private upload 後に `status: uploaded` と `video_id` を記録する。
 
@@ -66,7 +69,8 @@
 4. `metadata/stock/<level>/<category_key>/<id>/stock.yaml` を作成済み。
 5. YAMLの `status` は未投稿なら `stock`、予約対象なら `scheduled`、アップロード済みなら `uploaded`。
 6. `topic_key` と `fact_summary` があり、過去投稿と重複しない。
-7. `ruby scripts/zatsugaku_inventory.rb validate` が通る。
+7. `visual_audit` で画像の題材一致、無関係な代用なし、過剰な使い回しなしを確認済み。
+8. `ruby scripts/zatsugaku_inventory.rb validate` が通る。
 
 ## category_key
 
@@ -107,3 +111,11 @@ scripts/zatsugaku_api_automation.sh dry-run
 - 下書き後に `ruby scripts/zatsugaku_inventory.rb overlap-report --category <category_key>` で被り候補を確認する。
 - `description` は公開時にそのまま使われるため、`【詳細・補足】` の下に各雑学の仕組み・例外・注意点を2〜3文程度で書く。
 - コメント投稿APIは使わない。補足・出典・誘導は `description` に集約する。
+- 2026-04-29 12:30 JST 以降に作る新規在庫は、`visual_audit` に次の項目が必要。
+  - `contact_sheet_checked: true`
+  - `image_subject_match_checked: true`
+  - `no_unrelated_placeholder_images: true`
+  - `no_excessive_reuse: true`
+  - `checked_at`
+  - `notes`
+- `plan` / `upload-due` / `next-missing-set` は、作成日時に関係なく `visual_audit` 済みの在庫だけを使用対象にする。未確認の古い在庫は自動予約・自動アップロードしない。

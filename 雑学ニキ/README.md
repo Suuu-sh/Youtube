@@ -67,6 +67,20 @@ assets/generated/stock/<level>/<category_key>/<id>/
 
 YAML の `video_path` と `contact_sheet_path` は絶対パスにします。
 
+## 画像・イラスト確認ルール
+
+- 各雑学カードのメイン画像は、必ずそのカードの題材に直接対応する いらすとや画像を使う。
+  - 例: シャコの話にタコ画像、ミツバチの話に巣だけ、胃の話に単なる食事中の人物だけ、のような代用は禁止。
+- 同じ動画内で、タイトル・説明欄カード以外に同じ画像を使い回さない。
+- 直近動画と同じ代表画像ばかりにならないよう、contact sheet で過去作との被りも確認する。
+- アップロード前に contact sheet を目視し、`stock.yaml` の `visual_audit` に次の4項目を `true` で記録する。
+  - `contact_sheet_checked`
+  - `image_subject_match_checked`
+  - `no_unrelated_placeholder_images`
+  - `no_excessive_reuse`
+- 2026-04-29 12:30 JST 以降に作る新規在庫は、この `visual_audit` がないと `validate` が失敗する。
+- `plan` / `upload-due` / `next-missing-set` は、作成日時に関係なく `visual_audit` 済みの在庫だけを使用対象にする。
+
 ## 確認コマンド
 
 ```bash
