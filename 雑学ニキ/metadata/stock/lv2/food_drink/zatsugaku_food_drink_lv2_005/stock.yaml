@@ -1,0 +1,64 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_food_drink_lv2_005
+category: 食べ物・飲み物
+category_key: food_drink
+level: Lv2
+topic_key: food_natto_yogurt_konnyaku_lemon_tomato_lv2_005
+fact_summary: 納豆、ヨーグルト、こんにゃく芋、レモン、ミニトマトを扱う新規画像Lv2食べ物飲み物雑学
+status: uploaded
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_005/zatsugaku_food_drink_lv2_005_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_005/contact.png"
+title: 知ってたらちょっとすごい食べ物・飲み物の雑学 Lv2
+description: |-
+  食べ物・飲み物にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. 納豆のネバネバは 発酵でできる 成分がもと
+  納豆菌が大豆を発酵させる過程で、糸を引く成分が増えて独特の粘りになる。
+
+  2. ヨーグルトは 乳酸菌で 酸っぱく固まる
+  乳酸菌が乳糖を利用して酸を作り、牛乳のたんぱく質が固まりやすくなる。
+
+  3. こんにゃくの元は 土の中の こんにゃく芋
+  こんにゃくは芋を加工して作る食べ物で、ぷるっとした食感は成分と水分のかたまり方で生まれる。
+
+  4. レモンの酸っぱさは クエン酸が 大きな理由
+  レモン果汁には有機酸が多く、特にクエン酸が強い酸味の中心になる。
+
+  5. トマトの赤色は リコピンという 色素
+  熟すほど赤く見えるのは、カロテノイドの一種であるリコピンが増えるため。
+
+  いくつわかりましたか？
+
+  VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+source_urls:
+- https://www.maff.go.jp/e/policies/market/k_ryouri/search_menu/menu/natto_japan.html
+- https://www.fda.gov/food/information-consumers-using-dietary-supplements/yogurt-and-your-health
+- https://www.maff.go.jp/j/heya/sodan/1805/02.html
+- https://fdc.nal.usda.gov/
+- https://lpi.oregonstate.edu/mic/dietary-factors/phytochemicals/carotenoids
+irasutoya_urls:
+- https://www.irasutoya.com/2015/06/blog-post.html
+- https://www.irasutoya.com/2017/05/blog-post_583.html
+- https://www.irasutoya.com/2020/08/blog-post_92.html
+- https://www.irasutoya.com/2021/01/blog-post_29.html
+- https://www.irasutoya.com/2020/12/blog-post.html
+created_at: '2026-04-29T14:54:05+09:00'
+scheduled_at: '2026-04-29T15:03:44+09:00'
+publish_at: '2026-04-30T12:00:00+09:00'
+uploaded_at: '2026-04-29T15:03:54+09:00'
+video_id: A8qPta0RMJc
+last_error: 
+publish_slot: '12:00'
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-29T14:54:05+09:00'
+  notes: 作成前に既存 metadata/stock/**/stock.yaml の irasutoya_urls、reused_local_irasutoya_asset、topic_key、fact_summary
+    と比較し、5枚すべて既存URLと不一致であることを確認。contact.png を目視し、各雑学カードの画像が題材に直接対応し、代替プレースホルダーやカテゴリ違い（タコ等）がないことを確認済み。タイトル/説明/最終カード以外で同一画像の使い回しなし。
+schedule_date: '2026-04-30'

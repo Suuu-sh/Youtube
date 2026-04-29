@@ -1,0 +1,64 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_animal_lv2_005
+category: 動物
+category_key: animal
+level: Lv2
+topic_key: animal_hedgehog_chameleon_kangaroo_sea_otter_capybara_lv2_005
+fact_summary: ハリネズミ、カメレオン、カンガルー、ラッコ、カピバラの体の特徴と行動を扱う新規画像Lv2動物雑学
+status: uploaded
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_005/zatsugaku_animal_lv2_005_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_005/contact.png"
+title: 知ってたらちょっとすごい動物の雑学 Lv2
+description: |-
+  動物にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. ハリネズミの針は 毛が硬く 変化したもの
+  針は体を守るための硬い毛で、危険を感じると体を丸めて守りを固める。
+
+  2. カメレオンの舌は 体より長く 伸びることがある
+  種類によって差はあるが、遠くの虫をすばやく捕まえるために舌を勢いよく伸ばす。
+
+  3. カンガルーの赤ちゃんは 袋の中で 大きく育つ
+  生まれた直後はとても小さく、母親のお腹の袋に入って成長を続ける。
+
+  4. ラッコは 流されないよう 手をつなぐことがある
+  休むときに仲間と手をつないだり海藻につかまったりして、同じ場所にとどまりやすくする。
+
+  5. カピバラは 泳ぎが かなり得意
+  水辺で暮らすことが多く、足の形や体のつくりが泳ぎやすい生活に合っている。
+
+  いくつわかりましたか？
+
+  VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+source_urls:
+- https://animals.sandiegozoo.org/animals/hedgehog
+- https://animals.sandiegozoo.org/animals/chameleon
+- https://animals.sandiegozoo.org/animals/kangaroo
+- https://www.montereybayaquarium.org/animals/animals-a-to-z/sea-otter
+- https://animals.sandiegozoo.org/animals/capybara
+irasutoya_urls:
+- https://www.irasutoya.com/2013/11/blog-post_7063.html
+- https://www.irasutoya.com/2015/05/blog-post_457.html
+- https://www.irasutoya.com/2013/07/blog-post_2801.html
+- https://www.irasutoya.com/2015/08/blog-post_444.html
+- https://www.irasutoya.com/2013/03/blog-post_3523.html
+created_at: '2026-04-29T14:54:05+09:00'
+scheduled_at: '2026-04-29T15:03:44+09:00'
+publish_at: '2026-04-30T07:30:00+09:00'
+uploaded_at: '2026-04-29T15:03:50+09:00'
+video_id: cj1mbYat7WA
+last_error: 
+publish_slot: '07:30'
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-29T14:54:05+09:00'
+  notes: 作成前に既存 metadata/stock/**/stock.yaml の irasutoya_urls、reused_local_irasutoya_asset、topic_key、fact_summary
+    と比較し、5枚すべて既存URLと不一致であることを確認。contact.png を目視し、各雑学カードの画像が題材に直接対応し、代替プレースホルダーやカテゴリ違い（タコ等）がないことを確認済み。タイトル/説明/最終カード以外で同一画像の使い回しなし。
+schedule_date: '2026-04-30'
