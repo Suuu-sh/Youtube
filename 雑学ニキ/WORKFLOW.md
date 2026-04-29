@@ -121,7 +121,7 @@ scripts/zatsugaku_api_automation.sh dry-run
 - `plan` / `upload-due` / `next-missing-set` は、作成日時に関係なく `visual_audit` 済みの在庫だけを使用対象にする。未確認の古い在庫は自動予約・自動アップロードしない。
 ## Longform automation
 
-- Codex app automation `雑学ニキLongform作成投稿` runs every day at 22:30 JST.
+- Codex app automation `Long作成投稿` runs every day at 04:00 JST.
 - It creates one normal/long-form video with fresh research, validates it, schedules the next unplanned 06:00 JST publication slot, uploads it as Private, and sets YouTube `publishAt`.
 - Longform upload/schedule helper:
 

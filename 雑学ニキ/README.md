@@ -96,7 +96,7 @@ scripts/zatsugaku_api_automation.sh dry-run
 YouTube API 認証情報はローカルの secret env から読み込み、コメント投稿は行わない。
 ## Longform automation
 
-- Codex app automation `雑学ニキLongform作成投稿` runs every day at 22:30 JST.
+- Codex app automation `Long作成投稿` runs every day at 04:00 JST.
 - It creates one normal/long-form video with fresh research, validates it, schedules the next unplanned 06:00 JST publication slot, uploads it as Private, and sets YouTube `publishAt`.
 - Longform upload/schedule helper:
 
