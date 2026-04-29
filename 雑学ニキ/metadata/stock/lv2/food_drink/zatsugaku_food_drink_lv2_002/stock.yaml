@@ -6,7 +6,7 @@ category_key: food_drink
 level: Lv2
 topic_key: food_rice_coffee_egg_milk_bread_aroma_stale_lv2_002
 fact_summary: 米の香り、コーヒー豆、卵殻、牛乳の白さ、パンの老化を扱うLv2食べ物雑学
-status: stock
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_002/zatsugaku_food_drink_lv2_002_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_002/contact.png"
 title: 知ってたらちょっとすごい食べ物・飲み物の雑学 Lv2
@@ -47,9 +47,10 @@ irasutoya_urls:
 - https://www.irasutoya.com/2013/04/blog-post_5557.html
 - https://www.irasutoya.com/2013/02/blog-post_7420.html
 created_at: '2026-04-28T04:04:30+09:00'
-scheduled_at: 
-publish_at: 
-uploaded_at: 
-video_id: 
+scheduled_at: '2026-04-29T12:11:36+09:00'
+publish_at: '2026-04-30T12:00:00+09:00'
+uploaded_at: '2026-04-29T12:13:33+09:00'
+video_id: A6eQgxfpTaM
 last_error: 
-publish_slot: 
+publish_slot: '12:00'
+schedule_date: '2026-04-30'

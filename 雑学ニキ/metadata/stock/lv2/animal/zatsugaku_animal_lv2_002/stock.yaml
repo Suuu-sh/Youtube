@@ -6,7 +6,7 @@ category_key: animal
 level: Lv2
 topic_key: animal_mantis_shrimp_polar_bear_cricket_cat_meow_color_lv2_002
 fact_summary: シャコのパンチ、色センサー、シロクマの透明な毛、コオロギ温度計、猫のニャーを扱うLv2動物雑学
-status: stock
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_002/zatsugaku_animal_lv2_002_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_002/contact.png"
 title: 知ってたらちょっとすごい動物の雑学 Lv2
@@ -48,9 +48,10 @@ irasutoya_urls:
 - https://www.irasutoya.com/2017/06/blog-post_86.html
 - https://www.irasutoya.com/2013/02/blog-post_5596.html
 created_at: '2026-04-28T04:04:30+09:00'
-scheduled_at: 
-publish_at: 
-uploaded_at: 
-video_id: 
+scheduled_at: '2026-04-29T12:11:36+09:00'
+publish_at: '2026-04-30T07:30:00+09:00'
+uploaded_at: '2026-04-29T12:13:29+09:00'
+video_id: ahgqG2w7tMU
 last_error: 
-publish_slot: 
+publish_slot: '07:30'
+schedule_date: '2026-04-30'

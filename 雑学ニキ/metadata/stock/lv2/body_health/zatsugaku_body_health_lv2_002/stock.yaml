@@ -6,7 +6,7 @@ category_key: body_health
 level: Lv2
 topic_key: body_smell_memory_gut_serotonin_exercise_immune_brain_lv2_002
 fact_summary: 匂いと記憶、腸のセロトニン、運動と脳、睡眠と免疫、脳の省エネを扱うLv2人体雑学
-status: stock
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_002/zatsugaku_body_health_lv2_002_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_002/contact.png"
 title: 知ってたらちょっとすごい人体・健康の雑学 Lv2
@@ -48,9 +48,10 @@ irasutoya_urls:
 - https://www.irasutoya.com/2016/01/blog-post_834.html
 - https://www.irasutoya.com/2013/05/blog-post_4619.html
 created_at: '2026-04-28T04:04:30+09:00'
-scheduled_at: 
-publish_at: 
-uploaded_at: 
-video_id: 
+scheduled_at: '2026-04-29T12:11:36+09:00'
+publish_at: '2026-04-30T18:00:00+09:00'
+uploaded_at: '2026-04-29T12:13:36+09:00'
+video_id: 3HuNCGxOF2s
 last_error: 
-publish_slot: 
+publish_slot: '18:00'
+schedule_date: '2026-04-30'
