@@ -119,3 +119,18 @@ scripts/zatsugaku_api_automation.sh dry-run
   - `checked_at`
   - `notes`
 - `plan` / `upload-due` / `next-missing-set` は、作成日時に関係なく `visual_audit` 済みの在庫だけを使用対象にする。未確認の古い在庫は自動予約・自動アップロードしない。
+## Longform automation
+
+- Codex app automation `雑学ニキLongform作成投稿` runs every day at 22:30 JST.
+- It creates one normal/long-form video with fresh research, validates it, schedules the next unplanned 06:00 JST publication slot, uploads it as Private, and sets YouTube `publishAt`.
+- Longform upload/schedule helper:
+
+```bash
+ruby scripts/zatsugaku_longform_inventory.rb validate
+ruby scripts/zatsugaku_longform_inventory.rb schedule-next --dry-run
+ruby scripts/zatsugaku_longform_inventory.rb upload-due --dry-run
+```
+
+- Finished longform YAML should use `status: stock` before scheduling. The scheduler updates it to `scheduled`, then `uploaded` with `video_id` after YouTube API upload.
+- Longform standard audio mix follows the accepted Shorts-style mix: narration `1.0`, BGM `0.50`.
+

@@ -1,0 +1,106 @@
+# Managed by scripts/zatsugaku_longform_inventory.rb
+---
+id: zatsugaku_animal_long_005_production
+category: 動物
+category_key: animal
+format: normal_longform
+orientation: horizontal
+resolution: 1280x720
+fps: 8
+duration_seconds: 308.395
+title: 9割が知らない動物の雑学
+status: uploaded
+created_at: '2026-04-29T15:13:00+09:00'
+fresh_research_required: true
+shorts_reuse: false
+uses_irasutoya: true
+irasutoya_item_count: 10
+layout: top_phrase / irasutoya / bottom_phrase
+detail_cards: true
+minimal_intro: true
+outro_removed: true
+ordinal_narration_removed: true
+voice:
+  engine: VOICEVOX
+  speaker: 青山龍星
+  speaker_id: 13
+  speedScale: 0.9
+bgm:
+  title: Escort
+  composer: もっぴーさうんど
+  source: DOVA-SYNDROME
+paths:
+  video: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/animal/zatsugaku_animal_long_005_production/zatsugaku_animal_long_005_production_bgm050.mp4"
+  previous_video: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/animal/zatsugaku_animal_long_005_production/zatsugaku_animal_long_005_production_bgm.mp4"
+  raw_video: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/animal/zatsugaku_animal_long_005_production/zatsugaku_animal_long_005_production_raw.mov"
+  contact_sheet: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/animal/zatsugaku_animal_long_005_production/contact.png"
+  research: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/research/longform/animal/zatsugaku_animal_long_005_production/research.md"
+  script: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/longform/animal/zatsugaku_animal_long_005_production/script.json"
+  generated_assets: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/longform/animal/zatsugaku_animal_long_005_production"
+  metadata: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/metadata/longform/animal/zatsugaku_animal_long_005_production/metadata.md"
+description: |
+  9割が知らない動物の雑学。
+
+  ウォンバット、レッサーパンダ、ホッキョクグマ、ウーパールーパー、ミーアキャット、オオアリクイ、フェネック、マレーグマ、ハリモグラ、コモドドラゴンの雑学を、シンプルなカード形式で紹介。
+
+  【詳細・補足】
+  1. ウォンバットのフンが角ばる理由は、出口の形ではなく腸の動きと乾き方にあると考えられている。
+  2. レッサーパンダの親指っぽい部分は本物の親指ではなく、竹をつかむために発達した手首の骨。
+  3. ホッキョクグマの毛は白い色素ではなく、光を散らして白く見える。皮膚は黒い。
+  4. ウーパールーパーは脚だけでなく、脳や心臓など幅広い組織の再生力で研究されている。
+  5. ミーアキャットの黒い目元は、砂漠の強い日差しを減らすサングラスのような役目がある。
+  6. オオアリクイは歯がなく、長く粘る舌でアリやシロアリを集める。
+  7. フェネックの大きな耳は、音を聞くだけでなく砂漠の熱を逃がす放熱器にもなる。
+  8. マレーグマの長い舌は、木の穴の奥にあるハチミツや虫を取るのに役立つ。
+  9. ハリモグラは歯がなく、くちばしの先と粘る舌で虫を探して食べる。哺乳類なのに卵も産む。
+  10. コモドドラゴンは世界最大のトカゲ。若い個体は木の上で暮らし、噛みつきの毒性は研究途中の部分もある。
+
+  VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+source_urls:
+- https://www.australiangeographic.com.au/news/2021/02/why-do-wombats-have-cube-shaped-poo-scientists-may-have-solved-the-mystery/
+- https://animals.sandiegozoo.org/animals/red-panda
+- https://www.britannica.com/science/Why-Are-Polar-Bears-White
+- https://animals.sandiegozoo.org/animals/axolotl
+- https://animals.sandiegozoo.org/animals/meerkat
+- https://animals.sandiegozoo.org/animals/giant-anteater
+- https://animals.sandiegozoo.org/animals/fennec-fox
+- https://animals.sandiegozoo.org/animals/sun-bear
+- https://animals.sandiegozoo.org/animals/echidna
+- https://animals.sandiegozoo.org/animals/komodo-dragon
+irasutoya_urls:
+- https://www.irasutoya.com/2013/10/blog-post_29.html
+- https://www.irasutoya.com/2018/04/blog-post_780.html
+- https://www.irasutoya.com/2016/07/blog-post_626.html
+- https://www.irasutoya.com/2015/07/blog-post_961.html
+- https://www.irasutoya.com/2013/10/blog-post_5083.html
+- https://www.irasutoya.com/2019/09/blog-post_494.html
+- https://www.irasutoya.com/2013/10/blog-post_4436.html
+- https://www.irasutoya.com/2016/07/blog-post_618.html
+- https://www.irasutoya.com/2015/10/blog-post_422.html
+- https://www.irasutoya.com/2017/09/blog-post_602.html
+visual_audit:
+  contact_sheet_generated: true
+  layout_checked: true
+  simple_top_image_bottom: true
+  no_shorts_reuse: true
+  detail_explanation_cards_present: true
+  intro_only_required_words: true
+  no_outro_prompt: true
+  notes: Contact sheet reviewed; cards are readable in the requested simple format.
+audio_adjustment:
+  voice_mix_volume: 1.65
+  bgm_mix_volume: 0.045
+  reason: User noted the first render sounded small.
+shorts_mix_adjustment:
+  voice_mix_volume: 1.0
+  bgm_mix_volume: 0.5
+  baseline: youtube-zatsugaku-shorts standard mix
+schedule_date: '2026-04-30'
+scheduled_at: '2026-04-29T15:26:11+09:00'
+publish_at: '2026-04-30T06:00:00+09:00'
+publish_slot: '06:00'
+last_error: 
+video_id: jq3Yj_frjgo
+uploaded_at: '2026-04-29T15:26:16+09:00'
