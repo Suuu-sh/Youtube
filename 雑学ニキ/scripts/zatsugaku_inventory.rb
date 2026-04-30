@@ -408,6 +408,8 @@ class YouTubeClient
   RETRYABLE_ERRORS = [
     SocketError,
     EOFError,
+    IOError,
+    SystemCallError,
     Errno::ECONNRESET,
     Errno::ECONNREFUSED,
     Errno::EHOSTUNREACH,
@@ -416,7 +418,7 @@ class YouTubeClient
     Net::ReadTimeout
   ].freeze
   DEFAULT_RETRY_ATTEMPTS = 3
-  DEFAULT_RETRY_BASE_DELAY = 1.0
+  DEFAULT_RETRY_BASE_DELAY = 5.0
 
   def initialize
     missing = %w[YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET YOUTUBE_REFRESH_TOKEN].select { |key| ENV[key].to_s.empty? }
@@ -428,6 +430,9 @@ class YouTubeClient
   end
 
   def with_retries(action, attempts: DEFAULT_RETRY_ATTEMPTS, base_delay: DEFAULT_RETRY_BASE_DELAY)
+    attempts = Integer(ENV.fetch('ZATSUGAKU_UPLOAD_RETRY_ATTEMPTS', attempts.to_s))
+    base_delay = Float(ENV.fetch('ZATSUGAKU_UPLOAD_RETRY_BASE_SLEEP', base_delay.to_s))
+    attempts = 1 if attempts < 1
     tries = 0
 
     begin
@@ -443,20 +448,43 @@ class YouTubeClient
     end
   end
 
-  def access_token
-    with_retries('OAuth refresh') do
-      req = Net::HTTP::Post.new(TOKEN_URI)
-      req.set_form_data(
-        client_id: @client_id,
-        client_secret: @client_secret,
-        refresh_token: @refresh_token,
-        grant_type: 'refresh_token'
-      )
-      res = Net::HTTP.start(TOKEN_URI.hostname, TOKEN_URI.port, use_ssl: true) { |http| http.request(req) }
-      raise Error, "OAuth refresh failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
+  def request_with_retries(uri, request, label:, read_timeout:)
+    attempts = Integer(ENV.fetch('ZATSUGAKU_UPLOAD_RETRY_ATTEMPTS', DEFAULT_RETRY_ATTEMPTS.to_s))
+    base_delay = Float(ENV.fetch('ZATSUGAKU_UPLOAD_RETRY_BASE_SLEEP', DEFAULT_RETRY_BASE_DELAY.to_s))
+    attempts = 1 if attempts < 1
 
-      JSON.parse(res.body).fetch('access_token')
+    (1..attempts).each do |attempt|
+      begin
+        response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == 'https', open_timeout: 20, read_timeout: read_timeout) { |http| http.request(request) }
+        return response unless retryable_http_response?(response) && attempt < attempts
+
+        warn "#{label} retry #{attempt + 1}/#{attempts}: HTTP #{response.code}"
+      rescue *RETRYABLE_ERRORS => e
+        raise if attempt >= attempts
+
+        warn "#{label} retry #{attempt + 1}/#{attempts}: #{e.class}: #{e.message}"
+      end
+      sleep(base_delay * attempt)
     end
+  end
+
+  def retryable_http_response?(response)
+    code = response.code.to_i
+    code == 408 || code == 429 || code.between?(500, 599)
+  end
+
+  def access_token
+    req = Net::HTTP::Post.new(TOKEN_URI)
+    req.set_form_data(
+      client_id: @client_id,
+      client_secret: @client_secret,
+      refresh_token: @refresh_token,
+      grant_type: 'refresh_token'
+    )
+    res = request_with_retries(TOKEN_URI, req, label: 'OAuth refresh', read_timeout: 30)
+    raise Error, "OAuth refresh failed: HTTP #{res.code} #{res.body}" unless res.is_a?(Net::HTTPSuccess)
+
+    JSON.parse(res.body).fetch('access_token')
   end
 
   def upload_video(item)
@@ -482,7 +510,7 @@ class YouTubeClient
     init['X-Upload-Content-Type'] = 'video/mp4'
     init['X-Upload-Content-Length'] = File.size(file).to_s
     init.body = body
-    init_res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) { |http| http.request(init) }
+    init_res = request_with_retries(uri, init, label: 'YouTube upload init', read_timeout: 60)
     unless init_res.is_a?(Net::HTTPRedirection) || init_res.code.to_i == 200
       raise Error, "Upload init failed: HTTP #{init_res.code} #{init_res.body}"
     end
@@ -494,7 +522,7 @@ class YouTubeClient
     put['Authorization'] = "Bearer #{token}"
     put['Content-Type'] = 'video/mp4'
     put.body = File.binread(file)
-    put_res = Net::HTTP.start(upload_uri.hostname, upload_uri.port, use_ssl: true) { |http| http.request(put) }
+    put_res = request_with_retries(upload_uri, put, label: 'YouTube upload body', read_timeout: 180)
     raise Error, "Upload body failed: HTTP #{put_res.code} #{put_res.body}" unless put_res.is_a?(Net::HTTPSuccess)
 
     body = JSON.parse(put_res.body)
