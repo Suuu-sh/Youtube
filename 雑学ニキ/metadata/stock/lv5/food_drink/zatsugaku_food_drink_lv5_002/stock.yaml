@@ -6,7 +6,7 @@ category_key: food_drink
 level: Lv5
 topic_key: food_coffee_pineapple_cranberry_peanut_red_cabbage_lv5_002
 fact_summary: コーヒー、パイナップル、クランベリー、ピーナッツ、紫キャベツで成分と食品科学のLv5雑学
-status: scheduled
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/food_drink/zatsugaku_food_drink_lv5_002/zatsugaku_food_drink_lv5_002_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/food_drink/zatsugaku_food_drink_lv5_002/contact.png"
 title: 知ってたら博士級 食べ物の雑学 Lv5
@@ -44,5 +44,6 @@ schedule_date: '2026-05-03'
 scheduled_at: '2026-04-30T20:21:21+09:00'
 publish_at: '2026-05-03T12:00:00+09:00'
 publish_slot: '12:00'
-last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
-  (getaddrinfo: nodename nor servname provided, or not known)'
+last_error: 
+video_id: NPUEU7jiA2I
+uploaded_at: '2026-04-30T20:46:43+09:00'

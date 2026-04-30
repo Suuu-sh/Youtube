@@ -6,7 +6,7 @@ category_key: animal
 level: Lv5
 topic_key: animal_komodo_sun_bear_polar_bear_axolotl_echidna_lv5_002
 fact_summary: コモドドラゴン、マレーグマ、ホッキョクグマ、アホロートル、ハリモグラで進化と生態のLv5雑学
-status: scheduled
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_002/zatsugaku_animal_lv5_002_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_002/contact.png"
 title: 知ってたら博士級 動物の雑学 Lv5
@@ -45,5 +45,6 @@ schedule_date: '2026-05-03'
 scheduled_at: '2026-04-30T20:21:21+09:00'
 publish_at: '2026-05-03T07:30:00+09:00'
 publish_slot: '07:30'
-last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
-  (getaddrinfo: nodename nor servname provided, or not known)'
+last_error: 
+video_id: sxiwXCF79Fc
+uploaded_at: '2026-04-30T20:46:39+09:00'

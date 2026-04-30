@@ -6,7 +6,7 @@ category_key: body_health
 level: Lv5
 topic_key: health_heart_lungs_muscle_skeleton_sleep_lv5_002
 fact_summary: 心臓、肺、筋肉、骨、睡眠で人体機能の仕組みを掘るLv5雑学
-status: scheduled
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/body_health/zatsugaku_body_health_lv5_002/zatsugaku_body_health_lv5_002_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/body_health/zatsugaku_body_health_lv5_002/contact.png"
 title: 知ってたら博士級 人体・健康の雑学 Lv5
@@ -42,5 +42,6 @@ schedule_date: '2026-05-03'
 scheduled_at: '2026-04-30T20:21:21+09:00'
 publish_at: '2026-05-03T18:00:00+09:00'
 publish_slot: '18:00'
-last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
-  (getaddrinfo: nodename nor servname provided, or not known)'
+last_error: 
+video_id: 2FhRbMMlXvg
+uploaded_at: '2026-04-30T20:46:47+09:00'
