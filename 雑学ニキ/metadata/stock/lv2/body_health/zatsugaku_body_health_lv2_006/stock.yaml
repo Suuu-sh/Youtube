@@ -6,7 +6,7 @@ category_key: body_health
 level: Lv2
 topic_key: body_posture_reflex_sweat_memory_satiety_lv2_006
 fact_summary: 姿勢、反射、汗、睡眠と記憶、満腹感を扱う新規Lv2人体健康雑学
-status: scheduled
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_006/zatsugaku_body_health_lv2_006_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/body_health/zatsugaku_body_health_lv2_006/contact.png"
 title: 知ってたらちょっとすごい人体・健康の雑学 Lv2
@@ -51,8 +51,8 @@ irasutoya_urls:
 created_at: '2026-04-30T11:50:33+09:00'
 scheduled_at: '2026-04-30T11:57:30+09:00'
 publish_at: '2026-04-30T18:00:00+09:00'
-uploaded_at: 
-video_id: 
+uploaded_at: '2026-04-30T12:08:25+09:00'
+video_id: e1iEea9QMSg
 last_error: 
 visual_audit:
   contact_sheet_checked: true

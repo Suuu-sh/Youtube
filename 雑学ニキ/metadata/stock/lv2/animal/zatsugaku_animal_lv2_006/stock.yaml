@@ -6,7 +6,7 @@ category_key: animal
 level: Lv2
 topic_key: animal_anteater_redpanda_hippo_cheetah_seahorse_lv2_006
 fact_summary: アリクイ、レッサーパンダ、カバ、チーター、タツノオトシゴの特徴を扱う新規Lv2動物雑学
-status: scheduled
+status: uploaded
 video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_006/zatsugaku_animal_lv2_006_bgm050.mp4"
 contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_006/contact.png"
 title: 知ってたらちょっとすごい動物の雑学 Lv2
@@ -51,8 +51,8 @@ irasutoya_urls:
 created_at: '2026-04-30T11:50:33+09:00'
 scheduled_at: '2026-04-30T11:57:30+09:00'
 publish_at: '2026-04-30T07:30:00+09:00'
-uploaded_at: 
-video_id: 
+uploaded_at: '2026-04-30T12:07:05+09:00'
+video_id: su52X6zsI1U
 last_error: 
 visual_audit:
   contact_sheet_checked: true
@@ -64,3 +64,6 @@ visual_audit:
     を確認し、既存の同一カテゴリで2語以上重なる topic_key にならない題材を選定。contact.png を目視し、各カード画像が題材に直接対応し、タイトル/説明/最終カード以外で同一画像の使い回しがないことを確認。ローカル既存いらすとや素材は使用したが、同一カテゴリの既存動画と主題の大半が重ならない構成。
 schedule_date: '2026-04-30'
 publish_slot: '07:30'
+privacy_status: public
+public_upload_note: Uploaded public immediately because the 2026-04-30 animal slot
+  had already passed and user approved public release.
