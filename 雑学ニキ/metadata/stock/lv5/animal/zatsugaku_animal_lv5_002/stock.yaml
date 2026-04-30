@@ -1,0 +1,49 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_animal_lv5_002
+category: 動物
+category_key: animal
+level: Lv5
+topic_key: animal_komodo_sun_bear_polar_bear_axolotl_echidna_lv5_002
+fact_summary: コモドドラゴン、マレーグマ、ホッキョクグマ、アホロートル、ハリモグラで進化と生態のLv5雑学
+status: scheduled
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_002/zatsugaku_animal_lv5_002_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/animal/zatsugaku_animal_lv5_002/contact.png"
+title: 知ってたら博士級 動物の雑学 Lv5
+description: |-
+  知ってたら博士級 動物の雑学 Lv5
+
+  【詳細・補足】
+  1. コモドドラゴンの口には強い細菌だけでなく、血圧低下や出血に関わる毒成分もある。獲物を一気に倒すより、追跡しやすくする働きが大きい。
+  2. マレーグマは長い舌でシロアリ、ハチの巣、果実を器用に食べる。森の中で小さな栄養源を拾うための専門道具になっている。
+  3. ホッキョクグマの毛は透明に近く、光が乱反射して白く見える。皮膚は黒く、寒い環境で熱を受け取りやすい。
+  4. アホロートルは手足や神経の再生で知られる。傷口をふさぐだけでなく、細胞が作り直しの状態へ戻る点が研究対象になる。
+  5. ハリモグラは哺乳類なのに卵を産む単孔類。ふ化後は乳首ではなく皮膚からにじむ母乳をなめて育つ。
+
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  VOICEVOX: 青山龍星
+  画像: いらすとやテイストのローカル制作素材
+
+  いくつわかりましたか？
+source_urls:
+- https://www.sciencedaily.com/releases/2026/04/260429043500.htm
+- https://www.sciencedaily.com/releases/2026/04/260427050554.htm
+- https://www.sciencedaily.com/releases/2026/04/260426012259.htm
+- https://www.cdc.gov/
+- https://www.sciencedaily.com/
+created_at: '2026-04-30T20:06:10+09:00'
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-30T20:06:10+09:00'
+  notes: contact sheet checked; images are direct animal subjects. Two rare-species
+    images reuse prior local stock assets because active local Irasutoya pool has
+    limited Lv5-ready species; no unrelated placeholders.
+schedule_date: '2026-05-03'
+scheduled_at: '2026-04-30T20:21:21+09:00'
+publish_at: '2026-05-03T07:30:00+09:00'
+publish_slot: '07:30'
+last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
+  (getaddrinfo: nodename nor servname provided, or not known)'

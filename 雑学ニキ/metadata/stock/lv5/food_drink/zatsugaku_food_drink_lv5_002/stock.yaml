@@ -1,0 +1,48 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_food_drink_lv5_002
+category: 食べ物・飲み物
+category_key: food_drink
+level: Lv5
+topic_key: food_coffee_pineapple_cranberry_peanut_red_cabbage_lv5_002
+fact_summary: コーヒー、パイナップル、クランベリー、ピーナッツ、紫キャベツで成分と食品科学のLv5雑学
+status: scheduled
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/food_drink/zatsugaku_food_drink_lv5_002/zatsugaku_food_drink_lv5_002_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv5/food_drink/zatsugaku_food_drink_lv5_002/contact.png"
+title: 知ってたら博士級 食べ物の雑学 Lv5
+description: |-
+  知ってたら博士級 食べ物の雑学 Lv5
+
+  【詳細・補足】
+  1. コーヒー豆は焙煎で糖やアミノ酸が反応し、香ばしい成分が大量に増える。同じ豆でも温度と時間で香りの印象が変わる。
+  2. パイナップルにはブロメラインという酵素があり、たんぱく質を分解する。食べた時のピリピリ感の一因になるが、加熱で働きは弱くなる。
+  3. クランベリーは酸味が強く、ポリフェノールも多い果実。甘くする加工品が多いのは、生のままだと渋みや酸味が目立つため。
+  4. ピーナッツは木になるナッツではなく、地中で実るマメ科植物の種。アレルギー表示ではナッツ類と別扱いになることもある。
+  5. 紫キャベツのアントシアニンは酸性で赤寄り、アルカリ性で青緑寄りに変わる。台所でできるpH指示薬としても有名。
+
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  VOICEVOX: 青山龍星
+  画像: いらすとやテイストのローカル制作素材
+
+  いくつわかりましたか？
+source_urls:
+- https://www.sciencedaily.com/releases/2026/04/260418042817.htm
+- https://www.sciencedaily.com/releases/2026/04/260407193923.htm
+- https://www.sciencedaily.com/releases/2026/04/260401022027.htm
+- https://www.sciencedaily.com/
+created_at: '2026-04-30T20:06:10+09:00'
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-30T20:06:10+09:00'
+  notes: contact sheet checked; food images directly match all five items. Reuses
+    local food illustrations, but each subject differs from the previous Lv5 food
+    stock.
+schedule_date: '2026-05-03'
+scheduled_at: '2026-04-30T20:21:21+09:00'
+publish_at: '2026-05-03T12:00:00+09:00'
+publish_slot: '12:00'
+last_error: 'SocketError: Failed to open TCP connection to oauth2.googleapis.com:443
+  (getaddrinfo: nodename nor servname provided, or not known)'

@@ -1,16 +1,44 @@
 {
   "target_date": "2026-04-30",
-  "collected_at": "2026-04-30T10:28:38+09:00",
+  "collected_at": "2026-04-30T20:01:32+09:00",
   "feeds": [
     {
       "category_key": "animal",
       "category": "動物",
       "name": "ScienceDaily Animals News",
       "url": "https://www.sciencedaily.com/rss/plants_animals/animals.xml",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to www.sciencedaily.com:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "50-foot ancient snake discovered in India may be one of the largest ever",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260429043500.htm",
+          "published_at": "Wed, 29 Apr 2026 05:13:03 EDT",
+          "summary": "A massive prehistoric snake discovered in India may rank among the largest ever to slither across Earth. Named Vasuki indicus, this ancient giant lived around 47 million years ago and is estimated to have stretched an astonishing 11 to 15 meters long—rivaling the legendary Titanoboa. Fossilized vertebrae unearthed from a lignite mine in Gujarat reveal a thick-bodied, powerful snake likely built for slow, stealthy ambush attacks, similar to modern anacondas."
+        },
+        {
+          "title": "This tiny mammal survived the dinosaur apocalypse and changed life on Earth",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260427050554.htm",
+          "published_at": "Mon, 27 Apr 2026 10:58:35 EDT",
+          "summary": "A newly discovered prehistoric mammal may hold clues to how life survived the dinosaur-killing extinction. The tiny species, Cimolodon desosai, lived 75 million years ago and had traits—like a small body and varied diet—that likely boosted survival odds. Found in Baja California, the fossil includes rare skeletal remains that reveal how it moved and lived. Researchers believe its lineage helped mammals endure one of Earth’s deadliest events."
+        },
+        {
+          "title": "Mezcal worm in a bottle DNA test reveals a surprise",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260426012250.htm",
+          "published_at": "Sun, 26 Apr 2026 09:34:14 EDT",
+          "summary": "The famous mezcal “worm” has long puzzled scientists, but DNA testing has finally cracked the case. Researchers found that all sampled larvae were actually agave redworm moth caterpillars—not a mix of species as once believed. While the discovery clears up a long-standing mystery, it also raises concerns about sustainability. Growing demand for mezcal and edible larvae could put pressure on wild populations and the agave plants they depend on."
+        },
+        {
+          "title": "Blood vessels found in T. rex bones are rewriting dinosaur science",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260426012259.htm",
+          "published_at": "Sun, 26 Apr 2026 07:44:57 EDT",
+          "summary": "Dinosaur DNA may still be out of reach, but scientists are uncovering something almost as exciting—ancient blood vessels hidden inside fossilized bones. In a massive Tyrannosaurus rex nicknamed Scotty, researchers discovered a network of preserved vessels within a rib that once fractured and began healing 66 million years ago. Using powerful synchrotron X-rays from particle accelerators, they were able to peer inside the dense fossil without damaging it, revealing intricate, iron-rich structures left behind by the healing process."
+        },
+        {
+          "title": "Warming waters are supercharging an invasive salmon predator in Alaska",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233219.htm",
+          "published_at": "Sat, 25 Apr 2026 23:24:06 EDT",
+          "summary": "As Alaska’s rivers warm, invasive northern pike are becoming noticeably more voracious. Scientists discovered that pike of all ages are eating more fish, with young pike increasing consumption by over 60%. Warmer water speeds up their metabolism, pushing them to hunt more. This growing appetite could spell trouble for struggling salmon populations."
+        }
       ]
     },
     {
@@ -18,10 +46,38 @@
       "category": "食べ物・飲み物",
       "name": "ScienceDaily Food News",
       "url": "https://www.sciencedaily.com/rss/plants_animals/food.xml",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to www.sciencedaily.com:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "Scientists just found what keeps plant cells from growing out of control",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233201.htm",
+          "published_at": "Sat, 25 Apr 2026 00:13:45 EDT",
+          "summary": "Before seedlings can photosynthesize, they depend on fatty acids—and on peroxisomes to process them. Researchers discovered that the protein PEX11 not only helps these structures divide but also controls their size during early growth. When key genes were altered, peroxisomes grew abnormally large, suggesting internal vesicles normally keep them in balance. Remarkably, a yeast version of the protein fixed the problem, pointing to a deeply conserved mechanism across species."
+        },
+        {
+          "title": "What caffeine does to ants could change pest control",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260418042817.htm",
+          "published_at": "Sat, 18 Apr 2026 07:54:08 EDT",
+          "summary": "Caffeine doesn’t just perk up humans—it can sharpen ants’ minds too. Invasive Argentine ants given caffeinated sugar learned to find food much more efficiently, taking straighter paths and reducing travel time by up to 38%. They weren’t faster, just more focused, indicating improved learning. This unexpected effect could make pest control baits far more effective."
+        },
+        {
+          "title": "Mammal ancestors laid eggs, and this 250-million-year-old fossil finally proves it",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260414075642.htm",
+          "published_at": "Tue, 14 Apr 2026 10:20:28 EDT",
+          "summary": "In the aftermath of Earth’s most catastrophic extinction event, one unlikely survivor rose to dominate a shattered world: Lystrosaurus. Now, a stunning fossil discovery—an ancient egg containing a curled-up embryo—has finally answered a decades-old mystery about whether mammal ancestors laid eggs. Using advanced imaging technology, scientists confirmed that these resilient creatures did reproduce this way, likely producing large, soft-shelled eggs packed with nutrients."
+        },
+        {
+          "title": "Ancient farmers accidentally created aggressive “warrior” wheat",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193923.htm",
+          "published_at": "Wed, 08 Apr 2026 09:51:27 EDT",
+          "summary": "Early wheat didn’t just grow—it fought. When humans began cultivating fields, plants that could outcompete their neighbors for sunlight and space quickly took over, evolving upright leaves and aggressive growth. These ancient “warrior” traits helped wheat thrive for millennia. Ironically, modern farming now favors less competitive plants, prioritizing yield over survival battles."
+        },
+        {
+          "title": "Scientists open 40-year-old salmon and find a surprising sign of ocean recovery",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401022027.htm",
+          "published_at": "Wed, 01 Apr 2026 04:20:39 EDT",
+          "summary": "Old canned salmon turned out to be a time capsule of ocean health. Researchers found that rising levels of tiny parasitic worms in some salmon species suggest stronger, more complete marine food webs. Because these parasites depend on multiple hosts—including marine mammals—their increase may reflect ecosystem recovery over decades. What looks unappetizing may actually be a sign of a healthier ocean."
+        }
       ]
     },
     {
@@ -29,10 +85,38 @@
       "category": "人体・健康",
       "name": "CDC Newsroom",
       "url": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
-      "status": "error",
-      "error": "SocketError: Failed to open TCP connection to tools.cdc.gov:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "status": "ok",
       "items": [
-
+        {
+          "title": "CDC Data Show Weekly ER Visits for Tick Bites Higher than Usual",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765182",
+          "published_at": "Thu, 23 Apr 2026 18:00:00 GMT",
+          "summary": "Public health resources can help protect individuals and their families this tick season"
+        },
+        {
+          "title": "CDC announces Salmonella outbreak in 13 states linked to backyard poultry.",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765181",
+          "published_at": "Thu, 23 Apr 2026 17:00:00 GMT",
+          "summary": "34 people across 13 states have gotten sick with the same strain of Salmonella"
+        },
+        {
+          "title": "CDC Disease Detectives Present at Annual CDC EIS Conference",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765027",
+          "published_at": "Mon, 20 Apr 2026 08:00:00 GMT",
+          "summary": "CDC's Epidemic Intelligence Service officers are gathering this week for the 2026 EIS Conference"
+        },
+        {
+          "title": "CDC's NIOSH Continues Annual Free Health Screenings for Coal Miners, Announces 2026 Dates",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764138",
+          "published_at": "Wed, 11 Mar 2026 08:00:00 GMT",
+          "summary": "NIOSH will kick off the agency's annual mobile health screenings for coal miners this month"
+        },
+        {
+          "title": "CDC Reinforces National Measles Response Through State Collaboration",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764137",
+          "published_at": "Mon, 09 Mar 2026 08:00:00 GMT",
+          "summary": "CDC reaffirmed its commitment to protecting communities across the United States"
+        }
       ]
     }
   ]
