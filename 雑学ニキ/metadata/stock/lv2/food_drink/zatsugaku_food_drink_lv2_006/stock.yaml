@@ -1,0 +1,66 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_food_drink_lv2_006
+category: 食べ物・飲み物
+category_key: food_drink
+level: Lv2
+topic_key: food_egg_bread_popcorn_pineapple_coffee_lv2_006
+fact_summary: 卵、パン、ポップコーン、パイナップル、コーヒーの身近な仕組みを扱う新規Lv2雑学
+status: scheduled
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_006/zatsugaku_food_drink_lv2_006_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/food_drink/zatsugaku_food_drink_lv2_006/contact.png"
+title: 知ってたらちょっとすごい食べ物・飲み物の雑学 Lv2
+description: |-
+  食べ物・飲み物にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. 卵の殻には 小さな穴が たくさんある
+  卵の殻には空気や水分が少し通る小さな穴がある。保存中ににおいを吸いやすいと言われる理由にもつながる。
+
+  2. パンがふくらむのは 酵母がガスを 作るから
+  酵母が糖を利用して二酸化炭素を出し、生地の中に気泡ができる。焼くとその形が固まり、ふんわりした食感になる。
+
+  3. ポップコーンは 粒の中の水分が 一気に膨らむ
+  硬い皮の内側にある水分が熱で蒸気になり、圧力が高まる。限界を超えると中身がはじけて白く広がる。
+
+  4. パイナップルには たんぱく質を切る 酵素がある
+  ブロメラインという酵素が、たんぱく質を分解しやすくする。生のパイナップルでゼラチンが固まりにくい理由にもなる。
+
+  5. コーヒーのカフェインは 眠気信号の受け取りを 邪魔する
+  カフェインは眠気に関わるアデノシンの受容体に入り込み、眠気を感じにくくする。効き方は体質や飲む時間で大きく変わる。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #食べ物 #shorts
+source_urls:
+- https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table
+- https://www.exploratorium.edu/cooking/bread/bread_science.html
+- https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-popcorn-pop/
+- https://www.britannica.com/plant/pineapple
+- https://www.fda.gov/food/information-consumers-using-dietary-supplements/spilling-beans-how-much-caffeine-too-much
+irasutoya_urls:
+- reused_local_irasutoya_asset:egg
+- reused_local_irasutoya_asset:bread
+- reused_local_irasutoya_asset:popcorn
+- reused_local_irasutoya_asset:pineapple
+- reused_local_irasutoya_asset:coffee
+created_at: '2026-04-30T11:50:33+09:00'
+scheduled_at: '2026-04-30T11:57:30+09:00'
+publish_at: '2026-04-30T12:00:00+09:00'
+uploaded_at: 
+video_id: 
+last_error: 
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-30T11:50:33+09:00'
+  notes: 作成前に既存 metadata/stock/**/stock.yaml の topic_key/fact_summary と overlap-report
+    を確認し、既存の同一カテゴリで2語以上重なる topic_key にならない題材を選定。contact.png を目視し、各カード画像が題材に直接対応し、タイトル/説明/最終カード以外で同一画像の使い回しがないことを確認。ローカル既存いらすとや素材は使用したが、同一カテゴリの既存動画と主題の大半が重ならない構成。
+schedule_date: '2026-04-30'
+publish_slot: '12:00'

@@ -1,0 +1,66 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_animal_lv2_006
+category: 動物
+category_key: animal
+level: Lv2
+topic_key: animal_anteater_redpanda_hippo_cheetah_seahorse_lv2_006
+fact_summary: アリクイ、レッサーパンダ、カバ、チーター、タツノオトシゴの特徴を扱う新規Lv2動物雑学
+status: scheduled
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_006/zatsugaku_animal_lv2_006_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv2/animal/zatsugaku_animal_lv2_006/contact.png"
+title: 知ってたらちょっとすごい動物の雑学 Lv2
+description: |-
+  動物にまつわる知ってたらちょっとすごい雑学を短く紹介。
+
+  【詳細・補足】
+  1. アリクイの舌は 細長く伸びて 虫をからめ取る
+  長い舌に粘り気のある唾液がつき、アリやシロアリをすばやく取る。歯でかむより、舌と胃の力で食べる形に近い。
+
+  2. レッサーパンダは 名前にパンダでも 独自の仲間
+  ジャイアントパンダと名前は似るが、分類では別の系統。木登りが得意で、ふさふさの尾はバランス取りにも役立つ。
+
+  3. カバの赤い汗みたいな液は 日差しと菌から 肌を守る
+  本当の汗ではなく、皮膚から出る赤っぽい分泌液。紫外線や細菌から肌を守る働きがあると考えられる。
+
+  4. チーターの爪は 走る時の スパイクに近い
+  多くのネコ科と違い、爪を完全には引っ込めにくい。地面をつかみ、高速で曲がるときのグリップを助ける。
+
+  5. タツノオトシゴは オスのお腹で 子を育てる
+  メスが卵をオスの育児のうへ渡し、オスが中で守りながら育てる。魚の中でもかなり珍しい繁殖スタイル。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #動物 #shorts
+source_urls:
+- https://nationalzoo.si.edu/animals/giant-anteater
+- https://nationalzoo.si.edu/animals/red-panda
+- https://www.britannica.com/animal/hippopotamus-mammal
+- https://nationalzoo.si.edu/animals/cheetah
+- https://oceanservice.noaa.gov/facts/seahorse.html
+irasutoya_urls:
+- reused_local_irasutoya_asset:anteater
+- reused_local_irasutoya_asset:red_panda
+- reused_local_irasutoya_asset:hippo
+- reused_local_irasutoya_asset:cheetah
+- reused_local_irasutoya_asset:seahorse
+created_at: '2026-04-30T11:50:33+09:00'
+scheduled_at: '2026-04-30T11:57:30+09:00'
+publish_at: '2026-04-30T07:30:00+09:00'
+uploaded_at: 
+video_id: 
+last_error: 
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-30T11:50:33+09:00'
+  notes: 作成前に既存 metadata/stock/**/stock.yaml の topic_key/fact_summary と overlap-report
+    を確認し、既存の同一カテゴリで2語以上重なる topic_key にならない題材を選定。contact.png を目視し、各カード画像が題材に直接対応し、タイトル/説明/最終カード以外で同一画像の使い回しがないことを確認。ローカル既存いらすとや素材は使用したが、同一カテゴリの既存動画と主題の大半が重ならない構成。
+schedule_date: '2026-04-30'
+publish_slot: '07:30'

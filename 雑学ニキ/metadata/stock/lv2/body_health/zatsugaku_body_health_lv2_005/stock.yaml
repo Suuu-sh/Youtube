@@ -48,7 +48,7 @@ irasutoya_urls:
 - https://www.irasutoya.com/2016/09/blog-post_697.html
 created_at: '2026-04-29T15:00:35+09:00'
 scheduled_at: '2026-04-29T15:03:44+09:00'
-publish_at: '2026-04-30T18:00:00+09:00'
+publish_at: '2026-04-29T18:00:00+09:00'
 uploaded_at: '2026-04-29T15:03:58+09:00'
 video_id: HsKQPJ8zQiQ
 last_error: 
@@ -61,4 +61,7 @@ visual_audit:
   checked_at: '2026-04-29T15:00:35+09:00'
   notes: 作成前に既存 metadata/stock/**/stock.yaml の irasutoya_urls、reused_local_irasutoya_asset、topic_key、fact_summary
     と比較し、5枚すべて既存URLと不一致であることを確認。contact.png を目視し、各雑学カードの画像が題材に直接対応し、代替プレースホルダーやカテゴリ違い（タコ等）がないことを確認済み。タイトル/説明/最終カード以外で同一画像の使い回しなし。
-schedule_date: '2026-04-30'
+schedule_date: '2026-04-29'
+metadata_corrected_at: '2026-04-30T11:49:10+09:00'
+metadata_correction_note: Originally recorded as 2026-04-30, corrected because this
+  video was actually published/used for 2026-04-29.
