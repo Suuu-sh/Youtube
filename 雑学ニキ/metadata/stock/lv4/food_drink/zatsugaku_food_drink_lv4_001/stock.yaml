@@ -1,0 +1,66 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_food_drink_lv4_001
+category: 食べ物・飲み物
+category_key: food_drink
+level: Lv4
+topic_key: food_drink_redcabbage_konnyaku_cranberry_cucumber_peanut_lv4
+fact_summary: 紫キャベツ、こんにゃく、クランベリー、きゅうり、ピーナッツの成分と分類を扱うLv4雑学
+status: uploaded
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv4/food_drink/zatsugaku_food_drink_lv4_001/zatsugaku_food_drink_lv4_001_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv4/food_drink/zatsugaku_food_drink_lv4_001/contact.png"
+title: 深く知るとかなりすごい食べ物・飲み物の雑学 Lv4
+description: |-
+  食べ物・飲み物の成分と性質を深めに知るLv4雑学を短く紹介。
+
+  【詳細・補足】
+  1. 紫キャベツの色は 酸とアルカリで 変わる
+  紫キャベツの色素アントシアニンは、周りの酸性・アルカリ性で色が変わりやすい。理科実験のpH指示薬としてよく使われる。
+
+  2. こんにゃくの弾力は 食物繊維が 水を抱える
+  こんにゃく芋のグルコマンナンは水を多く抱え、アルカリ条件で網目状に固まりやすい。低カロリーで腹持ちが出やすい理由にもつながる。
+
+  3. クランベリーには 細菌の付着を 邪魔する成分がある
+  プロアントシアニジンという成分が、細菌が尿路の表面につく動きを妨げる可能性がある。効果は製品や摂り方で変わるため万能ではない。
+
+  4. きゅうりの苦味は 防御用の成分が 関わる
+  ウリ科の植物にはククルビタシンという苦味成分が関わることがある。品種改良で強い苦味は抑えられるが、栽培環境で感じ方が変わることもある。
+
+  5. ピーナッツは 木の実ではなく 豆の仲間
+  名前にナッツとつくが、植物分類ではマメ科。花のあと子房が土にもぐり、地中でさやを作るところも特徴的。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #食べ物 #shorts
+source_urls:
+- https://www.acs.org/education/whatischemistry/adventures-in-chemistry/experiments/cabbage-chemistry.html
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6267381/
+- https://www.nccih.nih.gov/health/cranberry
+- https://fdc.nal.usda.gov/
+- https://www.britannica.com/plant/peanut
+irasutoya_urls:
+- reused_local_irasutoya_asset:red_cabbage
+- reused_local_irasutoya_asset:konnyaku_potato
+- reused_local_irasutoya_asset:cranberry
+- reused_local_irasutoya_asset:cucumber
+- reused_local_irasutoya_asset:peanut
+created_at: '2026-04-30T10:32:18+09:00'
+scheduled_at: '2026-04-30T10:41:40+09:00'
+publish_at: '2026-05-02T12:00:00+09:00'
+uploaded_at: '2026-04-30T10:41:46+09:00'
+video_id: UxXrwINcR3E
+last_error: 
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-30T10:32:18+09:00'
+  notes: 既存 stock.yaml の topic_key/fact_summary と overlap-report を確認後、Lv4用に重複しにくい題材を選定。contact.png
+    を目視し、各カード画像が題材に直接対応し、タイトル/説明/最終カード以外で同一画像の使い回しがないことを確認。ローカル既存いらすとや素材の再利用はあるが、同一カテゴリの既存動画と主題の大半が重ならない構成。
+schedule_date: '2026-05-02'
+publish_slot: '12:00'

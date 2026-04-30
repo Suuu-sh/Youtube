@@ -1,0 +1,39 @@
+{
+  "target_date": "2026-04-30",
+  "collected_at": "2026-04-30T10:28:38+09:00",
+  "feeds": [
+    {
+      "category_key": "animal",
+      "category": "動物",
+      "name": "ScienceDaily Animals News",
+      "url": "https://www.sciencedaily.com/rss/plants_animals/animals.xml",
+      "status": "error",
+      "error": "SocketError: Failed to open TCP connection to www.sciencedaily.com:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "items": [
+
+      ]
+    },
+    {
+      "category_key": "food_drink",
+      "category": "食べ物・飲み物",
+      "name": "ScienceDaily Food News",
+      "url": "https://www.sciencedaily.com/rss/plants_animals/food.xml",
+      "status": "error",
+      "error": "SocketError: Failed to open TCP connection to www.sciencedaily.com:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "items": [
+
+      ]
+    },
+    {
+      "category_key": "body_health",
+      "category": "人体・健康",
+      "name": "CDC Newsroom",
+      "url": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
+      "status": "error",
+      "error": "SocketError: Failed to open TCP connection to tools.cdc.gov:443 (getaddrinfo: nodename nor servname provided, or not known)",
+      "items": [
+
+      ]
+    }
+  ]
+}

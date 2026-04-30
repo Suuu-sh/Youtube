@@ -1,0 +1,66 @@
+# Managed by scripts/zatsugaku_inventory.rb
+---
+id: zatsugaku_body_health_lv4_001
+category: 人体・健康
+category_key: body_health
+level: Lv4
+topic_key: body_circadian_glymphatic_alveoli_sinoatrial_microbiome_lv4
+fact_summary: 体内時計、睡眠中の老廃物排出、肺胞、心臓の電気信号、皮膚常在菌を扱うLv4人体健康雑学
+status: uploaded
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv4/body_health/zatsugaku_body_health_lv4_001/zatsugaku_body_health_lv4_001_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/stock/lv4/body_health/zatsugaku_body_health_lv4_001/contact.png"
+title: 深く知るとかなりすごい人体・健康の雑学 Lv4
+description: |-
+  人体・健康の仕組みを深めに知るLv4雑学を短く紹介。
+
+  【詳細・補足】
+  1. 体内時計は 光で毎日 合わせ直される
+  体のリズムは脳の時計に強く支えられ、朝の光が時刻合わせの大きな手がかりになる。夜の強い光は眠るタイミングを後ろへずらすことがある。
+
+  2. 睡眠中の脳は 老廃物を流す 動きが強まる
+  睡眠中は脳内の液体の流れが変わり、不要な物質を片づける働きが注目される。眠りが大事な理由は休むだけではない。
+
+  3. 肺胞は 酸素交換用の 極小ポケット
+  肺の奥には肺胞という小さな袋が大量にあり、薄い壁ごしに酸素と二酸化炭素をやり取りする。表面積を広げる構造が呼吸を支える。
+
+  4. 心臓の拍動は 電気信号で 順番に伝わる
+  心臓には刺激伝導系があり、洞房結節から始まる信号で筋肉が協調して動く。リズムが乱れると脈の異常につながる。
+
+  5. 皮膚の常在菌は 外敵から守る 味方にもなる
+  皮膚には多くの微生物がすみ、場所によって種類も変わる。バランスの取れた常在菌は、外から来る菌が増えすぎるのを抑える助けになる。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #人体 #健康 #shorts
+source_urls:
+- https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx
+- https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep
+- https://www.nhlbi.nih.gov/health/lungs
+- https://www.nhlbi.nih.gov/health/heart/conduction-system
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3535073/
+irasutoya_urls:
+- reused_local_irasutoya_asset:clock
+- reused_local_irasutoya_asset:sleep
+- reused_local_irasutoya_asset:lungs
+- reused_local_irasutoya_asset:heart
+- reused_local_irasutoya_asset:skin
+created_at: '2026-04-30T10:32:18+09:00'
+scheduled_at: '2026-04-30T10:41:40+09:00'
+publish_at: '2026-05-02T18:00:00+09:00'
+uploaded_at: '2026-04-30T10:41:50+09:00'
+video_id: f92tC6WYiiE
+last_error: 
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-04-30T10:32:18+09:00'
+  notes: 既存 stock.yaml の topic_key/fact_summary と overlap-report を確認後、Lv4用に重複しにくい題材を選定。contact.png
+    を目視し、各カード画像が題材に直接対応し、タイトル/説明/最終カード以外で同一画像の使い回しがないことを確認。ローカル既存いらすとや素材の再利用はあるが、同一カテゴリの既存動画と主題の大半が重ならない構成。
+schedule_date: '2026-05-02'
+publish_slot: '18:00'
