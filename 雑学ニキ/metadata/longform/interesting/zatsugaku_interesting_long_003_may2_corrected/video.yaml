@@ -1,0 +1,91 @@
+# Managed by scripts/zatsugaku_longform_inventory.rb
+---
+id: zatsugaku_interesting_long_003_may2_corrected
+category: 面白い雑学
+category_key: interesting
+format: normal_longform
+orientation: horizontal
+resolution: 1280x720
+fps: 8
+duration_seconds: 211.35
+title: 9割が知らない雑学まとめ
+status: uploaded
+created_at: '2026-05-02T00:29:02+09:00'
+target_date: '2026-05-02'
+paired_short_ids:
+- zatsugaku_interesting_004_daily_mystery
+- zatsugaku_interesting_008_youtube_focus_money
+- zatsugaku_interesting_002_ninewari_human
+paired_short_schedule_date: '2026-05-02'
+uses_irasutoya: true
+irasutoya_item_count: 16
+layout: top_phrase / irasutoya / bottom_phrase
+detail_cards: true
+minimal_intro: true
+outro_removed: true
+ordinal_narration_removed: true
+voice:
+  engine: VOICEVOX
+  speaker: 青山龍星
+  speaker_id: 13
+  speedScale: 1.03
+bgm:
+  title: Escort
+  composer: もっぴーさうんど
+  source: DOVA-SYNDROME
+  voice_mix_volume: 1.0
+  bgm_mix_volume: 0.5
+paths:
+  video: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/interesting/zatsugaku_interesting_long_003_may2_corrected/zatsugaku_interesting_long_002_daily_life_mix_bgm.mp4"
+  raw_video: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/interesting/zatsugaku_interesting_long_003_may2_corrected/zatsugaku_interesting_long_002_daily_life_mix_raw.mov"
+  contact_sheet: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/interesting/zatsugaku_interesting_long_003_may2_corrected/contact.png"
+  research: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/research/longform/interesting/zatsugaku_interesting_long_003_may2_corrected/research.md"
+  script: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/longform/interesting/zatsugaku_interesting_long_003_may2_corrected/script.json"
+  generated_assets: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/longform/interesting/zatsugaku_interesting_long_003_may2_corrected"
+  metadata: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/metadata/longform/interesting/zatsugaku_interesting_long_003_may2_corrected/metadata.md"
+description: |
+  9割が知らない雑学まとめ。2026年5月2日の3本のShorts（07:00、12:00、18:00）から、身近な面白い雑学15個をまとめたLong版。
+
+  【詳細・補足】
+  1. 浴室は硬い壁が多く、声が吸収されにくい空間。反響が声に重なって音量や厚みが増し、普段より気持ちよく聞こえやすい。
+  2. 歩くたびに足が地面へ当たり、結び目には衝撃が入る。同時に足の振りでひもの端が引っ張られ、ほどける方向へ力が重なる。
+  3. 冷たい食べ物が上あごや喉の奥を急に冷やすと、血管や神経が反応する。脳はその信号を頭の痛みとして受け取り、短い頭痛として感じることがある。
+  4. 長く水に触れた指のシワは、ただ水を吸っただけでは説明しにくい。自律神経が血管を縮める反応が関わり、濡れた物をつかみやすくする働きも考えられている。
+  5. においの情報は、感情や記憶に関わる脳の領域と近い経路で処理される。だから特定の香りが、場所や人の記憶を一気に呼び戻すことがある。
+  6. 好きな曲は次に来る音やサビを予想しやすい。展開がわかる音は脳にとって処理しやすく、気分を落ち着ける手がかりになりやすい。
+  7. 名前は顔や職業のような意味の手がかりと結びつくまで残りにくい。初対面で会話に集中していると、名前だけ記憶から抜けやすい。
+  8. 現金を手放す時は、支払った感覚が目でわかりやすい。電子決済は動作が軽く、残高の減りを実感する前に買い物が進みやすい。
+  9. 通知が鳴らなくても、スマホは連絡や動画を思い出させる強い手がかりになる。視界に入るだけで、意識の一部がそちらへ引っ張られやすい。
+  10. 沈黙そのものより、相手の表情や場の空気を読み続ける負荷が大きいことがある。気を使える人ほど、会話が止まる時間に疲れやすい。
+  11. 自分で動かした手の感覚は、脳が先に予測する。予測できる刺激は驚きが弱まり、他人に急にくすぐられる時ほど反応しにくい。
+  12. 涙は目からあふれるだけでなく、目頭側の通り道を通って鼻へも流れる。泣いて涙の量が増えると、鼻の中の水分も増えて鼻水っぽくなる。
+  13. 鳥肌は毛の根元にある小さな筋肉が縮むことで起きる。毛の多い動物では体を大きく見せたり、空気をためて寒さに備えたりする反応と関係する。
+  14. 昼食後の眠気は食事だけでなく、午後に眠気が出やすい体内リズムも関わる。大きな食事や炭水化物の多い食事では、さらに眠さを感じやすい。
+  15. 夜の強い光、とくに青みのある光は体内時計に昼のサインとして届きやすい。スマホを見る内容の刺激も重なるため、寝つきにくさにつながることがある。
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+  参考: 2026年5月2日投稿の「9割が知らない面白い雑学」Shorts 3本
+
+  #雑学 #面白い雑学 #9割が知らない
+source_urls: []
+youtube_selection_policy: Corrected Long made from the three active May 2 specific_interesting
+  Shorts after replacing the rejected 15:00 Short with the uploaded 18:00 Short.
+visual_audit:
+  contact_sheet_generated: true
+  layout_checked: true
+  simple_top_image_bottom: true
+  no_shorts_reuse: true
+  detail_explanation_cards_present: true
+  intro_only_required_words: true
+  no_outro_prompt: true
+  checked_at: '2026-05-02T00:29:02+09:00'
+  notes: contact.png を目視確認。5月2日の有効な3本（daily_mystery / youtube_focus_money / ninewari_human）15項目に対応。
+last_error: 
+schedule_date: '2026-05-02'
+scheduled_at: '2026-05-02T00:29:02+09:00'
+publish_at: '2026-05-02T20:00:00+09:00'
+publish_slot: '20:00'
+video_id: BghxPdrmGIY
+uploaded_at: '2026-05-02T00:29:17+09:00'

@@ -1,0 +1,103 @@
+# Managed by scripts/zatsugaku_longform_inventory.rb
+---
+id: zatsugaku_interesting_long_002_daily_life_mix
+category: 面白い雑学
+category_key: interesting
+format: normal_longform
+orientation: horizontal
+resolution: 1280x720
+fps: 8
+duration_seconds: 189.76
+title: 9割が知らない雑学まとめ
+status: rejected
+created_at: '2026-05-01T22:58:00+09:00'
+target_date: '2026-05-02'
+paired_short_ids:
+- zatsugaku_interesting_004_daily_mystery
+- zatsugaku_interesting_005_body_switch
+- zatsugaku_interesting_008_youtube_focus_money
+paired_short_schedule_date: '2026-05-02'
+uses_irasutoya: true
+irasutoya_item_count: 14
+layout: top_phrase / irasutoya / bottom_phrase
+detail_cards: true
+minimal_intro: true
+outro_removed: true
+ordinal_narration_removed: true
+voice:
+  engine: VOICEVOX
+  speaker: 青山龍星
+  speaker_id: 13
+  speedScale: 1.03
+bgm:
+  title: Escort
+  composer: もっぴーさうんど
+  source: DOVA-SYNDROME
+  voice_mix_volume: 1.0
+  bgm_mix_volume: 0.5
+paths:
+  video: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/interesting/zatsugaku_interesting_long_002_daily_life_mix/zatsugaku_interesting_long_002_daily_life_mix_bgm.mp4"
+  raw_video: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/interesting/zatsugaku_interesting_long_002_daily_life_mix/zatsugaku_interesting_long_002_daily_life_mix_raw.mov"
+  contact_sheet: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/longform/interesting/zatsugaku_interesting_long_002_daily_life_mix/contact.png"
+  research: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/research/longform/interesting/zatsugaku_interesting_long_002_daily_life_mix/research.md"
+  script: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/longform/interesting/zatsugaku_interesting_long_002_daily_life_mix/script.json"
+  generated_assets: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/longform/interesting/zatsugaku_interesting_long_002_daily_life_mix"
+  metadata: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/metadata/longform/interesting/zatsugaku_interesting_long_002_daily_life_mix/metadata.md"
+description: |
+  9割が知らない雑学まとめ。2026年5月2日のShortsから、風呂、靴ひも、冷たい物、指のシワ、香り、しゃっくり、お腹の音、朝の光、石けん、緊張の汗、バナナ、電子レンジ、エスカレーター、消しゴム、光くしゃみをまとめたLong版。
+
+  【詳細・補足】
+  1. 風呂で歌がうまく聞こえるのは、浴室の硬い壁で声が反響しやすいから。
+  2. 靴ひもは着地の衝撃と足の振りで、結び目が少しずつゆるむ。
+  3. 冷たい物の頭キーンは、口の奥の冷えを頭の痛みとして感じる反応。
+  4. 水で指がシワになる反応には、自律神経と血管の動きも関わる。
+  5. 香りは記憶や感情と結びつきやすく、昔の場面を一気に呼び戻すことがある。
+  6. しゃっくりは横隔膜が急に縮み、声門が閉じることで起こる。
+  7. お腹が鳴る音は、胃や腸で空気と液体が動く自然なサイン。
+  8. 朝の光は体内時計に一日の始まりを知らせる強い合図。
+  9. 石けんは油になじむ部分と水になじむ部分で、汚れを流れやすくする。
+  10. 緊張の汗は手のひらや足裏に出やすく、滑りにくさに関わるという見方もある。
+  11. バナナは植物学の分類ではベリー側に入る。
+  12. 電子レンジの扉の網は中を見せつつ、マイクロ波を外へ出しにくくする。
+  13. エスカレーターのブラシは靴磨きではなく、端から足を離すための安全部品。
+  14. 消しゴムは鉛筆の黒鉛をゴム側へ移し、紙から離して消す。
+  15. 太陽を見るとくしゃみが出る反応は、体質で起こる光くしゃみ反射。
+
+  いくつわかりましたか？
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+  参考: YouTube上の9割が知らない雑学系高再生動画と既存Shorts用リサーチ
+
+  #雑学 #面白い雑学 #9割が知らない
+reference_youtube_urls:
+- https://www.youtube.com/watch?v=YM7CvmPaVbc
+- https://www.youtube.com/watch?v=s0KMxYgfzAA
+- https://www.youtube.com/watch?v=JROuWXH85-0
+source_urls: []
+youtube_selection_policy: Daily scrape was run first; high-view YouTube retrieval
+  failed in this environment, so prior local YouTube-derived interesting research
+  and the paired three Shorts were reused. Facts are rewritten for 雑学ニキ and not copied
+  in script/order/thumbnail.
+visual_audit:
+  contact_sheet_generated: true
+  layout_checked: true
+  simple_top_image_bottom: true
+  no_shorts_reuse: true
+  detail_explanation_cards_present: true
+  intro_only_required_words: true
+  no_outro_prompt: true
+  checked_at: '2026-05-01T23:27:56.471513+09:00'
+  notes: contact.png を目視確認。3本のShortsの15事実をLong用に補足し、各カードの画像は風呂、靴ひも、頭キーン、手洗い、香り、横隔膜/肺、お腹、時計、緊張汗、バナナ、電子レンジ、エスカレーター、消しゴム、太陽に直接対応。
+last_error: 
+schedule_date: '2026-05-02'
+scheduled_at: '2026-05-01T23:27:56+09:00'
+publish_at: '2026-05-02T20:00:00+09:00'
+publish_slot: '20:00'
+video_id: NVDmWWTZzJk
+uploaded_at: '2026-05-02T00:05:48+09:00'
+youtube_deleted_at: '2026-05-02T00:29:12+09:00'
+rejected_at: '2026-05-02T00:29:12+09:00'
+rejected_reason: 5月2日の有効Shorts 3本に含まれない zatsugaku_interesting_005_body_switch を元にした旧Longのため削除。修正版
+  long_003 を使用。
