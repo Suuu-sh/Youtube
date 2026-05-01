@@ -1,0 +1,56 @@
+# Managed by Creation of Interesting Daily Short Movies automation
+{
+  "id": "zatsugaku_interesting_003_daily_reset",
+  "series_key": "specific_interesting",
+  "category": "面白い雑学",
+  "category_key": "interesting",
+  "level": null,
+  "topic_key": "yawn_earwax_sigh_fidget_papercut",
+  "fact_summary": "あくびの伝染、耳あかの自浄、ため息、貧乏ゆすり、紙で切った指の痛みを扱う人間・日常雑学",
+  "status": "scheduled",
+  "schedule_date": "2026-05-01",
+  "publish_at": "2026-05-01T15:00:00+09:00",
+  "publish_slot": "15:00",
+  "video_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_003_daily_reset/zatsugaku_interesting_003_daily_reset_bgm050.mp4",
+  "contact_sheet_path": "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_003_daily_reset/contact.png",
+  "title": "9割が知らない面白い雑学 #雑学 #shorts",
+  "description": "9割が知らない面白い雑学。からだとクセの、つい話したくなる日常ネタを5つまとめた。\n\n【詳細・補足】\n1. あくびは見るだけでつられて出ることがある\nあくびは、見たり聞いたり考えたりするだけで起こることがある。脳が他人の動きに反応する現象の一つで、眠気だけが理由とは限らない。\n出典: https://www.sleepfoundation.org/sleep-faqs/why-do-you-yawn\n\n2. 耳あかはあごの動きで少しずつ外へ運ばれる\n耳あかは外耳道を守るための自然な分泌物。耳の中の皮膚の移動やあごの動きで外へ出るため、奥まで押し込む掃除は詰まりの原因になることがある。\n出典: https://www.health.harvard.edu/a_to_z/wax-blockage-of-the-ear-canal-a-to-z\n\n3. ため息は気分だけでなく肺をふくらませ直すリセット呼吸\nため息は落ち込みのサインだけでなく、体が自然に行う深い呼吸でもある。研究では、肺の小さな袋をふくらませ直す働きと関係すると説明されている。\n出典: https://www.nature.com/articles/nature16964\n\n4. 貧乏ゆすりは座ったまま消費を少し増やす動き\n脚を小さく動かす行動は、完全にじっと座るよりエネルギー消費が増えやすい。もちろん運動の代わりにはならないが、座りっぱなしを中断する小さな動きとして研究されている。\n出典: https://www.nature.com/articles/s41598-025-33921-8\n\n5. 紙で指を切ると痛いのは神経が多い場所を浅く切るから\n指先は細かい感覚を拾うため、神経の密度が高い場所。紙の切り傷は小さくても浅い層を鋭く傷つけるため、見た目以上に痛みを感じやすい。\n出典: https://health.osu.edu/health/general-health/why-do-papercuts-hurt\n\nいくつわかりましたか？\n\n音声: VOICEVOX: 青山龍星\nBGM: Escort / もっぴーさうんど（DOVA-SYNDROME）\nイラスト: いらすとや\n\n#雑学 #面白い雑学 #9割が知らない #shorts",
+  "source_urls": [
+    "https://www.sleepfoundation.org/sleep-faqs/why-do-you-yawn",
+    "https://www.health.harvard.edu/a_to_z/wax-blockage-of-the-ear-canal-a-to-z",
+    "https://www.nature.com/articles/nature16964",
+    "https://www.nature.com/articles/s41598-025-33921-8",
+    "https://health.osu.edu/health/general-health/why-do-papercuts-hurt"
+  ],
+  "irasutoya_urls": [
+    "https://www.irasutoya.com/2016/02/blog-post_54.html",
+    "https://www.irasutoya.com/2014/02/blog-post_2816.html",
+    "https://www.irasutoya.com/2013/12/blog-post_4.html",
+    "https://www.irasutoya.com/2014/10/blog-post_44.html",
+    "https://www.irasutoya.com/2016/05/blog-post_834.html",
+    "https://www.irasutoya.com/2014/06/blog-post_4162.html"
+  ],
+  "reference_youtube_urls": [
+    "https://www.youtube.com/watch?v=YM7CvmPaVbc",
+    "https://www.youtube.com/watch?v=prsDycrvs-E",
+    "https://www.youtube.com/watch?v=s0KMxYgfzAA",
+    "https://www.youtube.com/watch?v=JROuWXH85-0"
+  ],
+  "created_at": "2026-05-01T10:02:01+09:00",
+  "duration_seconds": 27.89,
+  "voice": "VOICEVOX: 青山龍星",
+  "bgm": "Escort / もっぴーさうんど（DOVA-SYNDROME）",
+  "audio_mix": {
+    "voice": 1.0,
+    "bgm": 0.5
+  },
+  "visual_audit": {
+    "contact_sheet_checked": true,
+    "image_subject_match_checked": true,
+    "no_unrelated_placeholder_images": true,
+    "no_excessive_reuse": true,
+    "checked_at": "2026-05-01T10:02:01+09:00",
+    "notes": "contact.png を目視確認。タイトル/最終カードの説明書素材のみ既存素材を再利用し、雑学5カードは新規の題材対応素材を使用。各カードの画像は題材と結果に直接対応し、結果テキストは revealAt 0.30 付近まで非表示。既存 interesting と具体題材・画像が重ならないことを確認。"
+  },
+  "last_error": null
+}

@@ -1,0 +1,319 @@
+{
+  "target_date": "2026-05-01",
+  "collected_at": "2026-05-01T09:54:39+09:00",
+  "feeds": [
+    {
+      "category_key": "animal",
+      "category": "動物",
+      "name": "ScienceDaily Animals News",
+      "url": "https://www.sciencedaily.com/rss/plants_animals/animals.xml",
+      "status": "ok",
+      "items": [
+        {
+          "title": "50-foot ancient snake discovered in India may be one of the largest ever",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260429043500.htm",
+          "published_at": "Wed, 29 Apr 2026 05:13:03 EDT",
+          "summary": "A massive prehistoric snake discovered in India may rank among the largest ever to slither across Earth. Named Vasuki indicus, this ancient giant lived around 47 million years ago and is estimated to have stretched an astonishing 11 to 15 meters long—rivaling the legendary Titanoboa. Fossilized vertebrae unearthed from a lignite mine in Gujarat reveal a thick-bodied, powerful snake likely built for slow, stealthy ambush attacks, similar to modern anacondas."
+        },
+        {
+          "title": "This tiny mammal survived the dinosaur apocalypse and changed life on Earth",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260427050554.htm",
+          "published_at": "Mon, 27 Apr 2026 10:58:35 EDT",
+          "summary": "A newly discovered prehistoric mammal may hold clues to how life survived the dinosaur-killing extinction. The tiny species, Cimolodon desosai, lived 75 million years ago and had traits—like a small body and varied diet—that likely boosted survival odds. Found in Baja California, the fossil includes rare skeletal remains that reveal how it moved and lived. Researchers believe its lineage helped mammals endure one of Earth’s deadliest events."
+        },
+        {
+          "title": "Mezcal worm in a bottle DNA test reveals a surprise",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260426012250.htm",
+          "published_at": "Sun, 26 Apr 2026 09:34:14 EDT",
+          "summary": "The famous mezcal “worm” has long puzzled scientists, but DNA testing has finally cracked the case. Researchers found that all sampled larvae were actually agave redworm moth caterpillars—not a mix of species as once believed. While the discovery clears up a long-standing mystery, it also raises concerns about sustainability. Growing demand for mezcal and edible larvae could put pressure on wild populations and the agave plants they depend on."
+        },
+        {
+          "title": "Blood vessels found in T. rex bones are rewriting dinosaur science",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260426012259.htm",
+          "published_at": "Sun, 26 Apr 2026 07:44:57 EDT",
+          "summary": "Dinosaur DNA may still be out of reach, but scientists are uncovering something almost as exciting—ancient blood vessels hidden inside fossilized bones. In a massive Tyrannosaurus rex nicknamed Scotty, researchers discovered a network of preserved vessels within a rib that once fractured and began healing 66 million years ago. Using powerful synchrotron X-rays from particle accelerators, they were able to peer inside the dense fossil without damaging it, revealing intricate, iron-rich structures left behind by the healing process."
+        },
+        {
+          "title": "Warming waters are supercharging an invasive salmon predator in Alaska",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233219.htm",
+          "published_at": "Sat, 25 Apr 2026 23:24:06 EDT",
+          "summary": "As Alaska’s rivers warm, invasive northern pike are becoming noticeably more voracious. Scientists discovered that pike of all ages are eating more fish, with young pike increasing consumption by over 60%. Warmer water speeds up their metabolism, pushing them to hunt more. This growing appetite could spell trouble for struggling salmon populations."
+        },
+        {
+          "title": "Aggressive “hulk” lizards are wiping out millions of years of evolution",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233212.htm",
+          "published_at": "Sat, 25 Apr 2026 23:14:14 EDT",
+          "summary": "For ages, wall lizards coexisted in three distinct color types, each with its own strategy for survival. Now, a powerful green variant is taking over. These dominant “Hulk” lizards are outcompeting the others, causing yellow and orange morphs to vanish. It’s a dramatic reminder that evolution can flip the script much faster than expected."
+        },
+        {
+          "title": "Giant octopuses may have ruled the oceans 100 million years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233206.htm",
+          "published_at": "Sat, 25 Apr 2026 08:59:34 EDT",
+          "summary": "Giant, fearsome octopuses may have once ruled the ancient seas, according to new research that flips the script on their evolutionary past. By uncovering exquisitely preserved fossil jaws hidden inside rock, scientists revealed that early octopuses from the age of dinosaurs weren’t shy, soft-bodied drifters—they were massive apex predators, possibly stretching up to 20 meters long and crushing prey with powerful bites."
+        },
+        {
+          "title": "Giant prehistoric insects didn’t need high oxygen after all, study finds",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233208.htm",
+          "published_at": "Sat, 25 Apr 2026 00:38:17 EDT",
+          "summary": "Ancient Earth once buzzed with enormous dragonfly-like insects, and scientists long thought high oxygen levels made their size possible. A new study overturns that idea, revealing insect flight muscles weren’t constrained by oxygen after all. Their breathing system has plenty of room to expand, meaning oxygen alone can’t explain their giant forms. Now, researchers are searching for new answers—like predators or physical limits of their bodies."
+        }
+      ]
+    },
+    {
+      "category_key": "food_drink",
+      "category": "食べ物・飲み物",
+      "name": "ScienceDaily Food News",
+      "url": "https://www.sciencedaily.com/rss/plants_animals/food.xml",
+      "status": "ok",
+      "items": [
+        {
+          "title": "Scientists just found what keeps plant cells from growing out of control",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260424233201.htm",
+          "published_at": "Sat, 25 Apr 2026 00:13:45 EDT",
+          "summary": "Before seedlings can photosynthesize, they depend on fatty acids—and on peroxisomes to process them. Researchers discovered that the protein PEX11 not only helps these structures divide but also controls their size during early growth. When key genes were altered, peroxisomes grew abnormally large, suggesting internal vesicles normally keep them in balance. Remarkably, a yeast version of the protein fixed the problem, pointing to a deeply conserved mechanism across species."
+        },
+        {
+          "title": "What caffeine does to ants could change pest control",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260418042817.htm",
+          "published_at": "Sat, 18 Apr 2026 07:54:08 EDT",
+          "summary": "Caffeine doesn’t just perk up humans—it can sharpen ants’ minds too. Invasive Argentine ants given caffeinated sugar learned to find food much more efficiently, taking straighter paths and reducing travel time by up to 38%. They weren’t faster, just more focused, indicating improved learning. This unexpected effect could make pest control baits far more effective."
+        },
+        {
+          "title": "Mammal ancestors laid eggs, and this 250-million-year-old fossil finally proves it",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260414075642.htm",
+          "published_at": "Tue, 14 Apr 2026 10:20:28 EDT",
+          "summary": "In the aftermath of Earth’s most catastrophic extinction event, one unlikely survivor rose to dominate a shattered world: Lystrosaurus. Now, a stunning fossil discovery—an ancient egg containing a curled-up embryo—has finally answered a decades-old mystery about whether mammal ancestors laid eggs. Using advanced imaging technology, scientists confirmed that these resilient creatures did reproduce this way, likely producing large, soft-shelled eggs packed with nutrients."
+        },
+        {
+          "title": "Ancient farmers accidentally created aggressive “warrior” wheat",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193923.htm",
+          "published_at": "Wed, 08 Apr 2026 09:51:27 EDT",
+          "summary": "Early wheat didn’t just grow—it fought. When humans began cultivating fields, plants that could outcompete their neighbors for sunlight and space quickly took over, evolving upright leaves and aggressive growth. These ancient “warrior” traits helped wheat thrive for millennia. Ironically, modern farming now favors less competitive plants, prioritizing yield over survival battles."
+        },
+        {
+          "title": "Scientists open 40-year-old salmon and find a surprising sign of ocean recovery",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401022027.htm",
+          "published_at": "Wed, 01 Apr 2026 04:20:39 EDT",
+          "summary": "Old canned salmon turned out to be a time capsule of ocean health. Researchers found that rising levels of tiny parasitic worms in some salmon species suggest stronger, more complete marine food webs. Because these parasites depend on multiple hosts—including marine mammals—their increase may reflect ecosystem recovery over decades. What looks unappetizing may actually be a sign of a healthier ocean."
+        },
+        {
+          "title": "Scientists uncovered the nutrients bees were missing — Colonies surged 15-fold",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260327000518.htm",
+          "published_at": "Fri, 27 Mar 2026 00:17:49 EDT",
+          "summary": "Scientists have developed a breakthrough “superfood” for honeybees by engineering yeast to produce the essential nutrients normally found in pollen. In controlled trials, colonies fed this specially designed diet produced up to 15 times more young, showing a dramatic boost in reproduction and overall health. As climate change and modern agriculture reduce the availability of natural pollen, this innovation could offer a practical way to support struggling bee populations."
+        },
+        {
+          "title": "This cow uses tools like a primate—and scientists are stunned",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260326075611.htm",
+          "published_at": "Thu, 26 Mar 2026 08:28:40 EDT",
+          "summary": "A cow named Veronika has stunned scientists by using tools in a flexible and purposeful way. She chooses different ends of a brush depending on the part of her body and adjusts her movements accordingly. This level of tool use is incredibly rare and was previously seen mainly in primates. The finding hints that cows may be much smarter than we assume."
+        },
+        {
+          "title": "Scientists just discovered bees and hummingbirds are drinking alcohol",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260325005908.htm",
+          "published_at": "Wed, 25 Mar 2026 07:05:29 EDT",
+          "summary": "Flower nectar often contains small amounts of alcohol, meaning pollinators like hummingbirds are drinking it all day long. Despite consuming human-equivalent amounts, they show no signs of intoxication—suggesting a surprising evolutionary tolerance."
+        }
+      ]
+    },
+    {
+      "category_key": "ecchi",
+      "category": "えっち",
+      "name": "CDC Newsroom",
+      "url": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
+      "status": "ok",
+      "items": [
+        {
+          "title": "CDC Data Show Weekly ER Visits for Tick Bites Higher than Usual",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765182",
+          "published_at": "Thu, 23 Apr 2026 18:00:00 GMT",
+          "summary": "Public health resources can help protect individuals and their families this tick season"
+        },
+        {
+          "title": "CDC announces Salmonella outbreak in 13 states linked to backyard poultry.",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765181",
+          "published_at": "Thu, 23 Apr 2026 17:00:00 GMT",
+          "summary": "34 people across 13 states have gotten sick with the same strain of Salmonella"
+        },
+        {
+          "title": "CDC Disease Detectives Present at Annual CDC EIS Conference",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=765027",
+          "published_at": "Mon, 20 Apr 2026 08:00:00 GMT",
+          "summary": "CDC's Epidemic Intelligence Service officers are gathering this week for the 2026 EIS Conference"
+        },
+        {
+          "title": "CDC's NIOSH Continues Annual Free Health Screenings for Coal Miners, Announces 2026 Dates",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764138",
+          "published_at": "Wed, 11 Mar 2026 08:00:00 GMT",
+          "summary": "NIOSH will kick off the agency's annual mobile health screenings for coal miners this month"
+        },
+        {
+          "title": "CDC Reinforces National Measles Response Through State Collaboration",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=764137",
+          "published_at": "Mon, 09 Mar 2026 08:00:00 GMT",
+          "summary": "CDC reaffirmed its commitment to protecting communities across the United States"
+        },
+        {
+          "title": "Secretary Kennedy Appoints Two Physicians to CDC's Advisory Committee on Immunization Practices",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=763817",
+          "published_at": "Sat, 28 Feb 2026 10:00:00 GMT",
+          "summary": "HHS and CDC today announced the appointment of two new members to the CDC ACIP."
+        },
+        {
+          "title": "Statement on the Resignation of the CDC Principal Deputy Director",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=763678",
+          "published_at": "Mon, 23 Feb 2026 14:08:00 GMT",
+          "summary": "CDC announced Dr. Ralph Abraham stepped down as Principal Deputy Director, effective immediately."
+        },
+        {
+          "title": "Extensively drug-resistant  Salmonella outbreak linked to moringa powder capsules",
+          "url": "https://tools.cdc.gov/api/embed/downloader/download.asp?m=132608&c=763536",
+          "published_at": "Fri, 13 Feb 2026 14:24:00 GMT",
+          "summary": "Three people have been hospitalized, and no deaths have been reported."
+        }
+      ]
+    },
+    {
+      "category_key": "interesting",
+      "category": "面白い雑学",
+      "name": "YouTube high-view trivia videos/search results (last 365 days)",
+      "url": "https://www.youtube.com/results?search_query=9%E5%89%B2%E3%81%8C%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84+%E9%9B%91%E5%AD%A6+shorts",
+      "status": "ok",
+      "items": [
+        {
+          "title": "【雑学】９割の人が知らない心理の雑学【総集編】【いつか役立つ】",
+          "url": "https://www.youtube.com/watch?v=YM7CvmPaVbc",
+          "published_at": "2025-05-09T08:00:39Z",
+          "summary": "９割の人が知らない心理の雑学 過去動画の総集編 音声 -VOICEVOX 青山龍星 素材 -Canva × いらすとや ※Canvaでの利用では ...",
+          "video_id": "YM7CvmPaVbc",
+          "matched_queries": [
+            "9割が知らない雑学 shorts いらすとや",
+            "9割が知らない 面白い雑学 shorts",
+            "9割が知らない 人間 雑学 shorts",
+            "9割が知らない 心理 雑学 shorts",
+            "9割が知らない雑学 VOICEVOX shorts",
+            "9割が知らない雑学 青山龍星 shorts"
+          ],
+          "channel_title": "オリバーの雑学",
+          "view_count": 2205738,
+          "like_count": 25327,
+          "duration_seconds": 1304
+        },
+        {
+          "title": "【雑学】誰かに話したくなる9割の人が知らない健康や恋愛雑学を中心に面白い雑学を紹介【BGM、聞き流し】",
+          "url": "https://www.youtube.com/watch?v=prsDycrvs-E",
+          "published_at": "2025-10-07T09:01:13Z",
+          "summary": "ご視聴ありがとうございます。 誰かに話したくなる9割が知らない恋愛と健康の雑学を中心に面白い雑学を紹介します。【BGM、 ...",
+          "video_id": "prsDycrvs-E",
+          "matched_queries": [
+            "9割が知らない雑学 shorts いらすとや",
+            "9割が知らない 面白い雑学 shorts",
+            "9割が知らない 体 雑学 shorts",
+            "9割が知らない 心理 雑学 shorts",
+            "9割が知らない雑学 ゆっくり解説 shorts",
+            "9割が知らない雑学 青山龍星 shorts"
+          ],
+          "channel_title": "毎日見たくなる雑学",
+          "view_count": 1984682,
+          "like_count": 5423,
+          "duration_seconds": 539
+        },
+        {
+          "title": "9割が知らない有益な恋愛心理雑学 #雑学 #心理学 #恋愛心理学",
+          "url": "https://www.youtube.com/watch?v=3oqCl1WqXv4",
+          "published_at": "2025-06-21T12:00:08Z",
+          "summary": "",
+          "video_id": "3oqCl1WqXv4",
+          "matched_queries": [
+            "9割が知らない 面白い雑学 shorts",
+            "9割が知らない 人間 雑学 shorts",
+            "9割が知らない 心理 雑学 shorts",
+            "9割が知らない雑学 ゆっくり解説 shorts"
+          ],
+          "channel_title": "恋愛雑学AIのアイ",
+          "view_count": 1793976,
+          "like_count": 9133,
+          "duration_seconds": 60
+        },
+        {
+          "title": "【面白】9割の人が知らない雑学【総集編4】#雑学#豆知識 #日常",
+          "url": "https://www.youtube.com/watch?v=s0KMxYgfzAA",
+          "published_at": "2025-05-30T11:01:36Z",
+          "summary": "雑学 #豆知識 #日常 チャンネル登録者３万人目指してます!! チャンネル登録・高評価して頂けると嬉しいです！ 使用した ...",
+          "video_id": "s0KMxYgfzAA",
+          "matched_queries": [
+            "9割が知らない雑学 shorts いらすとや",
+            "9割が知らない 雑学 shorts イラスト",
+            "9割が知らない 面白い雑学 shorts",
+            "9割が知らない 人間 雑学 shorts",
+            "9割が知らない 日常 雑学 shorts",
+            "9割が知らない雑学 VOICEVOX shorts",
+            "9割が知らない雑学 青山龍星 shorts"
+          ],
+          "channel_title": "もちっちゃんｰ雑学",
+          "view_count": 1483000,
+          "like_count": 6912,
+          "duration_seconds": 1888
+        },
+        {
+          "title": "9割が知らない健康雑学「実は、毎日●●を食べると歯茎が修復されます」【改訂版】歯周病予防/健康雑学",
+          "url": "https://www.youtube.com/watch?v=U2EMATR5ZLs",
+          "published_at": "2025-07-28T09:10:42Z",
+          "summary": "生活習慣病 #健康雑学 #歯 「歯が伸びた気がする…」それ、実は歯茎が下がっているサインかも  放っておくと将来の歯の健康に ...",
+          "video_id": "U2EMATR5ZLs",
+          "matched_queries": [
+            "9割が知らない雑学 shorts いらすとや",
+            "9割が知らない 体 雑学 shorts",
+            "9割が知らない雑学 青山龍星 shorts"
+          ],
+          "channel_title": "木になる健康雑学",
+          "view_count": 1000888,
+          "like_count": 10083,
+          "duration_seconds": 177
+        },
+        {
+          "title": "9割が知らない！エンドシティの効率的な探し方 #マイクラ #マインクラフト #minecraft #ゆっくり実況 #ゆっくり解説 #ゆっくり #ドズル社 #おんりー",
+          "url": "https://www.youtube.com/watch?v=rYfz2zWqXBM",
+          "published_at": "2026-03-06T07:00:58Z",
+          "summary": "shorts #マインクラフト #マイクラ この動画はドズル社のマインクラフトではなく、チャレンジ動画です。 おんりーさんのRTA ...",
+          "video_id": "rYfz2zWqXBM",
+          "matched_queries": [
+            "9割が知らない雑学 ゆっくり解説 shorts"
+          ],
+          "channel_title": "だいず",
+          "view_count": 967348,
+          "like_count": 17999,
+          "duration_seconds": 53
+        },
+        {
+          "title": "9割の人が知らない心理に関する雑学",
+          "url": "https://www.youtube.com/watch?v=JROuWXH85-0",
+          "published_at": "2025-07-05T09:30:18Z",
+          "summary": "ご視聴ありがとうございます。 ▽素材:いらすとや＆イラストAC ▽使用ツール:CapCut ▽音声:VOICEBOX-青山龍星.",
+          "video_id": "JROuWXH85-0",
+          "matched_queries": [
+            "9割が知らない 心理 雑学 shorts"
+          ],
+          "channel_title": "雑学ダヴィンチ",
+          "view_count": 902808,
+          "like_count": 17006,
+          "duration_seconds": 112
+        },
+        {
+          "title": "【GNDではない】発電所からコンセントまで電気はどのように送られるのか【ゆっくり解説】【雑学】",
+          "url": "https://www.youtube.com/watch?v=VESqW3WrMkU",
+          "published_at": "2025-05-23T10:01:01Z",
+          "summary": "電線が3本の理由とコンセントが3本の理由、三相交流をゆっくり解説しました。",
+          "video_id": "VESqW3WrMkU",
+          "matched_queries": [
+            "9割が知らない雑学 ゆっくり解説 shorts"
+          ],
+          "channel_title": "【ゆっくり解説】9割が知らない雑学",
+          "view_count": 740347,
+          "like_count": 12544,
+          "duration_seconds": 779
+        }
+      ]
+    }
+  ]
+}
