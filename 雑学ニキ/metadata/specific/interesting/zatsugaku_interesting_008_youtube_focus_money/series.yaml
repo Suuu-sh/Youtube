@@ -1,0 +1,63 @@
+# Managed by scripts/zatsugaku_specific_inventory.rb
+---
+id: zatsugaku_interesting_008_youtube_focus_money
+series_key: specific_interesting
+category: 面白い雑学
+category_key: interesting
+level: 
+topic_key: youtube_music_names_emoney_phone_silence
+fact_summary: YouTube高再生心理・日常雑学由来の、同じ曲を聴く安心感、名前を忘れやすい理由、電子マネーの使いすぎ、スマホと集中、無言のしんどさを扱う面白い雑学
+status: uploaded
+schedule_date: '2026-05-02'
+publish_at: '2026-05-02T12:00:00+09:00'
+publish_slot: '12:00'
+video_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_008_youtube_focus_money/zatsugaku_interesting_008_youtube_focus_money_bgm050.mp4"
+contact_sheet_path: "/Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_008_youtube_focus_money/contact.png"
+title: '9割が知らない面白い雑学 #雑学 #shorts'
+description: |
+  9割が知らない面白い雑学。
+
+  このShortで出した雑学の理由や補足は、同日20:00公開予定のLong版でまとめて深掘り。
+  15個まとめて知りたい人は、チャンネルの最新動画を見てね。
+
+  音声: VOICEVOX: 青山龍星
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+  イラスト: いらすとや
+
+  #雑学 #面白い雑学 #9割が知らない #shorts
+source_urls: []
+reference_youtube_urls:
+- https://www.youtube.com/watch?v=YM7CvmPaVbc
+- https://www.youtube.com/watch?v=prsDycrvs-E
+- https://www.youtube.com/watch?v=s0KMxYgfzAA
+- https://www.youtube.com/watch?v=JROuWXH85-0
+irasutoya_urls:
+- https://www.irasutoya.com/2012/12/blog-post_4768.html
+- https://www.irasutoya.com/2016/06/bluetooth_21.html
+- https://www.irasutoya.com/2016/11/blog-post_73.html
+- https://www.irasutoya.com/2016/03/blog-post_390.html
+- https://www.irasutoya.com/2018/11/blog-post_284.html
+- https://www.irasutoya.com/2018/12/blog-post_905.html
+created_at: '2026-05-01T23:43:19+09:00'
+duration_seconds: 28.5
+voice: 'VOICEVOX: 青山龍星'
+bgm: Escort / もっぴーさうんど（DOVA-SYNDROME）
+audio_mix:
+  voice: 1.0
+  bgm: 0.5
+youtube_selection_policy: Fresh daily scrape confirmed current high-view 9割が知らない雑学
+  results. Eligible illustration/VOICEVOX-style psychological and daily-life facts
+  were rewritten for 雑学ニキ; wording/order/scripts/thumbnails were not copied.
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-05-01T23:43:19+09:00'
+  notes: contact.png を目視確認。イヤホン、自己紹介、電子マネー支払い、勉強中スマホ、気まずい表情の各画像が題材に直接対応。旧15時動画の人体反応セットとは具体題材を総入れ替え。
+last_error: 
+updated_at: '2026-05-02T00:14:16+09:00'
+uploaded_at: '2026-05-02T00:21:32+09:00'
+description_policy: Short description intentionally omits detailed explanations to
+  drive viewers to the paired Long video.
+video_id: j6dVpZMVyAc
