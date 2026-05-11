@@ -6,7 +6,7 @@ category_key: interesting
 topic_key: 20260511_0900_youtube_animals
 fact_summary: カップ麺の待ち時間は3分の理由がある / ラムネ瓶のビー玉は栓の役目がある / 信号機の青は緑に見える / えんぴつは6角形になっている
   / アイスクリームには賞味期限が無い
-status: scheduled
+status: draft_rendered
 schedule_date: '2026-05-11'
 publish_slot: '09:00'
 publish_at: '2026-05-11T09:00:00+09:00'
@@ -113,7 +113,8 @@ visual_audit:
   no_unrelated_placeholder_images: true
   no_excessive_reuse: true
   checked_at: '2026-05-11T09:21:02+09:00'
-  notes: Contact sheet inspected after rebuild; real downloaded Irasutoya images are
-    used on all trivia cards; topic mix intentionally not category-bound; VOICEVOX
-    and Escort BGM are mixed into the MP4.
+  notes: 'Marked draft_rendered after user review: source policy and wording need
+    stricter rebuild before scheduling/upload.'
 created_at: '2026-05-11T09:21:02+09:00'
+last_error: 'Needs rebuild: source videos must be narrowed to Irasutoya-style trivia
+  videos, and card wording must reveal concrete answers instead of vague `理由がある` phrasing.'
