@@ -1,0 +1,83 @@
+trend_inputs:
+- 'ytsearch: 9割が知らない 雑学 shorts 面白い 動物 食べ物'
+- 'ytsearch: コアラ 22時間寝る 雑学 / カラス 顔を覚える 雑学 / イルカ 片目 寝る 雑学'
+youtube_sources:
+- url: https://www.youtube.com/watch?v=zqaNbWaZEVg
+  title: 【動物クイズ後編】コアラが1日22時間寝るのはなぜ？誰かに話したくなるどうぶつの秘密を楽しく学ぼう！
+  time: title
+  excerpt: コアラが1日22時間寝る
+- url: https://www.youtube.com/watch?v=QsveaPnUYjU
+  title: 【雑学】人の顔を覚える。カラスの脳が異常すぎた｜NetaLab
+  time: title
+  excerpt: 人の顔を覚える。カラスの脳
+- url: https://www.youtube.com/watch?v=EJUbJK79CUA
+  title: 【雑学】ウミガメは塩を泣き出す
+  time: title
+  excerpt: ウミガメは塩を泣き出す
+- url: https://www.youtube.com/watch?v=Pzk3K3ueAHU
+  title: 【 面白い雑学 】　ペンギンは膝がある
+  time: title
+  excerpt: ペンギンは膝がある
+- url: https://www.youtube.com/watch?v=Slp_jFEe31E
+  title: ハチドリの驚異的な飛行能力！後ろ向きにも飛べる鳥
+  time: title
+  excerpt: 後ろ向きにも飛べる鳥
+duplicate_check: Checked metadata/specific, metadata, and automation memory for concrete
+  subjects/claims before selection.
+irasutoya_urls:
+- https://www.irasutoya.com/search?q=%E3%82%B3%E3%82%A2%E3%83%A9
+- https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%A9%E3%82%B9
+- https://www.irasutoya.com/search?q=%E3%82%A6%E3%83%9F%E3%82%AC%E3%83%A1
+- https://www.irasutoya.com/search?q=%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3
+- https://www.irasutoya.com/search?q=%E9%B3%A5
+timing_notes:
+- scene: 1
+  text: 喋りたくなる面白い雑学
+  voice_duration: 1.952
+  audio_offset: 0.25
+  reveal_sec: 1.46
+  duration: 2.702
+- scene: 2
+  text: コアラは、1日22時間寝る
+  voice_duration: 2.496
+  audio_offset: 0.25
+  reveal_sec: 1.798
+  duration: 3.246
+- scene: 3
+  text: カラスの脳は、人の顔を覚える
+  voice_duration: 2.325
+  audio_offset: 0.25
+  reveal_sec: 1.692
+  duration: 3.075
+- scene: 4
+  text: ウミガメは、塩を泣き出す
+  voice_duration: 1.963
+  audio_offset: 0.25
+  reveal_sec: 1.467
+  duration: 2.713
+- scene: 5
+  text: ペンギンには、膝がある
+  voice_duration: 1.781
+  audio_offset: 0.25
+  reveal_sec: 1.354
+  duration: 2.531
+- scene: 6
+  text: ハチドリは、後ろ向きにも飛べる
+  voice_duration: 2.283
+  audio_offset: 0.25
+  reveal_sec: 1.665
+  duration: 3.033
+- scene: 7
+  text: 詳しくは概要欄。いくつわかった？
+  voice_duration: 2.784
+  audio_offset: 0.25
+  reveal_sec: 1.976
+  duration: 3.534
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-05-11T09:06:42+09:00'
+  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
+    emoji visuals used; no repeated concrete subject within this short.

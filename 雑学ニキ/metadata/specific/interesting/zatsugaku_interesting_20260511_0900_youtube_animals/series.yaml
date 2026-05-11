@@ -1,0 +1,107 @@
+# Managed by scripts/zatsugaku_specific_inventory.rb
+id: zatsugaku_interesting_20260511_0900_youtube_animals
+series_key: specific_interesting
+category: 面白い雑学
+category_key: interesting
+topic_key: 20260511_0900_youtube_animals
+fact_summary: コアラは1日22時間寝る / カラスの脳は人の顔を覚える / ウミガメは塩を泣き出す / ペンギンには膝がある / ハチドリは後ろ向きにも飛べる
+status: scheduled
+schedule_date: '2026-05-11'
+publish_slot: '09:00'
+publish_at: '2026-05-11T09:00:00+09:00'
+video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/zatsugaku_interesting_20260511_0900_youtube_animals_bgm050.mp4
+contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/contact.png
+title: 喋りたくなる面白い雑学
+description: '喋りたくなる面白い雑学5選
+
+
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+
+  VOICEVOX: 青山龍星
+
+
+  【詳細・補足】
+
+  1. コアラの睡眠時間を扱ったYouTubeタイトルを出典にした項目。ユーカリ中心の生活と省エネな行動が、長い休息時間の話題につながる。
+
+  2. カラスが人の顔を覚えるというYouTubeタイトルを出典にした項目。都市部でも人の行動を学習する鳥として、会話のつかみにしやすい。
+
+  3. ウミガメが涙のように塩分を出す話を扱うYouTubeタイトルを出典にした項目。産卵時の涙に見えるものを、塩分調整として話せる。
+
+  4. ペンギンの膝を扱うYouTubeタイトルを出典にした項目。短く見える脚の奥に関節があるという見た目とのギャップが強い。
+
+  5. ハチドリの後ろ向き飛行を扱うYouTubeタイトルを出典にした項目。小さな鳥なのにホバリングや後退飛行までできる点が驚きになる。
+
+
+  いくつわかりましたか？'
+description_policy: detailed_numbered_notes_in_description
+source_urls:
+- https://www.youtube.com/watch?v=zqaNbWaZEVg
+- https://www.youtube.com/watch?v=QsveaPnUYjU
+- https://www.youtube.com/watch?v=EJUbJK79CUA
+- https://www.youtube.com/watch?v=Pzk3K3ueAHU
+- https://www.youtube.com/watch?v=Slp_jFEe31E
+source_policy: five_facts_from_five_distinct_available_youtube_videos_source_wording_preserved_no_reused_facts
+facts:
+- top: コアラは
+  bottom: 1日22時間寝る
+  emoji: 🐨
+  image_keyword: コアラ
+  source_video_url: https://www.youtube.com/watch?v=zqaNbWaZEVg
+  source_title: 【動物クイズ後編】コアラが1日22時間寝るのはなぜ？誰かに話したくなるどうぶつの秘密を楽しく学ぼう！
+  source_time: title
+  source_excerpt: コアラが1日22時間寝る
+  detail: コアラの睡眠時間を扱ったYouTubeタイトルを出典にした項目。ユーカリ中心の生活と省エネな行動が、長い休息時間の話題につながる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%B3%E3%82%A2%E3%83%A9
+- top: カラスの脳は
+  bottom: 人の顔を覚える
+  emoji: 🐦‍⬛
+  image_keyword: カラス
+  source_video_url: https://www.youtube.com/watch?v=QsveaPnUYjU
+  source_title: 【雑学】人の顔を覚える。カラスの脳が異常すぎた｜NetaLab
+  source_time: title
+  source_excerpt: 人の顔を覚える。カラスの脳
+  detail: カラスが人の顔を覚えるというYouTubeタイトルを出典にした項目。都市部でも人の行動を学習する鳥として、会話のつかみにしやすい。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%A9%E3%82%B9
+- top: ウミガメは
+  bottom: 塩を泣き出す
+  emoji: 🐢
+  image_keyword: ウミガメ
+  source_video_url: https://www.youtube.com/watch?v=EJUbJK79CUA
+  source_title: 【雑学】ウミガメは塩を泣き出す
+  source_time: title
+  source_excerpt: ウミガメは塩を泣き出す
+  detail: ウミガメが涙のように塩分を出す話を扱うYouTubeタイトルを出典にした項目。産卵時の涙に見えるものを、塩分調整として話せる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%A6%E3%83%9F%E3%82%AC%E3%83%A1
+- top: ペンギンには
+  bottom: 膝がある
+  emoji: 🐧
+  image_keyword: ペンギン
+  source_video_url: https://www.youtube.com/watch?v=Pzk3K3ueAHU
+  source_title: 【 面白い雑学 】　ペンギンは膝がある
+  source_time: title
+  source_excerpt: ペンギンは膝がある
+  detail: ペンギンの膝を扱うYouTubeタイトルを出典にした項目。短く見える脚の奥に関節があるという見た目とのギャップが強い。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3
+- top: ハチドリは
+  bottom: 後ろ向きにも飛べる
+  emoji: 🐦
+  image_keyword: ハチドリ
+  source_video_url: https://www.youtube.com/watch?v=Slp_jFEe31E
+  source_title: ハチドリの驚異的な飛行能力！後ろ向きにも飛べる鳥
+  source_time: title
+  source_excerpt: 後ろ向きにも飛べる鳥
+  detail: ハチドリの後ろ向き飛行を扱うYouTubeタイトルを出典にした項目。小さな鳥なのにホバリングや後退飛行までできる点が驚きになる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E9%B3%A5
+timing_notes_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/timing.json
+bgm: Escort / もっぴーさうんど（DOVA-SYNDROME）
+voicevox_speaker: 青山龍星 (speaker 13)
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-05-11T09:06:42+09:00'
+  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
+    emoji visuals used; no repeated concrete subject within this short.
+created_at: '2026-05-11T09:06:42+09:00'

@@ -1,0 +1,108 @@
+# Managed by scripts/zatsugaku_specific_inventory.rb
+id: zatsugaku_interesting_20260511_1800_youtube_creatures
+series_key: specific_interesting
+category: 面白い雑学
+category_key: interesting
+topic_key: 20260511_1800_youtube_creatures
+fact_summary: カメレオンの舌は体長の約2倍の長さ / クラゲには脳も心臓も無い / ゾウの鼻は水を10リットルためる / カバの汗はピンク色ってほんと
+  / サメの歯は一生で何万本も生え変わる
+status: scheduled
+schedule_date: '2026-05-11'
+publish_slot: '18:00'
+publish_at: '2026-05-11T18:00:00+09:00'
+video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/zatsugaku_interesting_20260511_1800_youtube_creatures_bgm050.mp4
+contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/contact.png
+title: 喋りたくなる面白い雑学
+description: '喋りたくなる面白い雑学5選
+
+
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+
+  VOICEVOX: 青山龍星
+
+
+  【詳細・補足】
+
+  1. カメレオンの舌の長さを扱うYouTubeタイトルを出典にした項目。獲物を一瞬で捕まえる仕組みのすごさが、数字で伝わる。
+
+  2. クラゲに脳も心臓も無いというYouTubeタイトルを出典にした項目。体のつくりが人間と大きく違うのに生きている点が驚きになる。
+
+  3. ゾウの鼻が水を10リットルためる話を扱うYouTubeタイトルを出典にした項目。鼻がただ長いだけでなく、道具のように使える点が話題になる。
+
+  4. カバの汗がピンク色に見える話を扱うYouTubeタイトルを出典にした項目。大きな体の意外な分泌物として、色のインパクトが強い。
+
+  5. サメの歯が何万本も生え変わる話を扱うYouTubeタイトルを出典にした項目。獲物を捕らえるための歯が常に補充されるという迫力がある。
+
+
+  いくつわかりましたか？'
+description_policy: detailed_numbered_notes_in_description
+source_urls:
+- https://www.youtube.com/watch?v=_gSX_z_0I34
+- https://www.youtube.com/watch?v=oLTKpni6L8c
+- https://www.youtube.com/watch?v=RbgXr8OQSjk
+- https://www.youtube.com/watch?v=n80Qhun1zF8
+- https://www.youtube.com/watch?v=5TkoEoZX_SY
+source_policy: five_facts_from_five_distinct_available_youtube_videos_source_wording_preserved_no_reused_facts
+facts:
+- top: カメレオンの舌は
+  bottom: 体長の約2倍の長さ
+  emoji: 🦎
+  image_keyword: カメレオン
+  source_video_url: https://www.youtube.com/watch?v=_gSX_z_0I34
+  source_title: カメレオンの舌は体長の約2倍の長さ
+  source_time: title
+  source_excerpt: カメレオンの舌は体長の約2倍の長さ
+  detail: カメレオンの舌の長さを扱うYouTubeタイトルを出典にした項目。獲物を一瞬で捕まえる仕組みのすごさが、数字で伝わる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%A1%E3%83%AC%E3%82%AA%E3%83%B3
+- top: クラゲには
+  bottom: 脳も心臓も無い
+  emoji: 🪼
+  image_keyword: クラゲ
+  source_video_url: https://www.youtube.com/watch?v=oLTKpni6L8c
+  source_title: 脳も心臓も無いクラゲってどうやって生きてるの?【ゆっくり解説】
+  source_time: title
+  source_excerpt: 脳も心臓も無いクラゲ
+  detail: クラゲに脳も心臓も無いというYouTubeタイトルを出典にした項目。体のつくりが人間と大きく違うのに生きている点が驚きになる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AF%E3%83%A9%E3%82%B2
+- top: ゾウの鼻は
+  bottom: 水を10リットルためる
+  emoji: 🐘
+  image_keyword: ゾウ
+  source_video_url: https://www.youtube.com/watch?v=RbgXr8OQSjk
+  source_title: ゾウの鼻はなぜ長い？　水を10リットルためて口元へ
+  source_time: title
+  source_excerpt: 水を10リットルためて口元へ
+  detail: ゾウの鼻が水を10リットルためる話を扱うYouTubeタイトルを出典にした項目。鼻がただ長いだけでなく、道具のように使える点が話題になる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%BE%E3%82%A6
+- top: カバの汗は
+  bottom: ピンク色ってほんと
+  emoji: 🦛
+  image_keyword: カバ
+  source_video_url: https://www.youtube.com/watch?v=n80Qhun1zF8
+  source_title: '#28【びっくり】カバの汗がピンク色ってほんと！？【動物豆知識】'
+  source_time: title
+  source_excerpt: カバの汗がピンク色ってほんと
+  detail: カバの汗がピンク色に見える話を扱うYouTubeタイトルを出典にした項目。大きな体の意外な分泌物として、色のインパクトが強い。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%90
+- top: サメの歯は
+  bottom: 一生で何万本も生え変わる
+  emoji: 🦈
+  image_keyword: サメ
+  source_video_url: https://www.youtube.com/watch?v=5TkoEoZX_SY
+  source_title: 【衝撃】サメの歯、一生で何万本も生え変わる秘密！
+  source_time: title
+  source_excerpt: サメの歯、一生で何万本も生え変わる
+  detail: サメの歯が何万本も生え変わる話を扱うYouTubeタイトルを出典にした項目。獲物を捕らえるための歯が常に補充されるという迫力がある。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%B5%E3%83%A1
+timing_notes_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/timing.json
+bgm: Escort / もっぴーさうんど（DOVA-SYNDROME）
+voicevox_speaker: 青山龍星 (speaker 13)
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-05-11T09:07:44+09:00'
+  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
+    emoji visuals used; no repeated concrete subject within this short.
+created_at: '2026-05-11T09:07:44+09:00'

@@ -1,0 +1,108 @@
+# Managed by scripts/zatsugaku_specific_inventory.rb
+id: zatsugaku_interesting_20260511_1300_youtube_bodies
+series_key: specific_interesting
+category: 面白い雑学
+category_key: interesting
+topic_key: 20260511_1300_youtube_bodies
+fact_summary: シマウマの縞模様は虫よけ効果がある / ダチョウの目は脳よりも大きい / 猫の肉球は汗で体温調節する / パンダの手には第6と第7の指がある
+  / 蜂の情報伝達はダンスで仲間に伝える
+status: scheduled
+schedule_date: '2026-05-11'
+publish_slot: '13:00'
+publish_at: '2026-05-11T13:00:00+09:00'
+video_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_20260511_1300_youtube_bodies/zatsugaku_interesting_20260511_1300_youtube_bodies_bgm050.mp4
+contact_sheet_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/renders/specific/interesting/zatsugaku_interesting_20260511_1300_youtube_bodies/contact.png
+title: 喋りたくなる面白い雑学
+description: '喋りたくなる面白い雑学5選
+
+
+  BGM: Escort / もっぴーさうんど（DOVA-SYNDROME）
+
+  VOICEVOX: 青山龍星
+
+
+  【詳細・補足】
+
+  1. シマウマの縞模様と虫よけ効果を扱うYouTubeタイトルを出典にした項目。白黒の模様が見た目だけでなく虫対策の話題にもなる。
+
+  2. ダチョウの目と脳の大きさを扱うYouTubeタイトルを出典にした項目。大きな鳥の視覚のインパクトが一言で伝わる。
+
+  3. 猫の肉球汗と体温調節を扱うYouTubeタイトルを出典にした項目。かわいい肉球を機能面から話せるので、日常会話に使いやすい。
+
+  4. パンダの第6の指と第7の指を扱うYouTubeタイトルを出典にした項目。竹をつかむための手の工夫として、見た目以上に進化の話へ広げられる。
+
+  5. 蜂がダンスで情報を伝える話を扱うYouTubeタイトルを出典にした項目。小さな虫の動きが、仲間への地図のような役割を持つという驚きがある。
+
+
+  いくつわかりましたか？'
+description_policy: detailed_numbered_notes_in_description
+source_urls:
+- https://www.youtube.com/watch?v=euatYldru58
+- https://www.youtube.com/watch?v=Hcb-AyuJdQU
+- https://www.youtube.com/watch?v=cU23YT_tKsw
+- https://www.youtube.com/watch?v=h421TZNihU4
+- https://www.youtube.com/watch?v=cqyjKlvsLwU
+source_policy: five_facts_from_five_distinct_available_youtube_videos_source_wording_preserved_no_reused_facts
+facts:
+- top: シマウマの縞模様は
+  bottom: 虫よけ効果がある
+  emoji: 🦓
+  image_keyword: シマウマ
+  source_video_url: https://www.youtube.com/watch?v=euatYldru58
+  source_title: シマウマの縞模様に隠された虫よけ効果
+  source_time: title
+  source_excerpt: シマウマの縞模様に隠された虫よけ効果
+  detail: シマウマの縞模様と虫よけ効果を扱うYouTubeタイトルを出典にした項目。白黒の模様が見た目だけでなく虫対策の話題にもなる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%B7%E3%83%9E%E3%82%A6%E3%83%9E
+- top: ダチョウの目は
+  bottom: 脳よりも大きい
+  emoji: 🐦
+  image_keyword: ダチョウ
+  source_video_url: https://www.youtube.com/watch?v=Hcb-AyuJdQU
+  source_title: ダチョウの目は脳よりも大きい
+  source_time: title
+  source_excerpt: ダチョウの目は脳よりも大きい
+  detail: ダチョウの目と脳の大きさを扱うYouTubeタイトルを出典にした項目。大きな鳥の視覚のインパクトが一言で伝わる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%83%80%E3%83%81%E3%83%A7%E3%82%A6
+- top: 猫の肉球は
+  bottom: 汗で体温調節する
+  emoji: 🐾
+  image_keyword: 猫 肉球
+  source_video_url: https://www.youtube.com/watch?v=cU23YT_tKsw
+  source_title: 驚きの事実！猫の肉球汗と体温調節術
+  source_time: title
+  source_excerpt: 猫の肉球汗と体温調節術
+  detail: 猫の肉球汗と体温調節を扱うYouTubeタイトルを出典にした項目。かわいい肉球を機能面から話せるので、日常会話に使いやすい。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E7%8C%AB%E3%80%80%E8%82%89%E7%90%83
+- top: パンダの手には
+  bottom: 第6と第7の指がある
+  emoji: 🐼
+  image_keyword: パンダ
+  source_video_url: https://www.youtube.com/watch?v=h421TZNihU4
+  source_title: 【動物雑学・いきもの雑学】「パンダ雑学シリーズ」パンダの手には「第6の指」と「第7の指」がある！？他のクマにはない、パンダだけの驚きの進化の秘密を紹介します。
+  source_time: title
+  source_excerpt: パンダの手には「第6の指」と「第7の指」がある
+  detail: パンダの第6の指と第7の指を扱うYouTubeタイトルを出典にした項目。竹をつかむための手の工夫として、見た目以上に進化の話へ広げられる。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%83%91%E3%83%B3%E3%83%80
+- top: 蜂の情報伝達は
+  bottom: ダンスで仲間に伝える
+  emoji: 🐝
+  image_keyword: ミツバチ
+  source_video_url: https://www.youtube.com/watch?v=cqyjKlvsLwU
+  source_title: 蜂の驚きの情報伝達！ダンスで仲間に伝える？
+  source_time: title
+  source_excerpt: ダンスで仲間に伝える
+  detail: 蜂がダンスで情報を伝える話を扱うYouTubeタイトルを出典にした項目。小さな虫の動きが、仲間への地図のような役割を持つという驚きがある。
+  irasutoya_url: https://www.irasutoya.com/search?q=%E3%83%9F%E3%83%84%E3%83%90%E3%83%81
+timing_notes_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1300_youtube_bodies/timing.json
+bgm: Escort / もっぴーさうんど（DOVA-SYNDROME）
+voicevox_speaker: 青山龍星 (speaker 13)
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-05-11T09:07:19+09:00'
+  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
+    emoji visuals used; no repeated concrete subject within this short.
+created_at: '2026-05-11T09:07:19+09:00'

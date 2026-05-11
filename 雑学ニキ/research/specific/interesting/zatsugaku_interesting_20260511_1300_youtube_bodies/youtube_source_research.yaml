@@ -1,0 +1,82 @@
+trend_inputs:
+- 'ytsearch: シマウマ 縞模様 虫 雑学 / ダチョウ 目 脳より大きい 雑学 / パンダ 指 7本 雑学'
+youtube_sources:
+- url: https://www.youtube.com/watch?v=euatYldru58
+  title: シマウマの縞模様に隠された虫よけ効果
+  time: title
+  excerpt: シマウマの縞模様に隠された虫よけ効果
+- url: https://www.youtube.com/watch?v=Hcb-AyuJdQU
+  title: ダチョウの目は脳よりも大きい
+  time: title
+  excerpt: ダチョウの目は脳よりも大きい
+- url: https://www.youtube.com/watch?v=cU23YT_tKsw
+  title: 驚きの事実！猫の肉球汗と体温調節術
+  time: title
+  excerpt: 猫の肉球汗と体温調節術
+- url: https://www.youtube.com/watch?v=h421TZNihU4
+  title: 【動物雑学・いきもの雑学】「パンダ雑学シリーズ」パンダの手には「第6の指」と「第7の指」がある！？他のクマにはない、パンダだけの驚きの進化の秘密を紹介します。
+  time: title
+  excerpt: パンダの手には「第6の指」と「第7の指」がある
+- url: https://www.youtube.com/watch?v=cqyjKlvsLwU
+  title: 蜂の驚きの情報伝達！ダンスで仲間に伝える？
+  time: title
+  excerpt: ダンスで仲間に伝える
+duplicate_check: Checked metadata/specific, metadata, and automation memory for concrete
+  subjects/claims before selection.
+irasutoya_urls:
+- https://www.irasutoya.com/search?q=%E3%82%B7%E3%83%9E%E3%82%A6%E3%83%9E
+- https://www.irasutoya.com/search?q=%E3%83%80%E3%83%81%E3%83%A7%E3%82%A6
+- https://www.irasutoya.com/search?q=%E7%8C%AB%E3%80%80%E8%82%89%E7%90%83
+- https://www.irasutoya.com/search?q=%E3%83%91%E3%83%B3%E3%83%80
+- https://www.irasutoya.com/search?q=%E3%83%9F%E3%83%84%E3%83%90%E3%83%81
+timing_notes:
+- scene: 1
+  text: 喋りたくなる面白い雑学
+  voice_duration: 1.952
+  audio_offset: 0.25
+  reveal_sec: 1.46
+  duration: 2.702
+- scene: 2
+  text: シマウマの縞模様は、虫よけ効果がある
+  voice_duration: 2.795
+  audio_offset: 0.25
+  reveal_sec: 1.983
+  duration: 3.545
+- scene: 3
+  text: ダチョウの目は、脳よりも大きい
+  voice_duration: 2.176
+  audio_offset: 0.25
+  reveal_sec: 1.599
+  duration: 2.926
+- scene: 4
+  text: 猫の肉球は、汗で体温調節する
+  voice_duration: 2.997
+  audio_offset: 0.25
+  reveal_sec: 2.108
+  duration: 3.747
+- scene: 5
+  text: パンダの手には、第6と第7の指がある
+  voice_duration: 2.816
+  audio_offset: 0.25
+  reveal_sec: 1.996
+  duration: 3.566
+- scene: 6
+  text: 蜂の情報伝達は、ダンスで仲間に伝える
+  voice_duration: 3.019
+  audio_offset: 0.25
+  reveal_sec: 2.122
+  duration: 3.769
+- scene: 7
+  text: 詳しくは概要欄。いくつわかった？
+  voice_duration: 2.784
+  audio_offset: 0.25
+  reveal_sec: 1.976
+  duration: 3.534
+visual_audit:
+  contact_sheet_checked: true
+  image_subject_match_checked: true
+  no_unrelated_placeholder_images: true
+  no_excessive_reuse: true
+  checked_at: '2026-05-11T09:07:19+09:00'
+  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
+    emoji visuals used; no repeated concrete subject within this short.
