@@ -4,7 +4,7 @@ series_key: specific_interesting
 category: 面白い雑学
 category_key: interesting
 topic_key: 20260511_1800_youtube_creatures
-fact_summary: カメレオンの舌は体長の約2倍の長さ / クラゲには脳も心臓も無い / ゾウの鼻は水を10リットルためる / カバの汗はピンク色ってほんと
+fact_summary: ジャガイモの芽は危険な理由がある / 消しゴムは昔食べ物で字を消していた / 飛行機の窓は丸い理由がある / カメレオンの舌は体長の約2倍の長さ
   / サメの歯は一生で何万本も生え変わる
 status: scheduled
 schedule_date: '2026-05-11'
@@ -23,86 +23,97 @@ description: '喋りたくなる面白い雑学5選
 
   【詳細・補足】
 
-  1. カメレオンの舌の長さを扱うYouTubeタイトルを出典にした項目。獲物を一瞬で捕まえる仕組みのすごさが、数字で伝わる。
+  1. ジャガイモの芽が危険な理由を扱うYouTubeタイトルを出典にした項目。身近な食材でも、芽や緑色の部分には注意が必要という話にできる。
 
-  2. クラゲに脳も心臓も無いというYouTubeタイトルを出典にした項目。体のつくりが人間と大きく違うのに生きている点が驚きになる。
+  2. 消しゴム以前に食べ物で字を消していた時代を扱うYouTubeタイトルを出典にした項目。文房具の当たり前が、昔の生活道具の話につながる。
 
-  3. ゾウの鼻が水を10リットルためる話を扱うYouTubeタイトルを出典にした項目。鼻がただ長いだけでなく、道具のように使える点が話題になる。
+  3. 飛行機の窓の角が丸い理由を扱うYouTubeタイトルを出典にした項目。乗り物の形には、安全や構造に関わる理由があると話せる。
 
-  4. カバの汗がピンク色に見える話を扱うYouTubeタイトルを出典にした項目。大きな体の意外な分泌物として、色のインパクトが強い。
+  4. カメレオンの舌の長さを扱うYouTubeタイトルを出典にした項目。生き物枠として、数字のインパクトが強い話題になる。
 
-  5. サメの歯が何万本も生え変わる話を扱うYouTubeタイトルを出典にした項目。獲物を捕らえるための歯が常に補充されるという迫力がある。
+  5. サメの歯が何万本も生え変わる話を扱うYouTubeタイトルを出典にした項目。生き物枠は少数にしつつ、強い驚きがあるネタとして採用した。
 
 
   いくつわかりましたか？'
 description_policy: detailed_numbered_notes_in_description
 source_urls:
+- https://www.youtube.com/watch?v=ja5XsnDNZ1g
+- https://www.youtube.com/watch?v=YiXK5OgZxOU
+- https://www.youtube.com/watch?v=BRZAwz0LsyY
 - https://www.youtube.com/watch?v=_gSX_z_0I34
-- https://www.youtube.com/watch?v=oLTKpni6L8c
-- https://www.youtube.com/watch?v=RbgXr8OQSjk
-- https://www.youtube.com/watch?v=n80Qhun1zF8
 - https://www.youtube.com/watch?v=5TkoEoZX_SY
 source_policy: five_facts_from_five_distinct_available_youtube_videos_source_wording_preserved_no_reused_facts
 facts:
+- top: ジャガイモの芽は
+  bottom: 危険な理由がある
+  image_keyword: じゃがいも
+  source_video_url: https://www.youtube.com/watch?v=ja5XsnDNZ1g
+  source_title: ジャガイモの芽が危険な理由とは？
+  source_time: title
+  source_excerpt: ジャガイモの芽が危険な理由
+  detail: ジャガイモの芽が危険な理由を扱うYouTubeタイトルを出典にした項目。身近な食材でも、芽や緑色の部分には注意が必要という話にできる。
+  irasutoya_url: https://www.irasutoya.com/2019/11/blog-post_652.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3fwJa5ptfVYASz52gX3CHBW0FRNqXLjiTFC9lhxHCnwEt7Fpj1-LPfxcS59Ob_Mch-oCnEgSXwolUXZBYE2ozTddz9cCsLKL-9GcIpQvPQeBvk5spsIGfUqPvfyy0Yu-YK0pZ2s5N25_C/s800/thumbnail_potato_yellow.jpg
+  irasutoya_title: いろいろなじゃがいもの切り方のイラスト（黄色）
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_01.jpg
+- top: 消しゴムは昔
+  bottom: 食べ物で字を消していた
+  image_keyword: 消しゴム
+  source_video_url: https://www.youtube.com/watch?v=YiXK5OgZxOU
+  source_title: 【雑学】字を食べ物で消してた時代から日本発“プラスチック字消し”へ！Uカットの理由まで解説【消しゴムのひみつ】
+  source_time: title
+  source_excerpt: 字を食べ物で消してた時代
+  detail: 消しゴム以前に食べ物で字を消していた時代を扱うYouTubeタイトルを出典にした項目。文房具の当たり前が、昔の生活道具の話につながる。
+  irasutoya_url: https://www.irasutoya.com/2017/07/blog-post_835.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg0RVmKvKvlIgG5TeXhkftY-9V1yEsUfhDsLvrebErwz-qo3AEUr_ERhOmnw63bvobUixyMHCB95NCVCZcJSKYjdAXVxVGQEP1CTyWRPProlCWxDpB4tmVwsKb2eI_uRT08O_jx0rSx7AW/s800/keshigomu_hanko.png
+  irasutoya_title: 消しゴムはんこのイラスト
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_02.png
+- top: 飛行機の窓は
+  bottom: 丸い理由がある
+  image_keyword: 飛行機 窓
+  source_video_url: https://www.youtube.com/watch?v=BRZAwz0LsyY
+  source_title: 【ゆっくり解説】飛行機の窓の角が丸い理由【今日の豆知識】
+  source_time: title
+  source_excerpt: 飛行機の窓の角が丸い理由
+  detail: 飛行機の窓の角が丸い理由を扱うYouTubeタイトルを出典にした項目。乗り物の形には、安全や構造に関わる理由があると話せる。
+  irasutoya_url: https://www.irasutoya.com/2018/06/blog-post_85.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBoKQ82desrGf5TnHJ_YwbBdFVaw_SfNM2pEF2AQHyO-SZCGYFyB0GHoYG7urcRRjAAucSLrfGm0n5RIOpbLM1gyo0w9zLIplCcIhcpvK7SzvV-5SMhRbs0FHyRpZZX5n1MnPn1Oo7Zu-i/s800/thumbnail_airplane_cockpit.jpg
+  irasutoya_title: 飛行機のコックピットのイラスト
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_03.jpg
 - top: カメレオンの舌は
   bottom: 体長の約2倍の長さ
-  emoji: 🦎
   image_keyword: カメレオン
   source_video_url: https://www.youtube.com/watch?v=_gSX_z_0I34
   source_title: カメレオンの舌は体長の約2倍の長さ
   source_time: title
   source_excerpt: カメレオンの舌は体長の約2倍の長さ
-  detail: カメレオンの舌の長さを扱うYouTubeタイトルを出典にした項目。獲物を一瞬で捕まえる仕組みのすごさが、数字で伝わる。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%A1%E3%83%AC%E3%82%AA%E3%83%B3
-- top: クラゲには
-  bottom: 脳も心臓も無い
-  emoji: 🪼
-  image_keyword: クラゲ
-  source_video_url: https://www.youtube.com/watch?v=oLTKpni6L8c
-  source_title: 脳も心臓も無いクラゲってどうやって生きてるの?【ゆっくり解説】
-  source_time: title
-  source_excerpt: 脳も心臓も無いクラゲ
-  detail: クラゲに脳も心臓も無いというYouTubeタイトルを出典にした項目。体のつくりが人間と大きく違うのに生きている点が驚きになる。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AF%E3%83%A9%E3%82%B2
-- top: ゾウの鼻は
-  bottom: 水を10リットルためる
-  emoji: 🐘
-  image_keyword: ゾウ
-  source_video_url: https://www.youtube.com/watch?v=RbgXr8OQSjk
-  source_title: ゾウの鼻はなぜ長い？　水を10リットルためて口元へ
-  source_time: title
-  source_excerpt: 水を10リットルためて口元へ
-  detail: ゾウの鼻が水を10リットルためる話を扱うYouTubeタイトルを出典にした項目。鼻がただ長いだけでなく、道具のように使える点が話題になる。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%BE%E3%82%A6
-- top: カバの汗は
-  bottom: ピンク色ってほんと
-  emoji: 🦛
-  image_keyword: カバ
-  source_video_url: https://www.youtube.com/watch?v=n80Qhun1zF8
-  source_title: '#28【びっくり】カバの汗がピンク色ってほんと！？【動物豆知識】'
-  source_time: title
-  source_excerpt: カバの汗がピンク色ってほんと
-  detail: カバの汗がピンク色に見える話を扱うYouTubeタイトルを出典にした項目。大きな体の意外な分泌物として、色のインパクトが強い。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%90
+  detail: カメレオンの舌の長さを扱うYouTubeタイトルを出典にした項目。生き物枠として、数字のインパクトが強い話題になる。
+  irasutoya_url: https://www.irasutoya.com/2016/10/blog-post_421.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAKPUlZBVlgBxo-JqdECEkuqR4rShJE6mf30kvQH7aoJbFvSBkCd6e4dxFETM89w_U3z1LCLDzT6-OmUuB4Vo8zFhK84GS0r68G6SrEkLfZWJFy6IhkkHBo1RxyuXZjMjWQaNGup41tNhT/s800/animal_micro_hime_chameleon.png
+  irasutoya_title: ミクロヒメカメレオンのイラスト
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_04.png
 - top: サメの歯は
   bottom: 一生で何万本も生え変わる
-  emoji: 🦈
   image_keyword: サメ
   source_video_url: https://www.youtube.com/watch?v=5TkoEoZX_SY
   source_title: 【衝撃】サメの歯、一生で何万本も生え変わる秘密！
   source_time: title
   source_excerpt: サメの歯、一生で何万本も生え変わる
-  detail: サメの歯が何万本も生え変わる話を扱うYouTubeタイトルを出典にした項目。獲物を捕らえるための歯が常に補充されるという迫力がある。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%B5%E3%83%A1
+  detail: サメの歯が何万本も生え変わる話を扱うYouTubeタイトルを出典にした項目。生き物枠は少数にしつつ、強い驚きがあるネタとして採用した。
+  irasutoya_url: https://www.irasutoya.com/2020/10/blog-post_48.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpGx_QjjPoGSs0w48DUBHj9QnaSln3EVTlJfWFmSGu0otdrcZevFs383imVM5Dv8Ceo6xGe3LbBH5mpsrTvA3FO-vB-aPfH0FFL6mCPWGWNVbuXJwdPZCnvQaKt88tOl05Ab5ee5hDxjvF/s800/fish_same_kobanzame.png
+  irasutoya_title: サメと泳ぐコバンザメのイラスト
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_05.png
 timing_notes_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/timing.json
-bgm: Escort / もっぴーさうんど（DOVA-SYNDROME）
+bgm: Escort / もっぴーさうんど（DOVA-SYNDROME） voice 1.0 / bgm 0.50
 voicevox_speaker: 青山龍星 (speaker 13)
 visual_audit:
   contact_sheet_checked: true
   image_subject_match_checked: true
   no_unrelated_placeholder_images: true
   no_excessive_reuse: true
-  checked_at: '2026-05-11T09:07:44+09:00'
-  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
-    emoji visuals used; no repeated concrete subject within this short.
-created_at: '2026-05-11T09:07:44+09:00'
+  checked_at: '2026-05-11T09:23:18+09:00'
+  notes: Contact sheet inspected after rebuild; real downloaded Irasutoya images are
+    used on all trivia cards; topic mix intentionally not category-bound; VOICEVOX
+    and Escort BGM are mixed into the MP4.
+created_at: '2026-05-11T09:23:18+09:00'

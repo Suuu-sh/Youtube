@@ -1,83 +1,105 @@
 trend_inputs:
-- 'ytsearch: 9割が知らない 雑学 shorts 面白い 動物 食べ物'
-- 'ytsearch: コアラ 22時間寝る 雑学 / カラス 顔を覚える 雑学 / イルカ 片目 寝る 雑学'
+- 'ytsearch: 9割が知らない 雑学 shorts 面白い'
+- カテゴリに固定せず食べ物・道具・生活ネタを混在
 youtube_sources:
-- url: https://www.youtube.com/watch?v=zqaNbWaZEVg
-  title: 【動物クイズ後編】コアラが1日22時間寝るのはなぜ？誰かに話したくなるどうぶつの秘密を楽しく学ぼう！
+- url: https://www.youtube.com/watch?v=f5haWSgUSGI
+  title: 【ゆっくり解説】カップラーメンの待ち時間が3分の理由【今日の豆知識】
   time: title
-  excerpt: コアラが1日22時間寝る
-- url: https://www.youtube.com/watch?v=QsveaPnUYjU
-  title: 【雑学】人の顔を覚える。カラスの脳が異常すぎた｜NetaLab
+  excerpt: カップラーメンの待ち時間が3分の理由
+- url: https://www.youtube.com/watch?v=8WtdnR4dhd8
+  title: 【雑学】ラムネにビー玉が入ってる理由とは！？
   time: title
-  excerpt: 人の顔を覚える。カラスの脳
-- url: https://www.youtube.com/watch?v=EJUbJK79CUA
-  title: 【雑学】ウミガメは塩を泣き出す
+  excerpt: ラムネにビー玉が入ってる理由
+- url: https://www.youtube.com/watch?v=WMw8krbJPPQ
+  title: 信号機の“青”はなぜ“緑”に見えるのかの雑学
   time: title
-  excerpt: ウミガメは塩を泣き出す
-- url: https://www.youtube.com/watch?v=Pzk3K3ueAHU
-  title: 【 面白い雑学 】　ペンギンは膝がある
+  excerpt: 信号機の“青”はなぜ“緑”に見えるのか
+- url: https://www.youtube.com/watch?v=nBcDSVY6hso
+  title: えんぴつはなぜ６角形なのか？
   time: title
-  excerpt: ペンギンは膝がある
-- url: https://www.youtube.com/watch?v=Slp_jFEe31E
-  title: ハチドリの驚異的な飛行能力！後ろ向きにも飛べる鳥
+  excerpt: えんぴつはなぜ６角形なのか
+- url: https://www.youtube.com/watch?v=aiB4eWoF4ZU
+  title: 【意外と知らない雑学】アイスクリームには賞味期限が無い。#雑学
   time: title
-  excerpt: 後ろ向きにも飛べる鳥
+  excerpt: アイスクリームには賞味期限が無い
 duplicate_check: Checked metadata/specific, metadata, and automation memory for concrete
   subjects/claims before selection.
-irasutoya_urls:
-- https://www.irasutoya.com/search?q=%E3%82%B3%E3%82%A2%E3%83%A9
-- https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%A9%E3%82%B9
-- https://www.irasutoya.com/search?q=%E3%82%A6%E3%83%9F%E3%82%AC%E3%83%A1
-- https://www.irasutoya.com/search?q=%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3
-- https://www.irasutoya.com/search?q=%E9%B3%A5
+irasutoya_assets:
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_01.png
+  page_url: https://www.irasutoya.com/2018/02/blog-post_11.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdZ3z1_ZnotG_dOIcDwhiNp0pF7GYMSYnSs5Kh0qA4XUsLKyGL4OCaK2E_-hwd-OFddiM2K49JbzuPHb9GECxdi8BhBCGw268j4-Rpr2Gxq6jGlbK4gWeLOwlQpLq9Bpvu9LNAdgpgimE/s800/food_cup_ramen_miso.png
+  title: カップラーメンのイラスト（味噌ラーメン）
+  keyword: カップラーメン
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_02.png
+  page_url: https://www.irasutoya.com/2013/05/blog-post_9563.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAc5KiZzIIVXtulU6F8iLDwS-RIUjlyXaK0C1cf01q2L-QlHVHsIitXtPPWOFtidR9skDgKI6ODt8QTUQOJUsc4wIYCoH_Xsyc46-ivgMiGRU5Puz4pz1M_KXRfC9itHCYThyphenhyphenD1OViBvWf/s800/sweets_ramune_drink.png
+  title: ラムネのイラスト（飲み物）
+  keyword: ラムネ
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_03.jpg
+  page_url: https://www.irasutoya.com/2013/06/blog-post_6.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiIKdjbb4Zd2v_B2wQylIl979rS4c1uvm8QX3a9kiQdnfmvVRFz8Rpra5YuoWXaPvBk3ywtm569fAoW08Y-Zgynt6DHOqUj5Jfs5dS4Q5eV-Lin_ZPoOquBCzL81wbFgF2Hs6IgTkSOxud/s800/thumbnail_shingouki.jpg
+  title: 信号機のイラスト
+  keyword: 信号機
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_04.jpg
+  page_url: https://www.irasutoya.com/2018/11/blog-post_995.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYBoAOXpHv5wgULsbpSkyg_b2fAwuJjezLqVIg3yfU6hIQFyF5N9a1P8rjY73pePXcpdRbqo0jvbIfqpSZRTOANkg4mN9Beaide9GtkPCLFxoKW2t2gMs00ds4k6nlL98Scjmy9GMYVplc/s800/thumbnail_zabuton_tv_enpitsu.jpg
+  title: 横長の座布団のイラスト（鉛筆）
+  keyword: 鉛筆
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_05.jpg
+  page_url: https://www.irasutoya.com/2013/08/blog-post_5689.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUhGfeD_3duEoDiUYZSUpr7xB3WrAe87DYhZ7QnLhnEiI-9ogfJmKKRdxox6PPBoX77bi5IXKG1QtOCvSwobrtOFJU2FiJap7xYtu0H6pQIJtBvLj7uDtHLBkahvQKi2m2VJuyCFIhBPg/s800/thumbnail_icecream.jpg
+  title: いろいろな種類のアイスクリームのイラスト
+  keyword: アイスクリーム
 timing_notes:
 - scene: 1
   text: 喋りたくなる面白い雑学
   voice_duration: 1.952
   audio_offset: 0.25
   reveal_sec: 1.46
-  duration: 2.702
+  duration: 2.752
 - scene: 2
-  text: コアラは、1日22時間寝る
-  voice_duration: 2.496
+  text: カップ麺の待ち時間は、3分の理由がある
+  voice_duration: 3.051
   audio_offset: 0.25
-  reveal_sec: 1.798
-  duration: 3.246
+  reveal_sec: 2.141
+  duration: 3.851
 - scene: 3
-  text: カラスの脳は、人の顔を覚える
-  voice_duration: 2.325
+  text: ラムネ瓶のビー玉は、栓の役目がある
+  voice_duration: 2.677
   audio_offset: 0.25
-  reveal_sec: 1.692
-  duration: 3.075
+  reveal_sec: 1.91
+  duration: 3.477
 - scene: 4
-  text: ウミガメは、塩を泣き出す
-  voice_duration: 1.963
+  text: 信号機の青は、緑に見える
+  voice_duration: 2.347
   audio_offset: 0.25
-  reveal_sec: 1.467
-  duration: 2.713
+  reveal_sec: 1.705
+  duration: 3.147
 - scene: 5
-  text: ペンギンには、膝がある
-  voice_duration: 1.781
+  text: えんぴつは、6角形になっている
+  voice_duration: 2.304
   audio_offset: 0.25
-  reveal_sec: 1.354
-  duration: 2.531
+  reveal_sec: 1.678
+  duration: 3.104
 - scene: 6
-  text: ハチドリは、後ろ向きにも飛べる
-  voice_duration: 2.283
+  text: アイスクリームには、賞味期限が無い
+  voice_duration: 2.528
   audio_offset: 0.25
-  reveal_sec: 1.665
-  duration: 3.033
+  reveal_sec: 1.817
+  duration: 3.328
 - scene: 7
   text: 詳しくは概要欄。いくつわかった？
   voice_duration: 2.784
   audio_offset: 0.25
   reveal_sec: 1.976
-  duration: 3.534
+  duration: 3.584
+audio_mix: VOICEVOX 青山龍星 volume 1.0, Escort BGM volume 0.50, AVMutableAudioMix applied
 visual_audit:
   contact_sheet_checked: true
   image_subject_match_checked: true
   no_unrelated_placeholder_images: true
   no_excessive_reuse: true
-  checked_at: '2026-05-11T09:06:42+09:00'
-  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
-    emoji visuals used; no repeated concrete subject within this short.
+  checked_at: '2026-05-11T09:21:02+09:00'
+  notes: Contact sheet inspected after rebuild; real downloaded Irasutoya images are
+    used on all trivia cards; topic mix intentionally not category-bound; VOICEVOX
+    and Escort BGM are mixed into the MP4.

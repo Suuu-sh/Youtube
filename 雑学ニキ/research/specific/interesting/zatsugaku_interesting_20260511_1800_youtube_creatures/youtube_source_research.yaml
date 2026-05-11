@@ -1,82 +1,105 @@
 trend_inputs:
-- 'ytsearch: カメレオン 舌 体長 雑学 / クラゲ 脳 心臓 ない 雑学 / サメ 歯 生え変わる 雑学'
+- 'ytsearch: 9割が知らない 面白い雑学 道具 食べ物 生き物'
+- カテゴリに縛られずバラけた対象を選定
 youtube_sources:
+- url: https://www.youtube.com/watch?v=ja5XsnDNZ1g
+  title: ジャガイモの芽が危険な理由とは？
+  time: title
+  excerpt: ジャガイモの芽が危険な理由
+- url: https://www.youtube.com/watch?v=YiXK5OgZxOU
+  title: 【雑学】字を食べ物で消してた時代から日本発“プラスチック字消し”へ！Uカットの理由まで解説【消しゴムのひみつ】
+  time: title
+  excerpt: 字を食べ物で消してた時代
+- url: https://www.youtube.com/watch?v=BRZAwz0LsyY
+  title: 【ゆっくり解説】飛行機の窓の角が丸い理由【今日の豆知識】
+  time: title
+  excerpt: 飛行機の窓の角が丸い理由
 - url: https://www.youtube.com/watch?v=_gSX_z_0I34
   title: カメレオンの舌は体長の約2倍の長さ
   time: title
   excerpt: カメレオンの舌は体長の約2倍の長さ
-- url: https://www.youtube.com/watch?v=oLTKpni6L8c
-  title: 脳も心臓も無いクラゲってどうやって生きてるの?【ゆっくり解説】
-  time: title
-  excerpt: 脳も心臓も無いクラゲ
-- url: https://www.youtube.com/watch?v=RbgXr8OQSjk
-  title: ゾウの鼻はなぜ長い？　水を10リットルためて口元へ
-  time: title
-  excerpt: 水を10リットルためて口元へ
-- url: https://www.youtube.com/watch?v=n80Qhun1zF8
-  title: '#28【びっくり】カバの汗がピンク色ってほんと！？【動物豆知識】'
-  time: title
-  excerpt: カバの汗がピンク色ってほんと
 - url: https://www.youtube.com/watch?v=5TkoEoZX_SY
   title: 【衝撃】サメの歯、一生で何万本も生え変わる秘密！
   time: title
   excerpt: サメの歯、一生で何万本も生え変わる
 duplicate_check: Checked metadata/specific, metadata, and automation memory for concrete
   subjects/claims before selection.
-irasutoya_urls:
-- https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%A1%E3%83%AC%E3%82%AA%E3%83%B3
-- https://www.irasutoya.com/search?q=%E3%82%AF%E3%83%A9%E3%82%B2
-- https://www.irasutoya.com/search?q=%E3%82%BE%E3%82%A6
-- https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%90
-- https://www.irasutoya.com/search?q=%E3%82%B5%E3%83%A1
+irasutoya_assets:
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_01.jpg
+  page_url: https://www.irasutoya.com/2019/11/blog-post_652.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3fwJa5ptfVYASz52gX3CHBW0FRNqXLjiTFC9lhxHCnwEt7Fpj1-LPfxcS59Ob_Mch-oCnEgSXwolUXZBYE2ozTddz9cCsLKL-9GcIpQvPQeBvk5spsIGfUqPvfyy0Yu-YK0pZ2s5N25_C/s800/thumbnail_potato_yellow.jpg
+  title: いろいろなじゃがいもの切り方のイラスト（黄色）
+  keyword: じゃがいも
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_02.png
+  page_url: https://www.irasutoya.com/2017/07/blog-post_835.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg0RVmKvKvlIgG5TeXhkftY-9V1yEsUfhDsLvrebErwz-qo3AEUr_ERhOmnw63bvobUixyMHCB95NCVCZcJSKYjdAXVxVGQEP1CTyWRPProlCWxDpB4tmVwsKb2eI_uRT08O_jx0rSx7AW/s800/keshigomu_hanko.png
+  title: 消しゴムはんこのイラスト
+  keyword: 消しゴム
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_03.jpg
+  page_url: https://www.irasutoya.com/2018/06/blog-post_85.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBoKQ82desrGf5TnHJ_YwbBdFVaw_SfNM2pEF2AQHyO-SZCGYFyB0GHoYG7urcRRjAAucSLrfGm0n5RIOpbLM1gyo0w9zLIplCcIhcpvK7SzvV-5SMhRbs0FHyRpZZX5n1MnPn1Oo7Zu-i/s800/thumbnail_airplane_cockpit.jpg
+  title: 飛行機のコックピットのイラスト
+  keyword: 飛行機 窓
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_04.png
+  page_url: https://www.irasutoya.com/2016/10/blog-post_421.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAKPUlZBVlgBxo-JqdECEkuqR4rShJE6mf30kvQH7aoJbFvSBkCd6e4dxFETM89w_U3z1LCLDzT6-OmUuB4Vo8zFhK84GS0r68G6SrEkLfZWJFy6IhkkHBo1RxyuXZjMjWQaNGup41tNhT/s800/animal_micro_hime_chameleon.png
+  title: ミクロヒメカメレオンのイラスト
+  keyword: カメレオン
+- path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_1800_youtube_creatures/irasutoya_05.png
+  page_url: https://www.irasutoya.com/2020/10/blog-post_48.html
+  image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpGx_QjjPoGSs0w48DUBHj9QnaSln3EVTlJfWFmSGu0otdrcZevFs383imVM5Dv8Ceo6xGe3LbBH5mpsrTvA3FO-vB-aPfH0FFL6mCPWGWNVbuXJwdPZCnvQaKt88tOl05Ab5ee5hDxjvF/s800/fish_same_kobanzame.png
+  title: サメと泳ぐコバンザメのイラスト
+  keyword: サメ
 timing_notes:
 - scene: 1
   text: 喋りたくなる面白い雑学
   voice_duration: 1.952
   audio_offset: 0.25
   reveal_sec: 1.46
-  duration: 2.702
+  duration: 2.752
 - scene: 2
+  text: ジャガイモの芽は、危険な理由がある
+  voice_duration: 2.4
+  audio_offset: 0.25
+  reveal_sec: 1.738
+  duration: 3.2
+- scene: 3
+  text: 消しゴムは昔、食べ物で字を消していた
+  voice_duration: 3.179
+  audio_offset: 0.25
+  reveal_sec: 2.221
+  duration: 3.979
+- scene: 4
+  text: 飛行機の窓は、丸い理由がある
+  voice_duration: 2.379
+  audio_offset: 0.25
+  reveal_sec: 1.725
+  duration: 3.179
+- scene: 5
   text: カメレオンの舌は、体長の約2倍の長さ
   voice_duration: 3.029
   audio_offset: 0.25
   reveal_sec: 2.128
-  duration: 3.779
-- scene: 3
-  text: クラゲには、脳も心臓も無い
-  voice_duration: 2.208
-  audio_offset: 0.25
-  reveal_sec: 1.619
-  duration: 2.958
-- scene: 4
-  text: ゾウの鼻は、水を10リットルためる
-  voice_duration: 2.443
-  audio_offset: 0.25
-  reveal_sec: 1.764
-  duration: 3.193
-- scene: 5
-  text: カバの汗は、ピンク色ってほんと
-  voice_duration: 2.379
-  audio_offset: 0.25
-  reveal_sec: 1.725
-  duration: 3.129
+  duration: 3.829
 - scene: 6
   text: サメの歯は、一生で何万本も生え変わる
   voice_duration: 2.976
   audio_offset: 0.25
   reveal_sec: 2.095
-  duration: 3.726
+  duration: 3.776
 - scene: 7
   text: 詳しくは概要欄。いくつわかった？
   voice_duration: 2.784
   audio_offset: 0.25
   reveal_sec: 1.976
-  duration: 3.534
+  duration: 3.584
+audio_mix: VOICEVOX 青山龍星 volume 1.0, Escort BGM volume 0.50, AVMutableAudioMix applied
 visual_audit:
   contact_sheet_checked: true
   image_subject_match_checked: true
   no_unrelated_placeholder_images: true
   no_excessive_reuse: true
-  checked_at: '2026-05-11T09:07:44+09:00'
-  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
-    emoji visuals used; no repeated concrete subject within this short.
+  checked_at: '2026-05-11T09:23:18+09:00'
+  notes: Contact sheet inspected after rebuild; real downloaded Irasutoya images are
+    used on all trivia cards; topic mix intentionally not category-bound; VOICEVOX
+    and Escort BGM are mixed into the MP4.

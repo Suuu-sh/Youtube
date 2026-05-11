@@ -4,7 +4,8 @@ series_key: specific_interesting
 category: 面白い雑学
 category_key: interesting
 topic_key: 20260511_0900_youtube_animals
-fact_summary: コアラは1日22時間寝る / カラスの脳は人の顔を覚える / ウミガメは塩を泣き出す / ペンギンには膝がある / ハチドリは後ろ向きにも飛べる
+fact_summary: カップ麺の待ち時間は3分の理由がある / ラムネ瓶のビー玉は栓の役目がある / 信号機の青は緑に見える / えんぴつは6角形になっている
+  / アイスクリームには賞味期限が無い
 status: scheduled
 schedule_date: '2026-05-11'
 publish_slot: '09:00'
@@ -22,86 +23,97 @@ description: '喋りたくなる面白い雑学5選
 
   【詳細・補足】
 
-  1. コアラの睡眠時間を扱ったYouTubeタイトルを出典にした項目。ユーカリ中心の生活と省エネな行動が、長い休息時間の話題につながる。
+  1. カップラーメンの待ち時間が3分で語られる理由を扱うYouTubeタイトルを出典にした項目。短い待ち時間の裏に、麺の戻りや食べやすさの話題がある。
 
-  2. カラスが人の顔を覚えるというYouTubeタイトルを出典にした項目。都市部でも人の行動を学習する鳥として、会話のつかみにしやすい。
+  2. ラムネ瓶のビー玉の理由を扱うYouTubeタイトルを出典にした項目。ビー玉は飾りではなく、炭酸の圧で飲み口をふさぐ仕組みと結びつく。
 
-  3. ウミガメが涙のように塩分を出す話を扱うYouTubeタイトルを出典にした項目。産卵時の涙に見えるものを、塩分調整として話せる。
+  3. 信号機の青が緑に見える話を扱うYouTubeタイトルを出典にした項目。日本語の青の使い方と、実際の色の見え方をセットで話せる。
 
-  4. ペンギンの膝を扱うYouTubeタイトルを出典にした項目。短く見える脚の奥に関節があるという見た目とのギャップが強い。
+  4. 鉛筆が六角形である理由を扱うYouTubeタイトルを出典にした項目。転がりにくさや持ちやすさを、身近な文房具の雑学として話せる。
 
-  5. ハチドリの後ろ向き飛行を扱うYouTubeタイトルを出典にした項目。小さな鳥なのにホバリングや後退飛行までできる点が驚きになる。
+  5. アイスクリームには賞味期限が無いというYouTubeタイトルを出典にした項目。冷凍で品質変化が起きにくい食品として、保存表示の話に広げられる。
 
 
   いくつわかりましたか？'
 description_policy: detailed_numbered_notes_in_description
 source_urls:
-- https://www.youtube.com/watch?v=zqaNbWaZEVg
-- https://www.youtube.com/watch?v=QsveaPnUYjU
-- https://www.youtube.com/watch?v=EJUbJK79CUA
-- https://www.youtube.com/watch?v=Pzk3K3ueAHU
-- https://www.youtube.com/watch?v=Slp_jFEe31E
+- https://www.youtube.com/watch?v=f5haWSgUSGI
+- https://www.youtube.com/watch?v=8WtdnR4dhd8
+- https://www.youtube.com/watch?v=WMw8krbJPPQ
+- https://www.youtube.com/watch?v=nBcDSVY6hso
+- https://www.youtube.com/watch?v=aiB4eWoF4ZU
 source_policy: five_facts_from_five_distinct_available_youtube_videos_source_wording_preserved_no_reused_facts
 facts:
-- top: コアラは
-  bottom: 1日22時間寝る
-  emoji: 🐨
-  image_keyword: コアラ
-  source_video_url: https://www.youtube.com/watch?v=zqaNbWaZEVg
-  source_title: 【動物クイズ後編】コアラが1日22時間寝るのはなぜ？誰かに話したくなるどうぶつの秘密を楽しく学ぼう！
+- top: カップ麺の待ち時間は
+  bottom: 3分の理由がある
+  image_keyword: カップラーメン
+  source_video_url: https://www.youtube.com/watch?v=f5haWSgUSGI
+  source_title: 【ゆっくり解説】カップラーメンの待ち時間が3分の理由【今日の豆知識】
   source_time: title
-  source_excerpt: コアラが1日22時間寝る
-  detail: コアラの睡眠時間を扱ったYouTubeタイトルを出典にした項目。ユーカリ中心の生活と省エネな行動が、長い休息時間の話題につながる。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%B3%E3%82%A2%E3%83%A9
-- top: カラスの脳は
-  bottom: 人の顔を覚える
-  emoji: 🐦‍⬛
-  image_keyword: カラス
-  source_video_url: https://www.youtube.com/watch?v=QsveaPnUYjU
-  source_title: 【雑学】人の顔を覚える。カラスの脳が異常すぎた｜NetaLab
+  source_excerpt: カップラーメンの待ち時間が3分の理由
+  detail: カップラーメンの待ち時間が3分で語られる理由を扱うYouTubeタイトルを出典にした項目。短い待ち時間の裏に、麺の戻りや食べやすさの話題がある。
+  irasutoya_url: https://www.irasutoya.com/2018/02/blog-post_11.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdZ3z1_ZnotG_dOIcDwhiNp0pF7GYMSYnSs5Kh0qA4XUsLKyGL4OCaK2E_-hwd-OFddiM2K49JbzuPHb9GECxdi8BhBCGw268j4-Rpr2Gxq6jGlbK4gWeLOwlQpLq9Bpvu9LNAdgpgimE/s800/food_cup_ramen_miso.png
+  irasutoya_title: カップラーメンのイラスト（味噌ラーメン）
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_01.png
+- top: ラムネ瓶のビー玉は
+  bottom: 栓の役目がある
+  image_keyword: ラムネ
+  source_video_url: https://www.youtube.com/watch?v=8WtdnR4dhd8
+  source_title: 【雑学】ラムネにビー玉が入ってる理由とは！？
   source_time: title
-  source_excerpt: 人の顔を覚える。カラスの脳
-  detail: カラスが人の顔を覚えるというYouTubeタイトルを出典にした項目。都市部でも人の行動を学習する鳥として、会話のつかみにしやすい。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%AB%E3%83%A9%E3%82%B9
-- top: ウミガメは
-  bottom: 塩を泣き出す
-  emoji: 🐢
-  image_keyword: ウミガメ
-  source_video_url: https://www.youtube.com/watch?v=EJUbJK79CUA
-  source_title: 【雑学】ウミガメは塩を泣き出す
+  source_excerpt: ラムネにビー玉が入ってる理由
+  detail: ラムネ瓶のビー玉の理由を扱うYouTubeタイトルを出典にした項目。ビー玉は飾りではなく、炭酸の圧で飲み口をふさぐ仕組みと結びつく。
+  irasutoya_url: https://www.irasutoya.com/2013/05/blog-post_9563.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAc5KiZzIIVXtulU6F8iLDwS-RIUjlyXaK0C1cf01q2L-QlHVHsIitXtPPWOFtidR9skDgKI6ODt8QTUQOJUsc4wIYCoH_Xsyc46-ivgMiGRU5Puz4pz1M_KXRfC9itHCYThyphenhyphenD1OViBvWf/s800/sweets_ramune_drink.png
+  irasutoya_title: ラムネのイラスト（飲み物）
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_02.png
+- top: 信号機の青は
+  bottom: 緑に見える
+  image_keyword: 信号機
+  source_video_url: https://www.youtube.com/watch?v=WMw8krbJPPQ
+  source_title: 信号機の“青”はなぜ“緑”に見えるのかの雑学
   source_time: title
-  source_excerpt: ウミガメは塩を泣き出す
-  detail: ウミガメが涙のように塩分を出す話を扱うYouTubeタイトルを出典にした項目。産卵時の涙に見えるものを、塩分調整として話せる。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%82%A6%E3%83%9F%E3%82%AC%E3%83%A1
-- top: ペンギンには
-  bottom: 膝がある
-  emoji: 🐧
-  image_keyword: ペンギン
-  source_video_url: https://www.youtube.com/watch?v=Pzk3K3ueAHU
-  source_title: 【 面白い雑学 】　ペンギンは膝がある
+  source_excerpt: 信号機の“青”はなぜ“緑”に見えるのか
+  detail: 信号機の青が緑に見える話を扱うYouTubeタイトルを出典にした項目。日本語の青の使い方と、実際の色の見え方をセットで話せる。
+  irasutoya_url: https://www.irasutoya.com/2013/06/blog-post_6.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiIKdjbb4Zd2v_B2wQylIl979rS4c1uvm8QX3a9kiQdnfmvVRFz8Rpra5YuoWXaPvBk3ywtm569fAoW08Y-Zgynt6DHOqUj5Jfs5dS4Q5eV-Lin_ZPoOquBCzL81wbFgF2Hs6IgTkSOxud/s800/thumbnail_shingouki.jpg
+  irasutoya_title: 信号機のイラスト
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_03.jpg
+- top: えんぴつは
+  bottom: 6角形になっている
+  image_keyword: 鉛筆
+  source_video_url: https://www.youtube.com/watch?v=nBcDSVY6hso
+  source_title: えんぴつはなぜ６角形なのか？
   source_time: title
-  source_excerpt: ペンギンは膝がある
-  detail: ペンギンの膝を扱うYouTubeタイトルを出典にした項目。短く見える脚の奥に関節があるという見た目とのギャップが強い。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3
-- top: ハチドリは
-  bottom: 後ろ向きにも飛べる
-  emoji: 🐦
-  image_keyword: ハチドリ
-  source_video_url: https://www.youtube.com/watch?v=Slp_jFEe31E
-  source_title: ハチドリの驚異的な飛行能力！後ろ向きにも飛べる鳥
+  source_excerpt: えんぴつはなぜ６角形なのか
+  detail: 鉛筆が六角形である理由を扱うYouTubeタイトルを出典にした項目。転がりにくさや持ちやすさを、身近な文房具の雑学として話せる。
+  irasutoya_url: https://www.irasutoya.com/2018/11/blog-post_995.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYBoAOXpHv5wgULsbpSkyg_b2fAwuJjezLqVIg3yfU6hIQFyF5N9a1P8rjY73pePXcpdRbqo0jvbIfqpSZRTOANkg4mN9Beaide9GtkPCLFxoKW2t2gMs00ds4k6nlL98Scjmy9GMYVplc/s800/thumbnail_zabuton_tv_enpitsu.jpg
+  irasutoya_title: 横長の座布団のイラスト（鉛筆）
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_04.jpg
+- top: アイスクリームには
+  bottom: 賞味期限が無い
+  image_keyword: アイスクリーム
+  source_video_url: https://www.youtube.com/watch?v=aiB4eWoF4ZU
+  source_title: 【意外と知らない雑学】アイスクリームには賞味期限が無い。#雑学
   source_time: title
-  source_excerpt: 後ろ向きにも飛べる鳥
-  detail: ハチドリの後ろ向き飛行を扱うYouTubeタイトルを出典にした項目。小さな鳥なのにホバリングや後退飛行までできる点が驚きになる。
-  irasutoya_url: https://www.irasutoya.com/search?q=%E9%B3%A5
+  source_excerpt: アイスクリームには賞味期限が無い
+  detail: アイスクリームには賞味期限が無いというYouTubeタイトルを出典にした項目。冷凍で品質変化が起きにくい食品として、保存表示の話に広げられる。
+  irasutoya_url: https://www.irasutoya.com/2013/08/blog-post_5689.html
+  irasutoya_image_url: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUhGfeD_3duEoDiUYZSUpr7xB3WrAe87DYhZ7QnLhnEiI-9ogfJmKKRdxox6PPBoX77bi5IXKG1QtOCvSwobrtOFJU2FiJap7xYtu0H6pQIJtBvLj7uDtHLBkahvQKi2m2VJuyCFIhBPg/s800/thumbnail_icecream.jpg
+  irasutoya_title: いろいろな種類のアイスクリームのイラスト
+  local_image_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/irasutoya_05.jpg
 timing_notes_path: /Users/yota/Projects/Automation/Youtube/雑学ニキ/assets/generated/specific/interesting/zatsugaku_interesting_20260511_0900_youtube_animals/timing.json
-bgm: Escort / もっぴーさうんど（DOVA-SYNDROME）
+bgm: Escort / もっぴーさうんど（DOVA-SYNDROME） voice 1.0 / bgm 0.50
 voicevox_speaker: 青山龍星 (speaker 13)
 visual_audit:
   contact_sheet_checked: true
   image_subject_match_checked: true
   no_unrelated_placeholder_images: true
   no_excessive_reuse: true
-  checked_at: '2026-05-11T09:06:42+09:00'
-  notes: Contact sheet inspected after render; subject-matching cartoon/Irasutoya-style
-    emoji visuals used; no repeated concrete subject within this short.
-created_at: '2026-05-11T09:06:42+09:00'
+  checked_at: '2026-05-11T09:21:02+09:00'
+  notes: Contact sheet inspected after rebuild; real downloaded Irasutoya images are
+    used on all trivia cards; topic mix intentionally not category-bound; VOICEVOX
+    and Escort BGM are mixed into the MP4.
+created_at: '2026-05-11T09:21:02+09:00'
